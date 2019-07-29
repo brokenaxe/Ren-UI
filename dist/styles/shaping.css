@@ -1,0 +1,21 @@
+/*******************************
+        Shaping
+*******************************/
+.round-d3 {
+border-radius:2px;
+}
+.round-d2 {
+border-radius:5px;
+}
+.round {
+border-radius:10px;
+}
+.round-x2 {
+border-radius:20px;
+}
+.round-x3 {
+border-radius:40px;
+}
+.circle {
+border-radius:50%;
+}

@@ -1,0 +1,58 @@
+/*******************************
+          Page Setup
+*******************************/
+@viewport {
+  width: device-width ;
+  zoom: 1.0 ;
+}
+@-ms-viewport {
+  width: device-width ;
+}
+@-webkit-keyframes loader-spin {
+  0% {
+      -webkit-transform: rotate(0);
+      transform: rotate(0);
+  }
+  100% {
+      -webkit-transform: rotate(360deg);
+      transform: rotate(360deg);
+  }
+}
+@keyframes loader-spin {
+  0% {
+      -webkit-transform: rotate(0);
+      transform: rotate(0);
+  }
+  100% {
+      -webkit-transform: rotate(360deg);
+      transform: rotate(360deg);
+  }
+}
+html,
+body {
+  height: 100%;
+}
+html {
+  font-size: 14px;
+}
+body {
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    min-width: 320px;
+    background: #FFFFFF;
+    font-family: sans-serif;
+    line-height: 1.4285em;
+    color: rgba(0, 0, 0, 0.87);
+    font-smoothing: antialiased;
+}
+* {
+  overflow-wrap: break-word;
+}
+a {
+  color: #1e70bf;
+  text-decoration: none;
+}
+[onclick] {
+  cursor: pointer;
+}

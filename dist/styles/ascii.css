@@ -1,0 +1,39 @@
+/*******************************
+        ASCii
+*******************************/
+
+.ascii {
+ background:none!important;
+ display:block;
+ font-size:10px;
+ line-height:5px;
+ margin:0 auto;
+ padding:0;
+ width:100%;
+ white-space: pre-wrap;
+white-space: -moz-pre-wrap !important;
+white-space: -pre-wrap;
+white-space: -o-pre-wrap;
+word-wrap: break-word;
+margin-bottom: 10px;
+}
+.ascii.xxs {
+ font-size:2px;
+ line-height:1px
+}
+.ascii.xs {
+ font-size:4px;
+ line-height:2px
+}
+.ascii.s {
+ font-size:6px;
+ line-height:4px
+}
+.ascii.l {
+ font-size:14px;
+ line-height:7px
+}
+.ascii.xl {
+ font-size:16px;
+ line-height:8px
+}

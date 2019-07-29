@@ -1,0 +1,82 @@
+/*******************************
+        Icon
+*******************************/
+
+.icon {
+    font-size: 3.5em;
+    margin: .2em 0 2px;
+}
+.icon {
+    position: relative;
+    display: inline-block;
+    -webkit-mask-size: cover;
+    mask-size: cover;
+    width: 0.21em;
+    height: 0.21em;
+    margin: 0;
+    align-items:center;
+    background-color: #111111;
+}
+.icon.renui {
+    -webkit-mask-image:url('../icons/renui.svg');
+    mask-image:url('../icons/renui.svg');
+}
+.icon.home {
+    -webkit-mask-image:url('../icons/iconmonstr-home.svg');
+    mask-image:url('../icons/iconmonstr-home.svg');
+
+}
+.icon.copy {
+    -webkit-mask-image:url('../icons/iconmonstr-copy-13.svg');
+    mask-image:url('../icons/iconmonstr-copy-13.svg');
+}
+.icon.gear {
+    -webkit-mask-image:url('../icons/iconmonstr-gear-4.svg');
+    mask-image:url('../icons/iconmonstr-gear-4.svg');
+}
+.icon.resize {
+    -webkit-mask-image:url('../icons/iconmonstr-resize-6.svg');
+    mask-image:url('../icons/iconmonstr-resize-6.svg');
+}
+.icon.close {
+    -webkit-mask-image:url('../icons/iconmonstr-x-mark-1.svg');
+    mask-image:url('../icons/iconmonstr-x-mark-1.svg');
+}
+.icon.code {
+    -webkit-mask-image:url('../icons/iconmonstr-code-2.svg');
+    mask-image:url('../icons/iconmonstr-code-2.svg');
+}
+.icon.code-js {
+    -webkit-mask-image:url('../icons/iconmonstr-code-4.svg');
+    mask-image:url('../icons/iconmonstr-code-4.svg');
+}
+.icon.warning {
+    -webkit-mask-image:url('../icons/iconmonstr-warning-7.svg');
+    mask-image:url('../icons/iconmonstr-warning-7.svg');
+}
+.icon.search {
+    -webkit-mask-image:url('../icons/iconmonstr-magnifier-1.svg');
+    mask-image:url('../icons/iconmonstr-magnifier-1.svg');
+}
+.icon.arrow-left {
+    -webkit-mask-image:url('../icons/iconmonstr-arrow-64.svg');
+    mask-image:url('../icons/iconmonstr-arrow-64.svg');
+}
+.icon.arrow-right {
+    -webkit-mask-image:url('../icons/iconmonstr-arrow-25.svg');
+    mask-image:url('../icons/iconmonstr-arrow-25.svg');
+}
+.icon.arrow-top {
+    -webkit-mask-image:url('../icons/iconmonstr-arrow-66.svg');
+    mask-image:url('../icons/iconmonstr-arrow-66.svg');
+}
+.icon.arrow-bottom {
+    -webkit-mask-image:url('../icons/iconmonstr-arrow-65.svg');
+    mask-image:url('../icons/iconmonstr-arrow-65.svg');
+}
+/*
+.icon:hover,
+.icon:focus {
+  background: red;
+}
+*/

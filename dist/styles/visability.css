@@ -1,0 +1,16 @@
+/*******************************
+            Visibility
+*******************************/
+.hide,
+.bg.hide {
+    display: none;
+}
+.visibility-hidden {
+    visibility: hidden;
+}
+.form-element-hidden {
+    visibility: hidden;
+    position: absolute;
+    top: -1000px;
+    left: -1000px;
+}

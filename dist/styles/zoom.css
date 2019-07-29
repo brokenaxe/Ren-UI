@@ -1,0 +1,32 @@
+/*******************************
+        Zoom
+*******************************/
+
+.zoom-50 {
+zoom:50%;
+transform:scale(.5);
+}
+.zoom-75 {
+zoom:75%;
+transform:scale(.75);
+}
+.zoom-100 {
+zoom:100%;
+transform:scale(1);
+}
+.zoom-125 {
+zoom:125%;
+transform:scale(1.25);
+}
+.zoom-150 {
+zoom:150%;
+transform:scale(1.5);
+}
+.zoom-200 {
+zoom:200%;
+transform:scale(2);
+}
+.zoom-300 {
+zoom:300%;
+transform:scale(3);
+}

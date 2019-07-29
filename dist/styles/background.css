@@ -1,0 +1,53 @@
+/*******************************
+            Background
+*******************************/
+
+.bg {
+position:relative;
+z-index:1
+}
+.bg::before {
+border-radius:inherit;
+bottom:0;
+content:"";
+left:0;
+position:absolute;
+right:0;
+top:0;
+z-index:-1
+}
+.bg.img {
+background-position:center center;
+background-repeat:no-repeat;
+background-size:cover
+}
+.bg.o00::before {
+opacity:0
+}
+.bg.o01::before {
+opacity:.1
+}
+.bg.o02::before {
+opacity:.2
+}
+.bg.o03::before {
+opacity:.3
+}
+.bg.o04::before {
+opacity:.4
+}
+.bg.o05::before {
+opacity:.5
+}
+.bg.o06::before {
+opacity:.6
+}
+.bg.o07::before {
+opacity:.7
+}
+.bg.o08::before {
+opacity:.8
+}
+.bg.o09::before {
+opacity:.9
+}

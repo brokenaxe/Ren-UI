@@ -1,0 +1,34 @@
+/*******************************
+        Breadcrumb
+*******************************/
+
+.breadcrumb a:last-child {
+color: #111 !important;
+cursor: text;
+}
+.breadcrumb a:after {
+content: '/';
+display: inline-block;
+padding: 0 10px;
+color: rgba(0, 0, 0, 0.5);
+font-size: 1.4em;
+vertical-align: middle;
+}
+.breadcrumb.arrow a::after {
+content: '';
+font-size: 1em;
+width: 8px;
+height: 8px;
+border-right: solid 2px rgba(0, 0, 0, 0.5);
+border-top: solid 2px rgba(0, 0, 0, 0.5);
+padding: 0;
+transform: rotate(45deg);
+margin-right: 10px;
+margin-left: 10px;
+}
+.breadcrumb a:last-child:after {
+content: '';
+width:0;
+height:0;
+border:none;
+}

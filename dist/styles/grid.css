@@ -1,0 +1,36 @@
+/*******************************
+            Grid
+*******************************/
+
+.grid {
+    display:table;
+    height:100%;
+    margin:0 auto;
+    width:100%;
+    z-index:0;
+    background-color: inherit;
+}
+.grid .grid {
+    height:auto;
+}
+.grid>div {
+    display:table-cell;
+    vertical-align:top;
+    height:100%;
+}
+.grid .row {
+    display:table-row;
+    vertical-align:top;
+    height:100%;
+    width:auto;
+}
+.grid.border>div {
+    border-left: solid 1px #000;
+    border-top: solid 1px #000;
+    border-bottom: solid 1px #000;
+    vertical-align:top;
+    height:100%;
+} 
+.grid.border>div:last-child {
+    border-right: solid 1px #000;
+}

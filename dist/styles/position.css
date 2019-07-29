@@ -1,0 +1,35 @@
+/*******************************
+            Position
+*******************************/
+
+.absolute {
+    position:absolute !important;
+}
+.relative {
+    position:relative !important;
+}
+.fixed {
+    height:auto !important;
+    position:fixed !important;
+    z-index:100 !important;
+}
+.left {
+    float:left;
+}
+.right {
+    float:right;
+}
+.hide {
+    display:none !important;
+}
+.show {
+    display:block !important;
+}
+.clearfix:after,
+.clear:after {
+    content:" ";
+    visibility:hidden;
+    display:block;
+    height:0;
+    clear:both;
+}

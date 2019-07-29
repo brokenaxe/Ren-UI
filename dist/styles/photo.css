@@ -1,0 +1,220 @@
+/*******************************
+        Photo
+*******************************/
+
+.photo {
+border: 10px solid #fff;  
+  float: left;
+  height: 300px;
+  width: 300px;
+  margin: 20px;
+  overflow: hidden;
+  
+  -webkit-box-shadow: 5px 5px 5px #E0E0E0;
+          box-shadow: 5px 5px 5px #E0E0E0;
+}
+.photo.grow img {
+    height: 300px;
+    width: 300px;
+   
+    -webkit-transition: all 1s ease;
+       -moz-transition: all 1s ease;
+         -o-transition: all 1s ease;
+        -ms-transition: all 1s ease;
+            transition: all 1s ease;
+  }
+   
+  .photo.grow img:hover {
+    width: 400px;
+    height: 400px;
+  }
+   
+  .photo.grow img {
+    height: 300px;
+    width: 300px;
+   
+    -webkit-transition: all 1s ease;
+       -moz-transition: all 1s ease;
+         -o-transition: all 1s ease;
+        -ms-transition: all 1s ease;
+            transition: all 1s ease;
+  }
+   
+  .photo.grow img:hover {
+    width: 400px;
+    height: 400px;
+  }
+   
+  .photo.shrink img {
+    height: 400px;
+    width: 400px;
+   
+    -webkit-transition: all 1s ease;
+       -moz-transition: all 1s ease;
+         -o-transition: all 1s ease;
+        -ms-transition: all 1s ease;
+            transition: all 1s ease;
+  }
+   
+  .photo.shrink img:hover {
+    width: 300px;
+    height: 300px;
+  }
+   
+  .photo.shrink img {
+    height: 400px;
+    width: 400px;
+   
+    -webkit-transition: all 1s ease;
+       -moz-transition: all 1s ease;
+         -o-transition: all 1s ease;
+        -ms-transition: all 1s ease;
+            transition: all 1s ease;
+  }
+   
+  .photo.shrink img:hover {
+    width: 300px;
+    height: 300px;
+  }
+   
+  .photo.sidepan img {
+    margin-left: 0px;
+    -webkit-transition: margin 1s ease;
+       -moz-transition: margin 1s ease;
+         -o-transition: margin 1s ease;
+        -ms-transition: margin 1s ease;
+            transition: margin 1s ease;
+  }
+   
+  .photo.sidepan img:hover {
+    margin-left: -200px;
+  }
+   
+  .photo.vertpan img {
+    margin-top: 0px;
+    -webkit-transition: margin 1s ease;
+       -moz-transition: margin 1s ease;
+         -o-transition: margin 1s ease;
+        -ms-transition: margin 1s ease;
+            transition: margin 1s ease;
+  }
+   
+  .photo.vertpan img:hover {
+    margin-top: -200px;
+  }
+   
+  .photo.tilt {
+    -webkit-transition: all 0.5s ease;
+       -moz-transition: all 0.5s ease;
+         -o-transition: all 0.5s ease;
+        -ms-transition: all 0.5s ease;
+            transition: all 0.5s ease;
+  }
+   
+  .photo.tilt:hover {
+    -webkit-transform: rotate(-10deg);
+       -moz-transform: rotate(-10deg);
+         -o-transform: rotate(-10deg);
+        -ms-transform: rotate(-10deg);
+            transform: rotate(-10deg);
+  }
+   
+  .photo.morph {
+    -webkit-transition: all 0.5s ease;
+       -moz-transition: all 0.5s ease;
+         -o-transition: all 0.5s ease;
+        -ms-transition: all 0.5s ease;
+            transition: all 0.5s ease;
+  }
+   
+  .photo.morph:hover {
+    border-radius: 50%;
+    -webkit-transform: rotate(360deg);
+       -moz-transform: rotate(360deg);
+         -o-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+   
+  .photo.focus {
+    -webkit-transition: all 1s ease;
+       -moz-transition: all 1s ease;
+         -o-transition: all 1s ease;
+        -ms-transition: all 1s ease;
+            transition: all 1s ease;
+  }
+   
+  .photo.focus:hover {
+    border: 70px solid #fff;
+    border-radius: 50%;
+  }
+   
+  .photo.color-bw {
+    -webkit-transition: all 1s ease;
+       -moz-transition: all 1s ease;
+         -o-transition: all 1s ease;
+        -ms-transition: all 1s ease;
+            transition: all 1s ease;
+  }
+   
+  .photo.color-bw:hover {
+    -webkit-filter: grayscale(100%);
+  }
+  .photo.bw-color {
+    -webkit-filter: grayscale(100%);
+    -webkit-transition: all 1s ease;
+       -moz-transition: all 1s ease;
+         -o-transition: all 1s ease;
+        -ms-transition: all 1s ease;
+            transition: all 1s ease;
+  }
+   
+  .photo.bw-color:hover {
+    -webkit-filter: grayscale(0);
+  }
+   
+  .photo.to-blur img {
+    margin-top: -5px;
+    margin-left: -5px;
+    -webkit-transition: all 1s ease;
+       -moz-transition: all 1s ease;
+         -o-transition: all 1s ease;
+        -ms-transition: all 1s ease;
+            transition: all 1s ease;
+  }
+   
+  .photo.to-blur img:hover {
+    -webkit-filter: blur(5px);
+  }
+  .photo.from-blur img {
+    margin-top: -5px;
+    margin-left: -5px;
+    -webkit-filter: blur(5px);
+    -webkit-transition: all 1s ease;
+       -moz-transition: all 1s ease;
+         -o-transition: all 1s ease;
+        -ms-transition: all 1s ease;
+            transition: all 1s ease;
+  }
+   
+  .photo.from-blur img:hover {
+    -webkit-filter: blur(0);
+  }
+ 
+  .photo.polaroid {
+      position: relative;
+  }
+ 
+  .photo.polaroid img {
+          width:100%;
+          height:calc(100% - 45px);
+}
+ 
+.photo.polaroid p {
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  bottom: -6px;
+  font: 400 18px/1 'Kaushan Script', cursive;
+  color: #888;
+}
