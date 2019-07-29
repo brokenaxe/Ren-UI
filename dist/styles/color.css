@@ -5,6 +5,10 @@
 button.white {
     text-shadow: none;
 }
+.button.white .icon,
+button.white .icon {
+    background-color: #111111;
+}
 .text-white {
     color: #111111;
 }
@@ -24,8 +28,6 @@ button.white:hover.icon,
     background-color: #111111;
 }
 .popup .holder .bg.white::before,
-.button.white .icon,
-button.white .icon,
 hr.text-white,
 .text-white hr,
 .text-white .icon,
@@ -94,6 +96,10 @@ button.white:hover {
 button.navy {
     text-shadow: none;
 }
+.button.navy .icon,
+button.navy .icon {
+    background-color: hsla(210,100%,75%,1);
+}
 .text-navy {
     color: hsla(210,100%,75%,1);
 }
@@ -113,8 +119,6 @@ button.navy:hover.icon,
     background-color: hsla(210,100%,75%,1);
 }
 .popup .holder .bg.navy::before,
-.button.navy .icon,
-button.navy .icon,
 hr.text-navy,
 .text-navy hr,
 .text-navy .icon,
@@ -183,6 +187,10 @@ button.navy:hover {
 button.blue {
     text-shadow: none;
 }
+.button.blue .icon,
+button.blue .icon {
+    background-color: hsla(208, 100%, 85%, 1.0);
+}
 .text-blue {
     color: hsla(208, 100%, 85%, 1.0);
 }
@@ -202,8 +210,6 @@ button.blue:hover.icon,
     background-color: hsla(208, 100%, 85%, 1.0);
 }
 .popup .holder .bg.blue::before,
-.button.blue .icon,
-button.blue .icon,
 hr.text-blue,
 .text-blue hr,
 .text-blue .icon,
@@ -272,6 +278,10 @@ button.blue:hover {
 button.aqua {
     text-shadow: none;
 }
+.button.aqua .icon,
+button.aqua .icon {
+    background-color: hsla(197, 100%, 20%, 1.0);
+}
 .text-aqua {
     color: hsla(197, 100%, 20%, 1.0);
 }
@@ -291,8 +301,6 @@ button.aqua:hover.icon,
     background-color: hsla(197, 100%, 20%, 1.0);
 }
 .popup .holder .bg.aqua::before,
-.button.aqua .icon,
-button.aqua .icon,
 hr.text-aqua,
 .text-aqua hr,
 .text-aqua .icon,
@@ -361,6 +369,10 @@ button.aqua:hover {
 button.teal {
     text-shadow: none;
 }
+.button.teal .icon,
+button.teal .icon {
+    background-color: #111;
+}
 .text-teal {
     color: #111;
 }
@@ -380,8 +392,6 @@ button.teal:hover.icon,
     background-color: #111;
 }
 .popup .holder .bg.teal::before,
-.button.teal .icon,
-button.teal .icon,
 hr.text-teal,
 .text-teal hr,
 .text-teal .icon,
@@ -450,6 +460,10 @@ button.teal:hover {
 button.olive {
     text-shadow: none;
 }
+.button.olive .icon,
+button.olive .icon {
+    background-color: hsla(153, 43%, 15%, 1.0);
+}
 .text-olive {
     color: hsla(153, 43%, 15%, 1.0);
 }
@@ -469,8 +483,6 @@ button.olive:hover.icon,
     background-color: hsla(153, 43%, 15%, 1.0);
 }
 .popup .holder .bg.olive::before,
-.button.olive .icon,
-button.olive .icon,
 hr.text-olive,
 .text-olive hr,
 .text-olive .icon,
@@ -539,6 +551,10 @@ button.olive:hover {
 button.green {
     text-shadow: none;
 }
+.button.green .icon,
+button.green .icon {
+    background-color: hsla(127, 63%, 15%, 1.0);
+}
 .text-green {
     color: hsla(127, 63%, 15%, 1.0);
 }
@@ -558,8 +574,6 @@ button.green:hover.icon,
     background-color: hsla(127, 63%, 15%, 1.0);
 }
 .popup .holder .bg.green::before,
-.button.green .icon,
-button.green .icon,
 hr.text-green,
 .text-green hr,
 .text-green .icon,
@@ -628,6 +642,10 @@ button.green:hover {
 button.lime {
     text-shadow: none;
 }
+.button.lime .icon,
+button.lime .icon {
+    background-color: hsla(146, 100%, 20%, 1.0);
+}
 .text-lime {
     color: hsla(146, 100%, 20%, 1.0);
 }
@@ -647,8 +665,6 @@ button.lime:hover.icon,
     background-color: hsla(146, 100%, 20%, 1.0);
 }
 .popup .holder .bg.lime::before,
-.button.lime .icon,
-button.lime .icon,
 hr.text-lime,
 .text-lime hr,
 .text-lime .icon,
@@ -717,6 +733,10 @@ button.lime:hover {
 button.yellow {
     text-shadow: none;
 }
+.button.yellow .icon,
+button.yellow .icon {
+    background-color: hsla(52, 100%, 20%, 1.0);
+}
 .text-yellow {
     color: hsla(52, 100%, 20%, 1.0);
 }
@@ -736,8 +756,6 @@ button.yellow:hover.icon,
     background-color: hsla(52, 100%, 20%, 1.0);
 }
 .popup .holder .bg.yellow::before,
-.button.yellow .icon,
-button.yellow .icon,
 hr.text-yellow,
 .text-yellow hr,
 .text-yellow .icon,
@@ -806,6 +824,10 @@ button.yellow:hover {
 button.orange {
     text-shadow: none;
 }
+.button.orange .icon,
+button.orange .icon {
+    background-color: hsla(28, 100%, 20%, 1.0);
+}
 .text-orange {
     color: hsla(28, 100%, 20%, 1.0);
 }
@@ -825,8 +847,6 @@ button.orange:hover.icon,
     background-color: hsla(28, 100%, 20%, 1.0);
 }
 .popup .holder .bg.orange::before,
-.button.orange .icon,
-button.orange .icon,
 hr.text-orange,
 .text-orange hr,
 .text-orange .icon,
@@ -895,6 +915,10 @@ button.orange:hover {
 button.red {
     text-shadow: none;
 }
+.button.red .icon,
+button.red .icon {
+    background-color: hsla(3, 100%, 25%, 1.0);
+}
 .text-red {
     color: hsla(3, 100%, 25%, 1.0);
 }
@@ -914,8 +938,6 @@ button.red:hover.icon,
     background-color: hsla(3, 100%, 25%, 1.0);
 }
 .popup .holder .bg.red::before,
-.button.red .icon,
-button.red .icon,
 hr.text-red,
 .text-red hr,
 .text-red .icon,
@@ -984,6 +1006,10 @@ button.red:hover {
 button.fuchsia {
     text-shadow: none;
 }
+.button.fuchsia .icon,
+button.fuchsia .icon {
+    background-color: hsla(314, 88%, 21%, 1.0);
+}
 .text-fuchsia {
     color: hsla(314, 88%, 21%, 1.0);
 }
@@ -1003,8 +1029,6 @@ button.fuchsia:hover.icon,
     background-color: hsla(314, 88%, 21%, 1.0);
 }
 .popup .holder .bg.fuchsia::before,
-.button.fuchsia .icon,
-button.fuchsia .icon,
 hr.text-fuchsia,
 .text-fuchsia hr,
 .text-fuchsia .icon,
@@ -1073,6 +1097,10 @@ button.fuchsia:hover {
 button.purple {
     text-shadow: none;
 }
+.button.purple .icon,
+button.purple .icon {
+    background-color: hsla(292, 88%, 82%, 1.0);
+}
 .text-purple {
     color: hsla(292, 88%, 82%, 1.0);
 }
@@ -1092,8 +1120,6 @@ button.purple:hover.icon,
     background-color: hsla(292, 88%, 82%, 1.0);
 }
 .popup .holder .bg.purple::before,
-.button.purple .icon,
-button.purple .icon,
 hr.text-purple,
 .text-purple hr,
 .text-purple .icon,
@@ -1162,6 +1188,10 @@ button.purple:hover {
 button.maroon {
     text-shadow: none;
 }
+.button.maroon .icon,
+button.maroon .icon {
+    background-color: hsla(331, 74%, 70%, 1.0);
+}
 .text-maroon {
     color: hsla(331, 74%, 70%, 1.0);
 }
@@ -1181,8 +1211,6 @@ button.maroon:hover.icon,
     background-color: hsla(331, 74%, 70%, 1.0);
 }
 .popup .holder .bg.maroon::before,
-.button.maroon .icon,
-button.maroon .icon,
 hr.text-maroon,
 .text-maroon hr,
 .text-maroon .icon,
@@ -1251,6 +1279,10 @@ button.maroon:hover {
 button.silver {
     text-shadow: none;
 }
+.button.silver .icon,
+button.silver .icon {
+    background-color: #111111;
+}
 .text-silver {
     color: #111111;
 }
@@ -1270,8 +1302,6 @@ button.silver:hover.icon,
     background-color: #111111;
 }
 .popup .holder .bg.silver::before,
-.button.silver .icon,
-button.silver .icon,
 hr.text-silver,
 .text-silver hr,
 .text-silver .icon,
@@ -1340,6 +1370,10 @@ button.silver:hover {
 button.gray {
     text-shadow: none;
 }
+.button.gray .icon,
+button.gray .icon {
+    background-color: #111111;
+}
 .text-gray {
     color: #111111;
 }
@@ -1359,8 +1393,6 @@ button.gray:hover.icon,
     background-color: #111111;
 }
 .popup .holder .bg.gray::before,
-.button.gray .icon,
-button.gray .icon,
 hr.text-gray,
 .text-gray hr,
 .text-gray .icon,
@@ -1429,6 +1461,10 @@ button.gray:hover {
 button.black {
     text-shadow: none;
 }
+.button.black .icon,
+button.black .icon {
+    background-color: #ffffff;
+}
 .text-black {
     color: #ffffff;
 }
@@ -1448,8 +1484,6 @@ button.black:hover.icon,
     background-color: #ffffff;
 }
 .popup .holder .bg.black::before,
-.button.black .icon,
-button.black .icon,
 hr.text-black,
 .text-black hr,
 .text-black .icon,
@@ -1518,6 +1552,10 @@ button.black:hover {
 button.primary {
     text-shadow: none;
 }
+.button.primary .icon,
+button.primary .icon {
+    background-color: #111111;
+}
 .text-primary {
     color: #111111;
 }
@@ -1537,8 +1575,6 @@ button.primary:hover.icon,
     background-color: #ffffff;
 }
 .popup .holder .bg.primary::before,
-.button.primary .icon,
-button.primary .icon,
 hr.text-primary,
 .text-primary hr,
 .text-primary .icon,
@@ -1607,6 +1643,10 @@ button.primary:hover {
 button.secondary {
     text-shadow: none;
 }
+.button.secondary .icon,
+button.secondary .icon {
+    background-color: #111111;
+}
 .text-secondary {
     color: #111111;
 }
@@ -1626,8 +1666,6 @@ button.secondary:hover.icon,
     background-color: #ffffff;
 }
 .popup .holder .bg.secondary::before,
-.button.secondary .icon,
-button.secondary .icon,
 hr.text-secondary,
 .text-secondary hr,
 .text-secondary .icon,

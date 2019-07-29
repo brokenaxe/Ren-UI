@@ -1,4 +1,4 @@
-var currentVersion = '2.0';
+var currentVersion = '2.0.0';
 var licenced = 1;
 
 $.each($('.label'), function(index, value) { 
@@ -17,7 +17,6 @@ $.each($('.label'), function(index, value) {
                 }
                 $(this).addClass("gray");
             }
-            
         } else {
             $(this).attr("title","From " + labelVal);
         }
