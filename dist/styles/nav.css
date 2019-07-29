@@ -330,18 +330,18 @@ nav.vertical a:hover {
 .side-nav {
     background-color: #1b1c1d;
 }
-.nav.text-8 ul a,
-.nav.text-10 ul a,
-.nav.text-12 ul a,
-.nav.text-14 ul a,
-.nav.text-16 ul a,
-.nav.text-18 ul a,
-.nav.text-20 ul a,
-.nav.text-22 ul a,
-.nav.text-24 ul a,
-.nav.text-36 ul a,
-.nav.text-48 ul a,
-.nav.text-96 ul a {
+nav.text-8 ul a,
+nav.text-10 ul a,
+nav.text-12 ul a,
+nav.text-14 ul a,
+nav.text-16 ul a,
+nav.text-18 ul a,
+nav.text-20 ul a,
+nav.text-22 ul a,
+nav.text-24 ul a,
+nav.text-36 ul a,
+nav.text-48 ul a,
+nav.text-96 ul a {
     font-size: inherit;
     line-height: inherit;
 }
