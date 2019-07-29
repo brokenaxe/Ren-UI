@@ -1,0 +1,24 @@
+{
+    "name"        : "ren/ui",
+    "description" : "Lightweight,reliable & fast Styling and Logic framework.",
+    "homepage"    : "http://getrenui.com",
+    "authors"     : [
+      {
+        "name"     : "Brokenaxe Labs",
+        "homepage" : "http://www.brokenaxe.com",
+        "role"     : "Creator"
+      }
+    ],
+    "support": {
+      "issues": "https://github.com/brokenaxe/ren-ui/issues",
+      "source": "https://github.com/brokenaxe/ren-ui"
+    },
+    "keywords" : [
+      "renui",
+      "ui",
+      "css",
+      "js",
+      "framework"
+    ],
+    "license" : "MIT"
+  }
