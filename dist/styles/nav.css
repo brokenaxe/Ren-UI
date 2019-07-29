@@ -330,3 +330,6 @@ nav.vertical a:hover {
 .side-nav {
     background-color: #1b1c1d;
 }
+.nav.text-* ul a {
+    font-size: inherit;
+}

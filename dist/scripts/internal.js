@@ -9,16 +9,18 @@ $.each($('.label'), function(index, value) {
         if (labelVal.indexOf(currentVersion) !== -1) {
             if (labelVal.indexOf("i") !== -1) {
                 $(this).html(labelVal.replace("i",""));
-                $(this).attr("title","Improved in " + labelVal.replace("i",""));
+                $(this).attr("title","Improved in v" + labelVal.replace("i",""));
                 $(this).addClass("silver");
             } else {
-                if ($(this).hasClass("latestversion") === false) {
-                    $(this).html("New in " + labelVal);
+                if ($(this).hasClass("latestversion") === true) {
+                    $(this).html(currentVersion);
+                } else {
+                    $(this).html("New in v" + labelVal);
                 }
                 $(this).addClass("gray");
             }
         } else {
-            $(this).attr("title","From " + labelVal);
+            $(this).attr("title","Introduced in v" + labelVal);
         }
     }
 });
