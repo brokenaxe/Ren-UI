@@ -1,4 +1,4 @@
-<img src="dist/images/logo-css.svg" width="80"> <img src="dist/images/logo-js.svg" width="80"><br>
+<img src="dist/images/logo-css.svg" width="80" title="renui.css"> <img src="dist/images/logo-js.svg" width="80" title="renui.js"><br>
 # Ren-UI
 
 ## Key Features ##
