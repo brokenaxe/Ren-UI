@@ -13,3 +13,9 @@
 - <a href="http://getrenui.com">Official Website</a>
 - <a href="http://getrenui.com/v2/css/">renui.css Documentation</a>
 - <a href="http://getrenui.com/v2/js/">renui.css Documentation</a>
+
+## Credits goes to ##
+- <a href="https://iconmonstr.com" target="_blank">iconmonstr</a> for most icons.
+- <a href="https://brokenaxe.com" target="_blank">Brokenaxe Labs</a> for development.
+- You for visiting and hopefully using Ren-UI.
+- If we forgot someone please let us know.
