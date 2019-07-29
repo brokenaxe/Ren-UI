@@ -1,0 +1,21 @@
+{
+    "name": "ren-ui",
+    "version": "2.0.0",
+    "title": "Ren UI",
+    "description": "Ren-UI is an HTML, CSS & JS framework for developing responsive, mobile first projects on the web.",
+    "homepage": "http://getrenui.com",
+    "author": "Brokenaxe Labs",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "git://github.com/brokenaxe/Ren-UI.git"
+    },
+    "bugs": {
+      "url": "https://github.com/brokenaxe/ren-ui/issues"
+    },
+    "devDependencies": {
+      "github": "*"
+    },
+    "style": "dist/renui-min.css",
+    "script": "dist/renui-min.js"
+  }
