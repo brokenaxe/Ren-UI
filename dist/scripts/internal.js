@@ -29,6 +29,8 @@ function samplecode(licenced) {
         $(this).attr('id',index);
         var validate = '';
         var myHtml = $(this).html();
+        myHtml = myHtml.replace(new RegExp('&lt;', 'g'),'<');
+
         var contentBuild = '<div id="title' + index + '" class="title border-bottom hide">Example';
         
         if($(this).attr("renui-code-validate") === undefined) {
@@ -58,6 +60,7 @@ function samplecode(licenced) {
         myHtml = myHtml.replace(/\t/g,'');
         myHtml = myHtml.replace(/> </g,'><');
         myHtml = myHtml.replace(new RegExp('><', 'g'),'>\n<');
+        myHtml = myHtml.replace(new RegExp('>\n</', 'g'),'></');
         myHtml = myHtml.replace(new RegExp(',', 'g'),',\n');
         myHtml = myHtml.replace(/\</g, '&lt;');
         myHtml = myHtml.replace(/\>/g, '&gt;');

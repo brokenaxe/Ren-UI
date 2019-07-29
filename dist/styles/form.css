@@ -220,7 +220,7 @@ form .switch [type="checkbox"]:checked + label::before {
     border: 2px solid #dddddd;
     background: #dddddd;
     border-radius: 1.1em;
-    z-index: -1;
+    z-index: 0;
 }
 form .switch.onright [type="checkbox"]:not(:checked) + label::before, 
 form .switch.onright [type="checkbox"]:checked + label::before {
