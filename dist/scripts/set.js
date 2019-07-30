@@ -274,24 +274,24 @@ function popupActions(ts,where) {
   if (where === '') {
     $(ts).find('.renui-open').addClass('pointer');
     $(ts).find('.renui-close').addClass('pointer');
+
+    $(ts).find('.renui-open').click(function(){
+      $(ts).closest('.popup').addClass('open');
+    });
+    $(ts).find('.renui-close').click(function(){
+      $(ts).closest('.popup').removeClass('open');
+    });
   } else {
     $(ts).find('.renui-open-' + where).addClass('pointer');
     $(ts).find('.renui-close-' + where).addClass('pointer');
-  }
-  $(ts).find('.renui-open' + where).click(function(){
-    if (where === '') {
-      $(ts).closest('.popup').addClass('open');
-    } else {
+
+    $(ts).find('.renui-open-' + where).click(function(){
       $(ts).closest('.holder .' + where).addClass('open');
-    }
-  });
-  $(ts).find('.renui-close' + where).click(function(){
-    if (where === '') {
-      $(ts).closest('.popup').removeClass('open');
-    } else {
+    });
+    $(ts).find('.renui-close-' + where).click(function(){
       $(ts).closest('.holder .' + where).removeClass('open');
-    }
-  });
+    });
+  }
 }
 function swipe() {
     $(document).ready(function() {
