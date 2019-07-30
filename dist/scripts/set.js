@@ -231,25 +231,20 @@ function set() {
     }
     if ($('input[name="run"]').length > 0) {
         $('input[name="run"]').each(function (index) {
-            var vals = $(this);
-            var jobs = vals.val();
-            vals.remove();
-            setTimeout(function () {
-                getFn(jobs);
-            }, 100 * index);
+          var vals = $(this);
+          var jobs = vals.val();
+          vals.remove();
+          setTimeout(function () {
+              getFn(jobs);
+          }, 100 * index);
         });
     }
     if ($('.popup').length > 0) {
         $('.popup').each(function (index) {
-            $(this).find('.renui-open').addClass('pointer');
-            $(this).find('.renui-close').addClass('pointer');
-            
-            $(this).find('.renui-open').click(function(){
-                $(this).closest('.popup').addClass('open');
-            });
-            $(this).find('.renui-close').click(function(){
-                $(this).closest('.popup').removeClass('open');
-            });
+          popupActions(this,'');
+          popupActions(this,'level-one');
+          popupActions(this,'level-two');
+          popupActions(this,'level-three');
         });
     }
     if ($('.cards').length > 0) {
@@ -274,6 +269,29 @@ function set() {
     
     $('#loading').removeClass('hide');
     $('.toload').removeClass('loading');
+}
+function popupActions(ts,where) {
+  if (where === '') {
+    $(ts).find('.renui-open').addClass('pointer');
+    $(ts).find('.renui-close').addClass('pointer');
+  } else {
+    $(ts).find('.renui-open-' + where).addClass('pointer');
+    $(ts).find('.renui-close-' + where).addClass('pointer');
+  }
+  $(ts).find('.renui-open' + where).click(function(){
+    if (where === '') {
+      $(ts).closest('.popup').addClass('open');
+    } else {
+      $(ts).closest('.holder .' + where).addClass('open');
+    }
+  });
+  $(ts).find('.renui-close' + where).click(function(){
+    if (where === '') {
+      $(ts).closest('.popup').removeClass('open');
+    } else {
+      $(ts).closest('.holder .' + where).removeClass('open');
+    }
+  });
 }
 function swipe() {
     $(document).ready(function() {
