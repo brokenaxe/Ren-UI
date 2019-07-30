@@ -12,7 +12,7 @@
 - <a href="https://github.com/brokenaxe/Ren-UI/tree/master/dist">Source Code</a>
 - <a href="http://getrenui.com">Official Website</a>
 - <a href="http://getrenui.com/v2/css/">renui.css Documentation</a>
-- <a href="http://getrenui.com/v2/js/">renui.css Documentation</a>
+- <a href="http://getrenui.com/v2/js/">renui.js Documentation</a>
 
 ## Credits goes to ##
 - <a href="https://iconmonstr.com" target="_blank">iconmonstr</a> for most icons.
