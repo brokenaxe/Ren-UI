@@ -1,5 +1,11 @@
 ## RELEASE NOTES
 
+
+### Version 2.0.1 - Jul 30, 2019
+**Improved in renui.css**
+- Link
+- Popup
+
 ### Version 2.0.0 - Jul 29, 2019
 **Added in renui.css**
 - Form Sizing
@@ -68,3 +74,4 @@
 - Rotate
 - Shape
 - Shaping
+- Link
