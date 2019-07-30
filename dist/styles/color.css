@@ -9,6 +9,11 @@ button.white {
 button.white .icon {
     background-color: #111111;
 }
+.text-white,
+hr.text-white,
+.text-white hr,
+.text-white .icon,
+.icon.text-white,
 a.hover-white:hover,
 .hover-white a:hover,
 .a-white a,
@@ -31,10 +36,7 @@ button.white:hover.icon,
     background-color: #111111;
 }
 .popup .holder .bg.white::before,
-hr.text-white,
-.text-white hr,
-.text-white .icon,
-.icon.text-white,
+
 .bg.white .message,
 .gradient.white,
 .button.white,
@@ -86,9 +88,6 @@ button.white:hover {
     background: radial-gradient(ellipse at center, #efefef 0%, #fcfcfc 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#efefef', endColorstr='#fcfcfc', GradientType=1 );
 }
-.text-white {
-    color: #ffffff;
-}
 .fill.white {
     fill: #ffffff;
 }
@@ -103,6 +102,11 @@ button.navy {
 button.navy .icon {
     background-color: hsla(210,100%,75%,1);
 }
+.text-navy,
+hr.text-navy,
+.text-navy hr,
+.text-navy .icon,
+.icon.text-navy,
 a.hover-navy:hover,
 .hover-navy a:hover,
 .a-navy a,
@@ -125,10 +129,7 @@ button.navy:hover.icon,
     background-color: hsla(210,100%,75%,1);
 }
 .popup .holder .bg.navy::before,
-hr.text-navy,
-.text-navy hr,
-.text-navy .icon,
-.icon.text-navy,
+
 .bg.navy .message,
 .gradient.navy,
 .button.navy,
@@ -180,9 +181,6 @@ button.navy:hover {
     background: radial-gradient(ellipse at center, #203f5f 0%, #001f3f 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#203f5f', endColorstr='#001f3f', GradientType=1 );
 }
-.text-navy {
-    color: #001f3f;
-}
 .fill.navy {
     fill: #001f3f;
 }
@@ -197,6 +195,11 @@ button.blue {
 button.blue .icon {
     background-color: hsla(208, 100%, 85%, 1.0);
 }
+.text-blue,
+hr.text-blue,
+.text-blue hr,
+.text-blue .icon,
+.icon.text-blue,
 a.hover-blue:hover,
 .hover-blue a:hover,
 .a-blue a,
@@ -219,10 +222,7 @@ button.blue:hover.icon,
     background-color: hsla(208, 100%, 85%, 1.0);
 }
 .popup .holder .bg.blue::before,
-hr.text-blue,
-.text-blue hr,
-.text-blue .icon,
-.icon.text-blue,
+
 .bg.blue .message,
 .gradient.blue,
 .button.blue,
@@ -274,9 +274,6 @@ button.blue:hover {
     background: radial-gradient(ellipse at center, #2094ef 0%, #0074d9 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2094ef', endColorstr='#0074d9', GradientType=1 );
 }
-.text-blue {
-    color: #0074d9;
-}
 .fill.blue {
     fill: #0074d9;
 }
@@ -291,6 +288,11 @@ button.aqua {
 button.aqua .icon {
     background-color: hsla(197, 100%, 20%, 1.0);
 }
+.text-aqua,
+hr.text-aqua,
+.text-aqua hr,
+.text-aqua .icon,
+.icon.text-aqua,
 a.hover-aqua:hover,
 .hover-aqua a:hover,
 .a-aqua a,
@@ -313,10 +315,7 @@ button.aqua:hover.icon,
     background-color: hsla(197, 100%, 20%, 1.0);
 }
 .popup .holder .bg.aqua::before,
-hr.text-aqua,
-.text-aqua hr,
-.text-aqua .icon,
-.icon.text-aqua,
+
 .bg.aqua .message,
 .gradient.aqua,
 .button.aqua,
@@ -368,9 +367,6 @@ button.aqua:hover {
     background: radial-gradient(ellipse at center, #9ffbff 0%, #7fdbff 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9ffbff', endColorstr='#7fdbff', GradientType=1 );
 }
-.text-aqua {
-    color: #7fdbff;
-}
 .fill.aqua {
     fill: #7fdbff;
 }
@@ -385,6 +381,11 @@ button.teal {
 button.teal .icon {
     background-color: #111;
 }
+.text-teal,
+hr.text-teal,
+.text-teal hr,
+.text-teal .icon,
+.icon.text-teal,
 a.hover-teal:hover,
 .hover-teal a:hover,
 .a-teal a,
@@ -407,10 +408,7 @@ button.teal:hover.icon,
     background-color: #111;
 }
 .popup .holder .bg.teal::before,
-hr.text-teal,
-.text-teal hr,
-.text-teal .icon,
-.icon.text-teal,
+
 .bg.teal .message,
 .gradient.teal,
 .button.teal,
@@ -462,9 +460,6 @@ button.teal:hover {
     background: radial-gradient(ellipse at center, #59ecec 0%, #39cccc 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#59ecec', endColorstr='#39cccc', GradientType=1 );
 }
-.text-teal {
-    color: #39cccc;
-}
 .fill.teal {
     fill: #39cccc;
 }
@@ -479,6 +474,11 @@ button.olive {
 button.olive .icon {
     background-color: hsla(153, 43%, 15%, 1.0);
 }
+.text-olive,
+hr.text-olive,
+.text-olive hr,
+.text-olive .icon,
+.icon.text-olive,
 a.hover-olive:hover,
 .hover-olive a:hover,
 .a-olive a,
@@ -501,10 +501,7 @@ button.olive:hover.icon,
     background-color: hsla(153, 43%, 15%, 1.0);
 }
 .popup .holder .bg.olive::before,
-hr.text-olive,
-.text-olive hr,
-.text-olive .icon,
-.icon.text-olive,
+
 .bg.olive .message,
 .gradient.olive,
 .button.olive,
@@ -556,9 +553,6 @@ button.olive:hover {
     background: radial-gradient(ellipse at center, #5db990 0%, #3d9970 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5db990', endColorstr='#3d9970', GradientType=1 );
 }
-.text-olive {
-    color: #3d9970;
-}
 .fill.olive {
     fill: #3d9970;
 }
@@ -573,6 +567,11 @@ button.green {
 button.green .icon {
     background-color: hsla(127, 63%, 15%, 1.0);
 }
+.text-green,
+hr.text-green,
+.text-green hr,
+.text-green .icon,
+.icon.text-green,
 a.hover-green:hover,
 .hover-green a:hover,
 .a-green a,
@@ -595,10 +594,7 @@ button.green:hover.icon,
     background-color: hsla(127, 63%, 15%, 1.0);
 }
 .popup .holder .bg.green::before,
-hr.text-green,
-.text-green hr,
-.text-green .icon,
-.icon.text-green,
+
 .bg.green .message,
 .gradient.green,
 .button.green,
@@ -650,9 +646,6 @@ button.green:hover {
     background: radial-gradient(ellipse at center, #4eec60 0%, #2ecc40 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4eec60', endColorstr='#2ecc40', GradientType=1 );
 }
-.text-green {
-    color: #2ecc40;
-}
 .fill.green {
     fill: #2ecc40;
 }
@@ -667,6 +660,11 @@ button.lime {
 button.lime .icon {
     background-color: hsla(146, 100%, 20%, 1.0);
 }
+.text-lime,
+hr.text-lime,
+.text-lime hr,
+.text-lime .icon,
+.icon.text-lime,
 a.hover-lime:hover,
 .hover-lime a:hover,
 .a-lime a,
@@ -689,10 +687,7 @@ button.lime:hover.icon,
     background-color: hsla(146, 100%, 20%, 1.0);
 }
 .popup .holder .bg.lime::before,
-hr.text-lime,
-.text-lime hr,
-.text-lime .icon,
-.icon.text-lime,
+
 .bg.lime .message,
 .gradient.lime,
 .button.lime,
@@ -744,9 +739,6 @@ button.lime:hover {
     background: radial-gradient(ellipse at center, #21ff90 0%, #01ff70 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#21ff90', endColorstr='#01ff70', GradientType=1 );
 }
-.text-lime {
-    color: #01ff70;
-}
 .fill.lime {
     fill: #01ff70;
 }
@@ -761,6 +753,11 @@ button.yellow {
 button.yellow .icon {
     background-color: hsla(52, 100%, 20%, 1.0);
 }
+.text-yellow,
+hr.text-yellow,
+.text-yellow hr,
+.text-yellow .icon,
+.icon.text-yellow,
 a.hover-yellow:hover,
 .hover-yellow a:hover,
 .a-yellow a,
@@ -783,10 +780,7 @@ button.yellow:hover.icon,
     background-color: hsla(52, 100%, 20%, 1.0);
 }
 .popup .holder .bg.yellow::before,
-hr.text-yellow,
-.text-yellow hr,
-.text-yellow .icon,
-.icon.text-yellow,
+
 .bg.yellow .message,
 .gradient.yellow,
 .button.yellow,
@@ -838,9 +832,6 @@ button.yellow:hover {
     background: radial-gradient(ellipse at center, #fffc20 0%, #ffdc00 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fffc20', endColorstr='#ffdc00', GradientType=1 );
 }
-.text-yellow {
-    color: #ffdc00;
-}
 .fill.yellow {
     fill: #ffdc00;
 }
@@ -855,6 +846,11 @@ button.orange {
 button.orange .icon {
     background-color: hsla(28, 100%, 20%, 1.0);
 }
+.text-orange,
+hr.text-orange,
+.text-orange hr,
+.text-orange .icon,
+.icon.text-orange,
 a.hover-orange:hover,
 .hover-orange a:hover,
 .a-orange a,
@@ -877,10 +873,7 @@ button.orange:hover.icon,
     background-color: hsla(28, 100%, 20%, 1.0);
 }
 .popup .holder .bg.orange::before,
-hr.text-orange,
-.text-orange hr,
-.text-orange .icon,
-.icon.text-orange,
+
 .bg.orange .message,
 .gradient.orange,
 .button.orange,
@@ -932,9 +925,6 @@ button.orange:hover {
     background: radial-gradient(ellipse at center, #ffa53b 0%, #ff851b 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffa53b', endColorstr='#ff851b', GradientType=1 );
 }
-.text-orange {
-    color: #ff851b;
-}
 .fill.orange {
     fill: #ff851b;
 }
@@ -949,6 +939,11 @@ button.red {
 button.red .icon {
     background-color: hsla(3, 100%, 25%, 1.0);
 }
+.text-red,
+hr.text-red,
+.text-red hr,
+.text-red .icon,
+.icon.text-red,
 a.hover-red:hover,
 .hover-red a:hover,
 .a-red a,
@@ -971,10 +966,7 @@ button.red:hover.icon,
     background-color: hsla(3, 100%, 25%, 1.0);
 }
 .popup .holder .bg.red::before,
-hr.text-red,
-.text-red hr,
-.text-red .icon,
-.icon.text-red,
+
 .bg.red .message,
 .gradient.red,
 .button.red,
@@ -1026,9 +1018,6 @@ button.red:hover {
     background: radial-gradient(ellipse at center, #ff6156 0%, #ff4136 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff6156', endColorstr='#ff4136', GradientType=1 );
 }
-.text-red {
-    color: #ff4136;
-}
 .fill.red {
     fill: #ff4136;
 }
@@ -1043,6 +1032,11 @@ button.fuchsia {
 button.fuchsia .icon {
     background-color: hsla(314, 88%, 21%, 1.0);
 }
+.text-fuchsia,
+hr.text-fuchsia,
+.text-fuchsia hr,
+.text-fuchsia .icon,
+.icon.text-fuchsia,
 a.hover-fuchsia:hover,
 .hover-fuchsia a:hover,
 .a-fuchsia a,
@@ -1065,10 +1059,7 @@ button.fuchsia:hover.icon,
     background-color: hsla(314, 88%, 21%, 1.0);
 }
 .popup .holder .bg.fuchsia::before,
-hr.text-fuchsia,
-.text-fuchsia hr,
-.text-fuchsia .icon,
-.icon.text-fuchsia,
+
 .bg.fuchsia .message,
 .gradient.fuchsia,
 .button.fuchsia,
@@ -1120,9 +1111,6 @@ button.fuchsia:hover {
     background: radial-gradient(ellipse at center, #ff32de 0%, #f012be 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff32de', endColorstr='#f012be', GradientType=1 );
 }
-.text-fuchsia {
-    color: #f012be;
-}
 .fill.fuchsia {
     fill: #f012be;
 }
@@ -1137,6 +1125,11 @@ button.purple {
 button.purple .icon {
     background-color: hsla(292, 88%, 82%, 1.0);
 }
+.text-purple,
+hr.text-purple,
+.text-purple hr,
+.text-purple .icon,
+.icon.text-purple,
 a.hover-purple:hover,
 .hover-purple a:hover,
 .a-purple a,
@@ -1159,10 +1152,7 @@ button.purple:hover.icon,
     background-color: hsla(292, 88%, 82%, 1.0);
 }
 .popup .holder .bg.purple::before,
-hr.text-purple,
-.text-purple hr,
-.text-purple .icon,
-.icon.text-purple,
+
 .bg.purple .message,
 .gradient.purple,
 .button.purple,
@@ -1214,9 +1204,6 @@ button.purple:hover {
     background: radial-gradient(ellipse at center, #d140e9 0%, #b10dc9 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d140e9', endColorstr='#b10dc9', GradientType=1 );
 }
-.text-purple {
-    color: #b10dc9;
-}
 .fill.purple {
     fill: #b10dc9;
 }
@@ -1231,6 +1218,11 @@ button.maroon {
 button.maroon .icon {
     background-color: hsla(331, 74%, 70%, 1.0);
 }
+.text-maroon,
+hr.text-maroon,
+.text-maroon hr,
+.text-maroon .icon,
+.icon.text-maroon,
 a.hover-maroon:hover,
 .hover-maroon a:hover,
 .a-maroon a,
@@ -1253,10 +1245,7 @@ button.maroon:hover.icon,
     background-color: hsla(331, 74%, 70%, 1.0);
 }
 .popup .holder .bg.maroon::before,
-hr.text-maroon,
-.text-maroon hr,
-.text-maroon .icon,
-.icon.text-maroon,
+
 .bg.maroon .message,
 .gradient.maroon,
 .button.maroon,
@@ -1308,9 +1297,6 @@ button.maroon:hover {
     background: radial-gradient(ellipse at center, #a5346b 0%, #85144b 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a5346b', endColorstr='#85144b', GradientType=1 );
 }
-.text-maroon {
-    color: #85144b;
-}
 .fill.maroon {
     fill: #85144b;
 }
@@ -1325,6 +1311,11 @@ button.silver {
 button.silver .icon {
     background-color: #111111;
 }
+.text-silver,
+hr.text-silver,
+.text-silver hr,
+.text-silver .icon,
+.icon.text-silver,
 a.hover-silver:hover,
 .hover-silver a:hover,
 .a-silver a,
@@ -1347,10 +1338,7 @@ button.silver:hover.icon,
     background-color: #111111;
 }
 .popup .holder .bg.silver::before,
-hr.text-silver,
-.text-silver hr,
-.text-silver .icon,
-.icon.text-silver,
+
 .bg.silver .message,
 .gradient.silver,
 .button.silver,
@@ -1402,9 +1390,6 @@ button.silver:hover {
     background: radial-gradient(ellipse at center, #bdbdbd 0%, #dddddd 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bdbdbd', endColorstr='#dddddd', GradientType=1 );
 }
-.text-silver {
-    color: #dddddd;
-}
 .fill.silver {
     fill: #dddddd;
 }
@@ -1419,6 +1404,11 @@ button.gray {
 button.gray .icon {
     background-color: #111111;
 }
+.text-gray,
+hr.text-gray,
+.text-gray hr,
+.text-gray .icon,
+.icon.text-gray,
 a.hover-gray:hover,
 .hover-gray a:hover,
 .a-gray a,
@@ -1441,10 +1431,7 @@ button.gray:hover.icon,
     background-color: #111111;
 }
 .popup .holder .bg.gray::before,
-hr.text-gray,
-.text-gray hr,
-.text-gray .icon,
-.icon.text-gray,
+
 .bg.gray .message,
 .gradient.gray,
 .button.gray,
@@ -1496,9 +1483,6 @@ button.gray:hover {
     background: radial-gradient(ellipse at center, #cacaca 0%, #aaaaaa 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cacaca', endColorstr='#aaaaaa', GradientType=1 );
 }
-.text-gray {
-    color: #aaaaaa;
-}
 .fill.gray {
     fill: #aaaaaa;
 }
@@ -1513,6 +1497,11 @@ button.black {
 button.black .icon {
     background-color: #ffffff;
 }
+.text-black,
+hr.text-black,
+.text-black hr,
+.text-black .icon,
+.icon.text-black,
 a.hover-black:hover,
 .hover-black a:hover,
 .a-black a,
@@ -1535,10 +1524,7 @@ button.black:hover.icon,
     background-color: #ffffff;
 }
 .popup .holder .bg.black::before,
-hr.text-black,
-.text-black hr,
-.text-black .icon,
-.icon.text-black,
+
 .bg.black .message,
 .gradient.black,
 .button.black,
@@ -1590,9 +1576,6 @@ button.black:hover {
     background: radial-gradient(ellipse at center, #303030 0%, #111111 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#303030', endColorstr='#111111', GradientType=1 );
 }
-.text-black {
-    color: #111111;
-}
 .fill.black {
     fill: #111111;
 }
@@ -1607,6 +1590,11 @@ button.primary {
 button.primary .icon {
     background-color: #111111;
 }
+.text-primary,
+hr.text-primary,
+.text-primary hr,
+.text-primary .icon,
+.icon.text-primary,
 a.hover-primary:hover,
 .hover-primary a:hover,
 .a-primary a,
@@ -1629,10 +1617,7 @@ button.primary:hover.icon,
     background-color: #ffffff;
 }
 .popup .holder .bg.primary::before,
-hr.text-primary,
-.text-primary hr,
-.text-primary .icon,
-.icon.text-primary,
+
 .bg.primary .message,
 .gradient.primary,
 .button.primary,
@@ -1684,9 +1669,6 @@ button.primary:hover {
     background: radial-gradient(ellipse at center, #29A6DF 0%, #0A72BA 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#29A6DF', endColorstr='#0A72BA', GradientType=1 );
 }
-.text-primary {
-    color: #0A72BA;
-}
 .fill.primary {
     fill: #0A72BA;
 }
@@ -1701,6 +1683,11 @@ button.secondary {
 button.secondary .icon {
     background-color: #111111;
 }
+.text-secondary,
+hr.text-secondary,
+.text-secondary hr,
+.text-secondary .icon,
+.icon.text-secondary,
 a.hover-secondary:hover,
 .hover-secondary a:hover,
 .a-secondary a,
@@ -1723,10 +1710,7 @@ button.secondary:hover.icon,
     background-color: #ffffff;
 }
 .popup .holder .bg.secondary::before,
-hr.text-secondary,
-.text-secondary hr,
-.text-secondary .icon,
-.icon.text-secondary,
+
 .bg.secondary .message,
 .gradient.secondary,
 .button.secondary,
@@ -1777,9 +1761,6 @@ button.secondary:hover {
     background: -ms-radial-gradient(center, ellipse cover, #49C6EF 0%, #29A6DF 100%);
     background: radial-gradient(ellipse at center, #49C6EF 0%, #29A6DF 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#49C6EF', endColorstr='#29A6DF', GradientType=1 );
-}
-.text-secondary {
-    color: #29A6DF;
 }
 .fill.secondary {
     fill: #29A6DF;
