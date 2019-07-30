@@ -12,9 +12,7 @@ $.each($('.label'), function(index, value) {
                 $(this).attr("title","Improved in v" + labelVal.replace("i",""));
                 $(this).addClass("silver");
             } else {
-                if ($(this).hasClass("latestversion") === true) {
-                    $(this).html(currentVersion);
-                } else {
+                if ($(this).hasClass("latestversion") !== true) {
                     $(this).html("New in v" + labelVal);
                 }
                 $(this).addClass("gray");
@@ -22,6 +20,10 @@ $.each($('.label'), function(index, value) {
         } else {
             $(this).attr("title","Introduced in v" + labelVal);
         }
+    }
+    if ($(this).hasClass("latestversion") === true) {
+        $(this).html(currentVersion);
+        $(this).attr("title","v" + currentVersion & 'is the latest release');
     }
 });
 function samplecode(licenced) {
