@@ -286,6 +286,7 @@ function popupActions(ts,where) {
     $(ts).find('.renui-close-' + where).addClass('pointer');
 
     $(ts).find('.renui-open-' + where).click(function(){
+      alert('here');
       $('.holder.' + where).addClass('open');
     });
     $(ts).find('.renui-close-' + where).click(function(){
