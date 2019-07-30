@@ -18,7 +18,7 @@ a.hover-white:hover,
 .hover-white a:hover,
 .a-white a,
 .text-white {
-    color: #111111;
+    color: #ffffff;
 }
 .breadcrumb.white a,
 .bg.white .message,
@@ -111,7 +111,7 @@ a.hover-navy:hover,
 .hover-navy a:hover,
 .a-navy a,
 .text-navy {
-    color: hsla(210,100%,75%,1);
+    color: #001f3f;
 }
 .breadcrumb.navy a,
 .bg.navy .message,
@@ -204,7 +204,7 @@ a.hover-blue:hover,
 .hover-blue a:hover,
 .a-blue a,
 .text-blue {
-    color: hsla(208, 100%, 85%, 1.0);
+    color: #0074d9;
 }
 .breadcrumb.blue a,
 .bg.blue .message,
@@ -297,7 +297,7 @@ a.hover-aqua:hover,
 .hover-aqua a:hover,
 .a-aqua a,
 .text-aqua {
-    color: hsla(197, 100%, 20%, 1.0);
+    color: #7fdbff;
 }
 .breadcrumb.aqua a,
 .bg.aqua .message,
@@ -390,7 +390,7 @@ a.hover-teal:hover,
 .hover-teal a:hover,
 .a-teal a,
 .text-teal {
-    color: #111;
+    color: #39cccc;
 }
 .breadcrumb.teal a,
 .bg.teal .message,
@@ -483,7 +483,7 @@ a.hover-olive:hover,
 .hover-olive a:hover,
 .a-olive a,
 .text-olive {
-    color: hsla(153, 43%, 15%, 1.0);
+    color: #3d9970;
 }
 .breadcrumb.olive a,
 .bg.olive .message,
@@ -576,7 +576,7 @@ a.hover-green:hover,
 .hover-green a:hover,
 .a-green a,
 .text-green {
-    color: hsla(127, 63%, 15%, 1.0);
+    color: #2ecc40;
 }
 .breadcrumb.green a,
 .bg.green .message,
@@ -669,7 +669,7 @@ a.hover-lime:hover,
 .hover-lime a:hover,
 .a-lime a,
 .text-lime {
-    color: hsla(146, 100%, 20%, 1.0);
+    color: #01ff70;
 }
 .breadcrumb.lime a,
 .bg.lime .message,
@@ -762,7 +762,7 @@ a.hover-yellow:hover,
 .hover-yellow a:hover,
 .a-yellow a,
 .text-yellow {
-    color: hsla(52, 100%, 20%, 1.0);
+    color: #ffdc00;
 }
 .breadcrumb.yellow a,
 .bg.yellow .message,
@@ -855,7 +855,7 @@ a.hover-orange:hover,
 .hover-orange a:hover,
 .a-orange a,
 .text-orange {
-    color: hsla(28, 100%, 20%, 1.0);
+    color: #ff851b;
 }
 .breadcrumb.orange a,
 .bg.orange .message,
@@ -948,7 +948,7 @@ a.hover-red:hover,
 .hover-red a:hover,
 .a-red a,
 .text-red {
-    color: hsla(3, 100%, 25%, 1.0);
+    color: #ff4136;
 }
 .breadcrumb.red a,
 .bg.red .message,
@@ -1041,7 +1041,7 @@ a.hover-fuchsia:hover,
 .hover-fuchsia a:hover,
 .a-fuchsia a,
 .text-fuchsia {
-    color: hsla(314, 88%, 21%, 1.0);
+    color: #f012be;
 }
 .breadcrumb.fuchsia a,
 .bg.fuchsia .message,
@@ -1134,7 +1134,7 @@ a.hover-purple:hover,
 .hover-purple a:hover,
 .a-purple a,
 .text-purple {
-    color: hsla(292, 88%, 82%, 1.0);
+    color: #b10dc9;
 }
 .breadcrumb.purple a,
 .bg.purple .message,
@@ -1227,7 +1227,7 @@ a.hover-maroon:hover,
 .hover-maroon a:hover,
 .a-maroon a,
 .text-maroon {
-    color: hsla(331, 74%, 70%, 1.0);
+    color: #85144b;
 }
 .breadcrumb.maroon a,
 .bg.maroon .message,
@@ -1320,7 +1320,7 @@ a.hover-silver:hover,
 .hover-silver a:hover,
 .a-silver a,
 .text-silver {
-    color: #111111;
+    color: #dddddd;
 }
 .breadcrumb.silver a,
 .bg.silver .message,
@@ -1413,7 +1413,7 @@ a.hover-gray:hover,
 .hover-gray a:hover,
 .a-gray a,
 .text-gray {
-    color: #111111;
+    color: #aaaaaa;
 }
 .breadcrumb.gray a,
 .bg.gray .message,
@@ -1506,7 +1506,7 @@ a.hover-black:hover,
 .hover-black a:hover,
 .a-black a,
 .text-black {
-    color: #ffffff;
+    color: #111111;
 }
 .breadcrumb.black a,
 .bg.black .message,
@@ -1599,7 +1599,7 @@ a.hover-primary:hover,
 .hover-primary a:hover,
 .a-primary a,
 .text-primary {
-    color: #111111;
+    color: #0A72BA;
 }
 .breadcrumb.primary a,
 .bg.primary .message,
@@ -1692,7 +1692,7 @@ a.hover-secondary:hover,
 .hover-secondary a:hover,
 .a-secondary a,
 .text-secondary {
-    color: #111111;
+    color: #29A6DF;
 }
 .breadcrumb.secondary a,
 .bg.secondary .message,
