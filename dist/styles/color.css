@@ -10,6 +10,7 @@ button.white .icon {
     background-color: #111111;
 }
 a.hover-white:hover,
+.a-white a:hover,
 .hover-white a:hover {
     color: #111111;
 }
@@ -105,6 +106,7 @@ button.navy .icon {
     background-color: hsla(210,100%,75%,1);
 }
 a.hover-navy:hover,
+.a-navy a:hover,
 .hover-navy a:hover {
     color: hsla(210,100%,75%,1);
 }
@@ -200,6 +202,7 @@ button.blue .icon {
     background-color: hsla(208, 100%, 85%, 1.0);
 }
 a.hover-blue:hover,
+.a-blue a:hover,
 .hover-blue a:hover {
     color: hsla(208, 100%, 85%, 1.0);
 }
@@ -295,6 +298,7 @@ button.aqua .icon {
     background-color: hsla(197, 100%, 20%, 1.0);
 }
 a.hover-aqua:hover,
+.a-aqua a:hover,
 .hover-aqua a:hover {
     color: hsla(197, 100%, 20%, 1.0);
 }
@@ -390,6 +394,7 @@ button.teal .icon {
     background-color: #111;
 }
 a.hover-teal:hover,
+.a-teal a:hover,
 .hover-teal a:hover {
     color: #111;
 }
@@ -485,6 +490,7 @@ button.olive .icon {
     background-color: hsla(153, 43%, 15%, 1.0);
 }
 a.hover-olive:hover,
+.a-olive a:hover,
 .hover-olive a:hover {
     color: hsla(153, 43%, 15%, 1.0);
 }
@@ -580,6 +586,7 @@ button.green .icon {
     background-color: hsla(127, 63%, 15%, 1.0);
 }
 a.hover-green:hover,
+.a-green a:hover,
 .hover-green a:hover {
     color: hsla(127, 63%, 15%, 1.0);
 }
@@ -675,6 +682,7 @@ button.lime .icon {
     background-color: hsla(146, 100%, 20%, 1.0);
 }
 a.hover-lime:hover,
+.a-lime a:hover,
 .hover-lime a:hover {
     color: hsla(146, 100%, 20%, 1.0);
 }
@@ -770,6 +778,7 @@ button.yellow .icon {
     background-color: hsla(52, 100%, 20%, 1.0);
 }
 a.hover-yellow:hover,
+.a-yellow a:hover,
 .hover-yellow a:hover {
     color: hsla(52, 100%, 20%, 1.0);
 }
@@ -865,6 +874,7 @@ button.orange .icon {
     background-color: hsla(28, 100%, 20%, 1.0);
 }
 a.hover-orange:hover,
+.a-orange a:hover,
 .hover-orange a:hover {
     color: hsla(28, 100%, 20%, 1.0);
 }
@@ -960,6 +970,7 @@ button.red .icon {
     background-color: hsla(3, 100%, 25%, 1.0);
 }
 a.hover-red:hover,
+.a-red a:hover,
 .hover-red a:hover {
     color: hsla(3, 100%, 25%, 1.0);
 }
@@ -1055,6 +1066,7 @@ button.fuchsia .icon {
     background-color: hsla(314, 88%, 21%, 1.0);
 }
 a.hover-fuchsia:hover,
+.a-fuchsia a:hover,
 .hover-fuchsia a:hover {
     color: hsla(314, 88%, 21%, 1.0);
 }
@@ -1150,6 +1162,7 @@ button.purple .icon {
     background-color: hsla(292, 88%, 82%, 1.0);
 }
 a.hover-purple:hover,
+.a-purple a:hover,
 .hover-purple a:hover {
     color: hsla(292, 88%, 82%, 1.0);
 }
@@ -1245,6 +1258,7 @@ button.maroon .icon {
     background-color: hsla(331, 74%, 70%, 1.0);
 }
 a.hover-maroon:hover,
+.a-maroon a:hover,
 .hover-maroon a:hover {
     color: hsla(331, 74%, 70%, 1.0);
 }
@@ -1340,6 +1354,7 @@ button.silver .icon {
     background-color: #111111;
 }
 a.hover-silver:hover,
+.a-silver a:hover,
 .hover-silver a:hover {
     color: #111111;
 }
@@ -1435,6 +1450,7 @@ button.gray .icon {
     background-color: #111111;
 }
 a.hover-gray:hover,
+.a-gray a:hover,
 .hover-gray a:hover {
     color: #111111;
 }
@@ -1530,6 +1546,7 @@ button.black .icon {
     background-color: #ffffff;
 }
 a.hover-black:hover,
+.a-black a:hover,
 .hover-black a:hover {
     color: #ffffff;
 }
@@ -1625,6 +1642,7 @@ button.primary .icon {
     background-color: #111111;
 }
 a.hover-primary:hover,
+.a-primary a:hover,
 .hover-primary a:hover {
     color: #111111;
 }
@@ -1720,6 +1738,7 @@ button.secondary .icon {
     background-color: #111111;
 }
 a.hover-secondary:hover,
+.a-secondary a:hover,
 .hover-secondary a:hover {
     color: #111111;
 }
