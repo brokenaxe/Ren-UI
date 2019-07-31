@@ -23,7 +23,8 @@ $.each($('.label'), function(index, value) {
     }
     if ($(this).hasClass("latestversion") === true) {
         $(this).html(currentVersion);
-        $(this).attr("title","v" + currentVersion & 'is the latest release');
+        $(this).attr("title","v" + currentVersion + ' is the latest release');
+        $(this).addClass("silver");
     }
 });
 function samplecode(licenced) {
@@ -64,7 +65,8 @@ function samplecode(licenced) {
         myHtml = myHtml.replace(/> </g,'><');
         myHtml = myHtml.replace(new RegExp('><', 'g'),'>\n<');
         myHtml = myHtml.replace(new RegExp('>\n</', 'g'),'></');
-        myHtml = myHtml.replace(new RegExp(',', 'g'),',\n');
+        myHtml = myHtml.replace(new RegExp('a></', 'g'),'a>\n</');
+        //myHtml = myHtml.replace(new RegExp(',', 'g'),',\n');
         myHtml = myHtml.replace(/\</g, '&lt;');
         myHtml = myHtml.replace(/\>/g, '&gt;');
         var codetype = '';

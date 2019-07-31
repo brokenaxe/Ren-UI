@@ -33,3 +33,67 @@
     height:0;
     clear:both;
 }
+.from-all,
+.from-top {
+    top: 0;
+}
+.from-all,
+.from-right {
+    right: 0;
+}
+.from-all,
+.from-bottom {
+    right: 0;
+}
+.from-all,
+.from-left {
+    bottom: 0;
+}
+.to-all,
+.to-top {
+    top: 1em;
+}
+.to-all,
+.to-right {
+    right: 1em;
+}
+.to-all,
+.to-bottom {
+    right: 1em;
+}
+.to-all,
+.to-left {
+    bottom: 1em;
+}
+.to-all-x2,
+.to-top-x2 {
+    top: 2em;
+}
+.to-all-x2,
+.to-right-x2 {
+    right: 2em;
+}
+.to-all-x2,
+.to-bottom-x2 {
+    right: 2em;
+}
+.to-all-x2,
+.to-left-x2 {
+    bottom: 2em;
+}
+.to-all-x3,
+.to-top-x3 {
+    top: 3em;
+}
+.to-all-x3,
+.to-right-x3 {
+    right: 3em;
+}
+.to-all-x3,
+.to-bottom-x3 {
+    right: 3em;
+}
+.to-all-x3,
+.to-left-x3 {
+    bottom: 3em;
+}
