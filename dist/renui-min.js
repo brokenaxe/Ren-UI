@@ -1,5 +1,5 @@
 ﻿/*!
- * # renui.js - 2.0.0
+ * # renui.js - 2.0.2
  * https://github.com/brokenaxe/RenUI
  * http://ren-ui.com/
  *
@@ -7,7 +7,7 @@
  * Released under the MIT license
  * http://opensource.org/licenses/MIT
  */
-;
+var currentVersion="2.0.2";
 var Base64={_keyStr:"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=",encode:function(n){var f="",e,t,i,s,h,o,r,u=0;for(n=Base64._utf8_encode(n);u<n.length;)e=n.charCodeAt(u++),t=n.charCodeAt(u++),i=n.charCodeAt(u++),s=e>>2,h=(e&3)<<4|t>>4,o=(t&15)<<2|i>>6,r=i&63,isNaN(t)?o=r=64:isNaN(i)&&(r=64),f=f+this._keyStr.charAt(s)+this._keyStr.charAt(h)+this._keyStr.charAt(o)+this._keyStr.charAt(r);return f},decode:function(n){var t="",e,o,s,h,u,r,f,i=0;for(n=n.replace(/[^A-Za-z0-9\+\/\=]/g,"");i<n.length;)h=this._keyStr.indexOf(n.charAt(i++)),u=this._keyStr.indexOf(n.charAt(i++)),r=this._keyStr.indexOf(n.charAt(i++)),f=this._keyStr.indexOf(n.charAt(i++)),e=h<<2|u>>4,o=(u&15)<<4|r>>2,s=(r&3)<<6|f,t=t+String.fromCharCode(e),r!=64&&(t=t+String.fromCharCode(o)),f!=64&&(t=t+String.fromCharCode(s));return Base64._utf8_decode(t)},_utf8_encode:function(n){var i,r,t;for(n=n.replace(/\r\n/g,"\n"),i="",r=0;r<n.length;r++)t=n.charCodeAt(r),t<128?i+=String.fromCharCode(t):t>127&&t<2048?(i+=String.fromCharCode(t>>6|192),i+=String.fromCharCode(t&63|128)):(i+=String.fromCharCode(t>>12|224),i+=String.fromCharCode(t>>6&63|128),i+=String.fromCharCode(t&63|128));return i},_utf8_decode:function(n){for(var r="",t=0,i=c1=c2=0;t<n.length;)i=n.charCodeAt(t),i<128?(r+=String.fromCharCode(i),t++):i>191&&i<224?(c2=n.charCodeAt(t+1),r+=String.fromCharCode((i&31)<<6|c2&63),t+=2):(c2=n.charCodeAt(t+1),c3=n.charCodeAt(t+2),r+=String.fromCharCode((i&15)<<12|(c2&63)<<6|c3&63),t+=3);return r}};
 function error(n){console.log(n)}function hndl(n,t){$("#"+n).length>0&&$("#"+n).html().length!==t.length&&(typeof t=="object"?jsonResponse(t,n):$("#"+n).html(t));set()}function jsonResponse(n){typeof n.Url!="undefined"&&error("Action Not Found (Contact Administrator):\nUrl: "+n.Url+"\nReferrer: "+n.Referrer+"\nMethod: "+n.Method);$.each(n,function(n,t){var i=n,r=t;i.indexOf("renui-populate-")!==-1?(i=i.replace("renui-populate-",""),r!==""&&$("#"+i).html(r)):i.indexOf("renui-addclass-")!==-1?(i=i.replace("renui-addclass-",""),r!==""&&$("#"+i).addClass(r)):i.indexOf("renui-removeclass-")!==-1?(i=i.replace("renui-removeclass-",""),r!==""&&$("#"+i).removeClass(r)):i.indexOf("renui-toggleclass-")!==-1?(i=i.replace("renui-toggleclass-",""),r!==""&&$("#"+i).toggleClass(r)):i.indexOf("renui-cookieset-")!==-1?(i=i.replace("renui-cookieset-",""),r!==""&&Cookie_Set(i,r,356)):i.indexOf("renui-cookieget-")!==-1?(i=i.replace("renui-cookieget-",""),r!==""&&$("#"+r).html(cookieget(i))):i.indexOf("renui-cookiedelete-")!==-1&&(i=i.replace("renui-cookiedelete-",""),cookiedelete(i));console.log("Debug "+i+": "+r)});set()};
 function get(n,t){$("#loading").removeClass("hide");$("#"+t).length>0&&$.ajax({method:"GET",url:n,cache:!1,success:function(n){hndl(t,n)},error:function(n){error(n)}});event.preventDefault()};
