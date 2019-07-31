@@ -43,11 +43,11 @@
 }
 .from-all,
 .from-bottom {
-    right: 0;
+    bottom: 0;
 }
 .from-all,
 .from-left {
-    bottom: 0;
+    left: 0;
 }
 .to-all,
 .to-top {
@@ -59,11 +59,11 @@
 }
 .to-all,
 .to-bottom {
-    right: 1em;
+    bottom: 1em;
 }
 .to-all,
 .to-left {
-    bottom: 1em;
+    left: 1em;
 }
 .to-all-x2,
 .to-top-x2 {
@@ -75,11 +75,11 @@
 }
 .to-all-x2,
 .to-bottom-x2 {
-    right: 2em;
+    bottom: 2em;
 }
 .to-all-x2,
 .to-left-x2 {
-    bottom: 2em;
+    left: 2em;
 }
 .to-all-x3,
 .to-top-x3 {
@@ -91,9 +91,9 @@
 }
 .to-all-x3,
 .to-bottom-x3 {
-    right: 3em;
+    bottom: 3em;
 }
 .to-all-x3,
 .to-left-x3 {
-    bottom: 3em;
+    left: 3em;
 }
