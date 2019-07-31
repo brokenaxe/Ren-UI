@@ -1,6 +1,6 @@
 /*!
  * # renui.js - 2.0.2
- * https://github.com/brokenaxe/RenUI
+ * https://github.com/brokenaxe/ren-ui
  * http://ren-ui.com/
  *
  * Copyright 2014 Contributors
