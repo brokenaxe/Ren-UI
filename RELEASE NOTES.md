@@ -1,6 +1,13 @@
 ## RELEASE NOTES
 
 
+### Version 2.0.2 - Jul 31, 2019
+**Improved in renui.css**
+- Stacked
+- Spacing
+- Styling
+- Position
+
 ### Version 2.0.1 - Jul 30, 2019
 **Improved in renui.css**
 - Link
@@ -75,3 +82,5 @@
 - Shape
 - Shaping
 - Link
+- Position
+- Spacing
