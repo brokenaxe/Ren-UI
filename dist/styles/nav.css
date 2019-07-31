@@ -30,6 +30,14 @@ nav ul li {
     float: left;
     padding: 0;
 }
+nav.gap-x2 ul li,
+nav.gap-x2 ul li.right {
+    margin-right: 2rem;
+}
+nav.gap-x3 ul li,
+nav.gap-x3 ul li.right {
+    margin-right: 3rem;
+}
 nav ul li.right {
     float: right;
     margin: 6px 14px;

@@ -75,22 +75,42 @@ margin-left:-10px
 .space-l-d3 {
 margin-left:-12px
 }
-
+.no-spacer-l,
 .nospacer-l {
 padding-left:0;
 }
+.no-spacer-r,
 .nospacer-r {
 padding-right:0;
 }
+.no-spacer-t,
 .nospacer-t {
 padding-top:0;
 }
+.no-spacer-b,
 .nospacer-b {
 padding-bottom:0;
 }
+.no-margin,
 .space-none,
 .margin-none {
     margin: 0;
+}
+.no-space-b,
+.no-margin-b {
+    margin-bottom: 0;
+}
+.no-space-t,
+.no-margin-t {
+    margin-top: 0;
+}
+.no-space-l,
+.no-margin-l {
+    margin-left: 0;
+}
+.no-space-r,
+.no-margin-r {
+    margin-right: 0;
 }
 .space-footer {
     margin-bottom: 60px;

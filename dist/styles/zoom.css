@@ -4,29 +4,57 @@
 
 .zoom-50 {
 zoom:50%;
-transform:scale(.5);
+transform:scale(.5)
 }
 .zoom-75 {
 zoom:75%;
-transform:scale(.75);
+transform:scale(.75)
 }
 .zoom-100 {
 zoom:100%;
-transform:scale(1);
+transform:scale(1)
 }
 .zoom-125 {
 zoom:125%;
-transform:scale(1.25);
+transform:scale(1.25)
 }
 .zoom-150 {
 zoom:150%;
-transform:scale(1.5);
+transform:scale(1.5)
 }
 .zoom-200 {
 zoom:200%;
-transform:scale(2);
+transform:scale(2)
 }
 .zoom-300 {
 zoom:300%;
-transform:scale(3);
+transform:scale(3)
+}
+.hover-zoom-50:hover {
+zoom:50%;
+transform:scale(.5)
+}
+.hover-zoom-75:hover {
+zoom:75%;
+transform:scale(.75)
+}
+.hover-zoom-100:hover {
+zoom:100%;
+transform:scale(1)
+}
+.hover-zoom-125:hover {
+zoom:125%;
+transform:scale(1.25)
+}
+.hover-zoom-150:hover {
+zoom:150%;
+transform:scale(1.5)
+}
+.hover-zoom-200:hover {
+zoom:200%;
+transform:scale(2)
+}
+.hover-zoom-300:hover {
+zoom:300%;
+transform:scale(3)
 }

@@ -233,3 +233,15 @@ hr.x3 {
 .text-bolder {
     font-weight:bolder;
 }
+.text-upper,
+.uppercase {
+    text-transform: uppercase;
+}
+.text-capital,
+.capitalize {
+    text-transform:capitalize;
+}
+.text-lower,
+.lowercase {
+    text-transform:lowercase;
+}
