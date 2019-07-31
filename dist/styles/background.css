@@ -51,3 +51,6 @@ opacity:.8
 .bg.o09::before {
 opacity:.9
 }
+.bg.o097::before {
+    opacity: .97;
+}
