@@ -224,3 +224,12 @@ hr.x2 {
 hr.x3 {
     height: 3px;
 }
+.text-lighter {
+    font-weight:lighter;
+}
+.text-bold {
+    font-weight:bold;
+}
+.text-bolder {
+    font-weight:bolder;
+}
