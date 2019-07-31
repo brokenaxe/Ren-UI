@@ -459,7 +459,15 @@ transform:scale(3)
     -moz-column-count: 6; /* Firefox */
     column-count: 6;
 }
-
+.stacked.gap-none {
+    -moz-column-gap: 0;
+    -webkit-column-gap: 0;
+    column-gap: 0;
+    margin-bottom: 0;
+}
+.stacked.gap-none>div {
+    margin-bottom: 0;
+}
 .stacked.gap-x2 {
     -moz-column-gap: 2rem;
     -webkit-column-gap: 2rem;
