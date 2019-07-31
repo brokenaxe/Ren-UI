@@ -10,9 +10,9 @@
 ## Available Links ##
 - <a href="https://github.com/brokenaxe/Ren-UI/blob/master/RELEASE%20NOTES.md">Release Notes</a>
 - <a href="https://github.com/brokenaxe/Ren-UI/tree/master/dist">Source Code</a>
-- <a href="http://getrenui.com">Official Website</a>
-- <a href="http://getrenui.com/v2/css/">renui.css Documentation</a>
-- <a href="http://getrenui.com/v2/js/">renui.js Documentation</a>
+- <a href="http://ren-ui.com">Official Website</a>
+- <a href="http://ren-ui.com/v2/css/">renui.css Documentation</a>
+- <a href="http://ren-ui.com/v2/js/">renui.js Documentation</a>
 
 ## Credits goes to ##
 - <a href="https://iconmonstr.com" target="_blank">iconmonstr</a> for most icons.
