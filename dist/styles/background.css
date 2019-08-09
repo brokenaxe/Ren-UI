@@ -21,46 +21,57 @@ background-position:center center;
 background-repeat:no-repeat;
 background-size:cover
 }
+.shape-holder.o00::before,
 .hover-bg.o00::before,
 .bg.o00::before {
 opacity:0
 }
+.shape-holder.o01::before,
 .hover-bg.o01::before,
 .bg.o01::before {
 opacity:.1
 }
+.shape-holder.o02::before,
 .hover-bg.o02::before,
 .bg.o02::before {
 opacity:.2
 }
+.shape-holder.o03::before,
 .hover-bg.o03::before,
 .bg.o03::before {
 opacity:.3
 }
+.shape-holder.o04::before,
 .hover-bg.o04::before,
 .bg.o04::before {
 opacity:.4
 }
+.shape-holder.o05::before,
 .hover-bg.o05::before,
 .bg.o05::before {
 opacity:.5
 }
+.shape-holder.o06::before,
 .hover-bg.o06::before,
 .bg.o06::before {
 opacity:.6
 }
+.shape-holder.o07::before,
 .hover-bg.o07::before,
 .bg.o07::before {
 opacity:.7
 }
+.shape-holder.o08::before,
 .hover-bg.o08::before,
 .bg.o08::before {
 opacity:.8
 }
+.shape-holder.o09::before,
 .hover-bg.o09::before,
 .bg.o09::before {
 opacity:.9
 }
+.shape-holder.o097::before,
 .hover-bg.o097::before,
 .bg.o097::before {
     opacity: .97;

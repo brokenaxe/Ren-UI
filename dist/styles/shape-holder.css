@@ -23,10 +23,28 @@
     z-index: 0;
 }
 .shape-holder > div {    
-    font-size: 10px !important;
-    line-height: 14px !important;
+    font-size: 10px;
+    line-height: 14px;
     align-items: center;
     display: flex;
     justify-content: center;
     height: 100%;
+}
+.shape-holder.x2 {
+    margin-right: 12px;
+    width: 100px;
+    height: 100px;
+}
+.shape-holder.x2 > div {    
+    font-size: 14px;
+    line-height: 18px;
+}
+.shape-holder.x3 {
+    margin-right: 18px;
+    width: 150px;
+    height: 150px;
+}
+.shape-holder.x3 > div {    
+    font-size: 18px;
+    line-height: 24px;
 }
