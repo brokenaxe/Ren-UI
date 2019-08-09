@@ -113,6 +113,42 @@
     -webkit-mask-image: url('../icons/iconmonstr-plus-1.svg');
     mask-image: url('../icons/iconmonstr-plus-1.svg');
 }
+.icon.sun-cloud {
+    -webkit-mask-image: url('../icons/iconmonstr-weather-7.svg');
+    mask-image: url('../icons/iconmonstr-weather-7.svg');
+}
+.icon.raining {
+    -webkit-mask-image: url('../icons/iconmonstr-weather-14.svg');
+    mask-image: url('../icons/iconmonstr-weather-14.svg');
+}
+.icon.tornado {
+    -webkit-mask-image: url('../icons/iconmonstr-weather-87.svg');
+    mask-image: url('../icons/iconmonstr-weather-87.svg');
+}
+.icon.thunder {
+    -webkit-mask-image: url('../icons/iconmonstr-weather-76.svg');
+    mask-image: url('../icons/iconmonstr-weather-76.svg');
+}
+.icon.cloudy {
+    -webkit-mask-image: url('../icons/iconmonstr-weather-12.svg');
+    mask-image: url('../icons/iconmonstr-weather-12.svg');
+}
+.icon.windy {
+    -webkit-mask-image: url('../icons/iconmonstr-weather-64.svg');
+    mask-image: url('../icons/iconmonstr-weather-64.svg');
+}
+.icon.stary {
+    -webkit-mask-image: url('../icons/iconmonstr-weather-117.svg');
+    mask-image: url('../icons/iconmonstr-weather-117.svg');
+}
+.icon.windy-more {
+    -webkit-mask-image: url('../icons/iconmonstr-weather-86.svg');
+    mask-image: url('../icons/iconmonstr-weather-86.svg');
+}
+.icon.heart {
+    -webkit-mask-image: url('../icons/iconmonstr-favorite-3.svg');
+    mask-image: url('../icons/iconmonstr-favorite-3.svg');
+}
 /*
 .icon:hover,
 .icon:focus {
