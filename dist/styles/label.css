@@ -5,9 +5,9 @@
 .label {
     font-size: .85714286rem;
     padding: .5833em .833em;
-    border-radius: .28571429rem;
-    background-color: #e8e8e8;
-    color: rgba(0,0,0,.6);
+    border-radius: var(--radius);
+    background-color: var(--label-background);
+    color: var(--label);
     vertical-align: middle;
     margin-top: -.15rem;
     display: inline-block;
@@ -39,11 +39,11 @@
     top: 50%;
     left: -.25em;
     margin-top: -.25em;
-    background-color: #fff !important;
+    background-color: var(--background) !important;
     width: .5em;
     height: .5em;
-    -webkit-box-shadow: 0 -1px 1px 0 rgba(0,0,0,.3);
-    box-shadow: 0 -1px 1px 0 rgba(0,0,0,.3);
+    -webkit-box-shadow: 0 -1px 1px 0 var(--shadow-strong);
+    box-shadow: 0 -1px 1px 0 var(--shadow-strong);
     border-radius: 500rem;
 }
 .label.marker.from-right {

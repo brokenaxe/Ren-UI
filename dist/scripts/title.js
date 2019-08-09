@@ -1,5 +1,5 @@
 /*!
- * # renui.js - 2.0.2
+ * # renui.js - 2.7.0
  * https://github.com/brokenaxe/ren-ui
  * http://ren-ui.com/
  *
@@ -7,4 +7,6 @@
  * Released under the MIT license
  * http://opensource.org/licenses/MIT
  */
-var currentVersion = '2.0.2';
+if (currentVersion === undefined) {
+    var currentVersion = '2.7.0';
+}

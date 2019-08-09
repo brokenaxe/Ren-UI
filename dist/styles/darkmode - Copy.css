@@ -1,0 +1,81 @@
+/*******************************
+        Dark Mode
+*******************************/
+
+.show-in-darkmode {
+    display: none;
+}
+@media screen and (prefers-color-scheme: light) {
+
+}
+@media screen and (prefers-color-scheme: dark) {
+    .darkmode,
+    .darkmode .bg.black .label,
+    .darkmode .bg.white::before,
+    .code-container .title {
+        background-color: var(--darkmode-background);
+    }
+    .darkmode i {
+        background-color: var(--darkmode-color-alter);
+    }
+    .darkmode .label,
+    .darkmode button,
+    .darkmode .button:not(.green):not(.blue),
+    .darkmode .bg.black::before,
+    .darkmode .tooltip::after, 
+    .darkmode [data-tooltip]::after {
+        background-color: var(--darkmode-background-alter);
+    }
+    .darkmode .bg.silver::before {
+        background-color: var(--darkmode-background-silver);
+    }
+    .darkmode .bg.gray::before {
+        background-color: var(--darkmode-background-gray);
+    }
+    .darkmode .tooltip-left::before {
+        border-left-color: var(--darkmode-background-alter);
+    }
+    .darkmode,
+    .darkmode .border, 
+    .darkmode pre, 
+    .darkmode form:disabled, 
+    .darkmode form:disabled:hover, 
+    .darkmode form input, 
+    .darkmode form select, 
+    .darkmode .border-top::before, 
+    .darkmode .border-bottom::after, 
+    .darkmode .border-left::before, 
+    .darkmode .border-right::after, 
+    .darkmode .border-t::before, 
+    .darkmode .border-b::after, 
+    .darkmode .border-l::before, 
+    .darkmode .border-r::after {
+        border-color: var(--darkmode-background-alter);
+    }
+    .darkmode *,
+    .darkmode,
+    .darkmode button,
+    .darkmode .label,
+    .darkmode .bg.black,
+    .darkmode .bg.silver,
+    .darkmode .bg.gray,
+    .darkmode .bg.white,
+    .darkmode .tooltip, 
+    .darkmode [data-tooltip] {
+        color: var(--darkmode-color);
+    }
+    
+    .darkmode .gradient.black {
+        background: var(--background-color-alter);
+        background: -moz-radial-gradient(center,ellipse cover,var(--darkmode-background) 0%,var(--darkmode-background-alter) 100%);
+        background: -webkit-gradient(radial,center center,0,center center,100%,color-stop(0%,var(--darkmode-background)),color-stop(100%,var(--darkmode-background-alter)));
+        background: -webkit-radial-gradient(center,ellipse cover,var(--darkmode-background) 0%,var(--darkmode-background-alter) 100%);
+        background: -o-radial-gradient(center,ellipse cover,var(--darkmode-background) 0%,var(--darkmode-background-alter) 100%);
+        background: -ms-radial-gradient(center,ellipse cover,var(--darkmode-background) 0%,var(--darkmode-background-alter) 100%);
+        background: radial-gradient(ellipse at center,var(--darkmode-background) 0%,var(--darkmode-background-alter) 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='var(--darkmode-background)',endColorstr='var(--darkmode-background-alter)111',GradientType=1);
+    }
+    .darkmode .show-in-darkmode {
+        display: inline-block;
+    }
+}

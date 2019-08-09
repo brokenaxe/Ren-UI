@@ -40,18 +40,20 @@ body {
     padding: 0px;
     overflow-x: hidden;
     min-width: 320px;
-    background: #FFFFFF;
+    background-color: var(--background);
     font-family: sans-serif;
     line-height: 1.4285em;
-    color: rgba(0, 0, 0, 0.87);
     font-smoothing: antialiased;
 }
 * {
   overflow-wrap: break-word;
 }
 a {
-  color: #1e70bf;
+  color: var(--link);
   text-decoration: none;
+}
+a:hover {
+  color: var(--link-hover);
 }
 [onclick] {
   cursor: pointer;
@@ -61,6 +63,7 @@ a {
   margin-right: auto;
 }
 .underline,
-.hover-underline:hover {
-  text-decoration: underline;
+.hover-underline a:hover,
+a.hover-underline:hover {
+    text-decoration: underline;
 }

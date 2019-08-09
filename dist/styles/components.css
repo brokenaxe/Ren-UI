@@ -24,7 +24,7 @@
     content: '';
     top:-4px;
     left:0;
-    border: solid #000;
+    border: solid var(--text);
     border-width: 0 1px 1px 0;
     width: 7px;
     height: 7px;
@@ -37,7 +37,7 @@
     position: absolute;
     top:-4px;
     right:0;
-    border: solid #000;
+    border: solid var(--text);
     border-width: 0 1px 1px 0;
     width: 7px;
     height: 7px;
@@ -50,7 +50,7 @@
     position: relative;
     top: -13px;
     display: inline-block;
-    padding: 0 10px;
+    padding: 3px 10px;
     font-size: 11px;
     text-transform: uppercase;
     z-index: 10;
@@ -59,7 +59,7 @@
 .sizer-left span::before,
 .sizer-right span::before {
     content: '';
-    background-color: #fff;
+    background-color: var(--background);
     top: 3px;
     position: absolute;
     z-index: -1;
@@ -69,7 +69,7 @@
 }
 .code-icon {
     position: relative;
-    border: solid #999;
+    border: solid var(--code-icon);
     border-width: 0 3px 3px 0;
     width: 12px;
     height: 12px;
@@ -83,7 +83,7 @@
     position: absolute;
     top:-4px;
     right:1px;
-    border: solid #999;
+    border: solid var(--code-icon);
     border-width: 0 3px 3px 0;
     width: 12px;
     height: 12px;
@@ -174,7 +174,7 @@
     width: 0;
 }
 .comments li .holder .text {
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: var(--button-background);
     border-radius: 4px;
     float: left;
     margin-bottom: -2px;
@@ -203,7 +203,7 @@
     position: absolute;
     top: 10px;
     width: 2px;
-    z-index: -1;
+    z-index: 0;
 }
 .timeline::after {
     clear: both;
@@ -383,18 +383,17 @@
 }
 .cards .card {
     border-radius: 15px;
-    -moz-box-shadow: 0 12px 15px 0 rgba(0,0,0,.24);
-    box-shadow: 0 12px 15px 0 rgba(0,0,0,.24);
+    -moz-box-shadow: 0 0 10px var(--shadow-more);
+    box-shadow: 0 0 10px var(--shadow-more);
     position: absolute;
     width: calc(100% - 60px);
     max-height: calc(100% - 70px) ;
     margin: auto;
-    color: #111;
-    background: #ffffff;
+    color: var(--text);
+    background: var(--background);
     opacity: 0;
     transform: translateY(9.9vh) scale(0.76);
     transform-origin: 50%, 100%;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     user-select: none;
     will-change: transform, opacity;
     height: 100vw;
@@ -416,12 +415,12 @@
 }
 .cards .card:nth-child(2) {
     z-index: 2;
-    opacity: 0.8;
+    opacity: 0.96;
     transform: translateY(1.3vh) scale(.97);
 }
 .cards .card:nth-child(3) {
     z-index: 1;
-    opacity: 0.6;
+    opacity: 0.93;
     transform: translateY(2.6vh) scale(.94);
 }
 .cards .card-swipe::after {
@@ -455,8 +454,8 @@
     }
 }
 .shadow {
-    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.01);
+    box-shadow: 0px 0px 10px 0px var(--shadow);
 }
 .hover-shadow:hover {
-    box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.19);
+    box-shadow: 0px 0px 30px 0px var(--shadow-hover);
 }

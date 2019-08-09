@@ -3,6 +3,7 @@
 *******************************/
 .border,
 pre,
+form .input,
 form *:disabled,
 form *:disabled:hover,
 form input,
@@ -15,9 +16,23 @@ form select,
 .border-b::after,
 .border-l::before,
 .border-r::after {
-border-color:rgba(34, 36, 38, .15);
+border-color:var(--border);
 }
-
+.border.border-hover:hover,
+pre.border-hover:hover,
+form .input.border-hover:hover,
+form input.border-hover:hover,
+form select.border-hover:hover,
+.border-top.border-hover:hover::before,
+.border-bottom.border-hover:hover::after,
+.border-left.border-hover:hover::before,
+.border-right.border-hover:hover::after,
+.border-t.border-hover:hover::before,
+.border-b.border-hover:hover::after,
+.border-l.border-hover:hover::before,
+.border-r.border-hover:hover::after {
+border-color:var(--border-selected);
+}
 .relative,
 .border-top,
 .border-bottom,

@@ -1,3 +1,4 @@
+var currentVersion = '2.0.2';
 var licenced = 1;
 
 $.each($('.label'), function(index, value) { 
@@ -6,18 +7,24 @@ $.each($('.label'), function(index, value) {
     labelVal = labelVal.trim()
     if (labelVal.indexOf('.') !== -1) {
         if (labelVal.indexOf(currentVersion) !== -1) {
-            if (labelVal.indexOf("i") !== -1) {
-                $(this).html(labelVal.replace("i",""));
-                $(this).attr("title","Improved in v" + labelVal.replace("i",""));
-                $(this).addClass("silver");
-            } else {
-                if ($(this).hasClass("latestversion") !== true) {
-                    $(this).html("New in v" + labelVal);
-                }
-                $(this).addClass("gray");
+            if ($(this).hasClass("latestversion") !== true) {
+                $(this).html("New in " + labelVal);
             }
+            $(this).addClass("silver o01");
         } else {
-            $(this).attr("title","Introduced in v" + labelVal);
+            if (labelVal.indexOf("|") !== -1) {
+                var values = labelVal.split('|');
+                $(this).html(values[0]);
+                $(this).attr("title","Introduced in " + values[1]);
+                $(this).addClass("silver");
+            } else if (Number(currentVersion.replace('.','').replace('.','')) < Number(labelVal.replace('.','').replace('.',''))) {
+                $(this).attr("title","Not Public Released yet will be avialable in " + labelVal);
+                $(this).html("Public Preview Only " + currentVersion + '');
+                $(this).addClass("aqua o01");
+            } else {
+                $(this).attr("title","Introduced in " + labelVal);
+            }
+            
         }
     }
     if ($(this).hasClass("latestversion") === true) {

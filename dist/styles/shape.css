@@ -53,11 +53,11 @@
     content: "";
     position: absolute;
 	border-top-width: 5vh;
-	border-top-color: rgba(255,255,255,1);
+	border-top-color: var(--background);
 	border-top-style: solid;
 }
 .shape.top.with-black::before {
-	border-top-color: rgba(0,0,0,1);
+	border-top-color: var(--text);
 }
 .shape.bottom {
     padding-bottom: 6vh !important;
@@ -71,11 +71,11 @@
     content: "";
     position: absolute;
 	border-bottom-width: 5vh;
-	border-bottom-color: rgba(255,255,255,1);
+	border-bottom-color: var(--background);
 	border-bottom-style: solid;
 }
 .shape.bottom.with-black::after {
-	border-bottom-color: rgba(0,0,0,1);
+	border-bottom-color: var(--text);
 }
 .shape.top.from-left::before,
 .shape.bottom.from-left::after {

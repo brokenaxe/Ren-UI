@@ -54,7 +54,7 @@
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
     filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
     opacity: 1;
-    border-radius: .21428571rem;
+    border-radius: var(--radius-less);
 }
 
 .tooltip:before,
@@ -160,29 +160,25 @@
 }
 .tooltip:after,
 [data-tooltip]:after {
-    background-color: rgba(34,36,38,0.98);
-    color: #fff;
+    background-color: var(--tooltip-background);
+    color: var(--background);
 }
 [data-tooltip]:before,
 .tooltip:before,
 .tooltip-top:before {
-    border-top-color: #000;
-    border-top-color: rgba(34,36,38,0.98);
+    border-top-color: var(--tooltip-background);
 }
 .tooltip-left:before {
     border-top-color: transparent;
-    border-left-color: #000;
-    border-left-color: rgba(34,36,38,0.98);
+    border-left-color: var(--tooltip-background);
 }
 .tooltip-bottom:before {
     border-top-color: transparent;
-    border-bottom-color: #000;
-    border-bottom-color: rgba(34,36,38,0.98);
+    border-bottom-color: var(--tooltip-background);
 }
 .tooltip-right:before {
     border-top-color: transparent;
-    border-right-color: #000;
-    border-right-color: rgba(34,36,38,0.98);
+    border-right-color: var(--tooltip-background);
 }
 
 [data-tooltip].stick:before,
@@ -193,7 +189,7 @@
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
     filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
     opacity: 1;
-    border-radius: .21428571rem;
+    border-radius: var(--radius-less);
 }
 [data-tooltip].stick:before,
 [data-tooltip].stick:after,
@@ -208,10 +204,6 @@
     left: calc(50% - 6px);
     top:0;
 }
-
-
-
-
 [data-tooltip].stick,
 .tooltip.stick,
 .tooltip-top.stick {
@@ -271,8 +263,6 @@
 .tooltip-left.stick:after {
     bottom: unset;
 }
-
-
 [data-tooltip].stick:hover:before,
 [data-tooltip].stick:hover:after,
 [data-tooltip].stick:focus:before,
@@ -311,5 +301,5 @@ visibility: visible;
 -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
 filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
 opacity: 1;
-border-radius: .21428571rem;
+border-radius: var(--radius-less);
 } */

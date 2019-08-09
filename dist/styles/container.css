@@ -132,7 +132,7 @@
     float: right;
 }
 .container.with-full-img * {
-    color: #f5f5f5;
+    color: var(--text-invert);
 }
 .container.with-full-img img {
     width: 100%;

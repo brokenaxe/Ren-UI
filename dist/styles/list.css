@@ -45,7 +45,7 @@ ol li::before {
     counter-increment: my-counter;
     content: counters(my-counter, ".") " ";
     text-align: left;
-    color: rgba(0,0,0,.87);
+    color: inherit;
     vertical-align: middle;
     opacity: .8;
     left: 0;

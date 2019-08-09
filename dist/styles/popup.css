@@ -46,7 +46,7 @@
 }
 .popup .holder .bg::before {
     opacity: 0.1;
-    background-color: #111;
+    background-color: var(--popup-background);
     border-radius: 0;
     bottom: 0;
     content: "";
@@ -58,18 +58,18 @@
     border-radius: inherit;
 }
 .popup .holder .window {
-    background-color: #fff;
+    background-color: var(--background);
     display: inline-block;
     border-radius: 5px;
     padding: 0;
-    color: #111;
+    color: var(--text);
     -webkit-transform:scale(0.5); /* Safari and Chrome */
     -moz-transform:scale(0.5); /* Firefox */
     -ms-transform:scale(0.5); /* IE 9 */
     -o-transform:scale(0.5); /* Opera */
      transform:scale(0.5);
-     -moz-box-shadow: 0 12px 15px 0 rgba(0,0,0,0.24);
-     box-shadow: 0 12px 15px 0 rgba(0,0,0,0.24);
+     -moz-box-shadow: 0 12px 15px 0 var(--shadow-medium);
+     box-shadow: 0 12px 15px 0 var(--shadow-medium);
      min-width: 20%;
      max-height: 80%;
      max-width: 90%;

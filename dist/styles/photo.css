@@ -216,5 +216,5 @@ border: 10px solid #fff;
   width: 100%;
   bottom: -6px;
   font: 400 18px/1 'Kaushan Script', cursive;
-  color: #888;
+  color: var(--text-lighter);
 }

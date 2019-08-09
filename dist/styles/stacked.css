@@ -65,3 +65,6 @@
 .stacked.gap-x3>div {
     margin-bottom: 3rem;
 }
+form .stacked {
+    margin-bottom: 0;
+}

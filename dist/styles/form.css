@@ -10,15 +10,17 @@ form {
     display: inline-block;
     width: 100%;
 }
-
 form label {
     display: block;
-    margin: 0 0 .28571429rem 0;
-    color: rgba(0, 0, 0, .87);
+    margin: 0 0 var(--radius) 0;
+    color: var(--text);
     font-size: .92857143em;
     font-weight: 700;
     text-transform: none;
 }
+form .textarea,
+form textarea,
+form .input,
 li input,
 form input,
 form select {
@@ -26,15 +28,15 @@ form select {
     margin: 0;
     outline: 0;
     -webkit-appearance: none;
-    tap-highlight-color: rgba(255, 255, 255, 0);
+    tap-highlight-color: var(--background);
     line-height: 1.21428571em;
     padding: .67857143em 1em;
     font-size: 1em;
-    background: #fff;
+    background: var(--background);
     border-width: 1px ;
     border-style: solid;
-    color: rgba(0, 0, 0, .87);
-    border-radius: .28571429rem;
+    color: var(--text);
+    border-radius: var(--radius);
     -webkit-box-shadow: 0 0 0 0 transparent inset;
     box-shadow: 0 0 0 0 transparent inset;
     -webkit-transition: color .1s ease, border-color .1s ease;
@@ -46,18 +48,31 @@ form select {
     -webkit-appearance: none;
     appearance: none;
 }
+form .textarea,
+form textarea {
+    max-width: 100%;
+    min-height: 60px;
+}
+form .input,
+form .textarea,
+form textarea {
+    border-color: var(--border);
+}
+form .input.withline,
 form input.withline {
     border-top: none;
     border-left: none;
     border-right: none;
     border-radius: 0;
 }
+form .input.disabled,
+form .input.disabled.hover,
 .button.disabled,
 .button.disabled:hover,
 form *:disabled,
 form *:disabled:hover {
-    color: rgba(34, 36, 38, .40);
-    background-color:rgba(34, 36, 38, .05);
+    color: var(--disabled);
+    background-color:var(--disabled-background);
     cursor: unset;
 }
 form option {
@@ -75,7 +90,7 @@ form .select:after {
     height: 0;
     border-left: 6px solid transparent;
     border-right: 6px solid transparent;
-    border-top: 6px solid rgba(34, 36, 38, .15);
+    border-top: 6px solid var(--border);
     content: '';
     position: absolute;
     top: 17px;
@@ -96,35 +111,26 @@ form select {
     -moz-appearance: none;
     appearance: none;
 }
-
-
-
+form .textarea:focus, 
+form textarea:focus,
+form .input:focus,
 form select:hover,
 form select:focus,
 form input:hover,
 form input:focus {
-    -webkit-box-shadow: 0 0 0 1px transparent inset, 0 0 0 0 rgba(34, 36, 38, .15) inset;
-    box-shadow: 0 0 0 1px transparent inset, 0 0 0 0 rgba(34, 36, 38, .15) inset;
-    border-color: #85b7d9;
+    -webkit-box-shadow: 0 0 0 1px transparent inset, 0 0 0 0 var(--border) inset;
+    box-shadow: 0 0 0 1px transparent inset, 0 0 0 0 var(--border) inset;
+    border-color: var(--border-hover);
 }
-
-
-
-
-
-
-
-
-
 form .select:hover:after,
 form .select:focus:after {
-    border-top: 6px solid #85b7d9;
+    border-top: 6px solid var(--border-hover);
 }
 form .warning,
 form .warning:hover,
 form .warning:focus {
-    border-color: #ff4136;
-    color: #ff4136;
+    border-color: var(--border-warning);
+    color: var(--border-warning);
 }
 form.has-space-b .button,
 form.has-space-b button,
@@ -164,8 +170,8 @@ form .switch.onright label {
 
 form .radio label::before,
 form .checkbox label::before {    
-    background-color: #fff;
-    border: 1px solid rgba(34, 36, 38, .15);
+    background-color: var(--background);
+    border: 1px solid var(--border);
     -webkit-box-shadow: 0 0 0 0 transparent inset;
     box-shadow: 0 0 0 0 transparent inset;
     display: inline-block;
@@ -178,7 +184,7 @@ form .checkbox label::before {
 }
 form .checkbox label::before {    
     padding: 9px;
-    border-radius: .28571429rem;
+    border-radius: var(--radius);
 }
 form .checkbox.asradio label::before,
 form .radio label::before {    
@@ -197,8 +203,8 @@ form .checkbox [type="checkbox"]:checked + label::after {
     width: 11px;
     height: 7px;
     top: 9px;
-    border-right: solid 3px #798187;
-    border-top: solid 3px #798187;
+    border-right: solid 3px var(--text);
+    border-top: solid 3px var(--text);
     transform: rotate(135deg);
 }
 form .checkbox.asradio [type="checkbox"]:checked + label::after,
@@ -206,7 +212,7 @@ form .radio [type="radio"]:checked + label::after {
     content: ' ';
     border-radius: 50%;
     top: 8px;
-    background: #798187;
+    background: var(--text);
     left: 4px;
     width: 12px;
     height: 12px;
@@ -217,8 +223,8 @@ form .switch [type="checkbox"]:checked + label::before {
     left: 0;
     top: 6px;
     width: 3em;
-    border: 2px solid #dddddd;
-    background: #dddddd;
+    border: 2px solid var(--switch);
+    background: var(--switch);
     border-radius: 1.1em;
     z-index: 0;
 }
@@ -244,7 +250,7 @@ form .switch [type="checkbox"]:not(:checked) + label::after,
 form .switch [type="checkbox"]:checked + label::after {
     left: .15em;
     top: 8px;
-    background-color: #fff;
+    background-color: var(--background);
     border-radius: 50%;
     width: 15px;
     height: 15px;
@@ -255,8 +261,8 @@ form .switch.onright [type="checkbox"]:checked + label::after {
     right: 1.65em;
 }
 form .switch [type="checkbox"]:checked + label::before {
-    background-color: #72da67;
-    border-color: #72da67;
+    background-color: var(--switch-checked);
+    border-color: var(--switch-checked);
 }
 form .switch [type="checkbox"]:checked + label::after {
     left: 1.65em;
@@ -293,41 +299,6 @@ form .width-q {
 form .width-q:last-child {
     margin-right: 0;
 }
-.button.mini,
-button.mini,
-input.mini {
-    font-size: .78571429rem;
-}
-.button.tiny,
-button.tiny,
-input.tiny {
-    font-size: .85714286rem;
-}
-.button.small,
-button.small,
-input.small {
-    font-size: .92857143rem;
-}
-.button.large,
-button.large,
-input.large {
-    font-size: 1.14285714rem;
-}
-.button.big,
-button.big,
-input.big {
-    font-size: 1.28571429rem;
-}
-.button.huge,
-button.huge,
-input.huge {
-    font-size: 1.42857143rem;
-}
-.button.massive,
-button.massive,
-input.massive {
-    font-size: 1.71428571rem;
-}
 .loading::before {
     position: absolute;
     content: '';
@@ -337,7 +308,7 @@ input.massive {
     width: 1.28571429em;
     height: 1.28571429em;
     border-radius: 500rem;
-    border: .2em solid rgba(0,0,0,.15);
+    border: .2em solid var(--border);
 }
 .loading::after {
     position: absolute;
@@ -353,7 +324,7 @@ input.massive {
     -webkit-animation-iteration-count: infinite;
     animation-iteration-count: infinite;
     border-radius: 500rem;
-    border-color: #fff transparent transparent;
+    border-color: var(--background) transparent transparent;
     border-style: solid;
     border-width: .2em;
     -webkit-box-shadow: 0 0 0 1px transparent;
@@ -368,4 +339,72 @@ input.massive {
     pointer-events: auto;
     -webkit-transition: all 0s linear,opacity .1s ease;
     transition: all 0s linear,opacity .1s ease;
+}
+form .input {
+    height: 38px;
+}
+form .input-message {
+    display: inline-block;
+    outline: 0;
+    border: none;
+    vertical-align: baseline;
+    padding: .78571429em 1em .65em;
+    text-transform: none;
+    text-shadow: none;
+    line-height: 1em;
+    font-style: normal;
+    font-size: 10px;
+    text-align: left;
+    text-decoration: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-transition: opacity .1s ease,background-color .1s ease,color .1s ease,background .1s ease,-webkit-box-shadow .1s ease;
+    transition: opacity .1s ease,background-color .1s ease,color .1s ease,background .1s ease,-webkit-box-shadow .1s ease;
+    transition: opacity .1s ease,background-color .1s ease,color .1s ease,box-shadow .1s ease,background .1s ease;
+    transition: opacity .1s ease,background-color .1s ease,color .1s ease,box-shadow .1s ease,background .1s ease,-webkit-box-shadow .1s ease;
+    will-change: '';
+    -webkit-tap-highlight-color: transparent;
+}
+form .input-message.attach {
+    position: absolute;
+    top: 19px;
+    right: 4px;
+    opacity: 0.6;
+}
+form .mini,
+button.mini,
+.button.mini {
+    font-size: .78571429rem;
+}
+form .tiny,
+button.tiny,
+.button.tiny  {
+    font-size: .85714286rem;
+}
+form .small,
+button.small,
+.button.small  {
+    font-size: .92857143rem;
+}
+form .large,
+button.large,
+.button.large  {
+    font-size: 1.14285714rem;
+}
+form .big,
+button.big,
+.button.big  {
+    font-size: 1.28571429rem;
+}
+form .huge,
+button.huge,
+.button.huge {
+    font-size: 1.42857143rem;
+}
+form .massive,
+button.massive,
+.button.massive  {
+    font-size: 1.71428571rem;
 }

@@ -13,6 +13,64 @@ function hndl(id,html) {
     }
     set();
 }
+function method(pg,id,md,dt) {
+    $('#loading').removeClass('hide');
+	if ($("#" + id).length > 0) {
+        $.ajax({
+            method: md,
+            url: pg,
+            cache: false,
+            data: dt,
+            success: function(html){
+                hndl(id,html);
+            }, error: function(data) {
+                error(data);
+			}
+        });
+	}
+}
+function jsondata(md,pg,id) {
+    if ($('#' + id).find('.template').length > 0) {
+        $('#' + id).addClass('loading');
+
+        $.ajax({
+            method: md,
+            url: pg,
+            cache: false,
+            success: function(data){
+                if ($("#" + id).length > 0) {
+                    if ($('#' + id).html().length !== data.length) {
+                        if (typeof data === 'object') {
+                            var template = '';
+                            var currentTemplate = '';
+                            template = $('#' + id).find('.template').html();
+    
+                            for(i=0;i<data.length;i++){
+                                currentTemplate = template;
+                                for(var x in data[i]){
+                                    currentTemplate = currentTemplate.replace('[renui-populate-' + x + ']',data[i][x]);
+                                }
+                                $('#' + id).find('.result').append(currentTemplate);
+                            }
+                            $('#' + id).find('.template').remove();
+                        }
+                    }
+                }
+                set();
+                $.each($('.loading'), function(index, value) {
+                    $(this).removeClass('loading'); 
+                });   
+                $('#' + id).removeClass('jsondata');
+
+            }, error: function(data) {
+                error(data);
+            }
+        });
+        
+        //$('#' + id).find('.template').removeClass('template');
+        //$('#' + id).find('.result').removeClass('result');
+    }
+}
 function jsonResponse(respJson, id) {
     if (typeof respJson.Url !== 'undefined') {
         error('Action Not Found (Contact Administrator):\nUrl: ' + respJson.Url + '\nReferrer: ' + respJson.Referrer + '\nMethod: ' + respJson.Method);

@@ -6,6 +6,34 @@
     font-size: 3.5em;
     margin: .2em 0 2px;
 }
+.icon-holder {
+    display: inline-block;
+    outline: 0;
+    border: none;
+    vertical-align: baseline;
+    background: var(--button-background) none;
+    background-color: var(--button-background);
+    padding: .78571429em 1em 0.65em;
+    text-transform: none;
+    text-shadow: none;
+    line-height: 1em;
+    font-style: normal;
+    text-align: center;
+    text-decoration: none;
+    border-radius: var(--radius);
+    -webkit-box-shadow: 0 0 0 1px transparent inset,0 0 0 0 var(--button-shadow) inset;
+    box-shadow: 0 0 0 1px transparent inset,0 0 0 0 var(--button-shadow) inset;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-transition: opacity .1s ease,background-color .1s ease,color .1s ease,background .1s ease,-webkit-box-shadow .1s ease;
+    transition: opacity .1s ease,background-color .1s ease,color .1s ease,background .1s ease,-webkit-box-shadow .1s ease;
+    transition: opacity .1s ease,background-color .1s ease,color .1s ease,box-shadow .1s ease,background .1s ease;
+    transition: opacity .1s ease,background-color .1s ease,color .1s ease,box-shadow .1s ease,background .1s ease,-webkit-box-shadow .1s ease;
+    will-change: '';
+    -webkit-tap-highlight-color: transparent;
+}
 .icon {
     position: relative;
     display: inline-block;
@@ -15,7 +43,7 @@
     height: 0.21em;
     margin: 0;
     align-items:center;
-    background-color: #111111;
+    background-color: var(--text);
 }
 .icon.renui {
     -webkit-mask-image:url('../icons/renui.svg');
@@ -24,7 +52,6 @@
 .icon.home {
     -webkit-mask-image:url('../icons/iconmonstr-home.svg');
     mask-image:url('../icons/iconmonstr-home.svg');
-
 }
 .icon.copy {
     -webkit-mask-image:url('../icons/iconmonstr-copy-13.svg');
@@ -73,6 +100,18 @@
 .icon.arrow-bottom {
     -webkit-mask-image:url('../icons/iconmonstr-arrow-65.svg');
     mask-image:url('../icons/iconmonstr-arrow-65.svg');
+}
+.icon.sun {
+    -webkit-mask-image:url('../icons/iconmonstr-brightness-2.svg');
+    mask-image:url('../icons/iconmonstr-brightness-2.svg');
+}
+.icon.moon {
+    -webkit-mask-image:url('../icons/iconmonstr-weather-114.svg');
+    mask-image:url('../icons/iconmonstr-weather-114.svg');
+}
+.icon.plus {
+    -webkit-mask-image: url('../icons/iconmonstr-plus-1.svg');
+    mask-image: url('../icons/iconmonstr-plus-1.svg');
 }
 /*
 .icon:hover,

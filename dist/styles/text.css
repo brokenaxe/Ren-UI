@@ -83,9 +83,9 @@ line-height:22px !important
 font-size:20px !important;
 line-height:24px !important
 }
-.text-18.icon {
-    width:18px;
-    height:18px;
+.text-20.icon {
+    width:20px;
+    height:20px;
 }
 .text-22 {
 font-size:22px !important;
@@ -189,7 +189,7 @@ dl.horizontal dd {
     margin-left: 170px;
 }
 blockquote {
-    border-left-color: rgba(227,227,229,1);
+    border-left-color: var(--background-alter);
     border-left-width: 4px;
     border-left-style: solid;
     margin-bottom: 10px;
@@ -204,9 +204,9 @@ blockquote small {
 }
 blockquote.to-right {
     border-left: medium none;
-    border-right: 3px solid #ccc;
+    border-right: 3px solid var(--background-alter);
     float: none;
-    padding: 3px 8px 5px 0;
+    padding: 0 14px 0 0;
     text-align: right;
     margin-right: 0;
 }
@@ -216,7 +216,7 @@ hr {
     height: 1px;
     margin: 10px 0;
     width: 100%;
-    background-color: rgba(34,36,38,.2);
+    background-color: var(--border-selected);
 }
 hr.x2 {
     height: 2px;

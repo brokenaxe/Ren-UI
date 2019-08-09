@@ -21,36 +21,47 @@ background-position:center center;
 background-repeat:no-repeat;
 background-size:cover
 }
+.hover-bg.o00::before,
 .bg.o00::before {
 opacity:0
 }
+.hover-bg.o01::before,
 .bg.o01::before {
 opacity:.1
 }
+.hover-bg.o02::before,
 .bg.o02::before {
 opacity:.2
 }
+.hover-bg.o03::before,
 .bg.o03::before {
 opacity:.3
 }
+.hover-bg.o04::before,
 .bg.o04::before {
 opacity:.4
 }
+.hover-bg.o05::before,
 .bg.o05::before {
 opacity:.5
 }
+.hover-bg.o06::before,
 .bg.o06::before {
 opacity:.6
 }
+.hover-bg.o07::before,
 .bg.o07::before {
 opacity:.7
 }
+.hover-bg.o08::before,
 .bg.o08::before {
 opacity:.8
 }
+.hover-bg.o09::before,
 .bg.o09::before {
 opacity:.9
 }
+.hover-bg.o097::before,
 .bg.o097::before {
     opacity: .97;
 }
