@@ -1,4 +1,4 @@
-var currentVersion = '2.0.2';
+var currentVersion = '2.7.0';
 var licenced = 1;
 
 $.each($('.label'), function(index, value) { 

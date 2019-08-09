@@ -2,10 +2,11 @@
             Colour
 *******************************/
 .text-white .icon,
-.button.white .icon,
 .icon-holder.white {
     background-color: var(--white-background);
 }
+.button.white .icon,
+button.white .icon,
 .icon-holder.white .icon {
     background-color: var(--white-text);
 }
@@ -41,7 +42,7 @@ button.white,
     color: var(--white-text-alt);
 }
 .button.white:hover .icon,
-button.white:hover.icon,
+button.white:hover .icon,
 .bg.white .icon {
     background-color: var(--white-text-alt);
 }
@@ -114,10 +115,11 @@ button.white:hover {
     stroke: var(--white-background);
 }
 .text-navy .icon,
-.button.navy .icon,
 .icon-holder.navy {
     background-color: var(--navy-background);
 }
+.button.navy .icon,
+button.navy .icon,
 .icon-holder.navy .icon {
     background-color: var(--navy-text);
 }
@@ -153,7 +155,7 @@ button.navy,
     color: var(--navy-text-alt);
 }
 .button.navy:hover .icon,
-button.navy:hover.icon,
+button.navy:hover .icon,
 .bg.navy .icon {
     background-color: var(--navy-text-alt);
 }
@@ -226,10 +228,11 @@ button.navy:hover {
     stroke: var(--navy-background);
 }
 .text-blue .icon,
-.button.blue .icon,
 .icon-holder.blue {
     background-color: var(--blue-background);
 }
+.button.blue .icon,
+button.blue .icon,
 .icon-holder.blue .icon {
     background-color: var(--blue-text);
 }
@@ -265,7 +268,7 @@ button.blue,
     color: var(--blue-text-alt);
 }
 .button.blue:hover .icon,
-button.blue:hover.icon,
+button.blue:hover .icon,
 .bg.blue .icon {
     background-color: var(--blue-text-alt);
 }
@@ -338,10 +341,11 @@ button.blue:hover {
     stroke: var(--blue-background);
 }
 .text-aqua .icon,
-.button.aqua .icon,
 .icon-holder.aqua {
     background-color: var(--aqua-background);
 }
+.button.aqua .icon,
+button.aqua .icon,
 .icon-holder.aqua .icon {
     background-color: var(--aqua-text);
 }
@@ -377,7 +381,7 @@ button.aqua,
     color: var(--aqua-text-alt);
 }
 .button.aqua:hover .icon,
-button.aqua:hover.icon,
+button.aqua:hover .icon,
 .bg.aqua .icon {
     background-color: var(--aqua-text-alt);
 }
@@ -450,10 +454,11 @@ button.aqua:hover {
     stroke: var(--aqua-background);
 }
 .text-teal .icon,
-.button.teal .icon,
 .icon-holder.teal {
     background-color: var(--teal-background);
 }
+.button.teal .icon,
+button.teal .icon,
 .icon-holder.teal .icon {
     background-color: var(--teal-text);
 }
@@ -489,7 +494,7 @@ button.teal,
     color: var(--teal-text-alt);
 }
 .button.teal:hover .icon,
-button.teal:hover.icon,
+button.teal:hover .icon,
 .bg.teal .icon {
     background-color: var(--teal-text-alt);
 }
@@ -562,10 +567,11 @@ button.teal:hover {
     stroke: var(--teal-background);
 }
 .text-olive .icon,
-.button.olive .icon,
 .icon-holder.olive {
     background-color: var(--olive-background);
 }
+.button.olive .icon,
+button.olive .icon,
 .icon-holder.olive .icon {
     background-color: var(--olive-text);
 }
@@ -601,7 +607,7 @@ button.olive,
     color: var(--olive-text-alt);
 }
 .button.olive:hover .icon,
-button.olive:hover.icon,
+button.olive:hover .icon,
 .bg.olive .icon {
     background-color: var(--olive-text-alt);
 }
@@ -674,10 +680,11 @@ button.olive:hover {
     stroke: var(--olive-background);
 }
 .text-green .icon,
-.button.green .icon,
 .icon-holder.green {
     background-color: var(--green-background);
 }
+.button.green .icon,
+button.green .icon,
 .icon-holder.green .icon {
     background-color: var(--green-text);
 }
@@ -713,7 +720,7 @@ button.green,
     color: var(--green-text-alt);
 }
 .button.green:hover .icon,
-button.green:hover.icon,
+button.green:hover .icon,
 .bg.green .icon {
     background-color: var(--green-text-alt);
 }
@@ -786,10 +793,11 @@ button.green:hover {
     stroke: var(--green-background);
 }
 .text-lime .icon,
-.button.lime .icon,
 .icon-holder.lime {
     background-color: var(--lime-background);
 }
+.button.lime .icon,
+button.lime .icon,
 .icon-holder.lime .icon {
     background-color: var(--lime-text);
 }
@@ -825,7 +833,7 @@ button.lime,
     color: var(--lime-text-alt);
 }
 .button.lime:hover .icon,
-button.lime:hover.icon,
+button.lime:hover .icon,
 .bg.lime .icon {
     background-color: var(--lime-text-alt);
 }
@@ -898,10 +906,11 @@ button.lime:hover {
     stroke: var(--lime-background);
 }
 .text-yellow .icon,
-.button.yellow .icon,
 .icon-holder.yellow {
     background-color: var(--yellow-background);
 }
+.button.yellow .icon,
+button.yellow .icon,
 .icon-holder.yellow .icon {
     background-color: var(--yellow-text);
 }
@@ -937,7 +946,7 @@ button.yellow,
     color: var(--yellow-text-alt);
 }
 .button.yellow:hover .icon,
-button.yellow:hover.icon,
+button.yellow:hover .icon,
 .bg.yellow .icon {
     background-color: var(--yellow-text-alt);
 }
@@ -1010,10 +1019,11 @@ button.yellow:hover {
     stroke: var(--yellow-background);
 }
 .text-orange .icon,
-.button.orange .icon,
 .icon-holder.orange {
     background-color: var(--orange-background);
 }
+.button.orange .icon,
+button.orange .icon,
 .icon-holder.orange .icon {
     background-color: var(--orange-text);
 }
@@ -1049,7 +1059,7 @@ button.orange,
     color: var(--orange-text-alt);
 }
 .button.orange:hover .icon,
-button.orange:hover.icon,
+button.orange:hover .icon,
 .bg.orange .icon {
     background-color: var(--orange-text-alt);
 }
@@ -1122,10 +1132,11 @@ button.orange:hover {
     stroke: var(--orange-background);
 }
 .text-red .icon,
-.button.red .icon,
 .icon-holder.red {
     background-color: var(--red-background);
 }
+.button.red .icon,
+button.red .icon,
 .icon-holder.red .icon {
     background-color: var(--red-text);
 }
@@ -1161,7 +1172,7 @@ button.red,
     color: var(--red-text-alt);
 }
 .button.red:hover .icon,
-button.red:hover.icon,
+button.red:hover .icon,
 .bg.red .icon {
     background-color: var(--red-text-alt);
 }
@@ -1234,10 +1245,11 @@ button.red:hover {
     stroke: var(--red-background);
 }
 .text-fuchsia .icon,
-.button.fuchsia .icon,
 .icon-holder.fuchsia {
     background-color: var(--fuchsia-background);
 }
+.button.fuchsia .icon,
+button.fuchsia .icon,
 .icon-holder.fuchsia .icon {
     background-color: var(--fuchsia-text);
 }
@@ -1273,7 +1285,7 @@ button.fuchsia,
     color: var(--fuchsia-text-alt);
 }
 .button.fuchsia:hover .icon,
-button.fuchsia:hover.icon,
+button.fuchsia:hover .icon,
 .bg.fuchsia .icon {
     background-color: var(--fuchsia-text-alt);
 }
@@ -1346,10 +1358,11 @@ button.fuchsia:hover {
     stroke: var(--fuchsia-background);
 }
 .text-purple .icon,
-.button.purple .icon,
 .icon-holder.purple {
     background-color: var(--purple-background);
 }
+.button.purple .icon,
+button.purple .icon,
 .icon-holder.purple .icon {
     background-color: var(--purple-text);
 }
@@ -1385,7 +1398,7 @@ button.purple,
     color: var(--purple-text-alt);
 }
 .button.purple:hover .icon,
-button.purple:hover.icon,
+button.purple:hover .icon,
 .bg.purple .icon {
     background-color: var(--purple-text-alt);
 }
@@ -1458,10 +1471,11 @@ button.purple:hover {
     stroke: var(--purple-background);
 }
 .text-maroon .icon,
-.button.maroon .icon,
 .icon-holder.maroon {
     background-color: var(--maroon-background);
 }
+.button.maroon .icon,
+button.maroon .icon,
 .icon-holder.maroon .icon {
     background-color: var(--maroon-text);
 }
@@ -1497,7 +1511,7 @@ button.maroon,
     color: var(--maroon-text-alt);
 }
 .button.maroon:hover .icon,
-button.maroon:hover.icon,
+button.maroon:hover .icon,
 .bg.maroon .icon {
     background-color: var(--maroon-text-alt);
 }
@@ -1570,10 +1584,11 @@ button.maroon:hover {
     stroke: var(--maroon-background);
 }
 .text-silver .icon,
-.button.silver .icon,
 .icon-holder.silver {
     background-color: var(--silver-background);
 }
+.button.silver .icon,
+button.silver .icon,
 .icon-holder.silver .icon {
     background-color: var(--silver-text);
 }
@@ -1609,7 +1624,7 @@ button.silver,
     color: var(--silver-text-alt);
 }
 .button.silver:hover .icon,
-button.silver:hover.icon,
+button.silver:hover .icon,
 .bg.silver .icon {
     background-color: var(--silver-text-alt);
 }
@@ -1682,10 +1697,11 @@ button.silver:hover {
     stroke: var(--silver-background);
 }
 .text-gray .icon,
-.button.gray .icon,
 .icon-holder.gray {
     background-color: var(--gray-background);
 }
+.button.gray .icon,
+button.gray .icon,
 .icon-holder.gray .icon {
     background-color: var(--gray-text);
 }
@@ -1721,7 +1737,7 @@ button.gray,
     color: var(--gray-text-alt);
 }
 .button.gray:hover .icon,
-button.gray:hover.icon,
+button.gray:hover .icon,
 .bg.gray .icon {
     background-color: var(--gray-text-alt);
 }
@@ -1794,10 +1810,11 @@ button.gray:hover {
     stroke: var(--gray-background);
 }
 .text-black .icon,
-.button.black .icon,
 .icon-holder.black {
     background-color: var(--black-background);
 }
+.button.black .icon,
+button.black .icon,
 .icon-holder.black .icon {
     background-color: var(--black-text);
 }
@@ -1833,7 +1850,7 @@ button.black,
     color: var(--black-text-alt);
 }
 .button.black:hover .icon,
-button.black:hover.icon,
+button.black:hover .icon,
 .bg.black .icon {
     background-color: var(--black-text-alt);
 }
@@ -1906,10 +1923,11 @@ button.black:hover {
     stroke: var(--black-background);
 }
 .text-primary .icon,
-.button.primary .icon,
 .icon-holder.primary {
     background-color: var(--primary-background);
 }
+.button.primary .icon,
+button.primary .icon,
 .icon-holder.primary .icon {
     background-color: var(--primary-text);
 }
@@ -1945,7 +1963,7 @@ button.primary,
     color: var(--primary-text-alt);
 }
 .button.primary:hover .icon,
-button.primary:hover.icon,
+button.primary:hover .icon,
 .bg.primary .icon {
     background-color: var(--primary-text-alt);
 }
@@ -2018,10 +2036,11 @@ button.primary:hover {
     stroke: var(--primary-background);
 }
 .text-secondary .icon,
-.button.secondary .icon,
 .icon-holder.secondary {
     background-color: var(--secondary-background);
 }
+.button.secondary .icon,
+button.secondary .icon,
 .icon-holder.secondary .icon {
     background-color: var(--secondary-text);
 }
@@ -2057,7 +2076,7 @@ button.secondary,
     color: var(--secondary-text-alt);
 }
 .button.secondary:hover .icon,
-button.secondary:hover.icon,
+button.secondary:hover .icon,
 .bg.secondary .icon {
     background-color: var(--secondary-text-alt);
 }
