@@ -93,20 +93,20 @@ button.white:hover {
     background-color: var(--white-gradient-shade);
 }
 .gradient.white {
-    background: var(--white-border);
-    background: -moz-radial-gradient(center, ellipse cover, var(--white-gradient-shade) 0%, var(--white-border) 100%);
-    background: -webkit-radial-gradient(center, ellipse cover, var(--white-gradient-shade) 0%, var(--white-border) 100%);
-    background: -o-radial-gradient(center, ellipse cover, var(--white-gradient-shade) 0%, var(--white-border) 100%);
-    background: -ms-radial-gradient(center, ellipse cover, var(--white-gradient-shade) 0%, var(--white-border) 100%);
-    background: radial-gradient(ellipse at center, var(--white-gradient-shade) 0%, var(--white-border) 100%);
+    background: var(--white-background);
+    background: -moz-radial-gradient(center, ellipse cover, var(--white-gradient-shade) 0%, var(--white-background) 100%);
+    background: -webkit-radial-gradient(center, ellipse cover, var(--white-gradient-shade) 0%, var(--white-background) 100%);
+    background: -o-radial-gradient(center, ellipse cover, var(--white-gradient-shade) 0%, var(--white-background) 100%);
+    background: -ms-radial-gradient(center, ellipse cover, var(--white-gradient-shade) 0%, var(--white-background) 100%);
+    background: radial-gradient(ellipse at center, var(--white-gradient-shade) 0%, var(--white-background) 100%);
 }
 .gradient.white.linear {
-    background: var(--white-border);
-    background: -moz-linear-gradient(to right top, var(--white-gradient-shade) 0%, var(--white-border) 100%);
-    background: -webkit-linear-gradient(to right top, var(--white-gradient-shade) 0%, var(--white-border) 100%);
-    background: -o-linear-gradient(to right top, var(--white-gradient-shade) 0%, var(--white-border) 100%);
-    background: -ms-linear-gradient(to right top, var(--white-gradient-shade) 0%, var(--white-border) 100%);
-    background: linear-gradient(to right top, var(--white-gradient-shade) 0%, var(--white-border) 100%);
+    background: var(--white-background);
+    background: -moz-linear-gradient(to right top, var(--white-gradient-shade) 0%, var(--white-background) 100%);
+    background: -webkit-linear-gradient(to right top, var(--white-gradient-shade) 0%, var(--white-background) 100%);
+    background: -o-linear-gradient(to right top, var(--white-gradient-shade) 0%, var(--white-background) 100%);
+    background: -ms-linear-gradient(to right top, var(--white-gradient-shade) 0%, var(--white-background) 100%);
+    background: linear-gradient(to right top, var(--white-gradient-shade) 0%, var(--white-background) 100%);
 }
 .fill.white {
     fill: var(--white-background);
@@ -206,20 +206,20 @@ button.navy:hover {
     background-color: var(--navy-gradient-shade);
 }
 .gradient.navy {
-    background: var(--navy-border);
-    background: -moz-radial-gradient(center, ellipse cover, var(--navy-gradient-shade) 0%, var(--navy-border) 100%);
-    background: -webkit-radial-gradient(center, ellipse cover, var(--navy-gradient-shade) 0%, var(--navy-border) 100%);
-    background: -o-radial-gradient(center, ellipse cover, var(--navy-gradient-shade) 0%, var(--navy-border) 100%);
-    background: -ms-radial-gradient(center, ellipse cover, var(--navy-gradient-shade) 0%, var(--navy-border) 100%);
-    background: radial-gradient(ellipse at center, var(--navy-gradient-shade) 0%, var(--navy-border) 100%);
+    background: var(--navy-background);
+    background: -moz-radial-gradient(center, ellipse cover, var(--navy-gradient-shade) 0%, var(--navy-background) 100%);
+    background: -webkit-radial-gradient(center, ellipse cover, var(--navy-gradient-shade) 0%, var(--navy-background) 100%);
+    background: -o-radial-gradient(center, ellipse cover, var(--navy-gradient-shade) 0%, var(--navy-background) 100%);
+    background: -ms-radial-gradient(center, ellipse cover, var(--navy-gradient-shade) 0%, var(--navy-background) 100%);
+    background: radial-gradient(ellipse at center, var(--navy-gradient-shade) 0%, var(--navy-background) 100%);
 }
 .gradient.navy.linear {
-    background: var(--navy-border);
-    background: -moz-linear-gradient(to right top, var(--navy-gradient-shade) 0%, var(--navy-border) 100%);
-    background: -webkit-linear-gradient(to right top, var(--navy-gradient-shade) 0%, var(--navy-border) 100%);
-    background: -o-linear-gradient(to right top, var(--navy-gradient-shade) 0%, var(--navy-border) 100%);
-    background: -ms-linear-gradient(to right top, var(--navy-gradient-shade) 0%, var(--navy-border) 100%);
-    background: linear-gradient(to right top, var(--navy-gradient-shade) 0%, var(--navy-border) 100%);
+    background: var(--navy-background);
+    background: -moz-linear-gradient(to right top, var(--navy-gradient-shade) 0%, var(--navy-background) 100%);
+    background: -webkit-linear-gradient(to right top, var(--navy-gradient-shade) 0%, var(--navy-background) 100%);
+    background: -o-linear-gradient(to right top, var(--navy-gradient-shade) 0%, var(--navy-background) 100%);
+    background: -ms-linear-gradient(to right top, var(--navy-gradient-shade) 0%, var(--navy-background) 100%);
+    background: linear-gradient(to right top, var(--navy-gradient-shade) 0%, var(--navy-background) 100%);
 }
 .fill.navy {
     fill: var(--navy-background);
@@ -319,20 +319,20 @@ button.blue:hover {
     background-color: var(--blue-gradient-shade);
 }
 .gradient.blue {
-    background: var(--blue-border);
-    background: -moz-radial-gradient(center, ellipse cover, var(--blue-gradient-shade) 0%, var(--blue-border) 100%);
-    background: -webkit-radial-gradient(center, ellipse cover, var(--blue-gradient-shade) 0%, var(--blue-border) 100%);
-    background: -o-radial-gradient(center, ellipse cover, var(--blue-gradient-shade) 0%, var(--blue-border) 100%);
-    background: -ms-radial-gradient(center, ellipse cover, var(--blue-gradient-shade) 0%, var(--blue-border) 100%);
-    background: radial-gradient(ellipse at center, var(--blue-gradient-shade) 0%, var(--blue-border) 100%);
+    background: var(--blue-background);
+    background: -moz-radial-gradient(center, ellipse cover, var(--blue-gradient-shade) 0%, var(--blue-background) 100%);
+    background: -webkit-radial-gradient(center, ellipse cover, var(--blue-gradient-shade) 0%, var(--blue-background) 100%);
+    background: -o-radial-gradient(center, ellipse cover, var(--blue-gradient-shade) 0%, var(--blue-background) 100%);
+    background: -ms-radial-gradient(center, ellipse cover, var(--blue-gradient-shade) 0%, var(--blue-background) 100%);
+    background: radial-gradient(ellipse at center, var(--blue-gradient-shade) 0%, var(--blue-background) 100%);
 }
 .gradient.blue.linear {
-    background: var(--blue-border);
-    background: -moz-linear-gradient(to right top, var(--blue-gradient-shade) 0%, var(--blue-border) 100%);
-    background: -webkit-linear-gradient(to right top, var(--blue-gradient-shade) 0%, var(--blue-border) 100%);
-    background: -o-linear-gradient(to right top, var(--blue-gradient-shade) 0%, var(--blue-border) 100%);
-    background: -ms-linear-gradient(to right top, var(--blue-gradient-shade) 0%, var(--blue-border) 100%);
-    background: linear-gradient(to right top, var(--blue-gradient-shade) 0%, var(--blue-border) 100%);
+    background: var(--blue-background);
+    background: -moz-linear-gradient(to right top, var(--blue-gradient-shade) 0%, var(--blue-background) 100%);
+    background: -webkit-linear-gradient(to right top, var(--blue-gradient-shade) 0%, var(--blue-background) 100%);
+    background: -o-linear-gradient(to right top, var(--blue-gradient-shade) 0%, var(--blue-background) 100%);
+    background: -ms-linear-gradient(to right top, var(--blue-gradient-shade) 0%, var(--blue-background) 100%);
+    background: linear-gradient(to right top, var(--blue-gradient-shade) 0%, var(--blue-background) 100%);
 }
 .fill.blue {
     fill: var(--blue-background);
@@ -432,20 +432,20 @@ button.aqua:hover {
     background-color: var(--aqua-gradient-shade);
 }
 .gradient.aqua {
-    background: var(--aqua-border);
-    background: -moz-radial-gradient(center, ellipse cover, var(--aqua-gradient-shade) 0%, var(--aqua-border) 100%);
-    background: -webkit-radial-gradient(center, ellipse cover, var(--aqua-gradient-shade) 0%, var(--aqua-border) 100%);
-    background: -o-radial-gradient(center, ellipse cover, var(--aqua-gradient-shade) 0%, var(--aqua-border) 100%);
-    background: -ms-radial-gradient(center, ellipse cover, var(--aqua-gradient-shade) 0%, var(--aqua-border) 100%);
-    background: radial-gradient(ellipse at center, var(--aqua-gradient-shade) 0%, var(--aqua-border) 100%);
+    background: var(--aqua-background);
+    background: -moz-radial-gradient(center, ellipse cover, var(--aqua-gradient-shade) 0%, var(--aqua-background) 100%);
+    background: -webkit-radial-gradient(center, ellipse cover, var(--aqua-gradient-shade) 0%, var(--aqua-background) 100%);
+    background: -o-radial-gradient(center, ellipse cover, var(--aqua-gradient-shade) 0%, var(--aqua-background) 100%);
+    background: -ms-radial-gradient(center, ellipse cover, var(--aqua-gradient-shade) 0%, var(--aqua-background) 100%);
+    background: radial-gradient(ellipse at center, var(--aqua-gradient-shade) 0%, var(--aqua-background) 100%);
 }
 .gradient.aqua.linear {
-    background: var(--aqua-border);
-    background: -moz-linear-gradient(to right top, var(--aqua-gradient-shade) 0%, var(--aqua-border) 100%);
-    background: -webkit-linear-gradient(to right top, var(--aqua-gradient-shade) 0%, var(--aqua-border) 100%);
-    background: -o-linear-gradient(to right top, var(--aqua-gradient-shade) 0%, var(--aqua-border) 100%);
-    background: -ms-linear-gradient(to right top, var(--aqua-gradient-shade) 0%, var(--aqua-border) 100%);
-    background: linear-gradient(to right top, var(--aqua-gradient-shade) 0%, var(--aqua-border) 100%);
+    background: var(--aqua-background);
+    background: -moz-linear-gradient(to right top, var(--aqua-gradient-shade) 0%, var(--aqua-background) 100%);
+    background: -webkit-linear-gradient(to right top, var(--aqua-gradient-shade) 0%, var(--aqua-background) 100%);
+    background: -o-linear-gradient(to right top, var(--aqua-gradient-shade) 0%, var(--aqua-background) 100%);
+    background: -ms-linear-gradient(to right top, var(--aqua-gradient-shade) 0%, var(--aqua-background) 100%);
+    background: linear-gradient(to right top, var(--aqua-gradient-shade) 0%, var(--aqua-background) 100%);
 }
 .fill.aqua {
     fill: var(--aqua-background);
@@ -545,20 +545,20 @@ button.teal:hover {
     background-color: var(--teal-gradient-shade);
 }
 .gradient.teal {
-    background: var(--teal-border);
-    background: -moz-radial-gradient(center, ellipse cover, var(--teal-gradient-shade) 0%, var(--teal-border) 100%);
-    background: -webkit-radial-gradient(center, ellipse cover, var(--teal-gradient-shade) 0%, var(--teal-border) 100%);
-    background: -o-radial-gradient(center, ellipse cover, var(--teal-gradient-shade) 0%, var(--teal-border) 100%);
-    background: -ms-radial-gradient(center, ellipse cover, var(--teal-gradient-shade) 0%, var(--teal-border) 100%);
-    background: radial-gradient(ellipse at center, var(--teal-gradient-shade) 0%, var(--teal-border) 100%);
+    background: var(--teal-background);
+    background: -moz-radial-gradient(center, ellipse cover, var(--teal-gradient-shade) 0%, var(--teal-background) 100%);
+    background: -webkit-radial-gradient(center, ellipse cover, var(--teal-gradient-shade) 0%, var(--teal-background) 100%);
+    background: -o-radial-gradient(center, ellipse cover, var(--teal-gradient-shade) 0%, var(--teal-background) 100%);
+    background: -ms-radial-gradient(center, ellipse cover, var(--teal-gradient-shade) 0%, var(--teal-background) 100%);
+    background: radial-gradient(ellipse at center, var(--teal-gradient-shade) 0%, var(--teal-background) 100%);
 }
 .gradient.teal.linear {
-    background: var(--teal-border);
-    background: -moz-linear-gradient(to right top, var(--teal-gradient-shade) 0%, var(--teal-border) 100%);
-    background: -webkit-linear-gradient(to right top, var(--teal-gradient-shade) 0%, var(--teal-border) 100%);
-    background: -o-linear-gradient(to right top, var(--teal-gradient-shade) 0%, var(--teal-border) 100%);
-    background: -ms-linear-gradient(to right top, var(--teal-gradient-shade) 0%, var(--teal-border) 100%);
-    background: linear-gradient(to right top, var(--teal-gradient-shade) 0%, var(--teal-border) 100%);
+    background: var(--teal-background);
+    background: -moz-linear-gradient(to right top, var(--teal-gradient-shade) 0%, var(--teal-background) 100%);
+    background: -webkit-linear-gradient(to right top, var(--teal-gradient-shade) 0%, var(--teal-background) 100%);
+    background: -o-linear-gradient(to right top, var(--teal-gradient-shade) 0%, var(--teal-background) 100%);
+    background: -ms-linear-gradient(to right top, var(--teal-gradient-shade) 0%, var(--teal-background) 100%);
+    background: linear-gradient(to right top, var(--teal-gradient-shade) 0%, var(--teal-background) 100%);
 }
 .fill.teal {
     fill: var(--teal-background);
@@ -658,20 +658,20 @@ button.olive:hover {
     background-color: var(--olive-gradient-shade);
 }
 .gradient.olive {
-    background: var(--olive-border);
-    background: -moz-radial-gradient(center, ellipse cover, var(--olive-gradient-shade) 0%, var(--olive-border) 100%);
-    background: -webkit-radial-gradient(center, ellipse cover, var(--olive-gradient-shade) 0%, var(--olive-border) 100%);
-    background: -o-radial-gradient(center, ellipse cover, var(--olive-gradient-shade) 0%, var(--olive-border) 100%);
-    background: -ms-radial-gradient(center, ellipse cover, var(--olive-gradient-shade) 0%, var(--olive-border) 100%);
-    background: radial-gradient(ellipse at center, var(--olive-gradient-shade) 0%, var(--olive-border) 100%);
+    background: var(--olive-background);
+    background: -moz-radial-gradient(center, ellipse cover, var(--olive-gradient-shade) 0%, var(--olive-background) 100%);
+    background: -webkit-radial-gradient(center, ellipse cover, var(--olive-gradient-shade) 0%, var(--olive-background) 100%);
+    background: -o-radial-gradient(center, ellipse cover, var(--olive-gradient-shade) 0%, var(--olive-background) 100%);
+    background: -ms-radial-gradient(center, ellipse cover, var(--olive-gradient-shade) 0%, var(--olive-background) 100%);
+    background: radial-gradient(ellipse at center, var(--olive-gradient-shade) 0%, var(--olive-background) 100%);
 }
 .gradient.olive.linear {
-    background: var(--olive-border);
-    background: -moz-linear-gradient(to right top, var(--olive-gradient-shade) 0%, var(--olive-border) 100%);
-    background: -webkit-linear-gradient(to right top, var(--olive-gradient-shade) 0%, var(--olive-border) 100%);
-    background: -o-linear-gradient(to right top, var(--olive-gradient-shade) 0%, var(--olive-border) 100%);
-    background: -ms-linear-gradient(to right top, var(--olive-gradient-shade) 0%, var(--olive-border) 100%);
-    background: linear-gradient(to right top, var(--olive-gradient-shade) 0%, var(--olive-border) 100%);
+    background: var(--olive-background);
+    background: -moz-linear-gradient(to right top, var(--olive-gradient-shade) 0%, var(--olive-background) 100%);
+    background: -webkit-linear-gradient(to right top, var(--olive-gradient-shade) 0%, var(--olive-background) 100%);
+    background: -o-linear-gradient(to right top, var(--olive-gradient-shade) 0%, var(--olive-background) 100%);
+    background: -ms-linear-gradient(to right top, var(--olive-gradient-shade) 0%, var(--olive-background) 100%);
+    background: linear-gradient(to right top, var(--olive-gradient-shade) 0%, var(--olive-background) 100%);
 }
 .fill.olive {
     fill: var(--olive-background);
@@ -771,20 +771,20 @@ button.green:hover {
     background-color: var(--green-gradient-shade);
 }
 .gradient.green {
-    background: var(--green-border);
-    background: -moz-radial-gradient(center, ellipse cover, var(--green-gradient-shade) 0%, var(--green-border) 100%);
-    background: -webkit-radial-gradient(center, ellipse cover, var(--green-gradient-shade) 0%, var(--green-border) 100%);
-    background: -o-radial-gradient(center, ellipse cover, var(--green-gradient-shade) 0%, var(--green-border) 100%);
-    background: -ms-radial-gradient(center, ellipse cover, var(--green-gradient-shade) 0%, var(--green-border) 100%);
-    background: radial-gradient(ellipse at center, var(--green-gradient-shade) 0%, var(--green-border) 100%);
+    background: var(--green-background);
+    background: -moz-radial-gradient(center, ellipse cover, var(--green-gradient-shade) 0%, var(--green-background) 100%);
+    background: -webkit-radial-gradient(center, ellipse cover, var(--green-gradient-shade) 0%, var(--green-background) 100%);
+    background: -o-radial-gradient(center, ellipse cover, var(--green-gradient-shade) 0%, var(--green-background) 100%);
+    background: -ms-radial-gradient(center, ellipse cover, var(--green-gradient-shade) 0%, var(--green-background) 100%);
+    background: radial-gradient(ellipse at center, var(--green-gradient-shade) 0%, var(--green-background) 100%);
 }
 .gradient.green.linear {
-    background: var(--green-border);
-    background: -moz-linear-gradient(to right top, var(--green-gradient-shade) 0%, var(--green-border) 100%);
-    background: -webkit-linear-gradient(to right top, var(--green-gradient-shade) 0%, var(--green-border) 100%);
-    background: -o-linear-gradient(to right top, var(--green-gradient-shade) 0%, var(--green-border) 100%);
-    background: -ms-linear-gradient(to right top, var(--green-gradient-shade) 0%, var(--green-border) 100%);
-    background: linear-gradient(to right top, var(--green-gradient-shade) 0%, var(--green-border) 100%);
+    background: var(--green-background);
+    background: -moz-linear-gradient(to right top, var(--green-gradient-shade) 0%, var(--green-background) 100%);
+    background: -webkit-linear-gradient(to right top, var(--green-gradient-shade) 0%, var(--green-background) 100%);
+    background: -o-linear-gradient(to right top, var(--green-gradient-shade) 0%, var(--green-background) 100%);
+    background: -ms-linear-gradient(to right top, var(--green-gradient-shade) 0%, var(--green-background) 100%);
+    background: linear-gradient(to right top, var(--green-gradient-shade) 0%, var(--green-background) 100%);
 }
 .fill.green {
     fill: var(--green-background);
@@ -884,20 +884,20 @@ button.lime:hover {
     background-color: var(--lime-gradient-shade);
 }
 .gradient.lime {
-    background: var(--lime-border);
-    background: -moz-radial-gradient(center, ellipse cover, var(--lime-gradient-shade) 0%, var(--lime-border) 100%);
-    background: -webkit-radial-gradient(center, ellipse cover, var(--lime-gradient-shade) 0%, var(--lime-border) 100%);
-    background: -o-radial-gradient(center, ellipse cover, var(--lime-gradient-shade) 0%, var(--lime-border) 100%);
-    background: -ms-radial-gradient(center, ellipse cover, var(--lime-gradient-shade) 0%, var(--lime-border) 100%);
-    background: radial-gradient(ellipse at center, var(--lime-gradient-shade) 0%, var(--lime-border) 100%);
+    background: var(--lime-background);
+    background: -moz-radial-gradient(center, ellipse cover, var(--lime-gradient-shade) 0%, var(--lime-background) 100%);
+    background: -webkit-radial-gradient(center, ellipse cover, var(--lime-gradient-shade) 0%, var(--lime-background) 100%);
+    background: -o-radial-gradient(center, ellipse cover, var(--lime-gradient-shade) 0%, var(--lime-background) 100%);
+    background: -ms-radial-gradient(center, ellipse cover, var(--lime-gradient-shade) 0%, var(--lime-background) 100%);
+    background: radial-gradient(ellipse at center, var(--lime-gradient-shade) 0%, var(--lime-background) 100%);
 }
 .gradient.lime.linear {
-    background: var(--lime-border);
-    background: -moz-linear-gradient(to right top, var(--lime-gradient-shade) 0%, var(--lime-border) 100%);
-    background: -webkit-linear-gradient(to right top, var(--lime-gradient-shade) 0%, var(--lime-border) 100%);
-    background: -o-linear-gradient(to right top, var(--lime-gradient-shade) 0%, var(--lime-border) 100%);
-    background: -ms-linear-gradient(to right top, var(--lime-gradient-shade) 0%, var(--lime-border) 100%);
-    background: linear-gradient(to right top, var(--lime-gradient-shade) 0%, var(--lime-border) 100%);
+    background: var(--lime-background);
+    background: -moz-linear-gradient(to right top, var(--lime-gradient-shade) 0%, var(--lime-background) 100%);
+    background: -webkit-linear-gradient(to right top, var(--lime-gradient-shade) 0%, var(--lime-background) 100%);
+    background: -o-linear-gradient(to right top, var(--lime-gradient-shade) 0%, var(--lime-background) 100%);
+    background: -ms-linear-gradient(to right top, var(--lime-gradient-shade) 0%, var(--lime-background) 100%);
+    background: linear-gradient(to right top, var(--lime-gradient-shade) 0%, var(--lime-background) 100%);
 }
 .fill.lime {
     fill: var(--lime-background);
@@ -997,20 +997,20 @@ button.yellow:hover {
     background-color: var(--yellow-gradient-shade);
 }
 .gradient.yellow {
-    background: var(--yellow-border);
-    background: -moz-radial-gradient(center, ellipse cover, var(--yellow-gradient-shade) 0%, var(--yellow-border) 100%);
-    background: -webkit-radial-gradient(center, ellipse cover, var(--yellow-gradient-shade) 0%, var(--yellow-border) 100%);
-    background: -o-radial-gradient(center, ellipse cover, var(--yellow-gradient-shade) 0%, var(--yellow-border) 100%);
-    background: -ms-radial-gradient(center, ellipse cover, var(--yellow-gradient-shade) 0%, var(--yellow-border) 100%);
-    background: radial-gradient(ellipse at center, var(--yellow-gradient-shade) 0%, var(--yellow-border) 100%);
+    background: var(--yellow-background);
+    background: -moz-radial-gradient(center, ellipse cover, var(--yellow-gradient-shade) 0%, var(--yellow-background) 100%);
+    background: -webkit-radial-gradient(center, ellipse cover, var(--yellow-gradient-shade) 0%, var(--yellow-background) 100%);
+    background: -o-radial-gradient(center, ellipse cover, var(--yellow-gradient-shade) 0%, var(--yellow-background) 100%);
+    background: -ms-radial-gradient(center, ellipse cover, var(--yellow-gradient-shade) 0%, var(--yellow-background) 100%);
+    background: radial-gradient(ellipse at center, var(--yellow-gradient-shade) 0%, var(--yellow-background) 100%);
 }
 .gradient.yellow.linear {
-    background: var(--yellow-border);
-    background: -moz-linear-gradient(to right top, var(--yellow-gradient-shade) 0%, var(--yellow-border) 100%);
-    background: -webkit-linear-gradient(to right top, var(--yellow-gradient-shade) 0%, var(--yellow-border) 100%);
-    background: -o-linear-gradient(to right top, var(--yellow-gradient-shade) 0%, var(--yellow-border) 100%);
-    background: -ms-linear-gradient(to right top, var(--yellow-gradient-shade) 0%, var(--yellow-border) 100%);
-    background: linear-gradient(to right top, var(--yellow-gradient-shade) 0%, var(--yellow-border) 100%);
+    background: var(--yellow-background);
+    background: -moz-linear-gradient(to right top, var(--yellow-gradient-shade) 0%, var(--yellow-background) 100%);
+    background: -webkit-linear-gradient(to right top, var(--yellow-gradient-shade) 0%, var(--yellow-background) 100%);
+    background: -o-linear-gradient(to right top, var(--yellow-gradient-shade) 0%, var(--yellow-background) 100%);
+    background: -ms-linear-gradient(to right top, var(--yellow-gradient-shade) 0%, var(--yellow-background) 100%);
+    background: linear-gradient(to right top, var(--yellow-gradient-shade) 0%, var(--yellow-background) 100%);
 }
 .fill.yellow {
     fill: var(--yellow-background);
@@ -1110,20 +1110,20 @@ button.orange:hover {
     background-color: var(--orange-gradient-shade);
 }
 .gradient.orange {
-    background: var(--orange-border);
-    background: -moz-radial-gradient(center, ellipse cover, var(--orange-gradient-shade) 0%, var(--orange-border) 100%);
-    background: -webkit-radial-gradient(center, ellipse cover, var(--orange-gradient-shade) 0%, var(--orange-border) 100%);
-    background: -o-radial-gradient(center, ellipse cover, var(--orange-gradient-shade) 0%, var(--orange-border) 100%);
-    background: -ms-radial-gradient(center, ellipse cover, var(--orange-gradient-shade) 0%, var(--orange-border) 100%);
-    background: radial-gradient(ellipse at center, var(--orange-gradient-shade) 0%, var(--orange-border) 100%);
+    background: var(--orange-background);
+    background: -moz-radial-gradient(center, ellipse cover, var(--orange-gradient-shade) 0%, var(--orange-background) 100%);
+    background: -webkit-radial-gradient(center, ellipse cover, var(--orange-gradient-shade) 0%, var(--orange-background) 100%);
+    background: -o-radial-gradient(center, ellipse cover, var(--orange-gradient-shade) 0%, var(--orange-background) 100%);
+    background: -ms-radial-gradient(center, ellipse cover, var(--orange-gradient-shade) 0%, var(--orange-background) 100%);
+    background: radial-gradient(ellipse at center, var(--orange-gradient-shade) 0%, var(--orange-background) 100%);
 }
 .gradient.orange.linear {
-    background: var(--orange-border);
-    background: -moz-linear-gradient(to right top, var(--orange-gradient-shade) 0%, var(--orange-border) 100%);
-    background: -webkit-linear-gradient(to right top, var(--orange-gradient-shade) 0%, var(--orange-border) 100%);
-    background: -o-linear-gradient(to right top, var(--orange-gradient-shade) 0%, var(--orange-border) 100%);
-    background: -ms-linear-gradient(to right top, var(--orange-gradient-shade) 0%, var(--orange-border) 100%);
-    background: linear-gradient(to right top, var(--orange-gradient-shade) 0%, var(--orange-border) 100%);
+    background: var(--orange-background);
+    background: -moz-linear-gradient(to right top, var(--orange-gradient-shade) 0%, var(--orange-background) 100%);
+    background: -webkit-linear-gradient(to right top, var(--orange-gradient-shade) 0%, var(--orange-background) 100%);
+    background: -o-linear-gradient(to right top, var(--orange-gradient-shade) 0%, var(--orange-background) 100%);
+    background: -ms-linear-gradient(to right top, var(--orange-gradient-shade) 0%, var(--orange-background) 100%);
+    background: linear-gradient(to right top, var(--orange-gradient-shade) 0%, var(--orange-background) 100%);
 }
 .fill.orange {
     fill: var(--orange-background);
@@ -1223,20 +1223,20 @@ button.red:hover {
     background-color: var(--red-gradient-shade);
 }
 .gradient.red {
-    background: var(--red-border);
-    background: -moz-radial-gradient(center, ellipse cover, var(--red-gradient-shade) 0%, var(--red-border) 100%);
-    background: -webkit-radial-gradient(center, ellipse cover, var(--red-gradient-shade) 0%, var(--red-border) 100%);
-    background: -o-radial-gradient(center, ellipse cover, var(--red-gradient-shade) 0%, var(--red-border) 100%);
-    background: -ms-radial-gradient(center, ellipse cover, var(--red-gradient-shade) 0%, var(--red-border) 100%);
-    background: radial-gradient(ellipse at center, var(--red-gradient-shade) 0%, var(--red-border) 100%);
+    background: var(--red-background);
+    background: -moz-radial-gradient(center, ellipse cover, var(--red-gradient-shade) 0%, var(--red-background) 100%);
+    background: -webkit-radial-gradient(center, ellipse cover, var(--red-gradient-shade) 0%, var(--red-background) 100%);
+    background: -o-radial-gradient(center, ellipse cover, var(--red-gradient-shade) 0%, var(--red-background) 100%);
+    background: -ms-radial-gradient(center, ellipse cover, var(--red-gradient-shade) 0%, var(--red-background) 100%);
+    background: radial-gradient(ellipse at center, var(--red-gradient-shade) 0%, var(--red-background) 100%);
 }
 .gradient.red.linear {
-    background: var(--red-border);
-    background: -moz-linear-gradient(to right top, var(--red-gradient-shade) 0%, var(--red-border) 100%);
-    background: -webkit-linear-gradient(to right top, var(--red-gradient-shade) 0%, var(--red-border) 100%);
-    background: -o-linear-gradient(to right top, var(--red-gradient-shade) 0%, var(--red-border) 100%);
-    background: -ms-linear-gradient(to right top, var(--red-gradient-shade) 0%, var(--red-border) 100%);
-    background: linear-gradient(to right top, var(--red-gradient-shade) 0%, var(--red-border) 100%);
+    background: var(--red-background);
+    background: -moz-linear-gradient(to right top, var(--red-gradient-shade) 0%, var(--red-background) 100%);
+    background: -webkit-linear-gradient(to right top, var(--red-gradient-shade) 0%, var(--red-background) 100%);
+    background: -o-linear-gradient(to right top, var(--red-gradient-shade) 0%, var(--red-background) 100%);
+    background: -ms-linear-gradient(to right top, var(--red-gradient-shade) 0%, var(--red-background) 100%);
+    background: linear-gradient(to right top, var(--red-gradient-shade) 0%, var(--red-background) 100%);
 }
 .fill.red {
     fill: var(--red-background);
@@ -1336,20 +1336,20 @@ button.fuchsia:hover {
     background-color: var(--fuchsia-gradient-shade);
 }
 .gradient.fuchsia {
-    background: var(--fuchsia-border);
-    background: -moz-radial-gradient(center, ellipse cover, var(--fuchsia-gradient-shade) 0%, var(--fuchsia-border) 100%);
-    background: -webkit-radial-gradient(center, ellipse cover, var(--fuchsia-gradient-shade) 0%, var(--fuchsia-border) 100%);
-    background: -o-radial-gradient(center, ellipse cover, var(--fuchsia-gradient-shade) 0%, var(--fuchsia-border) 100%);
-    background: -ms-radial-gradient(center, ellipse cover, var(--fuchsia-gradient-shade) 0%, var(--fuchsia-border) 100%);
-    background: radial-gradient(ellipse at center, var(--fuchsia-gradient-shade) 0%, var(--fuchsia-border) 100%);
+    background: var(--fuchsia-background);
+    background: -moz-radial-gradient(center, ellipse cover, var(--fuchsia-gradient-shade) 0%, var(--fuchsia-background) 100%);
+    background: -webkit-radial-gradient(center, ellipse cover, var(--fuchsia-gradient-shade) 0%, var(--fuchsia-background) 100%);
+    background: -o-radial-gradient(center, ellipse cover, var(--fuchsia-gradient-shade) 0%, var(--fuchsia-background) 100%);
+    background: -ms-radial-gradient(center, ellipse cover, var(--fuchsia-gradient-shade) 0%, var(--fuchsia-background) 100%);
+    background: radial-gradient(ellipse at center, var(--fuchsia-gradient-shade) 0%, var(--fuchsia-background) 100%);
 }
 .gradient.fuchsia.linear {
-    background: var(--fuchsia-border);
-    background: -moz-linear-gradient(to right top, var(--fuchsia-gradient-shade) 0%, var(--fuchsia-border) 100%);
-    background: -webkit-linear-gradient(to right top, var(--fuchsia-gradient-shade) 0%, var(--fuchsia-border) 100%);
-    background: -o-linear-gradient(to right top, var(--fuchsia-gradient-shade) 0%, var(--fuchsia-border) 100%);
-    background: -ms-linear-gradient(to right top, var(--fuchsia-gradient-shade) 0%, var(--fuchsia-border) 100%);
-    background: linear-gradient(to right top, var(--fuchsia-gradient-shade) 0%, var(--fuchsia-border) 100%);
+    background: var(--fuchsia-background);
+    background: -moz-linear-gradient(to right top, var(--fuchsia-gradient-shade) 0%, var(--fuchsia-background) 100%);
+    background: -webkit-linear-gradient(to right top, var(--fuchsia-gradient-shade) 0%, var(--fuchsia-background) 100%);
+    background: -o-linear-gradient(to right top, var(--fuchsia-gradient-shade) 0%, var(--fuchsia-background) 100%);
+    background: -ms-linear-gradient(to right top, var(--fuchsia-gradient-shade) 0%, var(--fuchsia-background) 100%);
+    background: linear-gradient(to right top, var(--fuchsia-gradient-shade) 0%, var(--fuchsia-background) 100%);
 }
 .fill.fuchsia {
     fill: var(--fuchsia-background);
@@ -1449,20 +1449,20 @@ button.purple:hover {
     background-color: var(--purple-gradient-shade);
 }
 .gradient.purple {
-    background: var(--purple-border);
-    background: -moz-radial-gradient(center, ellipse cover, var(--purple-gradient-shade) 0%, var(--purple-border) 100%);
-    background: -webkit-radial-gradient(center, ellipse cover, var(--purple-gradient-shade) 0%, var(--purple-border) 100%);
-    background: -o-radial-gradient(center, ellipse cover, var(--purple-gradient-shade) 0%, var(--purple-border) 100%);
-    background: -ms-radial-gradient(center, ellipse cover, var(--purple-gradient-shade) 0%, var(--purple-border) 100%);
-    background: radial-gradient(ellipse at center, var(--purple-gradient-shade) 0%, var(--purple-border) 100%);
+    background: var(--purple-background);
+    background: -moz-radial-gradient(center, ellipse cover, var(--purple-gradient-shade) 0%, var(--purple-background) 100%);
+    background: -webkit-radial-gradient(center, ellipse cover, var(--purple-gradient-shade) 0%, var(--purple-background) 100%);
+    background: -o-radial-gradient(center, ellipse cover, var(--purple-gradient-shade) 0%, var(--purple-background) 100%);
+    background: -ms-radial-gradient(center, ellipse cover, var(--purple-gradient-shade) 0%, var(--purple-background) 100%);
+    background: radial-gradient(ellipse at center, var(--purple-gradient-shade) 0%, var(--purple-background) 100%);
 }
 .gradient.purple.linear {
-    background: var(--purple-border);
-    background: -moz-linear-gradient(to right top, var(--purple-gradient-shade) 0%, var(--purple-border) 100%);
-    background: -webkit-linear-gradient(to right top, var(--purple-gradient-shade) 0%, var(--purple-border) 100%);
-    background: -o-linear-gradient(to right top, var(--purple-gradient-shade) 0%, var(--purple-border) 100%);
-    background: -ms-linear-gradient(to right top, var(--purple-gradient-shade) 0%, var(--purple-border) 100%);
-    background: linear-gradient(to right top, var(--purple-gradient-shade) 0%, var(--purple-border) 100%);
+    background: var(--purple-background);
+    background: -moz-linear-gradient(to right top, var(--purple-gradient-shade) 0%, var(--purple-background) 100%);
+    background: -webkit-linear-gradient(to right top, var(--purple-gradient-shade) 0%, var(--purple-background) 100%);
+    background: -o-linear-gradient(to right top, var(--purple-gradient-shade) 0%, var(--purple-background) 100%);
+    background: -ms-linear-gradient(to right top, var(--purple-gradient-shade) 0%, var(--purple-background) 100%);
+    background: linear-gradient(to right top, var(--purple-gradient-shade) 0%, var(--purple-background) 100%);
 }
 .fill.purple {
     fill: var(--purple-background);
@@ -1562,20 +1562,20 @@ button.maroon:hover {
     background-color: var(--maroon-gradient-shade);
 }
 .gradient.maroon {
-    background: var(--maroon-border);
-    background: -moz-radial-gradient(center, ellipse cover, var(--maroon-gradient-shade) 0%, var(--maroon-border) 100%);
-    background: -webkit-radial-gradient(center, ellipse cover, var(--maroon-gradient-shade) 0%, var(--maroon-border) 100%);
-    background: -o-radial-gradient(center, ellipse cover, var(--maroon-gradient-shade) 0%, var(--maroon-border) 100%);
-    background: -ms-radial-gradient(center, ellipse cover, var(--maroon-gradient-shade) 0%, var(--maroon-border) 100%);
-    background: radial-gradient(ellipse at center, var(--maroon-gradient-shade) 0%, var(--maroon-border) 100%);
+    background: var(--maroon-background);
+    background: -moz-radial-gradient(center, ellipse cover, var(--maroon-gradient-shade) 0%, var(--maroon-background) 100%);
+    background: -webkit-radial-gradient(center, ellipse cover, var(--maroon-gradient-shade) 0%, var(--maroon-background) 100%);
+    background: -o-radial-gradient(center, ellipse cover, var(--maroon-gradient-shade) 0%, var(--maroon-background) 100%);
+    background: -ms-radial-gradient(center, ellipse cover, var(--maroon-gradient-shade) 0%, var(--maroon-background) 100%);
+    background: radial-gradient(ellipse at center, var(--maroon-gradient-shade) 0%, var(--maroon-background) 100%);
 }
 .gradient.maroon.linear {
-    background: var(--maroon-border);
-    background: -moz-linear-gradient(to right top, var(--maroon-gradient-shade) 0%, var(--maroon-border) 100%);
-    background: -webkit-linear-gradient(to right top, var(--maroon-gradient-shade) 0%, var(--maroon-border) 100%);
-    background: -o-linear-gradient(to right top, var(--maroon-gradient-shade) 0%, var(--maroon-border) 100%);
-    background: -ms-linear-gradient(to right top, var(--maroon-gradient-shade) 0%, var(--maroon-border) 100%);
-    background: linear-gradient(to right top, var(--maroon-gradient-shade) 0%, var(--maroon-border) 100%);
+    background: var(--maroon-background);
+    background: -moz-linear-gradient(to right top, var(--maroon-gradient-shade) 0%, var(--maroon-background) 100%);
+    background: -webkit-linear-gradient(to right top, var(--maroon-gradient-shade) 0%, var(--maroon-background) 100%);
+    background: -o-linear-gradient(to right top, var(--maroon-gradient-shade) 0%, var(--maroon-background) 100%);
+    background: -ms-linear-gradient(to right top, var(--maroon-gradient-shade) 0%, var(--maroon-background) 100%);
+    background: linear-gradient(to right top, var(--maroon-gradient-shade) 0%, var(--maroon-background) 100%);
 }
 .fill.maroon {
     fill: var(--maroon-background);
@@ -1675,20 +1675,20 @@ button.silver:hover {
     background-color: var(--silver-gradient-shade);
 }
 .gradient.silver {
-    background: var(--silver-border);
-    background: -moz-radial-gradient(center, ellipse cover, var(--silver-gradient-shade) 0%, var(--silver-border) 100%);
-    background: -webkit-radial-gradient(center, ellipse cover, var(--silver-gradient-shade) 0%, var(--silver-border) 100%);
-    background: -o-radial-gradient(center, ellipse cover, var(--silver-gradient-shade) 0%, var(--silver-border) 100%);
-    background: -ms-radial-gradient(center, ellipse cover, var(--silver-gradient-shade) 0%, var(--silver-border) 100%);
-    background: radial-gradient(ellipse at center, var(--silver-gradient-shade) 0%, var(--silver-border) 100%);
+    background: var(--silver-background);
+    background: -moz-radial-gradient(center, ellipse cover, var(--silver-gradient-shade) 0%, var(--silver-background) 100%);
+    background: -webkit-radial-gradient(center, ellipse cover, var(--silver-gradient-shade) 0%, var(--silver-background) 100%);
+    background: -o-radial-gradient(center, ellipse cover, var(--silver-gradient-shade) 0%, var(--silver-background) 100%);
+    background: -ms-radial-gradient(center, ellipse cover, var(--silver-gradient-shade) 0%, var(--silver-background) 100%);
+    background: radial-gradient(ellipse at center, var(--silver-gradient-shade) 0%, var(--silver-background) 100%);
 }
 .gradient.silver.linear {
-    background: var(--silver-border);
-    background: -moz-linear-gradient(to right top, var(--silver-gradient-shade) 0%, var(--silver-border) 100%);
-    background: -webkit-linear-gradient(to right top, var(--silver-gradient-shade) 0%, var(--silver-border) 100%);
-    background: -o-linear-gradient(to right top, var(--silver-gradient-shade) 0%, var(--silver-border) 100%);
-    background: -ms-linear-gradient(to right top, var(--silver-gradient-shade) 0%, var(--silver-border) 100%);
-    background: linear-gradient(to right top, var(--silver-gradient-shade) 0%, var(--silver-border) 100%);
+    background: var(--silver-background);
+    background: -moz-linear-gradient(to right top, var(--silver-gradient-shade) 0%, var(--silver-background) 100%);
+    background: -webkit-linear-gradient(to right top, var(--silver-gradient-shade) 0%, var(--silver-background) 100%);
+    background: -o-linear-gradient(to right top, var(--silver-gradient-shade) 0%, var(--silver-background) 100%);
+    background: -ms-linear-gradient(to right top, var(--silver-gradient-shade) 0%, var(--silver-background) 100%);
+    background: linear-gradient(to right top, var(--silver-gradient-shade) 0%, var(--silver-background) 100%);
 }
 .fill.silver {
     fill: var(--silver-background);
@@ -1788,20 +1788,20 @@ button.gray:hover {
     background-color: var(--gray-gradient-shade);
 }
 .gradient.gray {
-    background: var(--gray-border);
-    background: -moz-radial-gradient(center, ellipse cover, var(--gray-gradient-shade) 0%, var(--gray-border) 100%);
-    background: -webkit-radial-gradient(center, ellipse cover, var(--gray-gradient-shade) 0%, var(--gray-border) 100%);
-    background: -o-radial-gradient(center, ellipse cover, var(--gray-gradient-shade) 0%, var(--gray-border) 100%);
-    background: -ms-radial-gradient(center, ellipse cover, var(--gray-gradient-shade) 0%, var(--gray-border) 100%);
-    background: radial-gradient(ellipse at center, var(--gray-gradient-shade) 0%, var(--gray-border) 100%);
+    background: var(--gray-background);
+    background: -moz-radial-gradient(center, ellipse cover, var(--gray-gradient-shade) 0%, var(--gray-background) 100%);
+    background: -webkit-radial-gradient(center, ellipse cover, var(--gray-gradient-shade) 0%, var(--gray-background) 100%);
+    background: -o-radial-gradient(center, ellipse cover, var(--gray-gradient-shade) 0%, var(--gray-background) 100%);
+    background: -ms-radial-gradient(center, ellipse cover, var(--gray-gradient-shade) 0%, var(--gray-background) 100%);
+    background: radial-gradient(ellipse at center, var(--gray-gradient-shade) 0%, var(--gray-background) 100%);
 }
 .gradient.gray.linear {
-    background: var(--gray-border);
-    background: -moz-linear-gradient(to right top, var(--gray-gradient-shade) 0%, var(--gray-border) 100%);
-    background: -webkit-linear-gradient(to right top, var(--gray-gradient-shade) 0%, var(--gray-border) 100%);
-    background: -o-linear-gradient(to right top, var(--gray-gradient-shade) 0%, var(--gray-border) 100%);
-    background: -ms-linear-gradient(to right top, var(--gray-gradient-shade) 0%, var(--gray-border) 100%);
-    background: linear-gradient(to right top, var(--gray-gradient-shade) 0%, var(--gray-border) 100%);
+    background: var(--gray-background);
+    background: -moz-linear-gradient(to right top, var(--gray-gradient-shade) 0%, var(--gray-background) 100%);
+    background: -webkit-linear-gradient(to right top, var(--gray-gradient-shade) 0%, var(--gray-background) 100%);
+    background: -o-linear-gradient(to right top, var(--gray-gradient-shade) 0%, var(--gray-background) 100%);
+    background: -ms-linear-gradient(to right top, var(--gray-gradient-shade) 0%, var(--gray-background) 100%);
+    background: linear-gradient(to right top, var(--gray-gradient-shade) 0%, var(--gray-background) 100%);
 }
 .fill.gray {
     fill: var(--gray-background);
@@ -1901,20 +1901,20 @@ button.black:hover {
     background-color: var(--black-gradient-shade);
 }
 .gradient.black {
-    background: var(--black-border);
-    background: -moz-radial-gradient(center, ellipse cover, var(--black-gradient-shade) 0%, var(--black-border) 100%);
-    background: -webkit-radial-gradient(center, ellipse cover, var(--black-gradient-shade) 0%, var(--black-border) 100%);
-    background: -o-radial-gradient(center, ellipse cover, var(--black-gradient-shade) 0%, var(--black-border) 100%);
-    background: -ms-radial-gradient(center, ellipse cover, var(--black-gradient-shade) 0%, var(--black-border) 100%);
-    background: radial-gradient(ellipse at center, var(--black-gradient-shade) 0%, var(--black-border) 100%);
+    background: var(--black-background);
+    background: -moz-radial-gradient(center, ellipse cover, var(--black-gradient-shade) 0%, var(--black-background) 100%);
+    background: -webkit-radial-gradient(center, ellipse cover, var(--black-gradient-shade) 0%, var(--black-background) 100%);
+    background: -o-radial-gradient(center, ellipse cover, var(--black-gradient-shade) 0%, var(--black-background) 100%);
+    background: -ms-radial-gradient(center, ellipse cover, var(--black-gradient-shade) 0%, var(--black-background) 100%);
+    background: radial-gradient(ellipse at center, var(--black-gradient-shade) 0%, var(--black-background) 100%);
 }
 .gradient.black.linear {
-    background: var(--black-border);
-    background: -moz-linear-gradient(to right top, var(--black-gradient-shade) 0%, var(--black-border) 100%);
-    background: -webkit-linear-gradient(to right top, var(--black-gradient-shade) 0%, var(--black-border) 100%);
-    background: -o-linear-gradient(to right top, var(--black-gradient-shade) 0%, var(--black-border) 100%);
-    background: -ms-linear-gradient(to right top, var(--black-gradient-shade) 0%, var(--black-border) 100%);
-    background: linear-gradient(to right top, var(--black-gradient-shade) 0%, var(--black-border) 100%);
+    background: var(--black-background);
+    background: -moz-linear-gradient(to right top, var(--black-gradient-shade) 0%, var(--black-background) 100%);
+    background: -webkit-linear-gradient(to right top, var(--black-gradient-shade) 0%, var(--black-background) 100%);
+    background: -o-linear-gradient(to right top, var(--black-gradient-shade) 0%, var(--black-background) 100%);
+    background: -ms-linear-gradient(to right top, var(--black-gradient-shade) 0%, var(--black-background) 100%);
+    background: linear-gradient(to right top, var(--black-gradient-shade) 0%, var(--black-background) 100%);
 }
 .fill.black {
     fill: var(--black-background);
@@ -2014,20 +2014,20 @@ button.primary:hover {
     background-color: var(--primary-gradient-shade);
 }
 .gradient.primary {
-    background: var(--primary-border);
-    background: -moz-radial-gradient(center, ellipse cover, var(--primary-gradient-shade) 0%, var(--primary-border) 100%);
-    background: -webkit-radial-gradient(center, ellipse cover, var(--primary-gradient-shade) 0%, var(--primary-border) 100%);
-    background: -o-radial-gradient(center, ellipse cover, var(--primary-gradient-shade) 0%, var(--primary-border) 100%);
-    background: -ms-radial-gradient(center, ellipse cover, var(--primary-gradient-shade) 0%, var(--primary-border) 100%);
-    background: radial-gradient(ellipse at center, var(--primary-gradient-shade) 0%, var(--primary-border) 100%);
+    background: var(--primary-background);
+    background: -moz-radial-gradient(center, ellipse cover, var(--primary-gradient-shade) 0%, var(--primary-background) 100%);
+    background: -webkit-radial-gradient(center, ellipse cover, var(--primary-gradient-shade) 0%, var(--primary-background) 100%);
+    background: -o-radial-gradient(center, ellipse cover, var(--primary-gradient-shade) 0%, var(--primary-background) 100%);
+    background: -ms-radial-gradient(center, ellipse cover, var(--primary-gradient-shade) 0%, var(--primary-background) 100%);
+    background: radial-gradient(ellipse at center, var(--primary-gradient-shade) 0%, var(--primary-background) 100%);
 }
 .gradient.primary.linear {
-    background: var(--primary-border);
-    background: -moz-linear-gradient(to right top, var(--primary-gradient-shade) 0%, var(--primary-border) 100%);
-    background: -webkit-linear-gradient(to right top, var(--primary-gradient-shade) 0%, var(--primary-border) 100%);
-    background: -o-linear-gradient(to right top, var(--primary-gradient-shade) 0%, var(--primary-border) 100%);
-    background: -ms-linear-gradient(to right top, var(--primary-gradient-shade) 0%, var(--primary-border) 100%);
-    background: linear-gradient(to right top, var(--primary-gradient-shade) 0%, var(--primary-border) 100%);
+    background: var(--primary-background);
+    background: -moz-linear-gradient(to right top, var(--primary-gradient-shade) 0%, var(--primary-background) 100%);
+    background: -webkit-linear-gradient(to right top, var(--primary-gradient-shade) 0%, var(--primary-background) 100%);
+    background: -o-linear-gradient(to right top, var(--primary-gradient-shade) 0%, var(--primary-background) 100%);
+    background: -ms-linear-gradient(to right top, var(--primary-gradient-shade) 0%, var(--primary-background) 100%);
+    background: linear-gradient(to right top, var(--primary-gradient-shade) 0%, var(--primary-background) 100%);
 }
 .fill.primary {
     fill: var(--primary-background);
@@ -2127,20 +2127,20 @@ button.secondary:hover {
     background-color: var(--secondary-gradient-shade);
 }
 .gradient.secondary {
-    background: var(--secondary-border);
-    background: -moz-radial-gradient(center, ellipse cover, var(--secondary-gradient-shade) 0%, var(--secondary-border) 100%);
-    background: -webkit-radial-gradient(center, ellipse cover, var(--secondary-gradient-shade) 0%, var(--secondary-border) 100%);
-    background: -o-radial-gradient(center, ellipse cover, var(--secondary-gradient-shade) 0%, var(--secondary-border) 100%);
-    background: -ms-radial-gradient(center, ellipse cover, var(--secondary-gradient-shade) 0%, var(--secondary-border) 100%);
-    background: radial-gradient(ellipse at center, var(--secondary-gradient-shade) 0%, var(--secondary-border) 100%);
+    background: var(--secondary-background);
+    background: -moz-radial-gradient(center, ellipse cover, var(--secondary-gradient-shade) 0%, var(--secondary-background) 100%);
+    background: -webkit-radial-gradient(center, ellipse cover, var(--secondary-gradient-shade) 0%, var(--secondary-background) 100%);
+    background: -o-radial-gradient(center, ellipse cover, var(--secondary-gradient-shade) 0%, var(--secondary-background) 100%);
+    background: -ms-radial-gradient(center, ellipse cover, var(--secondary-gradient-shade) 0%, var(--secondary-background) 100%);
+    background: radial-gradient(ellipse at center, var(--secondary-gradient-shade) 0%, var(--secondary-background) 100%);
 }
 .gradient.secondary.linear {
-    background: var(--secondary-border);
-    background: -moz-linear-gradient(to right top, var(--secondary-gradient-shade) 0%, var(--secondary-border) 100%);
-    background: -webkit-linear-gradient(to right top, var(--secondary-gradient-shade) 0%, var(--secondary-border) 100%);
-    background: -o-linear-gradient(to right top, var(--secondary-gradient-shade) 0%, var(--secondary-border) 100%);
-    background: -ms-linear-gradient(to right top, var(--secondary-gradient-shade) 0%, var(--secondary-border) 100%);
-    background: linear-gradient(to right top, var(--secondary-gradient-shade) 0%, var(--secondary-border) 100%);
+    background: var(--secondary-background);
+    background: -moz-linear-gradient(to right top, var(--secondary-gradient-shade) 0%, var(--secondary-background) 100%);
+    background: -webkit-linear-gradient(to right top, var(--secondary-gradient-shade) 0%, var(--secondary-background) 100%);
+    background: -o-linear-gradient(to right top, var(--secondary-gradient-shade) 0%, var(--secondary-background) 100%);
+    background: -ms-linear-gradient(to right top, var(--secondary-gradient-shade) 0%, var(--secondary-background) 100%);
+    background: linear-gradient(to right top, var(--secondary-gradient-shade) 0%, var(--secondary-background) 100%);
 }
 .fill.secondary {
     fill: var(--secondary-background);
