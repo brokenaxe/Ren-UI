@@ -79,62 +79,62 @@
 }
 .shape.top.from-left::before,
 .shape.bottom.from-left::after {
-	border-right-width: 99.02vw;
+	border-right-width: 100vw;
 	border-right-color: transparent;
 	border-right-style: solid;
 }
 .shape.top.from-right::before,
 .shape.bottom.from-right::after {
-	border-left-width: 99.02vw;
+	border-left-width: 100vw;
 	border-left-color: transparent;
 	border-left-style: solid;
 }
 .shape.top.from-center::before,
 .shape.bottom.from-center::after {
-	border-left-width: 49.5vw;
+	border-left-width: 50vw;
 	border-left-color: transparent;
 	border-left-style: solid;
-	border-right-width: 49.5vw;
+	border-right-width: 50vw;
 	border-right-color: transparent;
 	border-right-style: solid;
 }
 .shape.top.from-center.to10::before,
 .shape.bottom.from-center.to10::after {
-	border-left-width: 9.5vw;
-	border-right-width: 89.5vw;
+	border-left-width: 10vw;
+	border-right-width: 90vw;
 }
 .shape.top.from-center.to30::before,
 .shape.bottom.from-center.to20::after {
-	border-left-width: 19.5vw;
-	border-right-width: 79.5vw;
+	border-left-width: 20vw;
+	border-right-width: 80vw;
 }
 .shape.top.from-center.to30::before,
 .shape.bottom.from-center.to30::after {
-	border-left-width: 29.5vw;
-	border-right-width: 69.5vw;
+	border-left-width: 30vw;
+	border-right-width: 70vw;
 }
 .shape.top.from-center.to40::before,
 .shape.bottom.from-center.to40::after {
-	border-left-width: 39.5vw;
-	border-right-width: 59.5vw;
+	border-left-width: 40vw;
+	border-right-width: 60vw;
 }
 .shape.top.from-center.to60::before,
 .shape.bottom.from-center.to60::after {
-	border-left-width: 59.5vw;
-	border-right-width: 39.5vw;
+	border-left-width: 60vw;
+	border-right-width: 40vw;
 }
 .shape.top.from-center.to70::before,
 .shape.bottom.from-center.to70::after {
-	border-left-width: 69.5vw;
-	border-right-width: 29.5vw;
+	border-left-width: 70vw;
+	border-right-width: 30vw;
 }
 .shape.top.from-center.to80::before,
 .shape.bottom.from-center.to80::after {
-	border-left-width: 79.5vw;
-	border-right-width: 19.5vw;
+	border-left-width: 80vw;
+	border-right-width: 20vw;
 }
 .shape.top.from-center.to90::before,
 .shape.bottom.from-center.to90::after {
-	border-left-width: 89.5vw;
-	border-right-width: 9.5vw;
+	border-left-width: 90vw;
+	border-right-width: 10vw;
 }
