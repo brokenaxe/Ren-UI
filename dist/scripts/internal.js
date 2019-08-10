@@ -6,23 +6,30 @@ $.each($('.label'), function(index, value) {
     var labelVal = $(this).html();
     labelVal = labelVal.trim()
     if (labelVal.indexOf('.') !== -1) {
+        
+
+
         if (labelVal.indexOf(currentVersion) !== -1) {
-            if ($(this).hasClass("latestversion") !== true) {
+            if (labelVal.indexOf("|") !== -1) {
+                var values = labelVal.split('|');
+                $(this).html("Improved in " + values[0]);
+                $(this).attr("data-tooltip","Introduced in " + values[1]);
+            } else {
                 $(this).html("New in " + labelVal);
             }
-            $(this).addClass("silver o01");
+            $(this).addClass("aqua");
         } else {
             if (labelVal.indexOf("|") !== -1) {
                 var values = labelVal.split('|');
                 $(this).html(values[0]);
-                $(this).attr("title","Introduced in " + values[1]);
+                $(this).attr("data-tooltip","Introduced in " + values[1]);
                 $(this).addClass("silver");
             } else if (Number(currentVersion.replace('.','').replace('.','')) < Number(labelVal.replace('.','').replace('.',''))) {
-                $(this).attr("title","Not Public Released yet will be avialable in " + labelVal);
-                $(this).html("Public Preview Only " + currentVersion + '');
-                $(this).addClass("aqua o01");
+                $(this).attr("data-tooltip","Not Public Released yet will be avialable in " + labelVal);
+                $(this).html("Public Preview in " + currentVersion + '');
+                $(this).addClass("orange");
             } else {
-                $(this).attr("title","Introduced in " + labelVal);
+                $(this).attr("data-tooltip","Introduced in " + labelVal);
             }
             
         }
@@ -137,6 +144,18 @@ function copyToClipboard(whichelement,type,element) {
     }
     document.execCommand("copy");
     $(element).attr("data-tooltip","Copied to Clipboard");
+    $temp.remove();
+}
+function getUrl(url, target = '_blank') {
+	var win = window.open(url, target);
+  	win.focus();
+}
+function copyToClipboardText(ths,code) {
+    var $temp = $("<input>");
+    $("body").append($temp);
+    $temp.val(code).select();
+    document.execCommand("copy");
+    $(ths).attr("data-tooltip","Copied to Clipboard");
     $temp.remove();
 }
 function getUrl(url, target = '_blank') {

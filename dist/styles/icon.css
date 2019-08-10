@@ -45,6 +45,10 @@
     align-items:center;
     background-color: var(--text);
 }
+.icon.brokenaxe {
+    -webkit-mask-image:url('../icons/brokenaxe.svg');
+    mask-image:url('../icons/brokenaxe.svg');
+}
 .icon.renui {
     -webkit-mask-image:url('../icons/renui.svg');
     mask-image:url('../icons/renui.svg');
@@ -148,6 +152,26 @@
 .icon.heart {
     -webkit-mask-image: url('../icons/iconmonstr-favorite-3.svg');
     mask-image: url('../icons/iconmonstr-favorite-3.svg');
+}
+.icon.ie {
+    -webkit-mask-image: url('../icons/iconmonstr-internet-explorer-1.svg');
+    mask-image: url('../icons/iconmonstr-internet-explorer-1.svg');
+}
+.icon.firefox {
+    -webkit-mask-image: url('../icons/iconmonstr-firefox-1.svg');
+    mask-image: url('../icons/iconmonstr-firefox-1.svg');
+}
+.icon.safari {
+    -webkit-mask-image: url('../icons/iconmonstr-safari-1.svg');
+    mask-image: url('../icons/iconmonstr-safari-1.svg');
+}
+.icon.opera {
+    -webkit-mask-image: url('../icons/iconmonstr-opera-1.svg');
+    mask-image: url('../icons/iconmonstr-opera-1.svg');
+}
+.icon.chrome {
+    -webkit-mask-image: url('../icons/iconmonstr-chrome-1.svg');
+    mask-image: url('../icons/iconmonstr-chrome-1.svg');
 }
 /*
 .icon:hover,
