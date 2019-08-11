@@ -304,6 +304,30 @@ function set() {
           }, 100 * index);
         });
     }
+    if ($('input[name="gdpr"]').length > 0) {
+        $('input[name="gdpr"]').each(function (index) {
+          var vals = $(this);
+          var values = vals.val().split('|');
+          vals.remove();
+          setTimeout(function () {
+              $('body').addClass('relative');
+              $('body').append('<div id="renui-gdpr" class="hide width-s bg ' + values[0] + ' fixed"><h6>' + values[1] + '</h6>' + values[2] + ', <a class="underline" href="' + values[3] + '" target="_blank">Learn More</a>. <br><br><a class="button ' + values[4] + '" onclick="cookieset(\'renui-gdpr\',\'agreed\',365);$(\'#renui-gdpr\').addClass(\'hide\');">' + values[5] + '</div>');
+              if (cookieget("renui-gdpr") === null){$("#renui-gdpr").removeClass("hide")};
+          }, 100 * index);
+        });
+    }
+    if ($('input[name="gdpr-bar"]').length > 0) {
+        $('input[name="gdpr-bar"]').each(function (index) {
+          var vals = $(this);
+          var values = vals.val().split('|');
+          vals.remove();
+          setTimeout(function () {
+              $('body').addClass('relative');
+              $('body').append('<div id="renui-gdpr" class="hide width-f bg ' + values[0] + ' fixed">' + values[1] + ', <a class="underline" href="' + values[2] + '" target="_blank">Learn More</a>. <a class="right button ' + values[3] + '" onclick="cookieset(\'renui-gdpr\',\'agreed\',365);$(\'#renui-gdpr\').addClass(\'hide\');">' + values[4] + '</div>');
+              if (cookieget("renui-gdpr") === null){$("#renui-gdpr").removeClass("hide")};
+          }, 100 * index);
+        });
+    }
     if ($('.popup').length > 0) {
         $('.popup').each(function (index) {
           popupActions(this,'');

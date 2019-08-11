@@ -245,3 +245,12 @@ hr.x3 {
 .lowercase {
     text-transform:lowercase;
 }
+.line-through {
+    text-decoration: line-through;
+}
+.italic {
+    font-style: italic;
+}
+.oblique {
+    font-style: oblique;
+}
