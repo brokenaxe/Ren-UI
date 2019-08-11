@@ -8,37 +8,51 @@ function Cookie_Set(name, value, days) {
 	document.cookie = name + "=" + Base64.encode(reverse(value)) + expires + "; path=/";
 }
 function cookieset(name, value, days, action = '') {
-	Cookie_Set(name, value, days);
-	if (action === 'text') {
-		return name + ' set to ' + value;
+	if (cookieget("renui-gdpr") === 'agreed' || name === "renui-gdpr"){
+		Cookie_Set(name, value, days);
+		if (action === 'text') {
+			return name + ' set to ' + value;
+		} else {
+			return null;
+		}
 	} else {
 		return null;
 	}
 }
 function cookieget(name) {
-	var nameEQ = name + "=";
-	var ca = document.cookie.split(';');
-	for (var i = 0; i < ca.length; i++) {
-		var c = ca[i];
-		while (c.charAt(0) == ' ') c = c.substring(1, c.length);
-		if (c.indexOf(nameEQ) == 0) return reverse(Base64.decode(c.substring(nameEQ.length, c.length)));
-	}
+	//if (cookieget("renui-gdpr") === 'agreed' || name === "renui-gdpr") {
+		var nameEQ = name + "=";
+		var ca = document.cookie.split(';');
+		for (var i = 0; i < ca.length; i++) {
+			var c = ca[i];
+			while (c.charAt(0) == ' ') c = c.substring(1, c.length);
+			if (c.indexOf(nameEQ) == 0) return reverse(Base64.decode(c.substring(nameEQ.length, c.length)));
+		}
+	//}
 	return null;
 }
 function cookiedelete(name) {
-	Cookie_Set(name, "", -1);
+	if (cookieget("renui-gdpr") === 'agreed' || name === "renui-gdpr"){
+		Cookie_Set(name, "", -1);
+	} else {
+		return null;
+	}
 }
 function cookiedeleteall() {
-	var nameEQ = name + "=";
-	var ca = document.cookie.split(';');
-	for (var i = 0; i < ca.length; i++) {
-		var c = ca[i];
-		if (c.indexOf(nameEQ) !== 0) {
-			cookiedelete(left(c,c.indexOf(nameEQ)));
+	if (cookieget("renui-gdpr") === 'agreed'){
+		var nameEQ = name + "=";
+		var ca = document.cookie.split(';');
+		for (var i = 0; i < ca.length; i++) {
+			var c = ca[i];
+			if (c.indexOf(nameEQ) !== 0) {
+				cookiedelete(left(c,c.indexOf(nameEQ)));
+			}
+			
 		}
-		
+		return null;
+	} else {
+		return null;
 	}
-	return null;
 }
 function reverse(s) {
     for (var i = s.length - 1, o = ''; i >= 0; o += s[i--]) { }

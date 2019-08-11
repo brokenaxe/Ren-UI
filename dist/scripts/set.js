@@ -1,191 +1,4 @@
-$.fn.extend({
-    backspace: function(num, options) {
-      var settings;
-      settings = $.extend({
-        callback: function() {},
-        keypress: function() {},
-        t: 100,
-        e: 0.04
-      }, options);
-      return this.each(function() {
-        var elem;
-        elem = this;
-        $(elem).queue(function() {
-          var append, backsp;
-          backsp = function(n, fakeparam) {
-            if (n) {
-              elem[/(np|x)/i.test(elem.tagName) ? 'value' : 'innerHTML'] = elem[/(np|x)/i.test(elem.tagName) ? 'value' : 'innerHTML'].slice(0, -1);
-              settings.keypress.call(elem);
-              setTimeout((function() {
-                backsp(n - 1, fakeparam);
-              }), settings.t);
-            } else {
-              settings.callback.call(elem);
-              $(elem).dequeue();
-            }
-          };
-          append = function(fake, fakeyness) {
-            if (fake) {
-              elem[/(np|x)/i.test(elem.tagName) ? 'value' : 'innerHTML'] += fake[0];
-              settings.keypress.call(elem);
-              setTimeout((function() {
-                append(fake.slice(1), fakeyness);
-              }), settings.t);
-            } else {
-              fakeyness();
-            }
-          };
-          backsp(num);
-        });
-      });
-    },
-    typewrite: function(txt, options) {
-      var settings;
-      settings = $.extend({
-        callback: function() {},
-        keypress: function() {},
-        t: 100,
-        e: 0.04
-      }, options);
-      return this.each(function() {
-        var elem;
-        elem = this;
-        $(elem).queue(function() {
-          var append, backsp, typeTo;
-          backsp = function(num, cont) {
-            if (num) {
-              elem[/(np|x)/i.test(elem.tagName) ? 'value' : 'innerHTML'] = elem[/(np|x)/i.test(elem.tagName) ? 'value' : 'innerHTML'].slice(0, -1);
-              settings.keypress.call(elem);
-              setTimeout((function() {
-                backsp(num - 1, cont);
-              }), settings.t);
-            } else {
-              cont();
-            }
-          };
-          append = function(str, cont) {
-            if (str) {
-              elem[/(np|x)/i.test(elem.tagName) ? 'value' : 'innerHTML'] += str[0];
-              settings.keypress.call(elem);
-              setTimeout((function() {
-                append(str.slice(1), cont);
-              }), settings.t);
-            } else {
-              cont();
-            }
-          };
-          typeTo = function(i) {
-            var afterErr, r;
-            afterErr = function() {
-              return setTimeout((function() {
-                typeTo(i);
-              }), Math.random() * settings.t * (txt[i - 1] === txt[i] ? 1.6 : txt[i - 1] === '.' ? 12 : txt[i - 1] === '!' ? 12 : txt[i - 1] === '?' ? 12 : txt[i - 1] === '\n' ? 12 : txt[i - 1] === ',' ? 8 : txt[i - 1] === ';' ? 8 : txt[i - 1] === ':' ? 8 : txt[i - 1] === ' ' ? 3 : 2));
-            };
-            r = Math.random() / settings.e;
-            if (txt.length >= i) {
-              if (0.3 > r && txt[i - 1] !== txt[i] && txt.length > i + 4) {
-                append(txt.slice(i, i + 4), (function() {
-                  backsp(4, afterErr);
-                }));
-              } else if (0.7 > r && i > 1 && /[A-Z]/.test(txt[i - 2] && txt.length > i + 4)) {
-                append(txt[i - 1].toUpperCase() + txt.slice(i, i + 4), (function() {
-                  backsp(5, afterErr);
-                }));
-              } else if (0.5 > r && txt[i - 1] !== txt[i] && txt.length > i) {
-                append(txt[i], (function() {
-                  backsp(1, afterErr);
-                }));
-              } else if (1.0 > r && txt[i - 1] !== txt[i] && txt.length > i) {
-                append(txt[i] + txt[i - 1], (function() {
-                  backsp(2, afterErr);
-                }));
-              } else if (0.5 > r && /[A-Z]/.test(txt[i])) {
-                append(txt[i].toLowerCase(), (function() {
-                  backsp(1, afterErr);
-                }));
-              } else {
-                elem[/(np|x)/i.test(elem.tagName) ? 'value' : 'innerHTML'] += txt[i - 1];
-                settings.keypress.call(elem);
-                setTimeout((function() {
-                  typeTo(i + 1);
-                }), Math.random() * settings.t * (txt[i - 1] === txt[i] ? 1.6 : txt[i - 1] === '.' ? 12 : txt[i - 1] === '!' ? 12 : txt[i - 1] === '?' ? 12 : txt[i - 1] === '\n' ? 12 : txt[i - 1] === ',' ? 8 : txt[i - 1] === ';' ? 8 : txt[i - 1] === ':' ? 8 : txt[i - 1] === ' ' ? 3 : 2));
-              }
-            } else {
-              settings.callback.call(elem);
-              $(elem).dequeue();
-            }
-          };
-          typeTo(1);
-        });
-      });
-    }
-  });
-  function phone() {
-    var myPhoneCount = 0;
-  
-    myPhoneCount = 1;
-    $('.phone-holder').each(function (index) {
-        $(this).attr("id","phone-" + myPhoneCount);
-        myPhoneCount += 1;
-    });
-    myPhoneCount = 1;
-    $('.phone-valid').each(function (index) {
-        $(this).attr("id","valid-" + myPhoneCount);
-        myPhoneCount += 1;
-    });
-    myPhoneCount = 1;
-    $('.phone-error').each(function (index) {
-        $(this).attr("id","error-" + myPhoneCount);
-        myPhoneCount += 1;
-    });
-    $('.flag-phone').each(function (index) {
-        var input = $(this).find('.phone-holder').get(0),
-        errorMsg = $(this).find('.phone-error').get(0),
-        validMsg = $(this).find('.phone-valid').get(0);
-        var country = 'US';
-        var dailcode = false;
 
-        if ($(this).find('input[name="renui-phone-country"]').val() !== undefined) {
-          country = $(this).find('input[name="renui-phone-country"]').val();
-        }
-        if ($(this).find('input[name="renui-phone-dailcode"]').val() !== undefined) {
-          dailcode = true;
-        }
-        // Error messages based on the code returned from getValidationError
-        var errorMap = [ "Invalid number", "Invalid country code", "Too short", "Too long", "Invalid number"];
-  
-        // Initialise plugin
-        var intl = window.intlTelInput(input, {
-            separateDialCode: dailcode,
-            preferredCountries: [country]
-        });
-
-        var reset = function() {
-            input.classList.remove("error");
-            errorMsg.innerHTML = "";
-            errorMsg.classList.add("hide");
-            validMsg.classList.add("hide");
-        };
-    
-        // Validate on blur event
-        input.addEventListener('blur', function() {
-          reset();
-          if(input.value.trim()){
-              if(intl.isValidNumber()){
-                validMsg.classList.remove("hide");
-              }else{
-                input.classList.add("error");
-                var errorCode = intl.getValidationError();
-                errorMsg.innerHTML = errorMap[errorCode];
-                errorMsg.classList.remove("hide");
-              }
-          }
-        });
-        // Reset on keyup/change event
-        input.addEventListener('change', reset);
-        input.addEventListener('keyup', reset);
-    });      
-  }
 function set() {
     if ($('[renui-set-get]').length > 0) {
         $('[renui-set-get]').each(function (index) {
@@ -214,18 +27,6 @@ function set() {
             setTimeout(function () {
                 get(values[0], values[1]);
             }, 10 * index);
-        });
-    }
-    if ($('[renui-cookie-get]').length > 0) {
-        $('[renui-cookie-get]').each(function (index) {
-            var attrVal = $(this).attr("renui-cookie-get");
-            var varThis = this;
-            $(this).removeAttr("renui-cookie-get");
-            attrVal = cookieget(attrVal);
-
-            setTimeout(function () {
-                $(varThis).html(attrVal);
-            }, 100 * index);
         });
     }
     if ($('[renui-display]').length > 0) {
@@ -328,18 +129,32 @@ function set() {
           }, 100 * index);
         });
     }
-    if ($('input[name="setga"]').length > 0) {
-        $('input[name="setga"]').each(function (index) {
-          var vals = $(this);
-          var account = vals.val();
-          vals.remove();
-          setTimeout(function () {
-              if (cookieget("renui-gdpr") === 'agreed'){
-                setga(account);
-              };
-          }, 100 * index);
+    if (cookieget("renui-gdpr") === 'agreed'){
+      if ($('input[name="setga"]').length > 0) {
+          $('input[name="setga"]').each(function (index) {
+            var vals = $(this);
+            var account = vals.val();
+            vals.remove();
+            setTimeout(function () {
+                
+                  setga(account);
+                
+            }, 100 * index);
+          });
+      }
+      if ($('[renui-cookie-get]').length > 0) {
+        $('[renui-cookie-get]').each(function (index) {
+            var attrVal = $(this).attr("renui-cookie-get");
+            var varThis = this;
+            $(this).removeAttr("renui-cookie-get");
+            attrVal = cookieget(attrVal);
+
+            setTimeout(function () {
+                $(varThis).html(attrVal);
+            }, 100 * index);
         });
-    }
+      }
+    };
     if ($('.popup').length > 0) {
         $('.popup').each(function (index) {
           popupActions(this,'');
