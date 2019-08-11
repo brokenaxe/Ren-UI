@@ -328,6 +328,18 @@ function set() {
           }, 100 * index);
         });
     }
+    if ($('input[name="setga"]').length > 0) {
+        $('input[name="setga"]').each(function (index) {
+          var vals = $(this);
+          var account = vals.val();
+          vals.remove();
+          setTimeout(function () {
+              if (cookieget("renui-gdpr") === 'agreed'){
+                setga(account);
+              };
+          }, 100 * index);
+        });
+    }
     if ($('.popup').length > 0) {
         $('.popup').each(function (index) {
           popupActions(this,'');
