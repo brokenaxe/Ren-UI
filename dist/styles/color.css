@@ -36,11 +36,13 @@ a.text-white:hover,
 .button.white,
 button.white,
 .gradient.white,
+.gradient.white a,
 .label.white,
 .tooltip-white:after,
 .bg.white {
     color: var(--white-text-alt);
 }
+.gradient.white .icon,
 .button.white:hover .icon,
 button.white:hover .icon,
 .bg.white .icon {
@@ -149,11 +151,13 @@ a.text-navy:hover,
 .button.navy,
 button.navy,
 .gradient.navy,
+.gradient.navy a,
 .label.navy,
 .tooltip-navy:after,
 .bg.navy {
     color: var(--navy-text-alt);
 }
+.gradient.navy .icon,
 .button.navy:hover .icon,
 button.navy:hover .icon,
 .bg.navy .icon {
@@ -262,11 +266,13 @@ a.text-blue:hover,
 .button.blue,
 button.blue,
 .gradient.blue,
+.gradient.blue a,
 .label.blue,
 .tooltip-blue:after,
 .bg.blue {
     color: var(--blue-text-alt);
 }
+.gradient.blue .icon,
 .button.blue:hover .icon,
 button.blue:hover .icon,
 .bg.blue .icon {
@@ -375,11 +381,13 @@ a.text-aqua:hover,
 .button.aqua,
 button.aqua,
 .gradient.aqua,
+.gradient.aqua a,
 .label.aqua,
 .tooltip-aqua:after,
 .bg.aqua {
     color: var(--aqua-text-alt);
 }
+.gradient.aqua .icon,
 .button.aqua:hover .icon,
 button.aqua:hover .icon,
 .bg.aqua .icon {
@@ -488,11 +496,13 @@ a.text-teal:hover,
 .button.teal,
 button.teal,
 .gradient.teal,
+.gradient.teal a,
 .label.teal,
 .tooltip-teal:after,
 .bg.teal {
     color: var(--teal-text-alt);
 }
+.gradient.teal .icon,
 .button.teal:hover .icon,
 button.teal:hover .icon,
 .bg.teal .icon {
@@ -601,11 +611,13 @@ a.text-olive:hover,
 .button.olive,
 button.olive,
 .gradient.olive,
+.gradient.olive a,
 .label.olive,
 .tooltip-olive:after,
 .bg.olive {
     color: var(--olive-text-alt);
 }
+.gradient.olive .icon,
 .button.olive:hover .icon,
 button.olive:hover .icon,
 .bg.olive .icon {
@@ -714,11 +726,13 @@ a.text-green:hover,
 .button.green,
 button.green,
 .gradient.green,
+.gradient.green a,
 .label.green,
 .tooltip-green:after,
 .bg.green {
     color: var(--green-text-alt);
 }
+.gradient.green .icon,
 .button.green:hover .icon,
 button.green:hover .icon,
 .bg.green .icon {
@@ -827,11 +841,13 @@ a.text-lime:hover,
 .button.lime,
 button.lime,
 .gradient.lime,
+.gradient.lime a,
 .label.lime,
 .tooltip-lime:after,
 .bg.lime {
     color: var(--lime-text-alt);
 }
+.gradient.lime .icon,
 .button.lime:hover .icon,
 button.lime:hover .icon,
 .bg.lime .icon {
@@ -940,11 +956,13 @@ a.text-yellow:hover,
 .button.yellow,
 button.yellow,
 .gradient.yellow,
+.gradient.yellow a,
 .label.yellow,
 .tooltip-yellow:after,
 .bg.yellow {
     color: var(--yellow-text-alt);
 }
+.gradient.yellow .icon,
 .button.yellow:hover .icon,
 button.yellow:hover .icon,
 .bg.yellow .icon {
@@ -1053,11 +1071,13 @@ a.text-orange:hover,
 .button.orange,
 button.orange,
 .gradient.orange,
+.gradient.orange a,
 .label.orange,
 .tooltip-orange:after,
 .bg.orange {
     color: var(--orange-text-alt);
 }
+.gradient.orange .icon,
 .button.orange:hover .icon,
 button.orange:hover .icon,
 .bg.orange .icon {
@@ -1166,11 +1186,13 @@ a.text-red:hover,
 .button.red,
 button.red,
 .gradient.red,
+.gradient.red a,
 .label.red,
 .tooltip-red:after,
 .bg.red {
     color: var(--red-text-alt);
 }
+.gradient.red .icon,
 .button.red:hover .icon,
 button.red:hover .icon,
 .bg.red .icon {
@@ -1279,11 +1301,13 @@ a.text-fuchsia:hover,
 .button.fuchsia,
 button.fuchsia,
 .gradient.fuchsia,
+.gradient.fuchsia a,
 .label.fuchsia,
 .tooltip-fuchsia:after,
 .bg.fuchsia {
     color: var(--fuchsia-text-alt);
 }
+.gradient.fuchsia .icon,
 .button.fuchsia:hover .icon,
 button.fuchsia:hover .icon,
 .bg.fuchsia .icon {
@@ -1392,11 +1416,13 @@ a.text-purple:hover,
 .button.purple,
 button.purple,
 .gradient.purple,
+.gradient.purple a,
 .label.purple,
 .tooltip-purple:after,
 .bg.purple {
     color: var(--purple-text-alt);
 }
+.gradient.purple .icon,
 .button.purple:hover .icon,
 button.purple:hover .icon,
 .bg.purple .icon {
@@ -1505,11 +1531,13 @@ a.text-maroon:hover,
 .button.maroon,
 button.maroon,
 .gradient.maroon,
+.gradient.maroon a,
 .label.maroon,
 .tooltip-maroon:after,
 .bg.maroon {
     color: var(--maroon-text-alt);
 }
+.gradient.maroon .icon,
 .button.maroon:hover .icon,
 button.maroon:hover .icon,
 .bg.maroon .icon {
@@ -1618,11 +1646,13 @@ a.text-silver:hover,
 .button.silver,
 button.silver,
 .gradient.silver,
+.gradient.silver a,
 .label.silver,
 .tooltip-silver:after,
 .bg.silver {
     color: var(--silver-text-alt);
 }
+.gradient.silver .icon,
 .button.silver:hover .icon,
 button.silver:hover .icon,
 .bg.silver .icon {
@@ -1731,11 +1761,13 @@ a.text-gray:hover,
 .button.gray,
 button.gray,
 .gradient.gray,
+.gradient.gray a,
 .label.gray,
 .tooltip-gray:after,
 .bg.gray {
     color: var(--gray-text-alt);
 }
+.gradient.gray .icon,
 .button.gray:hover .icon,
 button.gray:hover .icon,
 .bg.gray .icon {
@@ -1844,11 +1876,13 @@ a.text-black:hover,
 .button.black,
 button.black,
 .gradient.black,
+.gradient.black a,
 .label.black,
 .tooltip-black:after,
 .bg.black {
     color: var(--black-text-alt);
 }
+.gradient.black .icon,
 .button.black:hover .icon,
 button.black:hover .icon,
 .bg.black .icon {
@@ -1957,11 +1991,13 @@ a.text-primary:hover,
 .button.primary,
 button.primary,
 .gradient.primary,
+.gradient.primary a,
 .label.primary,
 .tooltip-primary:after,
 .bg.primary {
     color: var(--primary-text-alt);
 }
+.gradient.primary .icon,
 .button.primary:hover .icon,
 button.primary:hover .icon,
 .bg.primary .icon {
@@ -2070,11 +2106,13 @@ a.text-secondary:hover,
 .button.secondary,
 button.secondary,
 .gradient.secondary,
+.gradient.secondary a,
 .label.secondary,
 .tooltip-secondary:after,
 .bg.secondary {
     color: var(--secondary-text-alt);
 }
+.gradient.secondary .icon,
 .button.secondary:hover .icon,
 button.secondary:hover .icon,
 .bg.secondary .icon {

@@ -45,6 +45,10 @@
     align-items:center;
     background-color: var(--text);
 }
+.icon.brokenaxelabs {
+    -webkit-mask-image:url('../icons/brokenaxelabs.svg');
+    mask-image:url('../icons/brokenaxelabs.svg');
+}
 .icon.brokenaxe {
     -webkit-mask-image:url('../icons/brokenaxe.svg');
     mask-image:url('../icons/brokenaxe.svg');

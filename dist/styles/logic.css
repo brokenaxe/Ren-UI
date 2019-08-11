@@ -57,32 +57,23 @@ Logic
         box-shadow: 0 5px 0 0 #000, 0 10px 0 0 #000;
     }
 }
-@media only screen and (max-width:320px) {
+@media only screen and (max-width:767px) {
+    html,body {
+        overflow-x: hidden;
+    }
     .phone-noheight {
         height:auto !important;
     }
     .phone-width-f {
         width:100% !important;
     }
-    .hide-below.retro,
-    .hide-below.laptop,
-    .hide-below.medium,
-    .hide-below.large,
-    .hide-below.xlarge,
-    .hide-for.phone {
-        display:none !important;
+    .phone-as-br {
+        visibility:hidden !important;
     }
-    .width-r {
-        width: 100%;
-    }
-}
-@media only screen and (min-width:321px) and (max-width:767px) {
-    .phone-noheight {
-        height:auto !important;
-    }
-    .phone-width-f {
-        width:100% !important;
-    }
+    .phone-as-br::before {
+        content: "\A";
+        white-space: pre;
+      }
     .hide-below.retro,
     .hide-below.laptop,
     .hide-below.medium,
@@ -99,6 +90,44 @@ Logic
     }
     .width-r {
         width: 100% !important;
+    }
+    .phone-box-height-100 {
+        width: 100vh !important;
+        height: 100vh !important;
+    }
+    .phone-box-width-100 {
+        width: 100vw !important;
+        height: 100vw !important;
+    }
+    .phone-no-spacer {
+        padding: 0 !important;
+    }
+    .phone-spacer {
+        padding:20px 24px !important;
+    }
+    .phone-spacer-t {
+        padding-top:20px !important;
+    }
+    .phone-spacer-b {
+        padding-bottom:20px !important;
+    }
+    .phone-spacer-l {
+        padding-left:24px !important;
+    }
+    .phone-spacer-r {
+        padding-right:24px !important;
+    }
+    .phone-spacer-d2 {
+        padding:10px 12px !important;
+    }
+    .phone-spacer-d3 {
+        padding:4px 6px !important;
+    }
+    .phone-spacer-x2 {
+        padding:40px 48px !important;
+    }
+    .phone-spacer-x3 {
+        padding:60px 72px !important;
     }
 }
 @media only screen and (min-device-width:768px) and (max-device-width:1024px) and (orientation:portrait) {

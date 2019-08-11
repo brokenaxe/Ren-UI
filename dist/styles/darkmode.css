@@ -17,6 +17,12 @@
         background-color: var(--darkmode-background);
         color: var(--darkmode-text);
     }
+    .shape.bottom.with-white::after {
+        border-bottom-color: var(--darkmode-background);
+    }
+    .shape.top.with-white::after {
+        border-top-color: var(--darkmode-background);
+    }
     .darkmode nav li input, 
     .darkmode .sizer span::before, 
     .darkmode .sizer-left span::before, 
@@ -26,6 +32,12 @@
     .darkmode .bg.black button:hover:not(.navy):not(.blue):not(.aqua):not(.teal):not(.teal):not(.olive):not(.green):not(.lime):not(.yellow):not(.orange):not(.red):not(.fuchsia):not(.purple):not(.maroon):not(.silver):not(.gray):not(.primary):not(.secondary),
     .darkmode .bg.black .button:hover:not(.navy):not(.blue):not(.aqua):not(.teal):not(.teal):not(.olive):not(.green):not(.lime):not(.yellow):not(.orange):not(.red):not(.fuchsia):not(.purple):not(.maroon):not(.silver):not(.gray):not(.primary):not(.secondary) {
         background-color: var(--darkmode-background-hover);
+    }
+    .shape.bottom.with-black::after {
+        border-bottom-color: var(--darkmode-black-background);
+    }
+    .shape.top.with-black::after {
+        border-top-color: var(--darkmode-black-background);
     }
     .darkmode .code-container .title,
     .darkmode nav.buttons li:not(.input).selected, 
@@ -56,7 +68,7 @@
     }
     .darkmode .icon,
     .darkmode .cards .card-swipe::after {
-        background-color: var(--darkmode-text);
+        background-color: var(--darkmode-text) !important;
     }
     .darkmode .label.tag::after {
         background-color: var(--darkmode-background) !important;
