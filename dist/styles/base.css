@@ -84,4 +84,11 @@ pre {
   white-space: -pre-wrap;
   white-space: -o-pre-wrap;
   word-wrap: break-word;
- }
+}
+blockquote .label {
+  margin-bottom: .15rem;
+  margin-top: .25rem;
+}
+blockquote .code-container {
+  margin-top: 8px;
+}

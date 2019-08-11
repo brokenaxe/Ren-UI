@@ -46,5 +46,5 @@ function setga(account) {
         s.parentNode.insertBefore(ga, s);
     })();
     __compete_code = "renui.ga.loaded";
-    console.log("renui.ga.loaded");
+    console.log("renui.js [ga.loaded]");
 }
