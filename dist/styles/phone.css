@@ -1,0 +1,102 @@
+/*******************************
+            Phone
+*******************************/
+
+@media only screen and (max-width:767px) {
+    html,body {
+        overflow-x: hidden;
+    }
+    .phone-noheight {
+        height:auto !important;
+    }
+    .phone-width-f {
+        width:100% !important;
+    }
+    .phone-as-br {
+        visibility:hidden !important;
+    }
+    .phone-as-br::before {
+        content: "\A";
+        white-space: pre;
+    }
+    .grid,
+    .grid > div {
+        display: inline-block;
+        width: 100%;
+        height: auto;
+    }
+    .width-r {
+        width: 100% !important;
+    }
+    .phone-box-height-100 {
+        width: 100vh !important;
+        height: 100vh !important;
+    }
+    .phone-box-width-100 {
+        width: 100vw !important;
+        height: 100vw !important;
+    }
+    .phone-no-spacer {
+        padding: 0 !important;
+    }
+    .phone-spacer {
+        padding:20px 24px !important;
+    }
+    .phone-spacer-t {
+        padding-top:20px !important;
+    }
+    .phone-spacer-b {
+        padding-bottom:20px !important;
+    }
+    .phone-spacer-l {
+        padding-left:24px !important;
+    }
+    .phone-spacer-r {
+        padding-right:24px !important;
+    }
+    .phone-spacer-d2 {
+        padding:10px 12px !important;
+    }
+    .phone-spacer-d3 {
+        padding:4px 6px !important;
+    }
+    .phone-spacer-x2 {
+        padding:40px 48px !important;
+    }
+    .phone-spacer-x3 {
+        padding:60px 72px !important;
+    }
+    .phone-height-auto {
+        height: auto !important;
+    }
+    .phone-height-10 {
+        height: 10vh !important;
+    }
+    .phone-height-20 {
+        height: 20vh !important;
+    }
+    .phone-height-30 {
+        height: 30vh !important;
+    }
+    .phone-height-40 {
+        height: 40vh !important;
+    }
+    .phone-height-50 {
+        height: 50vh !important;
+    }
+    .phone-height-60 {
+        height: 60vh !important;
+    }
+    .phone-height-70 {
+        height: 70vh !important;
+    }
+    .phone-height-80 {
+        height: 80vh !important;
+    }
+    .phone-height-90 {
+        height: 90vh !important;
+    }
+    .phone-height-100 {
+        height: 100vh !important;
+    }
+}

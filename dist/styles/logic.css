@@ -1,79 +1,8 @@
 /*******************************
 Logic
 *******************************/
-.touch-menu-button {
-    display: none;
-}
-@media (hover:none), (hover:on-demand) {
-    .touch-menu {
-        position: fixed;
-        z-index: 1000;
-        top: 0;
-        left: 0;
-        width: 100vw;
-        height: 100vh;
-        display: inline-block;
-        overflow-y: scroll;
-    }
-    .touch-menu .ex-menu {
-        width: 100%;
-        text-align: center;
-        min-height: 100vh;
-        height: auto;
-        position: relative;
-        padding-bottom: 30px;
-    }
-    .touch-menu .ex-menu li {
-        font-size: 200%;
-        margin-bottom: 2px;
-    }
-    .touch-menu .ex-menu li a {
-        font-size: 80%;
-    }
-    .touch-menu .ex-menu .no-link {
-        font-size: 180%;
-    }
-    .touch-menu-button {
-        display: inline-block;
-        content: "";
-        position: fixed;
-        right: 10px;
-        top: 10px;
-        width: 30px;
-        height: 30px;
-        background: #fcfcfc;
-        border-radius: 3px;
-        cursor: pointer;
-        z-index: 1001;
-    }
-    .touch-menu-button::after {
-        content: "";
-        position: absolute;
-        right: 8px;
-        top: 9px;
-        width: 1em;
-        height: 0.15em;
-        background: #000;
-        box-shadow: 0 5px 0 0 #000, 0 10px 0 0 #000;
-    }
-}
+
 @media only screen and (max-width:767px) {
-    html,body {
-        overflow-x: hidden;
-    }
-    .phone-noheight {
-        height:auto !important;
-    }
-    .phone-width-f {
-        width:100% !important;
-    }
-    .phone-as-br {
-        visibility:hidden !important;
-    }
-    .phone-as-br::before {
-        content: "\A";
-        white-space: pre;
-      }
     .hide-below.retro,
     .hide-below.laptop,
     .hide-below.medium,
@@ -81,56 +10,6 @@ Logic
     .hide-below.xlarge,
     .hide-for.phone {
         display:none !important;
-    }
-    .grid,
-    .grid > div {
-        display: inline-block;
-        width: 100%;
-        height: auto;
-    }
-    .width-r {
-        width: 100% !important;
-    }
-    .phone-box-height-100 {
-        width: 100vh !important;
-        height: 100vh !important;
-    }
-    .phone-box-width-100 {
-        width: 100vw !important;
-        height: 100vw !important;
-    }
-    .phone-no-spacer {
-        padding: 0 !important;
-    }
-    .phone-spacer {
-        padding:20px 24px !important;
-    }
-    .phone-spacer-t {
-        padding-top:20px !important;
-    }
-    .phone-spacer-b {
-        padding-bottom:20px !important;
-    }
-    .phone-spacer-l {
-        padding-left:24px !important;
-    }
-    .phone-spacer-r {
-        padding-right:24px !important;
-    }
-    .phone-spacer-d2 {
-        padding:10px 12px !important;
-    }
-    .phone-spacer-d3 {
-        padding:4px 6px !important;
-    }
-    .phone-spacer-x2 {
-        padding:40px 48px !important;
-    }
-    .phone-spacer-x3 {
-        padding:60px 72px !important;
-    }
-    .phone-height-auto {
-        height: auto !important;
     }
 }
 @media only screen and (min-device-width:768px) and (max-device-width:1024px) and (orientation:portrait) {
