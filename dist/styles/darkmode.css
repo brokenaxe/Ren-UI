@@ -20,7 +20,7 @@
     .shape.bottom.with-white::after {
         border-bottom-color: var(--darkmode-background);
     }
-    .shape.top.with-white::after {
+    .shape.top.with-white::before {
         border-top-color: var(--darkmode-background);
     }
     .darkmode nav li input, 
@@ -36,7 +36,7 @@
     .shape.bottom.with-black::after {
         border-bottom-color: var(--darkmode-black-background);
     }
-    .shape.top.with-black::after {
+    .shape.top.with-black::before {
         border-top-color: var(--darkmode-black-background);
     }
     .darkmode .code-container .title,
