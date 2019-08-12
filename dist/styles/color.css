@@ -1,6 +1,9 @@
 /*******************************
             Colour
 *******************************/
+.from-white span,
+.to-white span::before,
+.to-white,
 .text-white .icon,
 .icon-holder.white {
     background-color: var(--white-background);
@@ -121,6 +124,9 @@ button.white:hover {
 .stroke.white {
     stroke: var(--white-background);
 }
+.from-navy span,
+.to-navy span::before,
+.to-navy,
 .text-navy .icon,
 .icon-holder.navy {
     background-color: var(--navy-background);
@@ -241,6 +247,9 @@ button.navy:hover {
 .stroke.navy {
     stroke: var(--navy-background);
 }
+.from-blue span,
+.to-blue span::before,
+.to-blue,
 .text-blue .icon,
 .icon-holder.blue {
     background-color: var(--blue-background);
@@ -361,6 +370,9 @@ button.blue:hover {
 .stroke.blue {
     stroke: var(--blue-background);
 }
+.from-aqua span,
+.to-aqua span::before,
+.to-aqua,
 .text-aqua .icon,
 .icon-holder.aqua {
     background-color: var(--aqua-background);
@@ -481,6 +493,9 @@ button.aqua:hover {
 .stroke.aqua {
     stroke: var(--aqua-background);
 }
+.from-teal span,
+.to-teal span::before,
+.to-teal,
 .text-teal .icon,
 .icon-holder.teal {
     background-color: var(--teal-background);
@@ -601,6 +616,9 @@ button.teal:hover {
 .stroke.teal {
     stroke: var(--teal-background);
 }
+.from-olive span,
+.to-olive span::before,
+.to-olive,
 .text-olive .icon,
 .icon-holder.olive {
     background-color: var(--olive-background);
@@ -721,6 +739,9 @@ button.olive:hover {
 .stroke.olive {
     stroke: var(--olive-background);
 }
+.from-green span,
+.to-green span::before,
+.to-green,
 .text-green .icon,
 .icon-holder.green {
     background-color: var(--green-background);
@@ -841,6 +862,9 @@ button.green:hover {
 .stroke.green {
     stroke: var(--green-background);
 }
+.from-lime span,
+.to-lime span::before,
+.to-lime,
 .text-lime .icon,
 .icon-holder.lime {
     background-color: var(--lime-background);
@@ -961,6 +985,9 @@ button.lime:hover {
 .stroke.lime {
     stroke: var(--lime-background);
 }
+.from-yellow span,
+.to-yellow span::before,
+.to-yellow,
 .text-yellow .icon,
 .icon-holder.yellow {
     background-color: var(--yellow-background);
@@ -1081,6 +1108,9 @@ button.yellow:hover {
 .stroke.yellow {
     stroke: var(--yellow-background);
 }
+.from-orange span,
+.to-orange span::before,
+.to-orange,
 .text-orange .icon,
 .icon-holder.orange {
     background-color: var(--orange-background);
@@ -1201,6 +1231,9 @@ button.orange:hover {
 .stroke.orange {
     stroke: var(--orange-background);
 }
+.from-red span,
+.to-red span::before,
+.to-red,
 .text-red .icon,
 .icon-holder.red {
     background-color: var(--red-background);
@@ -1321,6 +1354,9 @@ button.red:hover {
 .stroke.red {
     stroke: var(--red-background);
 }
+.from-fuchsia span,
+.to-fuchsia span::before,
+.to-fuchsia,
 .text-fuchsia .icon,
 .icon-holder.fuchsia {
     background-color: var(--fuchsia-background);
@@ -1441,6 +1477,9 @@ button.fuchsia:hover {
 .stroke.fuchsia {
     stroke: var(--fuchsia-background);
 }
+.from-purple span,
+.to-purple span::before,
+.to-purple,
 .text-purple .icon,
 .icon-holder.purple {
     background-color: var(--purple-background);
@@ -1561,6 +1600,9 @@ button.purple:hover {
 .stroke.purple {
     stroke: var(--purple-background);
 }
+.from-maroon span,
+.to-maroon span::before,
+.to-maroon,
 .text-maroon .icon,
 .icon-holder.maroon {
     background-color: var(--maroon-background);
@@ -1681,6 +1723,9 @@ button.maroon:hover {
 .stroke.maroon {
     stroke: var(--maroon-background);
 }
+.from-silver span,
+.to-silver span::before,
+.to-silver,
 .text-silver .icon,
 .icon-holder.silver {
     background-color: var(--silver-background);
@@ -1801,6 +1846,9 @@ button.silver:hover {
 .stroke.silver {
     stroke: var(--silver-background);
 }
+.from-gray span,
+.to-gray span::before,
+.to-gray,
 .text-gray .icon,
 .icon-holder.gray {
     background-color: var(--gray-background);
@@ -1921,6 +1969,9 @@ button.gray:hover {
 .stroke.gray {
     stroke: var(--gray-background);
 }
+.from-black span,
+.to-black span::before,
+.to-black,
 .text-black .icon,
 .icon-holder.black {
     background-color: var(--black-background);
@@ -2041,6 +2092,9 @@ button.black:hover {
 .stroke.black {
     stroke: var(--black-background);
 }
+.from-primary span,
+.to-primary span::before,
+.to-primary,
 .text-primary .icon,
 .icon-holder.primary {
     background-color: var(--primary-background);
@@ -2161,6 +2215,9 @@ button.primary:hover {
 .stroke.primary {
     stroke: var(--primary-background);
 }
+.from-secondary span,
+.to-secondary span::before,
+.to-secondary,
 .text-secondary .icon,
 .icon-holder.secondary {
     background-color: var(--secondary-background);

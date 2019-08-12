@@ -2,13 +2,14 @@ var currentVersion = '2.7.0';
 var licenced = 1;
 
 $.each($('.label'), function(index, value) { 
-    //console.log(index + ':' + value);
     var labelVal = $(this).html();
     labelVal = labelVal.trim()
-    if (labelVal.indexOf('.') !== -1) {
-        
-
-
+    
+    if ($(this).hasClass("latestversion") === true) {
+        $(this).html(currentVersion);
+        $(this).attr("title","v" + currentVersion + ' is the latest Public Release');
+        $(this).addClass("white o08");
+    } else if (labelVal.indexOf('.') !== -1) {
         if (labelVal.indexOf(currentVersion) !== -1) {
             if (labelVal.indexOf("|") !== -1) {
                 var values = labelVal.split('|');
@@ -31,13 +32,7 @@ $.each($('.label'), function(index, value) {
             } else {
                 $(this).attr("data-tooltip","Introduced in " + labelVal);
             }
-            
         }
-    }
-    if ($(this).hasClass("latestversion") === true) {
-        $(this).html(currentVersion);
-        $(this).attr("title","v" + currentVersion + ' is the latest release');
-        $(this).addClass("silver");
     }
 });
 function samplecode(licenced) {

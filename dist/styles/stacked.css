@@ -12,9 +12,10 @@
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 20px;
+    -webkit-perspective:1;
+    display: block;
 }
 .stacked>div {
-    display: inline-block;
     width:  100%;
     margin: 0 0 1rem 0;
 }
