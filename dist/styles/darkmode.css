@@ -85,7 +85,7 @@
     .darkmode .breadcrumb a:last-child {
         color: var(--darkmode-text) !important;
     }
-    form .checkbox [type="checkbox"]:checked + label::after {
+    .darkmode form .checkbox [type="checkbox"]:checked + label::after {
         border-right-color: var(--darkmode-text);
         border-top-color: var(--darkmode-text);
     }
@@ -298,7 +298,7 @@
 .darkmode.force .breadcrumb a:last-child {
     color: var(--darkmode-text) !important;
 }
-form .checkbox [type="checkbox"]:checked + label::after {
+.darkmode form .checkbox [type="checkbox"]:checked + label::after {
     border-right-color: var(--darkmode-text);
     border-top-color: var(--darkmode-text);
 }

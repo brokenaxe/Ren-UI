@@ -6,14 +6,14 @@
     html,body {
         overflow-x: hidden;
     }
+    .phone-height-auto,
+    .grid,
+    .grid > div,
     .phone-noheight {
-        height:auto !important;
-    }
-    .phone-width-f {
-        width:100% !important;
+        height: auto !important;
     }
     .phone-as-br {
-        visibility:hidden !important;
+        visibility: hidden !important;
     }
     .phone-as-br::before {
         content: "\A";
@@ -23,11 +23,11 @@
     .grid > div {
         display: inline-block;
         width: 100%;
-        height: auto;
     }
     .grid > .icon-holder {
         width: unset;
     }
+    .phone-width-f,
     .width-r {
         width: 100% !important;
     }
@@ -68,9 +68,6 @@
     }
     .phone-spacer-x3 {
         padding:60px 72px !important;
-    }
-    .phone-height-auto {
-        height: auto !important;
     }
     .phone-height-10 {
         height: 10vh !important;

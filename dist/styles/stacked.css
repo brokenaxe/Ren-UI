@@ -18,6 +18,10 @@
 .stacked>div {
     width:  100%;
     margin: 0 0 1rem 0;
+    display: inline-block;
+}
+form .stacked>div {
+    display: block;
 }
 .stacked.by3 {
     -webkit-column-count: 3; /* Chrome, Safari, Opera */
@@ -52,8 +56,8 @@
     -moz-column-gap: 2rem;
     -webkit-column-gap: 2rem;
     column-gap: 2rem;
-    margin-bottom: 2rem;
 }
+.stacked.gap-x2,
 .stacked.gap-x2>div {
     margin-bottom: 2rem;
 }
@@ -61,8 +65,8 @@
     -moz-column-gap: 3rem;
     -webkit-column-gap: 3rem;
     column-gap: 3rem;
-    margin-bottom: 3rem;
 }
+.stacked.gap-x3,
 .stacked.gap-x3>div {
     margin-bottom: 3rem;
 }

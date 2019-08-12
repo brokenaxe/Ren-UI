@@ -5,7 +5,6 @@
 form {
     font-size: 1rem;
     position: relative;
-    max-width: 100%;
     margin: 10px 0;
     display: inline-block;
     width: 100%;
@@ -48,6 +47,7 @@ form select {
     -webkit-appearance: none;
     appearance: none;
 }
+form,
 form .textarea,
 form textarea {
     max-width: 100%;
@@ -103,13 +103,15 @@ form .select:after {
 form .select {
     position: relative;
 }
+form * {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
 form select {
     box-sizing: border-box;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
 }
 form .textarea:focus, 
 form textarea:focus,

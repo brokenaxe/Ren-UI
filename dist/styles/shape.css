@@ -48,15 +48,23 @@
 .shape.top.inside {
     padding-top: 0 !important;
 }
+.shape-wave span:after,
+.shape-wave span:before,
+.shape.bottom::after,
 .shape.top::before {
-    top: 0;
-	left: 0;
     content: "";
     position: absolute;
+}
+.shape.bottom::after,
+.shape.top::before {
 	border-top-width: 5vh;
 	border-top-color: var(--background);
 	border-top-style: solid;
 	z-index: 1;
+}
+.shape.top::before {
+    top: 0;
+	left: 0;
 }
 .shape.top.with-black::before {
 	border-top-color: var(--text);
@@ -70,12 +78,6 @@
 .shape.bottom::after {
     bottom: 0;
 	left: 0;
-    content: "";
-    position: absolute;
-	border-bottom-width: 5vh;
-	border-bottom-color: var(--background);
-	border-bottom-style: solid;
-	z-index: 1;
 }
 .shape.bottom.with-black::after {
 	border-bottom-color: var(--text);
@@ -153,26 +155,18 @@
 	background-color: #111;
 	margin-bottom: 20px;
   }
-  
-  .shape-wave  span:before {
-	content: "";
+  .shape-wave span:before {
 	display: block;
-	position: absolute;
 	border-radius: 100%;
 	width: 100%;
 	height: 300px;
+  }
+  .shape-wave span:before {
 	background-color: white;
 	right: -25%;
 	top: 20px
   }
-  
   .shape-wave span:after {
-	content: "";
-	display: block;
-	position: absolute;
-	border-radius: 100%;
-	width: 100%;
-	height: 300px;
 	background-color: inherit;
 	left: -25%;
 	top: -240px;

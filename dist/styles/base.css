@@ -36,14 +36,14 @@ html {
   font-size: 14px;
 }
 body {
-    margin: 0px;
-    padding: 0px;
-    overflow-x: hidden;
-    min-width: 320px;
-    background-color: var(--background);
-    font-family: sans-serif;
-    line-height: 1.4285em;
-    font-weight: 300;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+  min-width: 320px;
+  background-color: var(--background);
+  font-family: sans-serif;
+  line-height: 1.4285em;
+  font-weight: 300;
 }
 * {
   overflow-wrap: break-word;

@@ -6,8 +6,11 @@
     font-size: 3.5em;
     margin: .2em 0 2px;
 }
+.icon,
 .icon-holder {
     display: inline-block;
+}
+.icon-holder {
     outline: 0;
     border: none;
     vertical-align: baseline;
@@ -36,7 +39,6 @@
 }
 .icon {
     position: relative;
-    display: inline-block;
     -webkit-mask-size: cover;
     mask-size: cover;
     width: 0.21em;
