@@ -25,6 +25,9 @@
         width: 100%;
         height: auto;
     }
+    .grid > .icon-holder {
+        width: unset;
+    }
     .width-r {
         width: 100% !important;
     }
