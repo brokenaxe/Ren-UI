@@ -55,7 +55,12 @@
     content: "";
     position: absolute;
 }
-.shape.bottom::after,
+.shape.bottom::after {
+	border-bottom-width: 5vh;
+	border-bottom-color: var(--background);
+	border-bottom-style: solid;
+	z-index: 1;
+}
 .shape.top::before {
 	border-top-width: 5vh;
 	border-top-color: var(--background);
