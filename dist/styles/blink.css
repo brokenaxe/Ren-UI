@@ -1,0 +1,31 @@
+/*******************************
+          Blink
+*******************************/
+
+@keyframes blink-border {
+    from, to { border-color: transparent }
+    15% { border-color: var(--border); }
+}
+@keyframes blink-caret {
+    from, to { color: transparent }
+    50% { color: inherit; }
+}
+.caret {
+    color:  inherit;
+}
+.caret::after {
+    content: '|';
+    font-weight:bolder;
+    display: inline-block;
+    color:  inherit;
+    white-space: nowrap;
+    margin: 0 0 0 2px;
+    letter-spacing: .15em;
+    animation: blink-caret .9s step-end infinite;
+}
+.caret.line::after {
+    content: '_';
+}
+.border-blink {
+    animation: blink-border .5s step-end infinite;
+}

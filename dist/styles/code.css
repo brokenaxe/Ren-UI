@@ -49,13 +49,14 @@ code {
     border-radius: 3px;
     display: block;
     font-family: "Monaco","Menlo","Ubuntu Mono","Consolas","source-code-pro",monospace !important;
-    font-size: .8rem !important;
+    font-size: .8em !important;
     padding: 1px 6px;
     vertical-align: baseline;
     width: 100%;
     border: 1px solid var(--border) !important;
     font-weight: normal;
-    line-height: 1.1rem;
+    line-height: 1.1em;
+    white-space: pre-wrap;
 }
 code, 
 kbd, 
@@ -98,10 +99,10 @@ samp {
     width: 100%;
     display: inline-block;
     border-radius: var(--radius-less);
-    border: solid 1px var(--border-not-selected);
+    border: solid 2px var(--border-not-selected);
 }
 .code-container.selected {
-    border: solid 1px var(--border-selected);
+    border: solid 2px var(--border-not-selected);
 }
 .code-container .title {
     background-color: var(--background);
@@ -141,4 +142,13 @@ samp {
 }
 .nav-button.off {
     left: -25px;
+}
+.renui-code {
+    background-color: var(--border-not-selected);
+    width: 100%;
+    float: left;
+}
+.renui-code code {
+    background-color: unset;
+    padding: 10px 20px 16px;
 }

@@ -2,42 +2,6 @@
     Shape
 *******************************/
 
-.shape.o01::after,
-.bg.o01::before {
- opacity:.1
-}
-.shape.o02::after,
-.bg.o02::before {
- opacity:.2
-}
-.shape.o03::after,
-.bg.o03::before {
- opacity:.3
-}
-.shape.o04::after,
-.bg.o04::before {
- opacity:.4
-}
-.shape.o05::after,
-.bg.o05::before {
- opacity:.5
-}
-.shape.o06::after,
-.bg.o06::before {
- opacity:.6
-}
-.shape.o07::after,
-.bg.o07::before {
- opacity:.7
-}
-.shape.o08::after,
-.bg.o08::before {
- opacity:.8
-}
-.shape.o09::after,
-.bg.o09::before {
- opacity:.9
-}
 .shape {
 	position: relative;
 	z-index: 0;

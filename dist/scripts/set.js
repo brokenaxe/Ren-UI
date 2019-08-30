@@ -1,4 +1,3 @@
-
 function set() {
     if ($('[renui-set-get]').length > 0) {
         $('[renui-set-get]').each(function (index) {
@@ -27,6 +26,27 @@ function set() {
             setTimeout(function () {
                 get(values[0], values[1]);
             }, 10 * index);
+        });
+    }
+    if ($('[renui-logic]').length > 0) {
+        $('[renui-logic]').each(function (index) {
+            var attrVal = $(this).attr("renui-logic");
+            var varThis = this;
+            $(this).removeAttr("renui-logic");
+            
+            setTimeout(function () {
+                proto(varThis,attrVal);
+            }, 100 * index);
+        });
+    }
+    if ($('input[name="logic"]').length > 0) {
+        $('input[name="logic"]').each(function (index) {
+            var vals = $(this);
+            var values = vals.val().split('|');
+            vals.remove();
+            setTimeout(function () {
+              proto(values[0],values[1]);
+            }, 100 * index);
         });
     }
     if ($('[renui-display]').length > 0) {
@@ -136,9 +156,7 @@ function set() {
             var account = vals.val();
             vals.remove();
             setTimeout(function () {
-                
                   setga(account);
-                
             }, 100 * index);
           });
       }
@@ -163,6 +181,20 @@ function set() {
           popupActions(this,'level-three');
         });
     }
+    if ($('.menu-toggle').length > 0) {
+        $('.menu-toggle').each(function (index) {
+            $(this).find('span').click(function(){
+                $(this).closest('.menu-toggle').toggleClass('open');
+                $(this).closest('.menu-toggle').toggleClass('close');
+            });
+        });
+    }
+    if ($('.bytes').length > 0) {
+        $('.bytes').each(function (index) {
+            $(this).html(convertBytes($(this).html()));
+            $(this).removeClass('bytes');
+        });
+    }
     if ($('.cards').length > 0) {
         $('.cards').each(function (index) {
             $(this).find('.renui-open').addClass('pointer');
@@ -183,7 +215,7 @@ function set() {
         });
     }
     
-    $('#loading').removeClass('hide');
+    $('#loading').addClass('hide');
     $('.toload').removeClass('loading');
     phone();
 }
@@ -210,93 +242,13 @@ function popupActions(ts,where) {
     });
   }
 }
-function swipe() {
-    $(document).ready(function() {
-        var animating = false;
-        var cardsCounter = 0;
-        var numOfCards = 6;
-        var decisionVal = 80;
-        var pullDeltaX = 0;
-        var deg = 0;
-        var $card, $cardReject, $cardLike;
-      
-        function pullChange() {
-          animating = true;
-          deg = pullDeltaX / 10;
-          $card.css("transform", "translateX("+ pullDeltaX +"px) rotate("+ deg +"deg)");
-      
-          var opacity = pullDeltaX / 100;
-          var rejectOpacity = (opacity >= 0) ? 0 : Math.abs(opacity);
-          var likeOpacity = (opacity <= 0) ? 0 : opacity;
-          $cardReject.css("opacity", rejectOpacity);
-          $cardLike.css("opacity", likeOpacity);
-        };
-      
-        function release() {
-      
-          if (pullDeltaX >= decisionVal) {
-            $card.addClass("to-right");
-          } else if (pullDeltaX <= -decisionVal) {
-            $card.addClass("to-left");
-          }
-      
-          if (Math.abs(pullDeltaX) >= decisionVal) {
-            $card.addClass("inactive");
-      
-            setTimeout(function() {
-              $card.remove();
-              //$card.addClass("below").removeClass("inactive to-left to-right");
-              cardsCounter++;
-              if (cardsCounter === numOfCards) {
-                cardsCounter = 0;
-                $(".card-swipe").removeClass("below");
-              }
-            }, 300);
-          }
-      
-          if (Math.abs(pullDeltaX) < decisionVal) {
-            $card.addClass("reset");
-          }
-      
-          setTimeout(function() {
-            $card.attr("style", "").removeClass("reset")
-              .find(".card-swipe__choice").attr("style", "");
-      
-            pullDeltaX = 0;
-            animating = false;
-          }, 300);
-        };
-      
-        $(document).on("mousedown touchstart", ".card-swipe:not(.inactive)", function(e) {
-          if (animating) return;
-      
-          $card = $(this);
-          $cardReject = $(".card-swipe__choice.m--reject", $card);
-          $cardLike = $(".card-swipe__choice.m--like", $card);
-          var startX =  e.pageX || e.originalEvent.touches[0].pageX;
-      
-          $(document).on("mousemove touchmove", function(e) {
-            var x = e.pageX || e.originalEvent.touches[0].pageX;
-            pullDeltaX = (x - startX);
-            if (!pullDeltaX) return;
-            pullChange();
-          });
-      
-          $(document).on("mouseup touchend", function() {
-            $(document).off("mousemove touchmove mouseup touchend");
-            if (!pullDeltaX) return; // prevents from rapid click events
-            release();
-          });
-        });
-      
-      });
-}
 function display(val,id) {
     $('#' + id).html(val);
 }
+
 function getFn(whichFn) {
-    var Fn = new Function(whichFn);
-    return (Fn());
+  var Fn = new Function(whichFn);
+  return (Fn());
 }
 function firstSet() {
     if ($('.touch-menu').length > 0) {

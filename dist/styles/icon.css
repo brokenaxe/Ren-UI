@@ -37,6 +37,13 @@
     will-change: '';
     -webkit-tap-highlight-color: transparent;
 }
+.icon-space::before {
+    content: '';
+    display: inline-block;
+    width: 1.05em;
+    height: 0.21em;
+    margin: 0;
+}
 .icon {
     position: relative;
     -webkit-mask-size: cover;
@@ -46,6 +53,21 @@
     margin: 0;
     align-items:center;
     background-color: var(--text);
+}
+.icon-ext {
+    position: relative;
+    display: inline-block;
+}
+.icon-ext .ext {
+    padding: 0.1rem;
+    background-color: #000;
+    position: absolute;
+    font-size: 0.2rem;
+    line-height: 0.2rem;
+    bottom: 0.47rem;
+    color: #fff;
+    right: 0;
+    display: inline-block;
 }
 .icon.brokenaxelabs {
     -webkit-mask-image:url('../icons/brokenaxelabs.svg');
@@ -178,6 +200,50 @@
 .icon.chrome {
     -webkit-mask-image: url('../icons/iconmonstr-chrome-1.svg');
     mask-image: url('../icons/iconmonstr-chrome-1.svg');
+}
+.icon.file {
+    -webkit-mask-image: url('../icons/iconmonstr-file-2.svg');
+    mask-image: url('../icons/iconmonstr-file-2.svg');
+}
+.icon.folder {
+    -webkit-mask-image: url('../icons/iconmonstr-folder-1.svg');
+    mask-image: url('../icons/iconmonstr-folder-1.svg');
+}
+.icon.folder-lock {
+    -webkit-mask-image: url('../icons/iconmonstr-folder-27.svg');
+    mask-image: url('../icons/iconmonstr-folder-27.svg');
+}
+.icon.folder-open {
+    -webkit-mask-image: url('../icons/iconmonstr-folder-16.svg');
+    mask-image: url('../icons/iconmonstr-folder-16.svg');
+}
+.icon.folder-open-files {
+    -webkit-mask-image: url('../icons/iconmonstr-folder-21.svg');
+    mask-image: url('../icons/iconmonstr-folder-21.svg');
+}
+.icon.wechat {
+    -webkit-mask-image: url('../icons/iconmonstr-wechat-3.svg');
+    mask-image: url('../icons/iconmonstr-wechat-3.svg');
+}
+.icon.line {
+    -webkit-mask-image: url('../icons/iconmonstr-line-3.svg');
+    mask-image: url('../icons/iconmonstr-line-3.svg');
+}
+.icon.dribbble {
+    -webkit-mask-image: url('../icons/iconmonstr-dribbble-3.svg');
+    mask-image: url('../icons/iconmonstr-dribbble-3.svg');
+}
+.icon.soundcloud {
+    -webkit-mask-image: url('../icons/iconmonstr-soundcloud-3.svg');
+    mask-image: url('../icons/iconmonstr-soundcloud-3.svg');
+}
+.icon.flickr {
+    -webkit-mask-image: url('../icons/iconmonstr-flickr-3.svg');
+    mask-image: url('../icons/iconmonstr-flickr-3.svg');
+}
+.icon.bullet {
+    -webkit-mask-image: url('../icons/iconmonstr-circle-1.svg');
+    mask-image: url('../icons/iconmonstr-circle-1.svg');
 }
 /*
 .icon:hover,
