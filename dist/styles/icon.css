@@ -77,6 +77,10 @@
     -webkit-mask-image:url('../icons/brokenaxe.svg');
     mask-image:url('../icons/brokenaxe.svg');
 }
+.icon.laconnecta {
+    -webkit-mask-image:url('../icons/laconnecta.svg');
+    mask-image:url('../icons/laconnecta.svg');
+}
 .icon.renui {
     -webkit-mask-image:url('../icons/renui.svg');
     mask-image:url('../icons/renui.svg');
