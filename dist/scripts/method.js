@@ -75,7 +75,6 @@ function jsonResponse(respJson, id) {
     if (typeof respJson.Url !== 'undefined') {
         error('Action Not Found (Contact Administrator):\nUrl: ' + respJson.Url + '\nReferrer: ' + respJson.Referrer + '\nMethod: ' + respJson.Method);
     }
-
     $.each(respJson,function(i,v){
         var id = i;
         var value = v;
@@ -115,7 +114,6 @@ function jsonResponse(respJson, id) {
             cookiedelete(id);
         }
         console.log('Debug ' + id + ': ' + value);
-        
-});
+    });
     set();
 }
