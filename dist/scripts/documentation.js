@@ -243,10 +243,6 @@ function copyToClipboardText(ths,code) {
     $(ths).attr("data-tooltip","Copied to Clipboard");
     $temp.remove();
 }
-function getUrl(address, target = '_blank') {
-	var win = window.open(address, target);
-  	win.focus();
-}
 function pillClick(ths,name,action) {
     $.each($('#nav' + name + ' li'), function(index, value) {
         $(this).removeClass('selected');
