@@ -84,6 +84,11 @@ function jsonResponse(respJson, id) {
             if (value !== '') {
                 $('#' + id).html(value);
             }
+        } else if (id.indexOf('renui-get-') !== -1) {
+            id = id.replace('renui-get-','');
+            if (value !== '') {
+                get(value,id);
+            }
         } else if (id.indexOf('renui-redirect-') !== -1) {
             if (value !== '') {
                 getUrl(value,'_self');
