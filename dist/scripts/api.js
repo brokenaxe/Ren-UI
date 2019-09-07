@@ -1,3 +1,6 @@
+var baseUrl = 'http://www.ren-ui.com/';
+var apiUrl = 'http://www.ren-ui.com/';
+
 jQuery.ajaxq = function (queue, options) {
     if (typeof document.ajaxq === "undefined") document.ajaxq = {
         q: {},
@@ -31,6 +34,9 @@ function documantationtogglecode(no) {
     $('#title' + no + ', #commands' + no + '').toggleClass('hide');
 }
 function api(page,frm) {
+    page = apiUrl + page;
+    page = page.replace('//','/');
+    
     $.ajaxq('renui', {
         type: $(frm).attr('method').toLowerCase(),
         url: page,
@@ -42,6 +48,5 @@ function api(page,frm) {
             error(data);
         }
     })
-    
     event.preventDefault();
 }
