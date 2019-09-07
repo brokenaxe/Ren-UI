@@ -122,7 +122,7 @@ function jsonResponse(respJson, id) {
             id = id.replace('renui-cookiedelete-','');
             cookiedelete(id);
         }
-        console.log('Debug ' + id + ': ' + value);
+        //console.log('Debug ' + id + ': ' + value);
     });
     set();
 }
