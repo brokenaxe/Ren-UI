@@ -45,7 +45,8 @@ if (document.body.innerHTML.search("/jquery-3.4.1.min") === -1) {
                 console.log("renui.js [failed:" & url & "]"); 
             });
         } else if (document.body.innerHTML.search("renui.min.js") === -1) {
-            load('js',"https://cdn.jsdelivr.net/gh/brokenaxe/ren-ui/dist/renui-min.js")
+            //load('js',"https://cdn.jsdelivr.net/gh/brokenaxe/ren-ui/dist/renui-min.js")
+            load('js',"http://www.ren-ui.com/Ren-UI/dist/renui-min.js")
             .then(() => {})
             .catch(() => {});
         }

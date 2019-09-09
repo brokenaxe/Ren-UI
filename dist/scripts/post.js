@@ -11,6 +11,7 @@ function post(pg,id,fid) {
             error(data);
         }
     });
-
-    event.preventDefault();
+    if (event !== undefined) {
+        event.preventDefault();
+    }
 }

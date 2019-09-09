@@ -12,5 +12,7 @@ function get(pg,id) {
 			}
         });
     }
-    event.preventDefault();
+    if (event !== undefined) {
+        event.preventDefault();
+    }
 }
