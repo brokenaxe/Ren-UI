@@ -82,7 +82,11 @@ function jsonResponse(respJson, id) {
         if (id.indexOf('renui-populate-') !== -1) {
             id = id.replace('renui-populate-','');
             if (value !== '') {
-                $('#' + id).html(value);
+                if ($('#' + id).is("input") = true) {
+                    $('#' + id).val(value);
+                } else {
+                    $('#' + id).html(value);
+                }
             }
         } else if (id.indexOf('renui-get-') !== -1) {
             id = id.replace('renui-get-','');

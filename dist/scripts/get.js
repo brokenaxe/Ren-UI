@@ -1,5 +1,5 @@
 function get(pg,id) {
-    $('#loading').removeClass('hide');
+    preloader(id);
 	if ($("#" + id).length > 0) {
         $.ajax({
             method: "GET",

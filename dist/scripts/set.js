@@ -215,9 +215,30 @@ function set() {
         });
     }
     
-    $('#loading').addClass('hide');
-    $('.toload').removeClass('loading');
+    loaded();
     phone();
+}
+function preloader(id) {
+    if (id !== '') {
+        $('#' + id).addClass('loading');
+        $('#' + id).find('.toload').addClass('loading');
+    }
+    $('#loading').removeClass('hide');
+    $('#loader').removeClass('hide');
+    $.each($('.tofrost'), function(index, value) {
+        $(this).addClass('frostContent'); 
+    });  
+}
+function loaded() {
+    $.each($('.tofrost'), function(index, value) {
+        $(this).removeClass('frostContent'); 
+    });  
+    $('#loading').addClass('hide');
+    $('#loader').addClass('hide');
+    $('.toload').removeClass('loading');
+    $.each($('.loading'), function(index, value) {
+        $(this).removeClass('loading'); 
+    });
 }
 function popupActions(ts,where) {
   if (where === '') {

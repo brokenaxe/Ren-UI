@@ -1,6 +1,5 @@
 function post(pg,id,fid) {
-    $('#loading').removeClass('hide');
-    $(fid).find('.toload').addClass('loading');
+    preloader(fid);
     $.ajax({
         type: 'POST',
         url: pg,
