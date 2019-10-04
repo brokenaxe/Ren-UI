@@ -269,6 +269,10 @@
     -webkit-mask-image: url('../icons/iconmonstr-question-thin.svg');
     mask-image: url('../icons/iconmonstr-question-thin.svg');
 }
+.icon.power {
+    -webkit-mask-image: url('../icons/iconmonstr-power-on-off-8.svg');
+    mask-image: url('../icons/iconmonstr-power-on-off-8.svg');
+}
 /*
 .icon:hover,
 .icon:focus {
