@@ -78,15 +78,27 @@ function jsonResponse(respJson, id) {
     $.each(respJson,function(i,v){
         var id = i;
         var value = v;
-
-        if (id.indexOf('renui-populate-') !== -1) {
-            id = id.replace('renui-populate-','');
+        value = replaceAll(value,'&lt;','<');
+        value = replaceAll(value,'&gt;','>');
+        
+        if (id.indexOf('renui-populate-') !== -1 || id.indexOf('populate-') !== -1) {
+            id = id.replace('renui-populate-','').replace('populate-','');
             if (value !== '') {
-                if ($('#' + id).is("input") = true) {
-                    $('#' + id).val(value);
-                } else {
-                    $('#' + id).html(value);
-                }
+                if ($('#' + id).length > 0) {
+                    if ($('#' + id).is('input:text')) {
+                        $('#' + id).val(value.toString());
+                    } else if ($('#' + id).is('select')) {
+                        $('#' + id).val(value.toString());
+                    } else if ($('#' + id).is('input:checkbox')) {
+                        if (value === true) {
+                            $('#' + id).prop("checked", true);
+                        } else {
+                            $('#' + id).prop("checked", false);
+                        }
+                    } else {
+                        $('#' + id).html(value);
+                    }
+                }                
             }
         } else if (id.indexOf('renui-get-') !== -1) {
             id = id.replace('renui-get-','');

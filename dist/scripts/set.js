@@ -1,4 +1,11 @@
 function set() {
+    if ($('form').length > 0) {
+        $('form').each(function (index) {
+            $(this).submit(function(e){
+                e.preventDefault();
+             });
+        });
+    }
     if ($('[renui-set-get]').length > 0) {
         $('[renui-set-get]').each(function (index) {
             var attrVal = $(this).attr("renui-set-get");
@@ -132,7 +139,7 @@ function set() {
           vals.remove();
           setTimeout(function () {
               $('body').addClass('relative');
-              $('body').append('<div id="renui-gdpr" class="hide width-s bg ' + values[0] + ' fixed"><h6>' + values[1] + '</h6>' + values[2] + ', <a class="underline" href="' + values[3] + '" target="_blank">Learn More</a>. <br><br><a class="button ' + values[4] + '" onclick="cookieset(\'renui-gdpr\',\'agreed\',365);$(\'#renui-gdpr\').addClass(\'hide\');">' + values[5] + '</div>');
+              $('body').append('<div id="renui-gdpr" class="hide width-s bg ' + values[0] + ' fixed"><h6>' + values[1] + '</h6>' + values[2] + ', <a class="underline" href="' + values[3] + '" target="_blank">Learn More</a>. <br><br><a class="button ' + values[4] + '" onclick="cookieset(\'renui-gdpr\',\'agreed\',365);$(\'#renui-gdpr\').addClass(\'hide\');' + values[6] + '">' + values[5] + '</div>');
               if (cookieget("renui-gdpr") === null){$("#renui-gdpr").removeClass("hide")};
           }, 100 * index);
         });

@@ -249,6 +249,18 @@
     -webkit-mask-image: url('../icons/iconmonstr-circle-1.svg');
     mask-image: url('../icons/iconmonstr-circle-1.svg');
 }
+.icon.grid {
+    -webkit-mask-image: url('../icons/iconmonstr-view-6.svg');
+    mask-image: url('../icons/iconmonstr-view-6.svg');
+}
+.icon.grid-mini {
+    -webkit-mask-image: url('../icons/iconmonstr-view-5.svg');
+    mask-image: url('../icons/iconmonstr-view-5.svg');
+}
+.icon.sliders {
+    -webkit-mask-image: url('../icons/iconmonstr-view-15.svg');
+    mask-image: url('../icons/iconmonstr-view-15.svg');
+}
 /*
 .icon:hover,
 .icon:focus {
