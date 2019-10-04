@@ -261,6 +261,14 @@
     -webkit-mask-image: url('../icons/iconmonstr-view-15.svg');
     mask-image: url('../icons/iconmonstr-view-15.svg');
 }
+.icon.help {
+    -webkit-mask-image: url('../icons/iconmonstr-help-2.svg');
+    mask-image: url('../icons/iconmonstr-help-2.svg');
+}
+.icon.help-modern {
+    -webkit-mask-image: url('../icons/iconmonstr-question-thin.svg');
+    mask-image: url('../icons/iconmonstr-question-thin.svg');
+}
 /*
 .icon:hover,
 .icon:focus {
