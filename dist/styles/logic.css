@@ -2,7 +2,50 @@
 Logic
 *******************************/
 
+.height-table-l-overflow {
+    overflow-x: auto;
+    height: 3450px;
+    width: 100%;
+}
+.height-table-l-overflow table {
+    width: 97%;
+}
+.hieght-lc-top {
+    height: 90px;
+}
+
 @media only screen and (max-width:767px) {
+    .phone-text-14 {
+        font-size: 14px !important;
+        line-height: 18px !important;
+    }
+    .phone-bg-white::before {
+        background-color: var(--white-background) !important;
+    }
+    .stacked
+    ,.stacked.by2
+    ,.stacked.by3
+    ,.stacked.by4
+    ,.stacked.by5 {
+        -webkit-column-count: 1;
+        -moz-column-count: 1;
+        column-count: 1;
+    }
+    .stacked > div {
+        margin-bottom: 0;
+    }
+    .phone-noheight {
+		height: auto !important;
+	}
+	.phone-width-f {
+		width: 100% !important;
+    }
+	.phone-width-90 {
+		width: 90vw !important;
+    }
+    .phone-spacer-none {
+        padding: 0;
+    }
     .hide-below.retro,
     .hide-below.laptop,
     .hide-below.medium,
@@ -10,6 +53,13 @@ Logic
     .hide-below.xlarge,
     .hide-for.phone {
         display:none !important;
+    }
+    .height-table-l-overflow {
+        overflow-x: unset;
+        height: unset;
+    }
+    .height-table-l-overflow table {
+        width: 100%;
     }
 }
 @media only screen and (min-device-width:768px) and (max-device-width:1024px) and (orientation:portrait) {

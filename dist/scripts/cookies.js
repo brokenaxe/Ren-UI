@@ -1,3 +1,11 @@
+function getDomain(v){
+    var is_co=v.match(/\.co\./)
+    v=v.split('.')
+    v=v.slice(is_co ? -3: -2)
+    v=v.join('.')
+    console.log(v)
+    return v
+}
 function Cookie_Set(name, value, days) {
 	if (days) {
 		var date = new Date();
@@ -5,7 +13,7 @@ function Cookie_Set(name, value, days) {
 		var expires = "; expires=" + date.toGMTString();
 	}
 	else var expires = "";
-	document.cookie = name + "=" + Base64.encode(reverse(value)) + expires + "; path=/";
+	document.cookie = name + "=" + Base64.encode(reverse(value)) + expires + "; path=/; domain=" + getDomain(document.domain) + ";";
 }
 function cookieset(name, value, days, action = '') {
 	if (cookieget("renui-gdpr") === 'agreed' || name === "renui-gdpr"){
@@ -40,15 +48,13 @@ function cookiedelete(name) {
 }
 function cookiedeleteall() {
 	if (cookieget("renui-gdpr") === 'agreed'){
-		var nameEQ = name + "=";
-		var ca = document.cookie.split(';');
-		for (var i = 0; i < ca.length; i++) {
-			var c = ca[i];
-			if (c.indexOf(nameEQ) !== 0) {
-				cookiedelete(left(c,c.indexOf(nameEQ)));
-			}
-			
-		}
+		var cookies = document.cookie.split(";");
+        for (var i = 0; i < cookies.length; i++){   
+			var spcook =  cookies[i].split("=");
+			if (spcook[0] !== "renui-gdpr") {
+				document.cookie = spcook[0] + "=;expires=Thu, 21 Sep 1979 00:00:01 UTC;";  
+			}                              
+        }
 		return null;
 	} else {
 		return null;

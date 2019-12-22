@@ -9,6 +9,13 @@
 
 }
 @media screen and (prefers-color-scheme: dark) {
+    .darkmode table td, 
+    .darkmode table th {
+        border-color: var(--darkmode-background);
+    }
+    .darkmode table tr:nth-child(2n) {
+        background-color: var(--darkmode-black-background);
+    }
     .darkmode,
     .darkmode .bg.black button:not(.navy):not(.blue):not(.aqua):not(.teal):not(.teal):not(.olive):not(.green):not(.lime):not(.yellow):not(.orange):not(.red):not(.fuchsia):not(.purple):not(.maroon):not(.silver):not(.gray):not(.primary):not(.secondary),
     .darkmode .bg.black .button:not(.navy):not(.blue):not(.aqua):not(.teal):not(.teal):not(.olive):not(.green):not(.lime):not(.yellow):not(.orange):not(.red):not(.fuchsia):not(.purple):not(.maroon):not(.silver):not(.gray):not(.primary):not(.secondary),

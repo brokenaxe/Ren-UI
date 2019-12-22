@@ -84,7 +84,7 @@ function apiGet(pg) {
     pg = apiUrl + pg;
     pg = pageCleaner(pg);
     
-    $.ajax({
+    $.ajaxq('renui', {
         type: 'get',
         headers: header(),
         url: pg,
@@ -106,7 +106,7 @@ function apiPost(pg) {
     pg = apiUrl + pg;
     pg = pageCleaner(pg);
     
-    $.ajax({
+    $.ajaxq('renui', {
         type: 'post',
         headers: header(),
         url: pg,

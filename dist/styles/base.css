@@ -113,3 +113,8 @@ blockquote .code-container {
 .overflow-y-scroll {
   overflow-y: scroll;
 }
+.laconnectaProfilePhoto img {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}

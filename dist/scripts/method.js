@@ -81,7 +81,34 @@ function jsonResponse(respJson, id) {
         value = replaceAll(value,'&lt;','<');
         value = replaceAll(value,'&gt;','>');
         
-        if (id.indexOf('renui-populate-') !== -1 || id.indexOf('populate-') !== -1) {
+        if (id.indexOf('renui-populatedecode-') !== -1 || id.indexOf('populatedecode-') !== -1) {
+            id = id.replace('renui-populatedecode-','').replace('populatedecode-','');
+            if (value !== '') {
+                if ($('#' + id).length > 0) {
+                    if (isBase64(value) === true) {
+                        value = Base64.decode(value);
+                    } else if (isBase64(value + '=') === true) {
+                        value = Base64.decode(value + '=');
+                    } else if (isBase64(value + '==') === true) {
+                        value = Base64.decode(value + '==');
+                    }
+
+                    if ($('#' + id).is('input:text')) {
+                        $('#' + id).val(value.toString());
+                    } else if ($('#' + id).is('select')) {
+                        $('#' + id).val(value.toString());
+                    } else if ($('#' + id).is('input:checkbox')) {
+                        if (value === true) {
+                            $('#' + id).prop("checked", true);
+                        } else {
+                            $('#' + id).prop("checked", false);
+                        }
+                    } else {
+                        $('#' + id).html(value);
+                    }
+                }
+            }
+        } else if (id.indexOf('renui-populate-') !== -1 || id.indexOf('populate-') !== -1) {
             id = id.replace('renui-populate-','').replace('populate-','');
             if (value !== '') {
                 if ($('#' + id).length > 0) {

@@ -309,7 +309,7 @@ nav.pill li:hover {
     background-color: var(--border-not-selected);
 }
 nav.pill.grid ul {
-    display: table-row;
+    display: table;
 }
 nav.pill.grid li {
     display: table-cell;
@@ -403,4 +403,92 @@ nav.text-48 ul a,
 nav.text-96 ul a {
     font-size: inherit;
     line-height: inherit;
+}
+nav.modern {
+    padding: 0;
+}
+nav.modern li {
+    position: relative;
+    padding:0;
+}
+nav.modern li a {
+    background: var(--label-background);
+    padding: 10px 15px 10px 60px;
+    display: inline-block;
+    font-size: 100%;
+    width:100%;
+    height: 60px;
+}
+nav.modern li a.single {
+    padding-top: 21px;
+}
+nav.modern li a span {
+    position: absolute;
+    left: 22px;
+    top: 20px;
+}
+nav.modern li i {
+    width: .31em;
+    height: .31em;
+}
+nav.modern .toleft::after,
+nav.modern .toright::after {
+    position: absolute;
+    top: 21px;
+    content: '';
+    width: 15px;
+    height: 15px;
+    border-left: 1px solid var(--gray-background);
+    border-bottom: 1px solid var(--gray-background);
+}
+nav.modern .toleft::after {
+    left: 20px;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+}
+nav.modern .toright::after {
+    right: 20px;
+    -webkit-transform: rotate(-135deg);
+    -moz-transform: rotate(-135deg);
+    -ms-transform: rotate(-135deg);
+    -o-transform: rotate(-135deg);
+}
+nav.modern .title {
+    color: var(--label-background);
+    font-size: 100% !important;
+    font-weight: normal !important;
+    padding: 4px 10px 4px 60px;
+}
+nav.modern .titlebar {
+    text-align: center;
+    border-bottom: var(--label-background) 1px solid;
+}
+nav.modern .titlebar a {
+    padding: 22px 0 18px;
+    width: 100%;
+    text-align: center;
+    background: unset;
+    font-size: 16px;
+    line-height: 16px;
+    height: unset;
+}
+nav.modern .titlebar i {
+    width: 0.21em;
+    height: .21em;
+    margin-right: 4px;
+}
+nav.modern .advert {
+    padding: 10px 20px;
+}
+.modern-slider {
+    position: relative;
+}
+.modern-slider .slider {
+    position: absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
 }

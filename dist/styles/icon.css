@@ -273,6 +273,83 @@
     -webkit-mask-image: url('../icons/iconmonstr-power-on-off-8.svg');
     mask-image: url('../icons/iconmonstr-power-on-off-8.svg');
 }
+.icon.user {
+    -webkit-mask-image: url('../icons/iconmonstr-user-20.svg');
+    mask-image: url('../icons/iconmonstr-user-20.svg');
+}
+.icon.network {
+    -webkit-mask-image: url('../icons/iconmonstr-networking-1.svg');
+    mask-image: url('../icons/iconmonstr-networking-1.svg');
+}
+.icon.cube {
+    -webkit-mask-image: url('../icons/iconmonstr-cube-2.svg');
+    mask-image: url('../icons/iconmonstr-cube-2.svg');
+}
+.icon.cube-side {
+    -webkit-mask-image: url('../icons/iconmonstr-cube-3.svg');
+    mask-image: url('../icons/iconmonstr-cube-3.svg');
+}
+.icon.cubes {
+    -webkit-mask-image: url('../icons/iconmonstr-cube-17.svg');
+    mask-image: url('../icons/iconmonstr-cube-17.svg');
+}
+.icon.cubes-side {
+    -webkit-mask-image: url('../icons/iconmonstr-cube-18.svg');
+    mask-image: url('../icons/iconmonstr-cube-18.svg');
+}
+.icon.calendar {
+    -webkit-mask-image: url('../icons/iconmonstr-calendar-4.svg');
+    mask-image: url('../icons/iconmonstr-calendar-4.svg');
+}
+.icon.calendar-day {
+    -webkit-mask-image: url('../icons/iconmonstr-calendar-5.svg');
+    mask-image: url('../icons/iconmonstr-calendar-5.svg');
+}
+.icon.calendar-task {
+    -webkit-mask-image: url('../icons/iconmonstr-calendar-6.svg');
+    mask-image: url('../icons/iconmonstr-calendar-6.svg');
+}
+.icon.trash {
+    -webkit-mask-image: url('../icons/iconmonstr-trash-can-1.svg');
+    mask-image: url('../icons/iconmonstr-trash-can-1.svg');
+}
+.icon.trash-open {
+    -webkit-mask-image: url('../icons/iconmonstr-trash-can-13.svg');
+    mask-image: url('../icons/iconmonstr-trash-can-13.svg');
+}
+.icon.menu {
+    -webkit-mask-image: url('../icons/iconmonstr-menu-1.svg');
+    mask-image: url('../icons/iconmonstr-menu-1.svg');
+}
+.icon.zoom-in {
+    -webkit-mask-image: url('../icons/iconmonstr-magnifier-7.svg');
+    mask-image: url('../icons/iconmonstr-magnifier-7.svg');
+}
+.icon.zoom-out {
+    -webkit-mask-image: url('../icons/iconmonstr-magnifier-8.svg');
+    mask-image: url('../icons/iconmonstr-magnifier-8.svg');
+}
+.icon.pages {
+    -webkit-mask-image: url('../icons/iconmonstr-note-19.svg');
+    mask-image: url('../icons/iconmonstr-note-19.svg');
+}
+.icon.page {
+    -webkit-mask-image: url('../icons/iconmonstr-note-14.svg');
+    mask-image: url('../icons/iconmonstr-note-14.svg');
+}
+.icon.refresh {
+    -webkit-mask-image: url('../icons/iconmonstr-refresh-3.svg');
+    mask-image: url('../icons/iconmonstr-refresh-3.svg');
+}
+.icon.rss {
+    -webkit-mask-image: url('../icons/iconmonstr-rss-feed-3.svg');
+    mask-image: url('../icons/iconmonstr-rss-feed-3.svg');
+}
+.icon.monitoring {
+    -webkit-mask-image: url('../icons/iconmonstr-monitoring-5.svg');
+    mask-image: url('../icons/iconmonstr-monitoring-5.svg');
+}
+
 /*
 .icon:hover,
 .icon:focus {
