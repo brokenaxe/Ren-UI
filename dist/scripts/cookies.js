@@ -3,7 +3,7 @@ function getDomain(v){
     v=v.split('.')
     v=v.slice(is_co ? -3: -2)
     v=v.join('.')
-    console.log(v)
+    //console.log(v)
     return v
 }
 function Cookie_Set(name, value, days) {

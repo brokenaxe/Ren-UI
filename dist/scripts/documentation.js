@@ -1,5 +1,5 @@
 var licenced = 1;
-var address = "http://www.ren-ui.com/Ren-UI/dist/renui-min.js";
+var address = "https://www.ren-ui.com/Ren-UI/dist/renui-min.js";
 load('js',address)
 .then(() => {})
 .catch(() => {});

@@ -66,6 +66,7 @@ function query(pg) {
 }
 function header() {
     var myObject = {};
+    //myObject['Access-Control-Allow-Origin'] = window.location.pathname;
     myObject['url'] = window.location.pathname;
     myObject['Content-Type'] = 'application/x-www-form-urlencoded; charset=UTF-8';
     myObject['Accept'] = 'application/json';
@@ -78,6 +79,24 @@ function header() {
         }
     }
     return myObject;
+}
+function apiGetv2(pg) {
+    preloader('');
+    pg = pageCleaner(pg);
+    
+    $.ajax({
+        headers: header(),
+        url: pg,
+        cache: false,
+        dataType: 'json',
+        type: 'GET',
+        success: function (res) {
+            jsonResponse(res, "");
+        },
+        error: function (data) {
+            error(data);
+        }
+    });
 }
 function apiGet(pg) {
     preloader('');
@@ -93,13 +112,10 @@ function apiGet(pg) {
         success: function (res) {
             jsonResponse(res, "");
         },
-        error: function(response, ajaxOptions, thrownError) {
-            error(ajaxOptions,thrownError,response);
+        error: function (data) {
+            error(data);
         }
     });
-    if (event !== undefined) {
-        event.preventDefault();
-    }
 }
 function apiPost(pg) {
     preloader('');

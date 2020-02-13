@@ -1,9 +1,11 @@
 function set() {
     if ($('form').length > 0) {
         $('form').each(function (index) {
-            $(this).submit(function(e){
-                e.preventDefault();
-             });
+            if($(this).hasAttr('onsubmit')) {
+                $(this).submit(function(e){
+                    e.preventDefault();
+                 });
+            } 
         });
     }
     if ($('[renui-set-get]').length > 0) {
