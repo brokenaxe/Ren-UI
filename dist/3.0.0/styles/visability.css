@@ -1,0 +1,93 @@
+/*******************************
+            Visibility
+*******************************/
+.hide,
+.bg.hide {
+    display: none;
+}
+.visibility-hidden {
+    visibility: hidden;
+}
+.form-element-hidden {
+    visibility: hidden;
+    position: absolute;
+    top: -1000px;
+    left: -1000px;
+}
+.shape.o00::after,
+.shape-holder.o00::before,
+.hover-bg.o00::before,
+.bg.o00::before,
+.opacity-00 {
+    opacity: 0 !important;
+}
+.shape.o01::after,
+.shape-holder.o01::before,
+.hover-bg.o01::before,
+.bg.o01::before,
+.opacity-01 {
+    opacity: 0.1 !important;
+}
+.shape.o02::after,
+.shape-holder.o02::before,
+.hover-bg.o02::before,
+.bg.o02::before,
+.opacity-02 {
+    opacity: 0.2 !important;
+}
+.shape.o03::after,
+.shape-holder.o03::before,
+.hover-bg.o03::before,
+.bg.o03::before,
+.opacity-03 {
+    opacity: 0.3 !important;
+}
+.shape.o04::after,
+.shape-holder.o04::before,
+.hover-bg.o04::before,
+.bg.o04::before,
+.opacity-04 {
+    opacity: 0.4 !important;
+}
+.shape.o05::after,
+.shape-holder.o05::before,
+.hover-bg.o05::before,
+.bg.o05::before,
+.opacity-05 {
+    opacity: 0.5 !important;
+}
+.shape.o06::after,
+.shape-holder.o06::before,
+.hover-bg.o06::before,
+.bg.o06::before,
+.opacity-06 {
+    opacity: 0.6 !important;
+}
+.shape.o07::after,
+.shape-holder.o07::before,
+.hover-bg.o07::before,
+.bg.o07::before,
+.opacity-07 {
+    opacity: 0.7 !important;
+}
+.shape.o08::after,
+.shape-holder.o08::before,
+.hover-bg.o08::before,
+.bg.o08::before,
+.opacity-08 {
+    opacity: 0.8 !important;
+}
+.shape.o09::after,
+.shape-holder.o09::before,
+.hover-bg.o09::before,
+.bg.o09::before,
+.opacity-09 {
+    opacity: 0.9 !important;
+}
+.shape.o097::after,
+.shape-holder.o097::before,
+.hover-bg.o097::before,
+.bg.o097::before,
+.opacity-097 {
+    opacity: 0.97 !important;
+}

@@ -1,0 +1,52 @@
+/*******************************
+        Filter
+*******************************/
+
+
+.filter {
+-webkit-animation: all 0.7s ease-in-out;
+-moz-animation: all 0.7s ease-in-out;
+-ms-animation: all 0.7s ease-in-out;
+-o-animation: all 0.7s ease-in-out;
+animation: all 0.7s ease-in-out;
+-webkit-animation-delay: 1s;
+-moz-animation-delay: 1s;
+animation-delay: 1s;
+}
+.filter.greyscale{
+filter: grayscale(1);
+-webkit-filter: grayscale(1);    
+}
+.filter.sepia{
+filter: sepia(100%);
+-webkit-filter: sepia(1);
+-ms-filter: sepia(100%);    
+}
+.filter.blur{
+filter: blur(5px);
+-webkit-filter: blur(5px);
+}
+.filter.saturate{
+filter: saturate(2);
+-webkit-filter: saturate(2);
+}
+.filter.hue {
+filter: hue-rotate(140deg);
+-webkit-filter: hue-rotate(140deg);
+}
+.filter.invert {
+filter: invert(.8);
+-webkit-filter: invert(.8);
+} 
+.filter.darken {
+filter: brightness(.5);
+-webkit-filter: brightness(.5);
+}
+.filter.contrast {
+filter: contrast(2);
+-webkit-filter: contrast(2);
+}
+.filter.hover:hover{
+filter: none;
+-webkit-filter: none;
+}

@@ -1,0 +1,23 @@
+/*******************************
+            Background
+*******************************/
+
+.bg {
+    position:relative;
+    z-index:1;
+}
+.bg::before {
+    border-radius:inherit;
+    bottom:0;
+    content:"";
+    left:0;
+    position:absolute;
+    right:0;
+    top:0;
+    z-index:-1;
+}
+.bg.img {
+background-position:center center;
+background-repeat:no-repeat;
+background-size:cover
+}

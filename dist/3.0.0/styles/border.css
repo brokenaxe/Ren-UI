@@ -1,0 +1,171 @@
+/*******************************
+        Border
+*******************************/
+.border,
+pre,
+form .input,
+form *:disabled,
+form *:disabled:hover,
+form input,
+form select,
+.border-top::before,
+.border-bottom::after,
+.border-left::before,
+.border-right::after,
+.border-t::before,
+.border-b::after,
+.border-l::before,
+.border-r::after {
+border-color:var(--border);
+}
+.border.border-hover:hover,
+pre.border-hover:hover,
+form .input.border-hover:hover,
+form input.border-hover:hover,
+form select.border-hover:hover,
+.border-top.border-hover:hover::before,
+.border-bottom.border-hover:hover::after,
+.border-left.border-hover:hover::before,
+.border-right.border-hover:hover::after,
+.border-t.border-hover:hover::before,
+.border-b.border-hover:hover::after,
+.border-l.border-hover:hover::before,
+.border-r.border-hover:hover::after {
+border-color:var(--border-selected);
+}
+.relative,
+.border-top,
+.border-bottom,
+.border-left,
+.border-right,
+.border-t,
+.border-b,
+.border-l,
+.border-r,
+.border {
+ position:relative;
+}
+.border-b::after,
+.border-t::before,
+.border-bottom::after,
+.border-top::before {
+ content:"";
+ display:block;
+ height:1px;
+ left:0;
+ position:absolute;
+ width:100%
+}
+.border-bottom::after {
+ bottom:0;
+}
+.border-top::before {
+ top:0;
+}
+.border-r::after,
+.border-l::before,
+.border-right::after,
+.border-left::before {
+ content:"";
+ display:block;
+ width:1px;
+ height:100%;
+ position: absolute;
+ top:0;
+}
+.border {
+ border-style:solid;
+ border-width:1px;
+}
+.border-t::before,
+.border-top::before {
+    border-top-style:solid;
+    border-top-width:1px;
+}
+.border-r::after,
+.border-right::after {
+    border-right-style:solid;
+    border-right-width:1px;
+    right:0;
+}
+.border-b::after,
+.border-bottom::after {
+    border-bottom-style:solid;
+    border-bottom-width:1px;
+}
+.border-l::before,
+.border-left::before {
+    border-left-style:solid;
+    border-left-width:1px;
+    left:0;
+}
+.border.x2,
+.border-top.x2::before,
+.border-bottom.x2::after,
+.border-left.x2::before,
+.border-right.x2::after,
+.border-t.x2::before,
+.border-b.x2::after,
+.border-l.x2::before,
+.border-r.x2::after {
+ border-width:2px;
+}
+.border.x3,
+.border-top.x3::before,
+.border-bottom.x3::after,
+.border-left.x3::before,
+.border-right.x3::after,
+.border-t.x3::before,
+.border-b.x3::after,
+.border-l.x3::before,
+.border-r.x3::after {
+ border-width:4px;
+}
+.border.x4,
+.border-top.x4::before,
+.border-bottom.x4::after,
+.border-left.x4::before,
+.border-right.x4::after,
+.border-t.x4::before,
+.border-b.x4::after,
+.border-l.x4::before,
+.border-r.x4::after {
+ border-width:8px;
+}
+.border.dashed,
+.border-top.dashed::before,
+.border-bottom.dashed::after,
+.border-left.dashed::before,
+.border-right.dashed::after,
+.border-t.dashed::before,
+.border-b.dashed::after,
+.border-l.dashed::before,
+.border-r.dashed::after {
+ border-style:dashed;
+}
+.border.dotted,
+.border-top.dotted::before,
+.border-bottom.dotted::after,
+.border-left.dotted::before,
+.border-right.dotted::after,
+.border-t.dotted::before,
+.border-b.dotted::after,
+.border-l.dotted::before,
+.border-r.dotted::after {
+ border-style:dotted;
+}
+.border.groove,
+.border-top.groove::before,
+.border-bottom.groove::after,
+.border-left.groove::before,
+.border-right.groove::after,
+.border-t.groove::before,
+.border-b.groove::after,
+.border-l.groove::before,
+.border-r.groove::after {
+ border-style: groove;
+}
+.border.none,
+.no-border {
+    border:none;
+}

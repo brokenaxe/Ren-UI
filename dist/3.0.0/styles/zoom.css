@@ -1,0 +1,77 @@
+/*******************************
+        Zoom
+*******************************/
+
+.zoom-out-50,
+.zoom-50 {
+zoom:50%;
+transform:scale(.5)
+}
+.zoom-out-75,
+.zoom-75 {
+zoom:75%;
+transform:scale(.75)
+}
+.zoom-out-100,
+.zoom-100 {
+zoom:100%;
+transform:scale(1)
+}
+.zoom-out-125,
+.zoom-125 {
+zoom:125%;
+transform:scale(1.25)
+}
+.zoom-out-150,
+.zoom-150 {
+zoom:150%;
+transform:scale(1.5)
+}
+.zoom-out-200,
+.zoom-200 {
+zoom:200%;
+transform:scale(2)
+}
+.zoom-out-300,
+.zoom-300 {
+zoom:300%;
+transform:scale(3)
+}
+.zoom-in-50:hover {
+zoom:50%;
+transform:scale(.5)
+}
+.zoom-in-75:hover {
+zoom:75%;
+transform:scale(.75)
+}
+.zoom-in-100:hover {
+zoom:100%;
+transform:scale(1)
+}
+.zoom-in-125:hover {
+zoom:125%;
+transform:scale(1.25)
+}
+.zoom-in-150:hover {
+zoom:150%;
+transform:scale(1.5)
+}
+.zoom-in-200:hover {
+zoom:200%;
+transform:scale(2)
+}
+.zoom-in-300:hover {
+zoom:300%;
+transform:scale(3)
+}
+.zoom-out-50:hover,
+.zoom-out-75:hover,
+.zoom-out-100:hover,
+.zoom-out-125:hover,
+.zoom-out-150:hover,
+.zoom-out-200:hover,
+.zoom-out-300:hover {
+zoom:100%;
+transform:scale(1);
+}

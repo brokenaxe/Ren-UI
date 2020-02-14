@@ -1,0 +1,87 @@
+/*******************************
+    Label
+*******************************/
+
+.label {
+    font-size: .85714286rem;
+    padding: .5833em .833em;
+    border-radius: var(--radius);
+    background-color: var(--label-background);
+    color: var(--label);
+    vertical-align: middle;
+    margin-top: -.15rem;
+    display: inline-block;
+    line-height: 100%;
+    position: relative;
+    z-index: 0;
+}
+.label.tag {
+    padding-left: 16px;
+    margin-left: 12px;
+}
+.label.tag::before,
+.label.tag::after,
+.label.marker.from-right::before,
+.label.marker.from-left::before,
+.label.marker.from-right::after,
+.label.marker.from-left::after {
+    position: absolute;
+    content: '';
+    top: 50%;
+}
+.label.tag::before,
+.label.marker.from-right::before,
+.label.marker.from-left::before {
+    -webkit-transform: translateY(-50%) translateX(50%) rotate(-45deg);
+    transform: translateY(-50%) translateX(50%) rotate(-45deg);
+}
+.label.marker.from-left::before,
+.label.marker.from-right::before,
+.label.tag::before {
+    background-color: inherit;
+    background-image: none;
+    width: 1.553em;
+    height: 1.553em;
+    -webkit-transition: none;
+    transition: none;
+}
+.label.tag::before {
+    right: 96%;
+}
+.label.tag::after {
+    left: -.25em;
+    margin-top: -.25em;
+    background-color: var(--background) !important;
+    width: .5em;
+    height: .5em;
+    -webkit-box-shadow: 0 -1px 1px 0 var(--shadow-strong);
+    box-shadow: 0 -1px 1px 0 var(--shadow-strong);
+    border-radius: 500rem;
+}
+.label.marker.from-right::before {
+    right: 96%;
+    z-index: -1;
+}
+.label.marker.from-left::before {
+    left: 68%;
+    z-index: -1;
+}
+.label.marker.from-right::after,
+.label.marker.from-left::after {
+    right: -.25em;
+    margin-top: -.25em;
+    width: .5em;
+    height: .5em;
+    border-radius: 500rem;
+}
+.label.marker.from-right::after {
+    left: -.25em;
+}
+.label.marker.from-right {
+    padding-left: 5px;
+    margin-left: 12px;
+}
+.label.marker.from-left {
+    padding-right: 5px;
+    margin-right: 12px;
+}

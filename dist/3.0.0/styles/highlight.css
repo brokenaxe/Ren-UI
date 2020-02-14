@@ -1,0 +1,34 @@
+/*******************************
+        highlight.js
+*******************************/
+
+.hljs .hljs-tag,
+.hljs .hljs-meta,
+.hljs .tag,
+.hljs .meta {
+color: #333;
+}
+.hljs .hljs-name,
+.hljs .hljs-meta,
+.hljs .name,
+.hljs .meta {
+color: #0A72BA;
+}
+.hljs .hljs-attr,
+.hljs .attr {
+color: #f012be;
+}
+.hljs .hljs-string,
+.hljs .string {
+color: #b10dc9;
+}
+.hljs > .hljs-tag,
+.hljs .hljs-meta,
+.hljs > .tag,
+.hljs .meta {
+
+}
+.hljs > .hljs-tag,
+.hljs > .tag {
+
+}

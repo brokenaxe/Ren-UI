@@ -1,0 +1,117 @@
+/*******************************
+            Position
+*******************************/
+
+.absolute {
+    position:absolute !important;
+}
+.relative {
+    position:relative !important;
+}
+.fixed {
+    height:auto !important;
+    position:fixed !important;
+    z-index:100 !important;
+}
+.left {
+    float:left;
+}
+.right {
+    float:right;
+}
+.hide {
+    display:none !important;
+}
+.show {
+    display:block !important;
+}
+.clearfix:after,
+.clear:after {
+    content:" ";
+    visibility:hidden;
+    display:block;
+    height:0;
+    clear:both;
+}
+.from-all,
+.from-top {
+    top: 0;
+}
+.from-all,
+.from-right {
+    right: 0;
+}
+.from-all,
+.from-bottom {
+    bottom: 0;
+}
+.from-all,
+.from-left {
+    left: 0;
+}
+.to-all,
+.to-top {
+    top: 1em;
+}
+.to-all,
+.to-right {
+    right: 1em;
+}
+.to-all,
+.to-bottom {
+    bottom: 1em;
+}
+.to-all,
+.to-left {
+    left: 1em;
+}
+.to-all-x2,
+.to-top-x2 {
+    top: 2em;
+}
+.to-all-x2,
+.to-right-x2 {
+    right: 2em;
+}
+.to-all-x2,
+.to-bottom-x2 {
+    bottom: 2em;
+}
+.to-all-x2,
+.to-left-x2 {
+    left: 2em;
+}
+.to-all-x3,
+.to-top-x3 {
+    top: 3em;
+}
+.to-all-x3,
+.to-right-x3 {
+    right: 3em;
+}
+.to-all-x3,
+.to-bottom-x3 {
+    bottom: 3em;
+}
+.to-all-x3,
+.to-left-x3 {
+    left: 3em;
+}
+.zd1 {
+    z-index: -1 !important;
+}
+.z0 {
+    z-index: 0 !important;
+}
+.z1 {
+    z-index: 0 !important;
+}
+.z100 {
+    z-index: 100 !important;
+}
+.z1000 {
+    z-index: 1000 !important;
+}
+.z10000 {
+    z-index: 10000 !important;
+}

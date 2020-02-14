@@ -1,0 +1,59 @@
+/*******************************
+    List
+*******************************/
+
+ol li, 
+ul li {
+    list-style-type: none;
+    list-style-position: outside;
+    padding: .21428571em 0;
+    line-height: 1.14285714em;
+    position: relative;
+}
+.ui > li::before, 
+ul li::before, 
+ol li::before {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    pointer-events: none;
+    position: absolute;
+    top: auto;
+    left: auto;
+    font-weight: 400;
+    margin-left: -1.25rem;
+    content: '•';
+    opacity: 1;
+    color: inherit;
+    vertical-align: top;
+}
+ol,
+ul {
+    padding-left: 1.25rem;
+}
+ol {
+    counter-reset: my-counter;
+}
+ol ol li {
+    padding-left: 6px;
+}
+ol ol ol li {
+    padding-left: 20px;
+}
+ol li::before {
+    counter-increment: my-counter;
+    content: counters(my-counter, ".") " ";
+    text-align: left;
+    color: inherit;
+    vertical-align: middle;
+    opacity: .8;
+    left: 0;
+}
+ol.roman {
+    counter-reset: roman-counter;
+}
+ol.roman li::before {
+    counter-increment: roman-counter;
+    content: counter(roman-counter, lower-roman) " ";
+}

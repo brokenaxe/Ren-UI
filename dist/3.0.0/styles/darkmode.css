@@ -1,0 +1,452 @@
+/*******************************
+        Dark Mode
+*******************************/
+
+.show-in-darkmode {
+    display: none;
+}
+@media screen and (prefers-color-scheme: light) {
+
+}
+@media screen and (prefers-color-scheme: dark) {
+    .darkmode table td, 
+    .darkmode table th {
+        border-color: var(--darkmode-background);
+    }
+    .darkmode table tr:nth-child(2n) {
+        background-color: var(--darkmode-black-background);
+    }
+    .darkmode,
+    .darkmode .bg.black button:not(.navy):not(.blue):not(.aqua):not(.teal):not(.teal):not(.olive):not(.green):not(.lime):not(.yellow):not(.orange):not(.red):not(.fuchsia):not(.purple):not(.maroon):not(.silver):not(.gray):not(.primary):not(.secondary),
+    .darkmode .bg.black .button:not(.navy):not(.blue):not(.aqua):not(.teal):not(.teal):not(.olive):not(.green):not(.lime):not(.yellow):not(.orange):not(.red):not(.fuchsia):not(.purple):not(.maroon):not(.silver):not(.gray):not(.primary):not(.secondary),
+    .darkmode .bg.black .label:not(.navy):not(.blue):not(.aqua):not(.teal):not(.teal):not(.olive):not(.green):not(.lime):not(.yellow):not(.orange):not(.red):not(.fuchsia):not(.purple):not(.maroon):not(.silver):not(.gray):not(.primary):not(.secondary),
+    .darkmode .bg.white::before {
+        background-color: var(--darkmode-background);
+        color: var(--darkmode-text);
+    }
+    .shape.bottom.with-white::after {
+        border-bottom-color: var(--darkmode-background);
+    }
+    .shape.top.with-white::before {
+        border-top-color: var(--darkmode-background);
+    }
+    .darkmode nav li input, 
+    .darkmode .sizer span::before, 
+    .darkmode .sizer-left span::before, 
+    .darkmode .sizer-right span::before {
+        background-color: var(--darkmode-background);
+    }
+    .darkmode .bg.black button:hover:not(.navy):not(.blue):not(.aqua):not(.teal):not(.teal):not(.olive):not(.green):not(.lime):not(.yellow):not(.orange):not(.red):not(.fuchsia):not(.purple):not(.maroon):not(.silver):not(.gray):not(.primary):not(.secondary),
+    .darkmode .bg.black .button:hover:not(.navy):not(.blue):not(.aqua):not(.teal):not(.teal):not(.olive):not(.green):not(.lime):not(.yellow):not(.orange):not(.red):not(.fuchsia):not(.purple):not(.maroon):not(.silver):not(.gray):not(.primary):not(.secondary) {
+        background-color: var(--darkmode-background-hover);
+    }
+    .shape.bottom.with-black::after {
+        border-bottom-color: var(--darkmode-black-background);
+    }
+    .shape.top.with-black::before {
+        border-top-color: var(--darkmode-black-background);
+    }
+    .darkmode .code-container .title,
+    .darkmode nav.buttons li:not(.input).selected, 
+    .darkmode nav.buttons li:not(.input):hover {
+        background-color: var(--darkmode-black-background);
+    }
+    .darkmode hr:not(.text-navy):not(.text-blue):not(.text-aqua):not(.text-teal):not(.text-teal):not(.text-olive):not(.text-green):not(.text-lime):not(.text-yellow):not(.text-orange):not(.text-red):not(.text-fuchsia):not(.text-purple):not(.text-maroon):not(.text-silver):not(.text-gray):not(.text-primary):not(.text-secondary),
+    .darkmode .icon-holder,
+    .darkmode form .input, 
+    .darkmode form input, 
+    .darkmode form select,
+    .darkmode .label:not(.navy):not(.blue):not(.aqua):not(.teal):not(.teal):not(.olive):not(.green):not(.lime):not(.yellow):not(.orange):not(.red):not(.fuchsia):not(.purple):not(.maroon):not(.silver):not(.gray):not(.primary):not(.secondary),
+    .darkmode form .radio label::before, 
+    .darkmode form .checkbox label::before,
+    .darkmode button:not(.navy):not(.blue):not(.aqua):not(.teal):not(.teal):not(.olive):not(.green):not(.lime):not(.yellow):not(.orange):not(.red):not(.fuchsia):not(.purple):not(.maroon):not(.silver):not(.gray):not(.primary):not(.secondary),
+    .darkmode .button:not(.navy):not(.blue):not(.aqua):not(.teal):not(.teal):not(.olive):not(.green):not(.lime):not(.yellow):not(.orange):not(.red):not(.fuchsia):not(.purple):not(.maroon):not(.silver):not(.gray):not(.primary):not(.secondary),
+    .darkmode .bg.black::before {
+        background-color: var(--darkmode-black-background);
+        color: var(--darkmode-text);
+    }
+    .darkmode button:hover:not(.navy):not(.blue):not(.aqua):not(.teal):not(.teal):not(.olive):not(.green):not(.lime):not(.yellow):not(.orange):not(.red):not(.fuchsia):not(.purple):not(.maroon):not(.silver):not(.gray):not(.primary):not(.secondary),
+    .darkmode .button:hover:not(.navy):not(.blue):not(.aqua):not(.teal):not(.teal):not(.olive):not(.green):not(.lime):not(.yellow):not(.orange):not(.red):not(.fuchsia):not(.purple):not(.maroon):not(.silver):not(.gray):not(.primary):not(.secondary) {
+        background-color: var(--darkmode-black-background-hover);
+    }
+    .darkmode form .checkbox.asradio [type="checkbox"]:checked + label::after,
+    .darkmode form .radio [type="radio"]:checked + label::after {
+        background: var(--darkmode-text);
+    }
+    .darkmode .icon,
+    .darkmode .cards .card-swipe::after {
+        background-color: var(--darkmode-text) !important;
+    }
+    .darkmode .label.tag::after {
+        background-color: var(--darkmode-background) !important;
+    }
+    .darkmode,
+    .darkmode form label,
+    .darkmode .bg.white {
+        color: var(--darkmode-text);
+    }
+    .darkmode a:not(button):not(.navy):not(.blue):not(.aqua):not(.teal):not(.teal):not(.olive):not(.green):not(.lime):not(.yellow):not(.orange):not(.red):not(.fuchsia):not(.purple):not(.maroon):not(.silver):not(.gray):not(.primary):not(.secondary):not(.text-navy):not(.text-blue):not(.text-aqua):not(.text-teal):not(.text-teal):not(.text-olive):not(.text-green):not(.text-lime):not(.text-yellow):not(.text-orange):not(.text-red):not(.text-fuchsia):not(.text-purple):not(.text-maroon):not(.text-silver):not(.text-gray):not(.text-primary):not(.text-secondary),
+    .darkmode div:not(button) {
+        color: var(--darkmode-link);
+    }
+    .darkmode .breadcrumb a:last-child {
+        color: var(--darkmode-text) !important;
+    }
+    .darkmode form .checkbox [type="checkbox"]:checked + label::after {
+        border-right-color: var(--darkmode-text);
+        border-top-color: var(--darkmode-text);
+    }
+    .darkmode form .select::after {
+        border-top-color: var(--darkmode-background);
+    }
+    .darkmode form .input, 
+    .darkmode li input, 
+    .darkmode form input, 
+    .darkmode form select,
+    .darkmode form *:active,
+    .darkmode form *:hover {
+        border-color: var(--darkmode-black-background-hover);
+    }
+    .darkmode .cards .card {
+        -moz-box-shadow: 0 0 10px var(--darkmode-shadow-more);
+        box-shadow: 0 0 10px var(--darkmode-shadow-more);
+    }
+    .timeline li.time > span,
+    .darkmode .cards .card,
+    .darkmode form .switch [type="checkbox"]:not(:checked) + label::before {
+        background-color: var(--darkmode-black-background);
+        border-color: var(--darkmode-black-background);
+    }
+    .darkmode .photo {
+        border-color: var(--darkmode-black-background);
+        -webkit-box-shadow: 5px 5px 5px var(--darkmode-shadow);
+        box-shadow: 5px 5px 5px var(--darkmode-shadow);
+    }
+    .darkmode .popup .holder .window {
+        background-color: var(--darkmode-black-background);
+        -moz-box-shadow: 0 12px 15px 0 var(--darkmode-shadow);
+        box-shadow: 0 12px 15px 0 var(--darkmode-shadow);
+        color: var(--darkmode-text);
+    }
+    .darkmode nav.tabs ul li.input:hover, 
+    .darkmode nav.tabs ul li.input input {
+        border-color: var(--darkmode-background);
+    }
+    .darkmode nav.tabs li, 
+    .darkmode nav.tabs li.right, 
+    .darkmode nav.tabs li.input, 
+    .darkmode nav.tabs ul li.input:hover,
+    .darkmode nav.tabs ul li:not(.selected):hover {
+        border-top-color: var(--darkmode-background);
+        border-left-color: var(--darkmode-background);
+        border-right-color: var(--darkmode-background);
+    }
+    .darkmode nav.tabs ul li:hover, 
+    .darkmode nav.tabs ul li.selected {
+        background-color: var(--darkmode-background);
+        color: var(--darkmode-text);
+        border-top: 1px solid var(--darkmode-black-background);
+        border-left: 1px solid var(--darkmode-black-background);
+        border-right: 1px solid var(--darkmode-black-background);
+    }
+    .darkmode .sizer::after, 
+    .darkmode .sizer-right::after,
+    .darkmode .sizer::before, 
+    .darkmode .sizer-left::before {
+        border-color: var(--darkmode-text);
+    }
+    .darkmode .button,
+    .darkmode img {
+        opacity: .97;
+        transition: opacity .5s ease-in-out;
+    }
+    .darkmode *.disabled, 
+    .darkmode *.disabled:hover, 
+    .darkmode form *:disabled, 
+    .darkmode form *:disabled:hover {
+        opacity: 0.7;
+    }
+    .darkmode .text-navy,
+    .darkmode .a-navy a {
+        color: var(--navy-background) !important;
+    }
+    .darkmode .text-blue,
+    .darkmode .a-blue a {
+        color: var(--blue-background) !important;
+    }
+    .darkmode .text-aqua,
+    .darkmode .a-aqua a {
+        color: var(--aqua-background) !important;
+    }
+    .darkmode .text-teal,
+    .darkmode .a-teal a {
+        color: var(--teal-background) !important;
+    }
+    .darkmode .text-olive,
+    .darkmode .a-olive a {
+        color: var(--olive-background) !important;
+    }
+    .darkmode .text-green,
+    .darkmode .a-green a {
+        color: var(--green-background) !important;
+    }
+    .darkmode .text-lime,
+    .darkmode .a-lime a {
+        color: var(--lime-background) !important;
+    }
+    .darkmode .text-yellow,
+    .darkmode .a-yellow a {
+        color: var(--yellow-background) !important;
+    }
+    .darkmode .text-orange,
+    .darkmode .a-orange a {
+        color: var(--orange-background) !important;
+    }
+    .darkmode .text-red,
+    .darkmode .a-red a {
+        color: var(--red-background) !important;
+    }
+    .darkmode .text-fuchsia,
+    .darkmode .a-fuchsia a {
+        color: var(--fuchsia-background) !important;
+    }
+    .darkmode .text-purple,
+    .darkmode .a-purple a {
+        color: var(--purple-background) !important;
+    }
+    .darkmode .text-maroon,
+    .darkmode .a-maroon a {
+        color: var(--maroon-background) !important;
+    }
+    .darkmode .text-silver,
+    .darkmode .a-silver a {
+        color: var(--darkmode-background-silver) !important;
+    }
+    .darkmode .text-gray,
+    .darkmode .a-gray a {
+        color: var(--darkmode-background-gray) !important;
+    }
+    .darkmode .text-primary,
+    .darkmode .a-primary a {
+        color: var(--primary-background) !important;
+    }
+    .darkmode .text-secondary,
+    .darkmode .a-secondary a {
+        color: var(--secondary-background) !important;
+    }
+    .darkmode img {
+        filter: grayscale(30%);
+    }
+    .darkmode .show-in-darkmode {
+        display: inline-block;
+    }
+}
+.darkmode.force,
+.darkmode.force .bg.black button:not(.navy):not(.blue):not(.aqua):not(.teal):not(.teal):not(.olive):not(.green):not(.lime):not(.yellow):not(.orange):not(.red):not(.fuchsia):not(.purple):not(.maroon):not(.silver):not(.gray):not(.primary):not(.secondary),
+.darkmode.force .bg.black .button:not(.navy):not(.blue):not(.aqua):not(.teal):not(.teal):not(.olive):not(.green):not(.lime):not(.yellow):not(.orange):not(.red):not(.fuchsia):not(.purple):not(.maroon):not(.silver):not(.gray):not(.primary):not(.secondary),
+.darkmode.force .bg.black .label:not(.navy):not(.blue):not(.aqua):not(.teal):not(.teal):not(.olive):not(.green):not(.lime):not(.yellow):not(.orange):not(.red):not(.fuchsia):not(.purple):not(.maroon):not(.silver):not(.gray):not(.primary):not(.secondary),
+.darkmode.force .bg.white::before {
+    background-color: var(--darkmode-background);
+    color: var(--darkmode-text);
+}
+.darkmode.force nav li input, 
+.darkmode.force .sizer span::before, 
+.darkmode.force .sizer-left span::before, 
+.darkmode.force .sizer-right span::before {
+    background-color: var(--darkmode-background);
+}
+.darkmode.force .bg.black button:hover:not(.navy):not(.blue):not(.aqua):not(.teal):not(.teal):not(.olive):not(.green):not(.lime):not(.yellow):not(.orange):not(.red):not(.fuchsia):not(.purple):not(.maroon):not(.silver):not(.gray):not(.primary):not(.secondary),
+.darkmode.force .bg.black .button:hover:not(.navy):not(.blue):not(.aqua):not(.teal):not(.teal):not(.olive):not(.green):not(.lime):not(.yellow):not(.orange):not(.red):not(.fuchsia):not(.purple):not(.maroon):not(.silver):not(.gray):not(.primary):not(.secondary) {
+    background-color: var(--darkmode-background-hover);
+}
+.darkmode.force .code-container .title,
+.darkmode.force nav.buttons li:not(.input).selected, 
+.darkmode.force nav.buttons li:not(.input):hover {
+    background-color: var(--darkmode-black-background);
+}
+.darkmode.force hr:not(.text-navy):not(.text-blue):not(.text-aqua):not(.text-teal):not(.text-teal):not(.text-olive):not(.text-green):not(.text-lime):not(.text-yellow):not(.text-orange):not(.text-red):not(.text-fuchsia):not(.text-purple):not(.text-maroon):not(.text-silver):not(.text-gray):not(.text-primary):not(.text-secondary),
+.darkmode.force .icon-holder,
+.darkmode.force form .input, 
+.darkmode.force form input, 
+.darkmode.force form select,
+.darkmode.force .label:not(.navy):not(.blue):not(.aqua):not(.teal):not(.teal):not(.olive):not(.green):not(.lime):not(.yellow):not(.orange):not(.red):not(.fuchsia):not(.purple):not(.maroon):not(.silver):not(.gray):not(.primary):not(.secondary),
+.darkmode.force form .radio label::before, 
+.darkmode.force form .checkbox label::before,
+.darkmode.force button:not(.navy):not(.blue):not(.aqua):not(.teal):not(.teal):not(.olive):not(.green):not(.lime):not(.yellow):not(.orange):not(.red):not(.fuchsia):not(.purple):not(.maroon):not(.silver):not(.gray):not(.primary):not(.secondary),
+.darkmode.force .button:not(.navy):not(.blue):not(.aqua):not(.teal):not(.teal):not(.olive):not(.green):not(.lime):not(.yellow):not(.orange):not(.red):not(.fuchsia):not(.purple):not(.maroon):not(.silver):not(.gray):not(.primary):not(.secondary),
+.darkmode.force .bg.black::before {
+    background-color: var(--darkmode-black-background);
+    color: var(--darkmode-text);
+}
+.darkmode.force button:hover:not(.navy):not(.blue):not(.aqua):not(.teal):not(.teal):not(.olive):not(.green):not(.lime):not(.yellow):not(.orange):not(.red):not(.fuchsia):not(.purple):not(.maroon):not(.silver):not(.gray):not(.primary):not(.secondary),
+.darkmode.force .button:hover:not(.navy):not(.blue):not(.aqua):not(.teal):not(.teal):not(.olive):not(.green):not(.lime):not(.yellow):not(.orange):not(.red):not(.fuchsia):not(.purple):not(.maroon):not(.silver):not(.gray):not(.primary):not(.secondary) {
+    background-color: var(--darkmode-black-background-hover);
+}
+.darkmode.force form .checkbox.asradio [type="checkbox"]:checked + label::after,
+.darkmode.force form .radio [type="radio"]:checked + label::after {
+    background: var(--darkmode-text);
+}
+.darkmode.force .icon,
+.darkmode.force .cards .card-swipe::after {
+    background-color: var(--darkmode-text);
+}
+.darkmode.force .label.tag::after {
+    background-color: var(--darkmode-background) !important;
+}
+.darkmode.force,
+.darkmode.force form label,
+.darkmode.force .bg.white {
+    color: var(--darkmode-text);
+}
+.darkmode.force a:not(button):not(.navy):not(.blue):not(.aqua):not(.teal):not(.teal):not(.olive):not(.green):not(.lime):not(.yellow):not(.orange):not(.red):not(.fuchsia):not(.purple):not(.maroon):not(.silver):not(.gray):not(.primary):not(.secondary):not(.text-navy):not(.text-blue):not(.text-aqua):not(.text-teal):not(.text-teal):not(.text-olive):not(.text-green):not(.text-lime):not(.text-yellow):not(.text-orange):not(.text-red):not(.text-fuchsia):not(.text-purple):not(.text-maroon):not(.text-silver):not(.text-gray):not(.text-primary):not(.text-secondary),
+.darkmode.force div:not(button) {
+    color: var(--darkmode-link);
+}
+.darkmode.force .breadcrumb a:last-child {
+    color: var(--darkmode-text) !important;
+}
+.darkmode form .checkbox [type="checkbox"]:checked + label::after {
+    border-right-color: var(--darkmode-text);
+    border-top-color: var(--darkmode-text);
+}
+.darkmode.force form .select::after {
+    border-top-color: var(--darkmode-background);
+}
+.darkmode.force form .input, 
+.darkmode.force li input, 
+.darkmode.force form input, 
+.darkmode.force form select,
+.darkmode.force form *:active,
+.darkmode.force form *:hover {
+    border-color: var(--darkmode-black-background-hover);
+}
+.darkmode.force .cards .card {
+    -moz-box-shadow: 0 0 10px var(--darkmode-shadow-more);
+    box-shadow: 0 0 10px var(--darkmode-shadow-more);
+}
+.timeline li.time > span,
+.darkmode.force .cards .card,
+.darkmode.force form .switch [type="checkbox"]:not(:checked) + label::before {
+    background-color: var(--darkmode-black-background);
+    border-color: var(--darkmode-black-background);
+}
+.darkmode.force .photo {
+    border-color: var(--darkmode-black-background);
+    -webkit-box-shadow: 5px 5px 5px var(--darkmode-shadow);
+    box-shadow: 5px 5px 5px var(--darkmode-shadow);
+}
+.darkmode.force .popup .holder .window {
+    background-color: var(--darkmode-black-background);
+    -moz-box-shadow: 0 12px 15px 0 var(--darkmode-shadow);
+    box-shadow: 0 12px 15px 0 var(--darkmode-shadow);
+    color: var(--darkmode-text);
+}
+.darkmode.force nav.tabs ul li.input:hover, 
+.darkmode.force nav.tabs ul li.input input {
+    border-color: var(--darkmode-background);
+}
+.darkmode.force nav.tabs li, 
+.darkmode.force nav.tabs li.right, 
+.darkmode.force nav.tabs li.input, 
+.darkmode.force nav.tabs ul li.input:hover,
+.darkmode.force nav.tabs ul li:not(.selected):hover {
+    border-top-color: var(--darkmode-background);
+    border-left-color: var(--darkmode-background);
+    border-right-color: var(--darkmode-background);
+}
+.darkmode.force nav.tabs ul li:hover, 
+.darkmode.force nav.tabs ul li.selected {
+    background-color: var(--darkmode-background);
+    color: var(--darkmode-text);
+    border-top: 1px solid var(--darkmode-black-background);
+    border-left: 1px solid var(--darkmode-black-background);
+    border-right: 1px solid var(--darkmode-black-background);
+}
+.darkmode.force .sizer::after, 
+.darkmode.force .sizer-right::after,
+.darkmode.force .sizer::before, 
+.darkmode.force .sizer-left::before {
+    border-color: var(--darkmode-text);
+}
+.darkmode.force .button,
+.darkmode.force img {
+    opacity: .97;
+    transition: opacity .5s ease-in-out;
+}
+.darkmode.force *.disabled, 
+.darkmode.force *.disabled:hover, 
+.darkmode.force form *:disabled, 
+.darkmode.force form *:disabled:hover {
+    opacity: 0.7;
+}
+.darkmode.force .text-navy,
+.darkmode.force .a-navy a {
+    color: var(--navy-background) !important;
+}
+.darkmode.force .text-blue,
+.darkmode.force .a-blue a {
+    color: var(--blue-background) !important;
+}
+.darkmode.force .text-aqua,
+.darkmode.force .a-aqua a {
+    color: var(--aqua-background) !important;
+}
+.darkmode.force .text-teal,
+.darkmode.force .a-teal a {
+    color: var(--teal-background) !important;
+}
+.darkmode.force .text-olive,
+.darkmode.force .a-olive a {
+    color: var(--olive-background) !important;
+}
+.darkmode.force .text-green,
+.darkmode.force .a-green a {
+    color: var(--green-background) !important;
+}
+.darkmode.force .text-lime,
+.darkmode.force .a-lime a {
+    color: var(--lime-background) !important;
+}
+.darkmode.force .text-yellow,
+.darkmode.force .a-yellow a {
+    color: var(--yellow-background) !important;
+}
+.darkmode.force .text-orange,
+.darkmode.force .a-orange a {
+    color: var(--orange-background) !important;
+}
+.darkmode.force .text-red,
+.darkmode.force .a-red a {
+    color: var(--red-background) !important;
+}
+.darkmode.force .text-fuchsia,
+.darkmode.force .a-fuchsia a {
+    color: var(--fuchsia-background) !important;
+}
+.darkmode.force .text-purple,
+.darkmode.force .a-purple a {
+    color: var(--purple-background) !important;
+}
+.darkmode.force .text-maroon,
+.darkmode.force .a-maroon a {
+    color: var(--maroon-background) !important;
+}
+.darkmode.force .text-silver,
+.darkmode.force .a-silver a {
+    color: var(--darkmode-background-silver) !important;
+}
+.darkmode.force .text-gray,
+.darkmode.force .a-gray a {
+    color: var(--darkmode-background-gray) !important;
+}
+.darkmode.force .text-primary,
+.darkmode.force .a-primary a {
+    color: var(--primary-background) !important;
+}
+.darkmode.force .text-secondary,
+.darkmode.force .a-secondary a {
+    color: var(--secondary-background) !important;
+}
+.darkmode.force img {
+    filter: grayscale(30%);
+}

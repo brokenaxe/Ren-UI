@@ -1,0 +1,305 @@
+/*******************************
+    Tooltip
+*******************************/
+
+[data-tooltip],
+.tooltip {
+    position: relative;
+    cursor: pointer;
+}
+[data-tooltip]:before,
+[data-tooltip]:after,
+.tooltip:before,
+.tooltip:after {
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 1.1;
+}
+[data-tooltip]:before,
+[data-tooltip]:after,
+.tooltip:before,
+.tooltip:after {
+    position: absolute;
+    visibility: hidden;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+    opacity: 0;
+    -webkit-transition: 
+    opacity 0.2s ease-in-out,
+        visibility 0.2s ease-in-out,
+        -webkit-transform 0.2s cubic-bezier(0.71, 1.7, 0.77, 1.24);
+    -moz-transition:    
+        opacity 0.2s ease-in-out,
+        visibility 0.2s ease-in-out,
+        -moz-transform 0.2s cubic-bezier(0.71, 1.7, 0.77, 1.24);
+    transition:         
+        opacity 0.2s ease-in-out,
+        visibility 0.2s ease-in-out,
+        transform 0.2s cubic-bezier(0.71, 1.7, 0.77, 1.24);
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform:    translate3d(0, 0, 0);
+    transform:         translate3d(0, 0, 0);
+    pointer-events: none;
+}
+
+[data-tooltip]:hover:before,
+[data-tooltip]:hover:after,
+[data-tooltip]:focus:before,
+[data-tooltip]:focus:after,
+.tooltip:hover:before,
+.tooltip:hover:after,
+.tooltip:focus:before,
+.tooltip:focus:after {
+    visibility: visible;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+    opacity: 1;
+    border-radius: var(--radius-less);
+}
+
+.tooltip:before,
+[data-tooltip]:before {
+    z-index: 1001;
+    border: 6px solid transparent;
+    background: transparent;
+    content: "";
+}
+
+.tooltip:after,
+[data-tooltip]:after {
+    z-index: 1000;
+    padding: 8px;
+    width: 160px;
+    content: attr(data-tooltip);
+}
+[data-tooltip]:hover:before,
+[data-tooltip]:hover:after,
+[data-tooltip]:focus:before,
+[data-tooltip]:focus:after,
+.tooltip:hover:before,
+.tooltip:hover:after,
+.tooltip:focus:before,
+.tooltip:focus:after,
+.tooltip-top:hover:before,
+.tooltip-top:hover:after,
+.tooltip-top:focus:before,
+.tooltip-top:focus:after {
+    -webkit-transform: translateY(-12px);
+    -moz-transform:    translateY(-12px);
+    transform:         translateY(-12px); 
+}
+.tooltip-left:hover:before,
+.tooltip-left:hover:after,
+.tooltip-left:focus:before,
+.tooltip-left:focus:after {
+    -webkit-transform: translateX(-12px);
+    -moz-transform:    translateX(-12px);
+    transform:         translateX(-12px); 
+}
+.tooltip-bottom:hover:before,
+.tooltip-bottom:hover:after,
+.tooltip-bottom:focus:before,
+.tooltip-bottom:focus:after {
+    -webkit-transform: translateY(12px);
+    -moz-transform:    translateY(12px);
+    transform:         translateY(12px); 
+}
+.tooltip-right:hover:before,
+.tooltip-right:hover:after,
+.tooltip-right:focus:before,
+.tooltip-right:focus:after {
+    -webkit-transform: translateX(12px);
+    -moz-transform:    translateX(12px);
+    transform:         translateX(12px); 
+}
+
+[data-tooltip]:before,
+.tooltip:before,
+.tooltip-top:before,
+.tooltip-bottom:before {
+    left: calc(50% - 6px);
+    top:0;
+}
+[data-tooltip]:after,
+.tooltip:after,
+.tooltip-top:after,
+.tooltip-bottom:after {
+    left: calc(50% - 80px);
+    bottom: 100%;
+}
+.tooltip-bottom:before {
+    top:unset;
+    bottom: 0;
+}
+.tooltip-left:before,
+.tooltip-right:before {
+    top: calc(50% - 6px);
+}
+
+.tooltip-left:before {
+    left:0;
+}
+.tooltip-right:before {
+    right:0;
+}
+.tooltip-left:after,
+.tooltip-right:after {
+    top: calc(50% - 15px);
+    bottom: unset;
+}
+.tooltip-left:after {
+    left: unset;
+    right:calc(100% - 1px);
+}
+.tooltip-right:after {
+    left:100%;
+}
+.tooltip-bottom:after {
+    top:100%;
+    bottom:unset;
+}
+.tooltip:after,
+[data-tooltip]:after {
+    background-color: var(--tooltip-background);
+    color: var(--background);
+}
+[data-tooltip]:before,
+.tooltip:before,
+.tooltip-top:before {
+    border-top-color: var(--tooltip-background);
+}
+.tooltip-left:before {
+    border-top-color: transparent;
+    border-left-color: var(--tooltip-background);
+}
+.tooltip-bottom:before {
+    border-top-color: transparent;
+    border-bottom-color: var(--tooltip-background);
+}
+.tooltip-right:before {
+    border-top-color: transparent;
+    border-right-color: var(--tooltip-background);
+}
+
+[data-tooltip].stick:before,
+[data-tooltip].stick:after,
+.tooltip.stick:before,
+.tooltip.stick:after {
+    visibility: visible;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+    opacity: 1;
+    border-radius: var(--radius-less);
+}
+[data-tooltip].stick:before,
+[data-tooltip].stick:after,
+.tooltip.stick:before,
+.tooltip.stick:after {
+   
+}
+[data-tooltip].stick:before,
+.tooltip.stick:before,
+.tooltip-top.stick:before,
+.tooltip-bottom.stick:before {
+    left: calc(50% - 6px);
+    top:0;
+}
+[data-tooltip].stick,
+.tooltip.stick,
+.tooltip-top.stick {
+    margin-top: 40px;
+}
+[data-tooltip].stick:before,
+.tooltip.stick:before,
+.tooltip-top.stick:before {
+    top: -10px;
+}
+[data-tooltip].stick:after,
+.tooltip.stick:after,
+.tooltip-top.stick:after {
+    bottom:calc(100% + 10px);
+    left: 0;
+}
+
+.tooltip-bottom.stick {
+    margin-top: unset;
+    margin-bottom: 40px;
+}
+.tooltip-bottom.stick:before {
+    top:unset;
+    bottom: -10px;
+}
+.tooltip-bottom.stick:after {
+    top:calc(100% + 10px);
+    bottom:unset;
+    left: 0;
+}
+.tooltip-left.stick {
+    margin-top: unset;
+    margin-left: 170px;
+}
+.tooltip-left.stick:before {
+    left:-10px;
+}
+.tooltip-left.stick:after {
+    left: unset;
+    right:calc(100% - -9px);
+}
+
+.tooltip-right.stick {
+    margin-top: unset;
+}
+.tooltip-right.stick:after {
+    left:calc(100% + 10px);
+}
+.tooltip-right.stick:before {
+    right:-10px;
+}
+.tooltip-right.stick:before,
+.tooltip-left.stick:before {
+    top: calc(50% - 6px);
+}
+.tooltip-right.stick:after,
+.tooltip-left.stick:after {
+    bottom: unset;
+}
+[data-tooltip].stick:hover:before,
+[data-tooltip].stick:hover:after,
+[data-tooltip].stick:focus:before,
+[data-tooltip].stick:focus:after,
+.tooltip.stick:hover:before,
+.tooltip.stick:hover:after,
+.tooltip.stick:focus:before,
+.tooltip.stick:focus:after,
+.tooltip-top.stick:hover:before,
+.tooltip-top.stick:hover:after,
+.tooltip-top.stick:focus:before,
+.tooltip-top.stick:focus:after,
+.tooltip-left.stick:hover:before,
+.tooltip-left.stick:hover:after,
+.tooltip-left.stick:focus:before,
+.tooltip-left.stick:focus:after,
+.tooltip-bottom.stick:hover:before,
+.tooltip-bottom.stick:hover:after,
+.tooltip-bottom.stick:focus:before,
+.tooltip-bottom.stick:focus:after,
+.tooltip-right.stick:hover:before,
+.tooltip-right.stick:hover:after,
+.tooltip-right.stick:focus:before,
+.tooltip-right.stick:focus:after {
+    -webkit-transform: translateX(0);
+    -moz-transform:    translateX(0);
+    transform:         translateX(0); 
+}
+ /*
+ Debugger
+[data-tooltip]:before,
+[data-tooltip]:after,
+.tooltip:before,
+.tooltip:after {
+visibility: visible;
+-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+opacity: 1;
+border-radius: var(--radius-less);
+} */

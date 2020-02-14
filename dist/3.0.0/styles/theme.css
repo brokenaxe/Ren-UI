@@ -1,0 +1,189 @@
+/*******************************
+            Theme
+*******************************/
+
+:root {
+    --radius: .28571429rem;
+    --radius-less: .21428571rem;
+
+    --background: #ffffff;
+    --background-alter: rgba(227,227,229,1);
+
+    --border-not-selected: rgba(34, 36, 38, .05);
+    --border: rgba(34, 36, 38, .15);
+    --border-selected: rgba(34, 36, 38, .20);
+    --border-full: rgba(34, 36, 38, 1);
+    --border-hover:#85b7d9;
+    --border-warning:#ff4136;
+
+    --button-text: rgba(0,0,0,.6);
+    --button-background: #e0e1e2;
+    --button-background-hover: #cacbcd;
+    --button-shadow: rgba(34,36,38,.15);
+    --button-icon: rgba(0,0,0,.6);
+    --button-icon-hover: rgba(0,0,0,.8);
+
+    --code: #666;
+    --code-icon: #999;
+
+    --codex: #ffffff; 
+    --codex-background: #ccc;
+    --codex-mark: rgba(0,0,0,.05);
+
+    --disabled:rgba(34, 36, 38, .40);
+    --disabled-background:rgba(34, 36, 38, .05);
+
+    --link: #1e70bf;
+    --link-hover: rgba(41, 166, 223,1);
+    
+    --separator: rgba(0, 0, 0, 0.5);
+    --text: rgb(17, 17, 17,1);
+    --text-lighter: rgba(17, 17, 17, 0.86);
+    --text-invert: rgba(255, 255, 255, 0.96);
+    --shadow: rgba(0,0,0,0.01);
+    --shadow-more: rgba(0,0,0,0.1);
+    --shadow-hover: rgba(0,0,0,0.19);
+    --shadow-medium: rgba(0,0,0,0.24);
+    --shadow-strong: rgba(0,0,0,0.3);
+    --switch: #ddd;
+    --switch-checked: #72da67;
+    --label: rgba(0,0,0,.6);
+    --label-background: #e8e8e8;
+    --side-background:#1b1c1d;
+    --popup-background: #111;
+    --tooltip-background: rgba(34,36,38,1);
+
+    --white-text: #111111;
+    --white-text-alt: #111111;
+    --white-background: #ffffff;
+    --white-border: #fcfcfc;
+    --white-gradient-shade: #efefef;
+
+    --navy-text: hsla(210,100%,75%,1);
+    --navy-text-alt: hsla(210,100%,75%,1);
+    --navy-background: #001f3f;
+    --navy-border: #201f3f;
+    --navy-gradient-shade: #203f5f;
+
+    --blue-text: #b2dbff;
+    --blue-text-alt: #b2dbff;
+    --blue-background: #0074d9;
+    --blue-border: #0074d9;
+    --blue-gradient-shade: #2094ef;
+
+    --aqua-text: hsla(197, 100%, 20%, 1.0);
+    --aqua-text-alt: hsla(197, 100%, 20%, 1.0);
+    --aqua-background: #7fdbff;
+    --aqua-border: #7fdbff;
+    --aqua-gradient-shade: #9ffbff;
+
+    --teal-text: #111;
+    --teal-text-alt: #111;
+    --teal-background: #39cccc;
+    --teal-border: #39cccc;
+    --teal-gradient-shade: #39cccc;
+
+    --olive-text: hsla(153, 43%, 15%, 1.0);
+    --olive-text-alt: hsla(153, 43%, 15%, 1.0);
+    --olive-background: #3d9970;
+    --olive-border: #3d9970;
+    --olive-gradient-shade: #5db990;
+
+    --green-text: hsla(127, 63%, 15%, 1.0);
+    --green-text-alt: hsla(127, 63%, 15%, 1.0);
+    --green-background: #2ecc40;
+    --green-border: #2ecc40;
+    --green-gradient-shade: #4eec60;
+
+    --lime-text: hsla(146, 100%, 20%, 1.0);
+    --lime-text-alt: hsla(146, 100%, 20%, 1.0);
+    --lime-background: #01ff70;
+    --lime-border: #01ff70;
+    --lime-gradient-shade: #21ff90;
+
+    --yellow-text: hsla(52, 100%, 20%, 1.0);
+    --yellow-text-alt: hsla(52, 100%, 20%, 1.0);
+    --yellow-background: #ffdc00;
+    --yellow-border: #ffdc00;
+    --yellow-gradient-shade: #fffc20;
+
+    --orange-text: hsla(28, 100%, 20%, 1.0);
+    --orange-text-alt: hsla(28, 100%, 20%, 1.0);
+    --orange-background: #ff851b;
+    --orange-border: #ff851b;
+    --orange-gradient-shade: #ffa53b;
+
+    --red-text: hsla(3, 100%, 25%, 1.0);
+    --red-text-alt: hsla(3, 100%, 25%, 1.0);
+    --red-background: #ff4136;
+    --red-border: #ff4136;
+    --red-gradient-shade: #ff6156;
+
+    --fuchsia-text: hsla(314, 88%, 21%, 1.0);
+    --fuchsia-text-alt: hsla(314, 88%, 21%, 1.0);
+    --fuchsia-background: #f012be;
+    --fuchsia-border: #f012be;
+    --fuchsia-gradient-shade: #ff32de;
+
+    --purple-text: hsla(292, 88%, 82%, 1.0);
+    --purple-text-alt: hsla(292, 88%, 82%, 1.0);
+    --purple-background: #b10dc9;
+    --purple-border: #b10dc9;
+    --purple-gradient-shade: #d140e9;
+
+    --maroon-text: hsla(331, 74%, 70%, 1.0);
+    --maroon-text-alt: hsla(331, 74%, 70%, 1.0);
+    --maroon-background: #85144b;
+    --maroon-border: #85144b;
+    --maroon-gradient-shade: #a5346b;
+
+    --silver-text: #111111;
+    --silver-text-alt: #111111;
+    --silver-background: #dddddd;
+    --silver-border: #dddddd;
+    --silver-gradient-shade: #bdbdbd;
+
+    --gray-text: #111111;
+    --gray-text-alt: #111111;
+    --gray-background: #aaaaaa;
+    --gray-border: #aaaaaa;
+    --gray-gradient-shade: #cacaca;
+
+    --black-text: #ffffff;
+    --black-text-alt: #ffffff;
+    --black-background: #111111;
+    --black-border: #111111;
+    --black-gradient-shade: #303030;
+
+    --primary-text: #111111;
+    --primary-text-alt: #ffffff;
+    --primary-background: #0A72BA;
+    --primary-border: #0A72BA;
+    --primary-gradient-shade: #29A6DF;
+
+    --secondary-text: #111111;
+    --secondary-text-alt: #ffffff;
+    --secondary-background: #29A6DF;
+    --secondary-border: #29A6DF;
+    --secondary-gradient-shade: #29A6DF;
+}
+:root {
+    --darkmode-background-silver: #495258;
+    --darkmode-background-gray: #596268;
+
+    --darkmode-background: #38444c;
+    --darkmode-background-hover: #48545c;
+    --darkmode-black-background: #293238;
+    --darkmode-black-background-hover: #18242c;
+    
+    --darkmode-text: #d0d2d3;
+    --darkmode-link: #f0f2f3;
+
+    --darkmode-shadow: rgba(255,255,255,0.01);
+    --darkmode-shadow-more: rgba(255,255,255,0.1);
+    --darkmode-shadow-hover: rgba(255,255,255,0.19);
+    --darkmode-shadow-medium: rgba(255,255,255,0.24);
+    --darkmode-shadow-strong: rgba(255,255,255,0.3);
+
+
+}

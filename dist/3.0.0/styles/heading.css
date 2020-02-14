@@ -1,0 +1,72 @@
+/*******************************
+            Heading
+*******************************/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+ font-style:normal;
+ font-weight:normal;
+ margin:10px 0;
+ width:100%;
+ line-height:1.2;
+}
+h1 strong {
+ font-weight:bold;
+}
+h1 {
+ font-size:2em;
+ opacity:1;
+}
+h1.double {
+ font-size:4em;
+}
+h2 {
+ font-size:1.8em;
+ opacity:.96;
+}
+h2.double {
+ font-size:3.6em;
+}
+h3 {
+ font-size:1.6em;
+ opacity:.94;
+}
+h3.double {
+ font-size:3.2em;
+}
+h4 {
+ font-size:1.4em;
+ opacity:.94;
+}
+h4.double {
+ font-size:2.8em;
+}
+h5 {
+ font-size:1.3em;
+ opacity:.92;
+}
+h5.double {
+ font-size:2.6em;
+}
+h6 {
+ font-size:1.2em;
+ opacity:.9;
+}
+h6.double {
+ font-size:2.4em;
+}
+.attach {
+ margin-top:-12px;
+}
+h1 img,
+h2 img,
+h3 img,
+h4 img,
+h5 img,
+h6 img {
+    vertical-align: top;
+}

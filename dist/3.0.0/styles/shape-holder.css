@@ -1,0 +1,50 @@
+/*******************************
+        Shape-Holder
+*******************************/
+
+.shape-holder::before {
+    background-color: rgba(34,36,38,.05);
+    position: absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    content:'';
+    border-radius: inherit;
+    z-index: -1;
+}
+.shape-holder {
+    border-radius: 50%;
+    margin-right: 6px;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    position: relative;
+    z-index: 0;
+}
+.shape-holder > div {    
+    font-size: 10px;
+    line-height: 14px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+}
+.shape-holder.x2 {
+    margin-right: 12px;
+    width: 100px;
+    height: 100px;
+}
+.shape-holder.x2 > div {    
+    font-size: 14px;
+    line-height: 18px;
+}
+.shape-holder.x3 {
+    margin-right: 18px;
+    width: 150px;
+    height: 150px;
+}
+.shape-holder.x3 > div {    
+    font-size: 18px;
+    line-height: 24px;
+}

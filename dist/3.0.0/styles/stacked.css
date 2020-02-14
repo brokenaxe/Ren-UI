@@ -1,0 +1,75 @@
+/*******************************
+        Stacked
+*******************************/
+
+.stacked {
+    -webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
+    -moz-column-gap: 1rem;
+    -webkit-column-gap: 1rem;
+    column-gap: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    -webkit-perspective:1;
+    display: block;
+}
+.stacked>div {
+    width:  100%;
+    margin: 0 0 1rem 0;
+    display: inline-block;
+}
+form .stacked>div {
+    display: block;
+}
+.stacked.by3 {
+    -webkit-column-count: 3; /* Chrome, Safari, Opera */
+    -moz-column-count: 3; /* Firefox */
+    column-count: 3;
+}
+.stacked.by4 {
+    -webkit-column-count: 4; /* Chrome, Safari, Opera */
+    -moz-column-count: 4; /* Firefox */
+    column-count: 4;
+}
+.stacked.by5 {
+    -webkit-column-count: 5; /* Chrome, Safari, Opera */
+    -moz-column-count: 5; /* Firefox */
+    column-count: 5;
+}
+.stacked.by6 {
+    -webkit-column-count: 6; /* Chrome, Safari, Opera */
+    -moz-column-count: 6; /* Firefox */
+    column-count: 6;
+}
+.stacked.gap-none {
+    -moz-column-gap: 0;
+    -webkit-column-gap: 0;
+    column-gap: 0;
+    margin-bottom: 0;
+}
+.stacked.gap-none>div {
+    margin-bottom: 0;
+}
+.stacked.gap-x2 {
+    -moz-column-gap: 2rem;
+    -webkit-column-gap: 2rem;
+    column-gap: 2rem;
+}
+.stacked.gap-x2,
+.stacked.gap-x2>div {
+    margin-bottom: 2rem;
+}
+.stacked.gap-x3 {
+    -moz-column-gap: 3rem;
+    -webkit-column-gap: 3rem;
+    column-gap: 3rem;
+}
+.stacked.gap-x3,
+.stacked.gap-x3>div {
+    margin-bottom: 3rem;
+}
+form .stacked {
+    margin-bottom: 0;
+}

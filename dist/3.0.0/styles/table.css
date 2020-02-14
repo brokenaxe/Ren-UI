@@ -1,0 +1,25 @@
+/*******************************
+        Table
+*******************************/
+
+table {
+font-family: arial, sans-serif;
+border-collapse: collapse;
+width: 100%;
+}
+table th {
+font-weight: bold;
+}
+table td, 
+table th {
+border: 1px solid #eee;
+text-align: left;
+padding: 8px;
+vertical-align: top;
+}
+table tr:nth-child(2n) {
+background-color: #fafafa;
+}
+table.highlight tr:hover {
+background-color: #f7f7f7;
+}

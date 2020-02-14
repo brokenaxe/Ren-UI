@@ -1,0 +1,120 @@
+/*******************************
+          Page Setup
+*******************************/
+@viewport {
+  width: device-width ;
+  zoom: 1.0 ;
+}
+@-ms-viewport {
+  width: device-width ;
+}
+@-webkit-keyframes loader-spin {
+  0% {
+      -webkit-transform: rotate(0);
+      transform: rotate(0);
+  }
+  100% {
+      -webkit-transform: rotate(360deg);
+      transform: rotate(360deg);
+  }
+}
+@keyframes loader-spin {
+  0% {
+      -webkit-transform: rotate(0);
+      transform: rotate(0);
+  }
+  100% {
+      -webkit-transform: rotate(360deg);
+      transform: rotate(360deg);
+  }
+}
+html,
+body {
+  height: 100%;
+}
+html {
+  font-size: 14px;
+}
+body {
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+  min-width: 320px;
+  background-color: var(--background);
+  font-family: sans-serif;
+  line-height: 1.4285em;
+  font-weight: 300;
+}
+* {
+  overflow-wrap: break-word;
+  font-smooth: auto;
+  -moz-osx-font-smoothing: auto;
+  -webkit-font-smoothing: auto;
+}
+a {
+  color: var(--link);
+  text-decoration: none;
+}
+a:hover {
+  color: var(--link-hover);
+}
+[onclick] {
+  cursor: pointer;
+}
+.margin-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+.underline,
+.hover-underline a:hover,
+a.hover-underline:hover {
+    text-decoration: underline;
+}
+.browsehappy {
+  padding: 8px 16px;
+  margin: 0;
+  position: fixed;
+  z-index: 10;
+  background-color: #fff;
+  border: solid 1px #ccc;
+  border-radius: 5px;
+  top: 10px;
+  left: 10px;
+}
+pre {
+  white-space: pre-wrap;
+  white-space: -moz-pre-wrap;
+  white-space: -pre-wrap;
+  white-space: -o-pre-wrap;
+  word-wrap: break-word;
+}
+blockquote .label {
+  margin-bottom: .15rem;
+  margin-top: .25rem;
+}
+blockquote .code-container {
+  margin-top: 8px;
+}
+.overflow-x-hidden {
+  overflow-x: hidden;
+}
+.overflow-y-hidden {
+  overflow-y: hidden;
+}
+.overflow-x-auto {
+  overflow-x: auto;
+}
+.overflow-y-auto {
+  overflow-y: auto;
+}
+.overflow-x-scroll {
+  overflow-x: scroll;
+}
+.overflow-y-scroll {
+  overflow-y: scroll;
+}
+.laconnectaProfilePhoto img {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}

@@ -1,0 +1,1067 @@
+/*******************************
+            Gradient
+*******************************/
+.gradient.white.linear.to-right {
+    background: var(--white-background);
+    background: -moz-linear-gradient(to right, var(--white-gradient-shade) 0%, var(--white-background) 100%);
+    background: -webkit-linear-gradient(to right, color-stop(0%, var(--white-gradient-shade)), color-stop(100%, var(--white-background)));
+    background: -o-linear-gradient(to right, var(--white-gradient-shade) 0%, var(--white-background) 100%);
+    background: -ms-linear-gradient(to right, var(--white-gradient-shade) 0%, var(--white-background) 100%);
+    background: linear-gradient(to right, var(--white-gradient-shade) 0%, var(--white-background) 100%);
+}
+.gradient.white.linear.to-right-bottom {
+    background: var(--white-background);
+    background: -moz-linear-gradient(to right bottom, var(--white-gradient-shade) 0%, var(--white-background) 100%);
+    background: -webkit-linear-gradient(to right bottom, color-stop(0%, var(--white-gradient-shade)), color-stop(100%, var(--white-background)));
+    background: -o-linear-gradient(to right bottom, var(--white-gradient-shade) 0%, var(--white-background) 100%);
+    background: -ms-linear-gradient(to right bottom, var(--white-gradient-shade) 0%, var(--white-background) 100%);
+    background: linear-gradient(to right bottom, var(--white-gradient-shade) 0%, var(--white-background) 100%);
+}
+.gradient.white.linear.to-bottom {
+    background: var(--white-background);
+    background: -moz-linear-gradient(to bottom, var(--white-gradient-shade) 0%, var(--white-background) 100%);
+    background: -webkit-linear-gradient(to bottom, color-stop(0%, var(--white-gradient-shade)), color-stop(100%, var(--white-background)));
+    background: -o-linear-gradient(to bottom, var(--white-gradient-shade) 0%, var(--white-background) 100%);
+    background: -ms-linear-gradient(to bottom, var(--white-gradient-shade) 0%, var(--white-background) 100%);
+    background: linear-gradient(to bottom, var(--white-gradient-shade) 0%, var(--white-background) 100%);
+}
+.gradient.white.linear.to-left-bottom {
+    background: var(--white-background);
+    background: -moz-linear-gradient(to left bottom, var(--white-gradient-shade) 0%, var(--white-background) 100%);
+    background: -webkit-linear-gradient(to left bottom, color-stop(0%, var(--white-gradient-shade)), color-stop(100%, var(--white-background)));
+    background: -o-linear-gradient(to left bottom, var(--white-gradient-shade) 0%, var(--white-background) 100%);
+    background: -ms-linear-gradient(to left bottom, var(--white-gradient-shade) 0%, var(--white-background) 100%);
+    background: linear-gradient(to left bottom, var(--white-gradient-shade) 0%, var(--white-background) 100%);
+}
+.gradient.white.linear.to-left {
+    background: var(--white-background);
+    background: -moz-linear-gradient(to left, var(--white-gradient-shade) 0%, var(--white-background) 100%);
+    background: -webkit-linear-gradient(to left, color-stop(0%, var(--white-gradient-shade)), color-stop(100%, var(--white-background)));
+    background: -o-linear-gradient(to left, var(--white-gradient-shade) 0%, var(--white-background) 100%);
+    background: -ms-linear-gradient(to left, var(--white-gradient-shade) 0%, var(--white-background) 100%);
+    background: linear-gradient(to left, var(--white-gradient-shade) 0%, var(--white-background) 100%);
+}
+.gradient.white.linear.to-left-top {
+    background: var(--white-background);
+    background: -moz-linear-gradient(to left top, var(--white-gradient-shade) 0%, var(--white-background) 100%);
+    background: -webkit-linear-gradient(to left top, color-stop(0%, var(--white-gradient-shade)), color-stop(100%, var(--white-background)));
+    background: -o-linear-gradient(to left top, var(--white-gradient-shade) 0%, var(--white-background) 100%);
+    background: -ms-linear-gradient(to left top, var(--white-gradient-shade) 0%, var(--white-background) 100%);
+    background: linear-gradient(to left top, var(--white-gradient-shade) 0%, var(--white-background) 100%);
+}
+.gradient.white.linear.to-top {
+    background: var(--white-background);
+    background: -moz-linear-gradient(to top, var(--white-gradient-shade) 0%, var(--white-background) 100%);
+    background: -webkit-linear-gradient(to top, color-stop(0%, var(--white-gradient-shade)), color-stop(100%, var(--white-background)));
+    background: -o-linear-gradient(to top, var(--white-gradient-shade) 0%, var(--white-background) 100%);
+    background: -ms-linear-gradient(to top, var(--white-gradient-shade) 0%, var(--white-background) 100%);
+    background: linear-gradient(to top, var(--white-gradient-shade) 0%, var(--white-background) 100%);
+}
+.gradient.navy.linear.to-right {
+    background: var(--navy-background);
+    background: -moz-linear-gradient(to right, var(--navy-gradient-shade) 0%, var(--navy-background) 100%);
+    background: -webkit-linear-gradient(to right, color-stop(0%, var(--navy-gradient-shade)), color-stop(100%, var(--navy-background)));
+    background: -o-linear-gradient(to right, var(--navy-gradient-shade) 0%, var(--navy-background) 100%);
+    background: -ms-linear-gradient(to right, var(--navy-gradient-shade) 0%, var(--navy-background) 100%);
+    background: linear-gradient(to right, var(--navy-gradient-shade) 0%, var(--navy-background) 100%);
+}
+.gradient.navy.linear.to-right-bottom {
+    background: var(--navy-background);
+    background: -moz-linear-gradient(to right bottom, var(--navy-gradient-shade) 0%, var(--navy-background) 100%);
+    background: -webkit-linear-gradient(to right bottom, color-stop(0%, var(--navy-gradient-shade)), color-stop(100%, var(--navy-background)));
+    background: -o-linear-gradient(to right bottom, var(--navy-gradient-shade) 0%, var(--navy-background) 100%);
+    background: -ms-linear-gradient(to right bottom, var(--navy-gradient-shade) 0%, var(--navy-background) 100%);
+    background: linear-gradient(to right bottom, var(--navy-gradient-shade) 0%, var(--navy-background) 100%);
+}
+.gradient.navy.linear.to-bottom {
+    background: var(--navy-background);
+    background: -moz-linear-gradient(to bottom, var(--navy-gradient-shade) 0%, var(--navy-background) 100%);
+    background: -webkit-linear-gradient(to bottom, color-stop(0%, var(--navy-gradient-shade)), color-stop(100%, var(--navy-background)));
+    background: -o-linear-gradient(to bottom, var(--navy-gradient-shade) 0%, var(--navy-background) 100%);
+    background: -ms-linear-gradient(to bottom, var(--navy-gradient-shade) 0%, var(--navy-background) 100%);
+    background: linear-gradient(to bottom, var(--navy-gradient-shade) 0%, var(--navy-background) 100%);
+}
+.gradient.navy.linear.to-left-bottom {
+    background: var(--navy-background);
+    background: -moz-linear-gradient(to left bottom, var(--navy-gradient-shade) 0%, var(--navy-background) 100%);
+    background: -webkit-linear-gradient(to left bottom, color-stop(0%, var(--navy-gradient-shade)), color-stop(100%, var(--navy-background)));
+    background: -o-linear-gradient(to left bottom, var(--navy-gradient-shade) 0%, var(--navy-background) 100%);
+    background: -ms-linear-gradient(to left bottom, var(--navy-gradient-shade) 0%, var(--navy-background) 100%);
+    background: linear-gradient(to left bottom, var(--navy-gradient-shade) 0%, var(--navy-background) 100%);
+}
+.gradient.navy.linear.to-left {
+    background: var(--navy-background);
+    background: -moz-linear-gradient(to left, var(--navy-gradient-shade) 0%, var(--navy-background) 100%);
+    background: -webkit-linear-gradient(to left, color-stop(0%, var(--navy-gradient-shade)), color-stop(100%, var(--navy-background)));
+    background: -o-linear-gradient(to left, var(--navy-gradient-shade) 0%, var(--navy-background) 100%);
+    background: -ms-linear-gradient(to left, var(--navy-gradient-shade) 0%, var(--navy-background) 100%);
+    background: linear-gradient(to left, var(--navy-gradient-shade) 0%, var(--navy-background) 100%);
+}
+.gradient.navy.linear.to-left-top {
+    background: var(--navy-background);
+    background: -moz-linear-gradient(to left top, var(--navy-gradient-shade) 0%, var(--navy-background) 100%);
+    background: -webkit-linear-gradient(to left top, color-stop(0%, var(--navy-gradient-shade)), color-stop(100%, var(--navy-background)));
+    background: -o-linear-gradient(to left top, var(--navy-gradient-shade) 0%, var(--navy-background) 100%);
+    background: -ms-linear-gradient(to left top, var(--navy-gradient-shade) 0%, var(--navy-background) 100%);
+    background: linear-gradient(to left top, var(--navy-gradient-shade) 0%, var(--navy-background) 100%);
+}
+.gradient.navy.linear.to-top {
+    background: var(--navy-background);
+    background: -moz-linear-gradient(to top, var(--navy-gradient-shade) 0%, var(--navy-background) 100%);
+    background: -webkit-linear-gradient(to top, color-stop(0%, var(--navy-gradient-shade)), color-stop(100%, var(--navy-background)));
+    background: -o-linear-gradient(to top, var(--navy-gradient-shade) 0%, var(--navy-background) 100%);
+    background: -ms-linear-gradient(to top, var(--navy-gradient-shade) 0%, var(--navy-background) 100%);
+    background: linear-gradient(to top, var(--navy-gradient-shade) 0%, var(--navy-background) 100%);
+}
+.gradient.blue.linear.to-right {
+    background: var(--blue-background);
+    background: -moz-linear-gradient(to right, var(--blue-gradient-shade) 0%, var(--blue-background) 100%);
+    background: -webkit-linear-gradient(to right, color-stop(0%, var(--blue-gradient-shade)), color-stop(100%, var(--blue-background)));
+    background: -o-linear-gradient(to right, var(--blue-gradient-shade) 0%, var(--blue-background) 100%);
+    background: -ms-linear-gradient(to right, var(--blue-gradient-shade) 0%, var(--blue-background) 100%);
+    background: linear-gradient(to right, var(--blue-gradient-shade) 0%, var(--blue-background) 100%);
+}
+.gradient.blue.linear.to-right-bottom {
+    background: var(--blue-background);
+    background: -moz-linear-gradient(to right bottom, var(--blue-gradient-shade) 0%, var(--blue-background) 100%);
+    background: -webkit-linear-gradient(to right bottom, color-stop(0%, var(--blue-gradient-shade)), color-stop(100%, var(--blue-background)));
+    background: -o-linear-gradient(to right bottom, var(--blue-gradient-shade) 0%, var(--blue-background) 100%);
+    background: -ms-linear-gradient(to right bottom, var(--blue-gradient-shade) 0%, var(--blue-background) 100%);
+    background: linear-gradient(to right bottom, var(--blue-gradient-shade) 0%, var(--blue-background) 100%);
+}
+.gradient.blue.linear.to-bottom {
+    background: var(--blue-background);
+    background: -moz-linear-gradient(to bottom, var(--blue-gradient-shade) 0%, var(--blue-background) 100%);
+    background: -webkit-linear-gradient(to bottom, color-stop(0%, var(--blue-gradient-shade)), color-stop(100%, var(--blue-background)));
+    background: -o-linear-gradient(to bottom, var(--blue-gradient-shade) 0%, var(--blue-background) 100%);
+    background: -ms-linear-gradient(to bottom, var(--blue-gradient-shade) 0%, var(--blue-background) 100%);
+    background: linear-gradient(to bottom, var(--blue-gradient-shade) 0%, var(--blue-background) 100%);
+}
+.gradient.blue.linear.to-left-bottom {
+    background: var(--blue-background);
+    background: -moz-linear-gradient(to left bottom, var(--blue-gradient-shade) 0%, var(--blue-background) 100%);
+    background: -webkit-linear-gradient(to left bottom, color-stop(0%, var(--blue-gradient-shade)), color-stop(100%, var(--blue-background)));
+    background: -o-linear-gradient(to left bottom, var(--blue-gradient-shade) 0%, var(--blue-background) 100%);
+    background: -ms-linear-gradient(to left bottom, var(--blue-gradient-shade) 0%, var(--blue-background) 100%);
+    background: linear-gradient(to left bottom, var(--blue-gradient-shade) 0%, var(--blue-background) 100%);
+}
+.gradient.blue.linear.to-left {
+    background: var(--blue-background);
+    background: -moz-linear-gradient(to left, var(--blue-gradient-shade) 0%, var(--blue-background) 100%);
+    background: -webkit-linear-gradient(to left, color-stop(0%, var(--blue-gradient-shade)), color-stop(100%, var(--blue-background)));
+    background: -o-linear-gradient(to left, var(--blue-gradient-shade) 0%, var(--blue-background) 100%);
+    background: -ms-linear-gradient(to left, var(--blue-gradient-shade) 0%, var(--blue-background) 100%);
+    background: linear-gradient(to left, var(--blue-gradient-shade) 0%, var(--blue-background) 100%);
+}
+.gradient.blue.linear.to-left-top {
+    background: var(--blue-background);
+    background: -moz-linear-gradient(to left top, var(--blue-gradient-shade) 0%, var(--blue-background) 100%);
+    background: -webkit-linear-gradient(to left top, color-stop(0%, var(--blue-gradient-shade)), color-stop(100%, var(--blue-background)));
+    background: -o-linear-gradient(to left top, var(--blue-gradient-shade) 0%, var(--blue-background) 100%);
+    background: -ms-linear-gradient(to left top, var(--blue-gradient-shade) 0%, var(--blue-background) 100%);
+    background: linear-gradient(to left top, var(--blue-gradient-shade) 0%, var(--blue-background) 100%);
+}
+.gradient.blue.linear.to-top {
+    background: var(--blue-background);
+    background: -moz-linear-gradient(to top, var(--blue-gradient-shade) 0%, var(--blue-background) 100%);
+    background: -webkit-linear-gradient(to top, color-stop(0%, var(--blue-gradient-shade)), color-stop(100%, var(--blue-background)));
+    background: -o-linear-gradient(to top, var(--blue-gradient-shade) 0%, var(--blue-background) 100%);
+    background: -ms-linear-gradient(to top, var(--blue-gradient-shade) 0%, var(--blue-background) 100%);
+    background: linear-gradient(to top, var(--blue-gradient-shade) 0%, var(--blue-background) 100%);
+}
+.gradient.aqua.linear.to-right {
+    background: var(--aqua-background);
+    background: -moz-linear-gradient(to right, var(--aqua-gradient-shade) 0%, var(--aqua-background) 100%);
+    background: -webkit-linear-gradient(to right, color-stop(0%, var(--aqua-gradient-shade)), color-stop(100%, var(--aqua-background)));
+    background: -o-linear-gradient(to right, var(--aqua-gradient-shade) 0%, var(--aqua-background) 100%);
+    background: -ms-linear-gradient(to right, var(--aqua-gradient-shade) 0%, var(--aqua-background) 100%);
+    background: linear-gradient(to right, var(--aqua-gradient-shade) 0%, var(--aqua-background) 100%);
+}
+.gradient.aqua.linear.to-right-bottom {
+    background: var(--aqua-background);
+    background: -moz-linear-gradient(to right bottom, var(--aqua-gradient-shade) 0%, var(--aqua-background) 100%);
+    background: -webkit-linear-gradient(to right bottom, color-stop(0%, var(--aqua-gradient-shade)), color-stop(100%, var(--aqua-background)));
+    background: -o-linear-gradient(to right bottom, var(--aqua-gradient-shade) 0%, var(--aqua-background) 100%);
+    background: -ms-linear-gradient(to right bottom, var(--aqua-gradient-shade) 0%, var(--aqua-background) 100%);
+    background: linear-gradient(to right bottom, var(--aqua-gradient-shade) 0%, var(--aqua-background) 100%);
+}
+.gradient.aqua.linear.to-bottom {
+    background: var(--aqua-background);
+    background: -moz-linear-gradient(to bottom, var(--aqua-gradient-shade) 0%, var(--aqua-background) 100%);
+    background: -webkit-linear-gradient(to bottom, color-stop(0%, var(--aqua-gradient-shade)), color-stop(100%, var(--aqua-background)));
+    background: -o-linear-gradient(to bottom, var(--aqua-gradient-shade) 0%, var(--aqua-background) 100%);
+    background: -ms-linear-gradient(to bottom, var(--aqua-gradient-shade) 0%, var(--aqua-background) 100%);
+    background: linear-gradient(to bottom, var(--aqua-gradient-shade) 0%, var(--aqua-background) 100%);
+}
+.gradient.aqua.linear.to-left-bottom {
+    background: var(--aqua-background);
+    background: -moz-linear-gradient(to left bottom, var(--aqua-gradient-shade) 0%, var(--aqua-background) 100%);
+    background: -webkit-linear-gradient(to left bottom, color-stop(0%, var(--aqua-gradient-shade)), color-stop(100%, var(--aqua-background)));
+    background: -o-linear-gradient(to left bottom, var(--aqua-gradient-shade) 0%, var(--aqua-background) 100%);
+    background: -ms-linear-gradient(to left bottom, var(--aqua-gradient-shade) 0%, var(--aqua-background) 100%);
+    background: linear-gradient(to left bottom, var(--aqua-gradient-shade) 0%, var(--aqua-background) 100%);
+}
+.gradient.aqua.linear.to-left {
+    background: var(--aqua-background);
+    background: -moz-linear-gradient(to left, var(--aqua-gradient-shade) 0%, var(--aqua-background) 100%);
+    background: -webkit-linear-gradient(to left, color-stop(0%, var(--aqua-gradient-shade)), color-stop(100%, var(--aqua-background)));
+    background: -o-linear-gradient(to left, var(--aqua-gradient-shade) 0%, var(--aqua-background) 100%);
+    background: -ms-linear-gradient(to left, var(--aqua-gradient-shade) 0%, var(--aqua-background) 100%);
+    background: linear-gradient(to left, var(--aqua-gradient-shade) 0%, var(--aqua-background) 100%);
+}
+.gradient.aqua.linear.to-left-top {
+    background: var(--aqua-background);
+    background: -moz-linear-gradient(to left top, var(--aqua-gradient-shade) 0%, var(--aqua-background) 100%);
+    background: -webkit-linear-gradient(to left top, color-stop(0%, var(--aqua-gradient-shade)), color-stop(100%, var(--aqua-background)));
+    background: -o-linear-gradient(to left top, var(--aqua-gradient-shade) 0%, var(--aqua-background) 100%);
+    background: -ms-linear-gradient(to left top, var(--aqua-gradient-shade) 0%, var(--aqua-background) 100%);
+    background: linear-gradient(to left top, var(--aqua-gradient-shade) 0%, var(--aqua-background) 100%);
+}
+.gradient.aqua.linear.to-top {
+    background: var(--aqua-background);
+    background: -moz-linear-gradient(to top, var(--aqua-gradient-shade) 0%, var(--aqua-background) 100%);
+    background: -webkit-linear-gradient(to top, color-stop(0%, var(--aqua-gradient-shade)), color-stop(100%, var(--aqua-background)));
+    background: -o-linear-gradient(to top, var(--aqua-gradient-shade) 0%, var(--aqua-background) 100%);
+    background: -ms-linear-gradient(to top, var(--aqua-gradient-shade) 0%, var(--aqua-background) 100%);
+    background: linear-gradient(to top, var(--aqua-gradient-shade) 0%, var(--aqua-background) 100%);
+}
+.gradient.teal.linear.to-right {
+    background: var(--teal-background);
+    background: -moz-linear-gradient(to right, var(--teal-gradient-shade) 0%, var(--teal-background) 100%);
+    background: -webkit-linear-gradient(to right, color-stop(0%, var(--teal-gradient-shade)), color-stop(100%, var(--teal-background)));
+    background: -o-linear-gradient(to right, var(--teal-gradient-shade) 0%, var(--teal-background) 100%);
+    background: -ms-linear-gradient(to right, var(--teal-gradient-shade) 0%, var(--teal-background) 100%);
+    background: linear-gradient(to right, var(--teal-gradient-shade) 0%, var(--teal-background) 100%);
+}
+.gradient.teal.linear.to-right-bottom {
+    background: var(--teal-background);
+    background: -moz-linear-gradient(to right bottom, var(--teal-gradient-shade) 0%, var(--teal-background) 100%);
+    background: -webkit-linear-gradient(to right bottom, color-stop(0%, var(--teal-gradient-shade)), color-stop(100%, var(--teal-background)));
+    background: -o-linear-gradient(to right bottom, var(--teal-gradient-shade) 0%, var(--teal-background) 100%);
+    background: -ms-linear-gradient(to right bottom, var(--teal-gradient-shade) 0%, var(--teal-background) 100%);
+    background: linear-gradient(to right bottom, var(--teal-gradient-shade) 0%, var(--teal-background) 100%);
+}
+.gradient.teal.linear.to-bottom {
+    background: var(--teal-background);
+    background: -moz-linear-gradient(to bottom, var(--teal-gradient-shade) 0%, var(--teal-background) 100%);
+    background: -webkit-linear-gradient(to bottom, color-stop(0%, var(--teal-gradient-shade)), color-stop(100%, var(--teal-background)));
+    background: -o-linear-gradient(to bottom, var(--teal-gradient-shade) 0%, var(--teal-background) 100%);
+    background: -ms-linear-gradient(to bottom, var(--teal-gradient-shade) 0%, var(--teal-background) 100%);
+    background: linear-gradient(to bottom, var(--teal-gradient-shade) 0%, var(--teal-background) 100%);
+}
+.gradient.teal.linear.to-left-bottom {
+    background: var(--teal-background);
+    background: -moz-linear-gradient(to left bottom, var(--teal-gradient-shade) 0%, var(--teal-background) 100%);
+    background: -webkit-linear-gradient(to left bottom, color-stop(0%, var(--teal-gradient-shade)), color-stop(100%, var(--teal-background)));
+    background: -o-linear-gradient(to left bottom, var(--teal-gradient-shade) 0%, var(--teal-background) 100%);
+    background: -ms-linear-gradient(to left bottom, var(--teal-gradient-shade) 0%, var(--teal-background) 100%);
+    background: linear-gradient(to left bottom, var(--teal-gradient-shade) 0%, var(--teal-background) 100%);
+}
+.gradient.teal.linear.to-left {
+    background: var(--teal-background);
+    background: -moz-linear-gradient(to left, var(--teal-gradient-shade) 0%, var(--teal-background) 100%);
+    background: -webkit-linear-gradient(to left, color-stop(0%, var(--teal-gradient-shade)), color-stop(100%, var(--teal-background)));
+    background: -o-linear-gradient(to left, var(--teal-gradient-shade) 0%, var(--teal-background) 100%);
+    background: -ms-linear-gradient(to left, var(--teal-gradient-shade) 0%, var(--teal-background) 100%);
+    background: linear-gradient(to left, var(--teal-gradient-shade) 0%, var(--teal-background) 100%);
+}
+.gradient.teal.linear.to-left-top {
+    background: var(--teal-background);
+    background: -moz-linear-gradient(to left top, var(--teal-gradient-shade) 0%, var(--teal-background) 100%);
+    background: -webkit-linear-gradient(to left top, color-stop(0%, var(--teal-gradient-shade)), color-stop(100%, var(--teal-background)));
+    background: -o-linear-gradient(to left top, var(--teal-gradient-shade) 0%, var(--teal-background) 100%);
+    background: -ms-linear-gradient(to left top, var(--teal-gradient-shade) 0%, var(--teal-background) 100%);
+    background: linear-gradient(to left top, var(--teal-gradient-shade) 0%, var(--teal-background) 100%);
+}
+.gradient.teal.linear.to-top {
+    background: var(--teal-background);
+    background: -moz-linear-gradient(to top, var(--teal-gradient-shade) 0%, var(--teal-background) 100%);
+    background: -webkit-linear-gradient(to top, color-stop(0%, var(--teal-gradient-shade)), color-stop(100%, var(--teal-background)));
+    background: -o-linear-gradient(to top, var(--teal-gradient-shade) 0%, var(--teal-background) 100%);
+    background: -ms-linear-gradient(to top, var(--teal-gradient-shade) 0%, var(--teal-background) 100%);
+    background: linear-gradient(to top, var(--teal-gradient-shade) 0%, var(--teal-background) 100%);
+}
+.gradient.olive.linear.to-right {
+    background: var(--olive-background);
+    background: -moz-linear-gradient(to right, var(--olive-gradient-shade) 0%, var(--olive-background) 100%);
+    background: -webkit-linear-gradient(to right, color-stop(0%, var(--olive-gradient-shade)), color-stop(100%, var(--olive-background)));
+    background: -o-linear-gradient(to right, var(--olive-gradient-shade) 0%, var(--olive-background) 100%);
+    background: -ms-linear-gradient(to right, var(--olive-gradient-shade) 0%, var(--olive-background) 100%);
+    background: linear-gradient(to right, var(--olive-gradient-shade) 0%, var(--olive-background) 100%);
+}
+.gradient.olive.linear.to-right-bottom {
+    background: var(--olive-background);
+    background: -moz-linear-gradient(to right bottom, var(--olive-gradient-shade) 0%, var(--olive-background) 100%);
+    background: -webkit-linear-gradient(to right bottom, color-stop(0%, var(--olive-gradient-shade)), color-stop(100%, var(--olive-background)));
+    background: -o-linear-gradient(to right bottom, var(--olive-gradient-shade) 0%, var(--olive-background) 100%);
+    background: -ms-linear-gradient(to right bottom, var(--olive-gradient-shade) 0%, var(--olive-background) 100%);
+    background: linear-gradient(to right bottom, var(--olive-gradient-shade) 0%, var(--olive-background) 100%);
+}
+.gradient.olive.linear.to-bottom {
+    background: var(--olive-background);
+    background: -moz-linear-gradient(to bottom, var(--olive-gradient-shade) 0%, var(--olive-background) 100%);
+    background: -webkit-linear-gradient(to bottom, color-stop(0%, var(--olive-gradient-shade)), color-stop(100%, var(--olive-background)));
+    background: -o-linear-gradient(to bottom, var(--olive-gradient-shade) 0%, var(--olive-background) 100%);
+    background: -ms-linear-gradient(to bottom, var(--olive-gradient-shade) 0%, var(--olive-background) 100%);
+    background: linear-gradient(to bottom, var(--olive-gradient-shade) 0%, var(--olive-background) 100%);
+}
+.gradient.olive.linear.to-left-bottom {
+    background: var(--olive-background);
+    background: -moz-linear-gradient(to left bottom, var(--olive-gradient-shade) 0%, var(--olive-background) 100%);
+    background: -webkit-linear-gradient(to left bottom, color-stop(0%, var(--olive-gradient-shade)), color-stop(100%, var(--olive-background)));
+    background: -o-linear-gradient(to left bottom, var(--olive-gradient-shade) 0%, var(--olive-background) 100%);
+    background: -ms-linear-gradient(to left bottom, var(--olive-gradient-shade) 0%, var(--olive-background) 100%);
+    background: linear-gradient(to left bottom, var(--olive-gradient-shade) 0%, var(--olive-background) 100%);
+}
+.gradient.olive.linear.to-left {
+    background: var(--olive-background);
+    background: -moz-linear-gradient(to left, var(--olive-gradient-shade) 0%, var(--olive-background) 100%);
+    background: -webkit-linear-gradient(to left, color-stop(0%, var(--olive-gradient-shade)), color-stop(100%, var(--olive-background)));
+    background: -o-linear-gradient(to left, var(--olive-gradient-shade) 0%, var(--olive-background) 100%);
+    background: -ms-linear-gradient(to left, var(--olive-gradient-shade) 0%, var(--olive-background) 100%);
+    background: linear-gradient(to left, var(--olive-gradient-shade) 0%, var(--olive-background) 100%);
+}
+.gradient.olive.linear.to-left-top {
+    background: var(--olive-background);
+    background: -moz-linear-gradient(to left top, var(--olive-gradient-shade) 0%, var(--olive-background) 100%);
+    background: -webkit-linear-gradient(to left top, color-stop(0%, var(--olive-gradient-shade)), color-stop(100%, var(--olive-background)));
+    background: -o-linear-gradient(to left top, var(--olive-gradient-shade) 0%, var(--olive-background) 100%);
+    background: -ms-linear-gradient(to left top, var(--olive-gradient-shade) 0%, var(--olive-background) 100%);
+    background: linear-gradient(to left top, var(--olive-gradient-shade) 0%, var(--olive-background) 100%);
+}
+.gradient.olive.linear.to-top {
+    background: var(--olive-background);
+    background: -moz-linear-gradient(to top, var(--olive-gradient-shade) 0%, var(--olive-background) 100%);
+    background: -webkit-linear-gradient(to top, color-stop(0%, var(--olive-gradient-shade)), color-stop(100%, var(--olive-background)));
+    background: -o-linear-gradient(to top, var(--olive-gradient-shade) 0%, var(--olive-background) 100%);
+    background: -ms-linear-gradient(to top, var(--olive-gradient-shade) 0%, var(--olive-background) 100%);
+    background: linear-gradient(to top, var(--olive-gradient-shade) 0%, var(--olive-background) 100%);
+}
+.gradient.green.linear.to-right {
+    background: var(--green-background);
+    background: -moz-linear-gradient(to right, var(--green-gradient-shade) 0%, var(--green-background) 100%);
+    background: -webkit-linear-gradient(to right, color-stop(0%, var(--green-gradient-shade)), color-stop(100%, var(--green-background)));
+    background: -o-linear-gradient(to right, var(--green-gradient-shade) 0%, var(--green-background) 100%);
+    background: -ms-linear-gradient(to right, var(--green-gradient-shade) 0%, var(--green-background) 100%);
+    background: linear-gradient(to right, var(--green-gradient-shade) 0%, var(--green-background) 100%);
+}
+.gradient.green.linear.to-right-bottom {
+    background: var(--green-background);
+    background: -moz-linear-gradient(to right bottom, var(--green-gradient-shade) 0%, var(--green-background) 100%);
+    background: -webkit-linear-gradient(to right bottom, color-stop(0%, var(--green-gradient-shade)), color-stop(100%, var(--green-background)));
+    background: -o-linear-gradient(to right bottom, var(--green-gradient-shade) 0%, var(--green-background) 100%);
+    background: -ms-linear-gradient(to right bottom, var(--green-gradient-shade) 0%, var(--green-background) 100%);
+    background: linear-gradient(to right bottom, var(--green-gradient-shade) 0%, var(--green-background) 100%);
+}
+.gradient.green.linear.to-bottom {
+    background: var(--green-background);
+    background: -moz-linear-gradient(to bottom, var(--green-gradient-shade) 0%, var(--green-background) 100%);
+    background: -webkit-linear-gradient(to bottom, color-stop(0%, var(--green-gradient-shade)), color-stop(100%, var(--green-background)));
+    background: -o-linear-gradient(to bottom, var(--green-gradient-shade) 0%, var(--green-background) 100%);
+    background: -ms-linear-gradient(to bottom, var(--green-gradient-shade) 0%, var(--green-background) 100%);
+    background: linear-gradient(to bottom, var(--green-gradient-shade) 0%, var(--green-background) 100%);
+}
+.gradient.green.linear.to-left-bottom {
+    background: var(--green-background);
+    background: -moz-linear-gradient(to left bottom, var(--green-gradient-shade) 0%, var(--green-background) 100%);
+    background: -webkit-linear-gradient(to left bottom, color-stop(0%, var(--green-gradient-shade)), color-stop(100%, var(--green-background)));
+    background: -o-linear-gradient(to left bottom, var(--green-gradient-shade) 0%, var(--green-background) 100%);
+    background: -ms-linear-gradient(to left bottom, var(--green-gradient-shade) 0%, var(--green-background) 100%);
+    background: linear-gradient(to left bottom, var(--green-gradient-shade) 0%, var(--green-background) 100%);
+}
+.gradient.green.linear.to-left {
+    background: var(--green-background);
+    background: -moz-linear-gradient(to left, var(--green-gradient-shade) 0%, var(--green-background) 100%);
+    background: -webkit-linear-gradient(to left, color-stop(0%, var(--green-gradient-shade)), color-stop(100%, var(--green-background)));
+    background: -o-linear-gradient(to left, var(--green-gradient-shade) 0%, var(--green-background) 100%);
+    background: -ms-linear-gradient(to left, var(--green-gradient-shade) 0%, var(--green-background) 100%);
+    background: linear-gradient(to left, var(--green-gradient-shade) 0%, var(--green-background) 100%);
+}
+.gradient.green.linear.to-left-top {
+    background: var(--green-background);
+    background: -moz-linear-gradient(to left top, var(--green-gradient-shade) 0%, var(--green-background) 100%);
+    background: -webkit-linear-gradient(to left top, color-stop(0%, var(--green-gradient-shade)), color-stop(100%, var(--green-background)));
+    background: -o-linear-gradient(to left top, var(--green-gradient-shade) 0%, var(--green-background) 100%);
+    background: -ms-linear-gradient(to left top, var(--green-gradient-shade) 0%, var(--green-background) 100%);
+    background: linear-gradient(to left top, var(--green-gradient-shade) 0%, var(--green-background) 100%);
+}
+.gradient.green.linear.to-top {
+    background: var(--green-background);
+    background: -moz-linear-gradient(to top, var(--green-gradient-shade) 0%, var(--green-background) 100%);
+    background: -webkit-linear-gradient(to top, color-stop(0%, var(--green-gradient-shade)), color-stop(100%, var(--green-background)));
+    background: -o-linear-gradient(to top, var(--green-gradient-shade) 0%, var(--green-background) 100%);
+    background: -ms-linear-gradient(to top, var(--green-gradient-shade) 0%, var(--green-background) 100%);
+    background: linear-gradient(to top, var(--green-gradient-shade) 0%, var(--green-background) 100%);
+}
+.gradient.lime.linear.to-right {
+    background: var(--lime-background);
+    background: -moz-linear-gradient(to right, var(--lime-gradient-shade) 0%, var(--lime-background) 100%);
+    background: -webkit-linear-gradient(to right, color-stop(0%, var(--lime-gradient-shade)), color-stop(100%, var(--lime-background)));
+    background: -o-linear-gradient(to right, var(--lime-gradient-shade) 0%, var(--lime-background) 100%);
+    background: -ms-linear-gradient(to right, var(--lime-gradient-shade) 0%, var(--lime-background) 100%);
+    background: linear-gradient(to right, var(--lime-gradient-shade) 0%, var(--lime-background) 100%);
+}
+.gradient.lime.linear.to-right-bottom {
+    background: var(--lime-background);
+    background: -moz-linear-gradient(to right bottom, var(--lime-gradient-shade) 0%, var(--lime-background) 100%);
+    background: -webkit-linear-gradient(to right bottom, color-stop(0%, var(--lime-gradient-shade)), color-stop(100%, var(--lime-background)));
+    background: -o-linear-gradient(to right bottom, var(--lime-gradient-shade) 0%, var(--lime-background) 100%);
+    background: -ms-linear-gradient(to right bottom, var(--lime-gradient-shade) 0%, var(--lime-background) 100%);
+    background: linear-gradient(to right bottom, var(--lime-gradient-shade) 0%, var(--lime-background) 100%);
+}
+.gradient.lime.linear.to-bottom {
+    background: var(--lime-background);
+    background: -moz-linear-gradient(to bottom, var(--lime-gradient-shade) 0%, var(--lime-background) 100%);
+    background: -webkit-linear-gradient(to bottom, color-stop(0%, var(--lime-gradient-shade)), color-stop(100%, var(--lime-background)));
+    background: -o-linear-gradient(to bottom, var(--lime-gradient-shade) 0%, var(--lime-background) 100%);
+    background: -ms-linear-gradient(to bottom, var(--lime-gradient-shade) 0%, var(--lime-background) 100%);
+    background: linear-gradient(to bottom, var(--lime-gradient-shade) 0%, var(--lime-background) 100%);
+}
+.gradient.lime.linear.to-left-bottom {
+    background: var(--lime-background);
+    background: -moz-linear-gradient(to left bottom, var(--lime-gradient-shade) 0%, var(--lime-background) 100%);
+    background: -webkit-linear-gradient(to left bottom, color-stop(0%, var(--lime-gradient-shade)), color-stop(100%, var(--lime-background)));
+    background: -o-linear-gradient(to left bottom, var(--lime-gradient-shade) 0%, var(--lime-background) 100%);
+    background: -ms-linear-gradient(to left bottom, var(--lime-gradient-shade) 0%, var(--lime-background) 100%);
+    background: linear-gradient(to left bottom, var(--lime-gradient-shade) 0%, var(--lime-background) 100%);
+}
+.gradient.lime.linear.to-left {
+    background: var(--lime-background);
+    background: -moz-linear-gradient(to left, var(--lime-gradient-shade) 0%, var(--lime-background) 100%);
+    background: -webkit-linear-gradient(to left, color-stop(0%, var(--lime-gradient-shade)), color-stop(100%, var(--lime-background)));
+    background: -o-linear-gradient(to left, var(--lime-gradient-shade) 0%, var(--lime-background) 100%);
+    background: -ms-linear-gradient(to left, var(--lime-gradient-shade) 0%, var(--lime-background) 100%);
+    background: linear-gradient(to left, var(--lime-gradient-shade) 0%, var(--lime-background) 100%);
+}
+.gradient.lime.linear.to-left-top {
+    background: var(--lime-background);
+    background: -moz-linear-gradient(to left top, var(--lime-gradient-shade) 0%, var(--lime-background) 100%);
+    background: -webkit-linear-gradient(to left top, color-stop(0%, var(--lime-gradient-shade)), color-stop(100%, var(--lime-background)));
+    background: -o-linear-gradient(to left top, var(--lime-gradient-shade) 0%, var(--lime-background) 100%);
+    background: -ms-linear-gradient(to left top, var(--lime-gradient-shade) 0%, var(--lime-background) 100%);
+    background: linear-gradient(to left top, var(--lime-gradient-shade) 0%, var(--lime-background) 100%);
+}
+.gradient.lime.linear.to-top {
+    background: var(--lime-background);
+    background: -moz-linear-gradient(to top, var(--lime-gradient-shade) 0%, var(--lime-background) 100%);
+    background: -webkit-linear-gradient(to top, color-stop(0%, var(--lime-gradient-shade)), color-stop(100%, var(--lime-background)));
+    background: -o-linear-gradient(to top, var(--lime-gradient-shade) 0%, var(--lime-background) 100%);
+    background: -ms-linear-gradient(to top, var(--lime-gradient-shade) 0%, var(--lime-background) 100%);
+    background: linear-gradient(to top, var(--lime-gradient-shade) 0%, var(--lime-background) 100%);
+}
+.gradient.yellow.linear.to-right {
+    background: var(--yellow-background);
+    background: -moz-linear-gradient(to right, var(--yellow-gradient-shade) 0%, var(--yellow-background) 100%);
+    background: -webkit-linear-gradient(to right, color-stop(0%, var(--yellow-gradient-shade)), color-stop(100%, var(--yellow-background)));
+    background: -o-linear-gradient(to right, var(--yellow-gradient-shade) 0%, var(--yellow-background) 100%);
+    background: -ms-linear-gradient(to right, var(--yellow-gradient-shade) 0%, var(--yellow-background) 100%);
+    background: linear-gradient(to right, var(--yellow-gradient-shade) 0%, var(--yellow-background) 100%);
+}
+.gradient.yellow.linear.to-right-bottom {
+    background: var(--yellow-background);
+    background: -moz-linear-gradient(to right bottom, var(--yellow-gradient-shade) 0%, var(--yellow-background) 100%);
+    background: -webkit-linear-gradient(to right bottom, color-stop(0%, var(--yellow-gradient-shade)), color-stop(100%, var(--yellow-background)));
+    background: -o-linear-gradient(to right bottom, var(--yellow-gradient-shade) 0%, var(--yellow-background) 100%);
+    background: -ms-linear-gradient(to right bottom, var(--yellow-gradient-shade) 0%, var(--yellow-background) 100%);
+    background: linear-gradient(to right bottom, var(--yellow-gradient-shade) 0%, var(--yellow-background) 100%);
+}
+.gradient.yellow.linear.to-bottom {
+    background: var(--yellow-background);
+    background: -moz-linear-gradient(to bottom, var(--yellow-gradient-shade) 0%, var(--yellow-background) 100%);
+    background: -webkit-linear-gradient(to bottom, color-stop(0%, var(--yellow-gradient-shade)), color-stop(100%, var(--yellow-background)));
+    background: -o-linear-gradient(to bottom, var(--yellow-gradient-shade) 0%, var(--yellow-background) 100%);
+    background: -ms-linear-gradient(to bottom, var(--yellow-gradient-shade) 0%, var(--yellow-background) 100%);
+    background: linear-gradient(to bottom, var(--yellow-gradient-shade) 0%, var(--yellow-background) 100%);
+}
+.gradient.yellow.linear.to-left-bottom {
+    background: var(--yellow-background);
+    background: -moz-linear-gradient(to left bottom, var(--yellow-gradient-shade) 0%, var(--yellow-background) 100%);
+    background: -webkit-linear-gradient(to left bottom, color-stop(0%, var(--yellow-gradient-shade)), color-stop(100%, var(--yellow-background)));
+    background: -o-linear-gradient(to left bottom, var(--yellow-gradient-shade) 0%, var(--yellow-background) 100%);
+    background: -ms-linear-gradient(to left bottom, var(--yellow-gradient-shade) 0%, var(--yellow-background) 100%);
+    background: linear-gradient(to left bottom, var(--yellow-gradient-shade) 0%, var(--yellow-background) 100%);
+}
+.gradient.yellow.linear.to-left {
+    background: var(--yellow-background);
+    background: -moz-linear-gradient(to left, var(--yellow-gradient-shade) 0%, var(--yellow-background) 100%);
+    background: -webkit-linear-gradient(to left, color-stop(0%, var(--yellow-gradient-shade)), color-stop(100%, var(--yellow-background)));
+    background: -o-linear-gradient(to left, var(--yellow-gradient-shade) 0%, var(--yellow-background) 100%);
+    background: -ms-linear-gradient(to left, var(--yellow-gradient-shade) 0%, var(--yellow-background) 100%);
+    background: linear-gradient(to left, var(--yellow-gradient-shade) 0%, var(--yellow-background) 100%);
+}
+.gradient.yellow.linear.to-left-top {
+    background: var(--yellow-background);
+    background: -moz-linear-gradient(to left top, var(--yellow-gradient-shade) 0%, var(--yellow-background) 100%);
+    background: -webkit-linear-gradient(to left top, color-stop(0%, var(--yellow-gradient-shade)), color-stop(100%, var(--yellow-background)));
+    background: -o-linear-gradient(to left top, var(--yellow-gradient-shade) 0%, var(--yellow-background) 100%);
+    background: -ms-linear-gradient(to left top, var(--yellow-gradient-shade) 0%, var(--yellow-background) 100%);
+    background: linear-gradient(to left top, var(--yellow-gradient-shade) 0%, var(--yellow-background) 100%);
+}
+.gradient.yellow.linear.to-top {
+    background: var(--yellow-background);
+    background: -moz-linear-gradient(to top, var(--yellow-gradient-shade) 0%, var(--yellow-background) 100%);
+    background: -webkit-linear-gradient(to top, color-stop(0%, var(--yellow-gradient-shade)), color-stop(100%, var(--yellow-background)));
+    background: -o-linear-gradient(to top, var(--yellow-gradient-shade) 0%, var(--yellow-background) 100%);
+    background: -ms-linear-gradient(to top, var(--yellow-gradient-shade) 0%, var(--yellow-background) 100%);
+    background: linear-gradient(to top, var(--yellow-gradient-shade) 0%, var(--yellow-background) 100%);
+}
+.gradient.orange.linear.to-right {
+    background: var(--orange-background);
+    background: -moz-linear-gradient(to right, var(--orange-gradient-shade) 0%, var(--orange-background) 100%);
+    background: -webkit-linear-gradient(to right, color-stop(0%, var(--orange-gradient-shade)), color-stop(100%, var(--orange-background)));
+    background: -o-linear-gradient(to right, var(--orange-gradient-shade) 0%, var(--orange-background) 100%);
+    background: -ms-linear-gradient(to right, var(--orange-gradient-shade) 0%, var(--orange-background) 100%);
+    background: linear-gradient(to right, var(--orange-gradient-shade) 0%, var(--orange-background) 100%);
+}
+.gradient.orange.linear.to-right-bottom {
+    background: var(--orange-background);
+    background: -moz-linear-gradient(to right bottom, var(--orange-gradient-shade) 0%, var(--orange-background) 100%);
+    background: -webkit-linear-gradient(to right bottom, color-stop(0%, var(--orange-gradient-shade)), color-stop(100%, var(--orange-background)));
+    background: -o-linear-gradient(to right bottom, var(--orange-gradient-shade) 0%, var(--orange-background) 100%);
+    background: -ms-linear-gradient(to right bottom, var(--orange-gradient-shade) 0%, var(--orange-background) 100%);
+    background: linear-gradient(to right bottom, var(--orange-gradient-shade) 0%, var(--orange-background) 100%);
+}
+.gradient.orange.linear.to-bottom {
+    background: var(--orange-background);
+    background: -moz-linear-gradient(to bottom, var(--orange-gradient-shade) 0%, var(--orange-background) 100%);
+    background: -webkit-linear-gradient(to bottom, color-stop(0%, var(--orange-gradient-shade)), color-stop(100%, var(--orange-background)));
+    background: -o-linear-gradient(to bottom, var(--orange-gradient-shade) 0%, var(--orange-background) 100%);
+    background: -ms-linear-gradient(to bottom, var(--orange-gradient-shade) 0%, var(--orange-background) 100%);
+    background: linear-gradient(to bottom, var(--orange-gradient-shade) 0%, var(--orange-background) 100%);
+}
+.gradient.orange.linear.to-left-bottom {
+    background: var(--orange-background);
+    background: -moz-linear-gradient(to left bottom, var(--orange-gradient-shade) 0%, var(--orange-background) 100%);
+    background: -webkit-linear-gradient(to left bottom, color-stop(0%, var(--orange-gradient-shade)), color-stop(100%, var(--orange-background)));
+    background: -o-linear-gradient(to left bottom, var(--orange-gradient-shade) 0%, var(--orange-background) 100%);
+    background: -ms-linear-gradient(to left bottom, var(--orange-gradient-shade) 0%, var(--orange-background) 100%);
+    background: linear-gradient(to left bottom, var(--orange-gradient-shade) 0%, var(--orange-background) 100%);
+}
+.gradient.orange.linear.to-left {
+    background: var(--orange-background);
+    background: -moz-linear-gradient(to left, var(--orange-gradient-shade) 0%, var(--orange-background) 100%);
+    background: -webkit-linear-gradient(to left, color-stop(0%, var(--orange-gradient-shade)), color-stop(100%, var(--orange-background)));
+    background: -o-linear-gradient(to left, var(--orange-gradient-shade) 0%, var(--orange-background) 100%);
+    background: -ms-linear-gradient(to left, var(--orange-gradient-shade) 0%, var(--orange-background) 100%);
+    background: linear-gradient(to left, var(--orange-gradient-shade) 0%, var(--orange-background) 100%);
+}
+.gradient.orange.linear.to-left-top {
+    background: var(--orange-background);
+    background: -moz-linear-gradient(to left top, var(--orange-gradient-shade) 0%, var(--orange-background) 100%);
+    background: -webkit-linear-gradient(to left top, color-stop(0%, var(--orange-gradient-shade)), color-stop(100%, var(--orange-background)));
+    background: -o-linear-gradient(to left top, var(--orange-gradient-shade) 0%, var(--orange-background) 100%);
+    background: -ms-linear-gradient(to left top, var(--orange-gradient-shade) 0%, var(--orange-background) 100%);
+    background: linear-gradient(to left top, var(--orange-gradient-shade) 0%, var(--orange-background) 100%);
+}
+.gradient.orange.linear.to-top {
+    background: var(--orange-background);
+    background: -moz-linear-gradient(to top, var(--orange-gradient-shade) 0%, var(--orange-background) 100%);
+    background: -webkit-linear-gradient(to top, color-stop(0%, var(--orange-gradient-shade)), color-stop(100%, var(--orange-background)));
+    background: -o-linear-gradient(to top, var(--orange-gradient-shade) 0%, var(--orange-background) 100%);
+    background: -ms-linear-gradient(to top, var(--orange-gradient-shade) 0%, var(--orange-background) 100%);
+    background: linear-gradient(to top, var(--orange-gradient-shade) 0%, var(--orange-background) 100%);
+}
+.gradient.red.linear.to-right {
+    background: var(--red-background);
+    background: -moz-linear-gradient(to right, var(--red-gradient-shade) 0%, var(--red-background) 100%);
+    background: -webkit-linear-gradient(to right, color-stop(0%, var(--red-gradient-shade)), color-stop(100%, var(--red-background)));
+    background: -o-linear-gradient(to right, var(--red-gradient-shade) 0%, var(--red-background) 100%);
+    background: -ms-linear-gradient(to right, var(--red-gradient-shade) 0%, var(--red-background) 100%);
+    background: linear-gradient(to right, var(--red-gradient-shade) 0%, var(--red-background) 100%);
+}
+.gradient.red.linear.to-right-bottom {
+    background: var(--red-background);
+    background: -moz-linear-gradient(to right bottom, var(--red-gradient-shade) 0%, var(--red-background) 100%);
+    background: -webkit-linear-gradient(to right bottom, color-stop(0%, var(--red-gradient-shade)), color-stop(100%, var(--red-background)));
+    background: -o-linear-gradient(to right bottom, var(--red-gradient-shade) 0%, var(--red-background) 100%);
+    background: -ms-linear-gradient(to right bottom, var(--red-gradient-shade) 0%, var(--red-background) 100%);
+    background: linear-gradient(to right bottom, var(--red-gradient-shade) 0%, var(--red-background) 100%);
+}
+.gradient.red.linear.to-bottom {
+    background: var(--red-background);
+    background: -moz-linear-gradient(to bottom, var(--red-gradient-shade) 0%, var(--red-background) 100%);
+    background: -webkit-linear-gradient(to bottom, color-stop(0%, var(--red-gradient-shade)), color-stop(100%, var(--red-background)));
+    background: -o-linear-gradient(to bottom, var(--red-gradient-shade) 0%, var(--red-background) 100%);
+    background: -ms-linear-gradient(to bottom, var(--red-gradient-shade) 0%, var(--red-background) 100%);
+    background: linear-gradient(to bottom, var(--red-gradient-shade) 0%, var(--red-background) 100%);
+}
+.gradient.red.linear.to-left-bottom {
+    background: var(--red-background);
+    background: -moz-linear-gradient(to left bottom, var(--red-gradient-shade) 0%, var(--red-background) 100%);
+    background: -webkit-linear-gradient(to left bottom, color-stop(0%, var(--red-gradient-shade)), color-stop(100%, var(--red-background)));
+    background: -o-linear-gradient(to left bottom, var(--red-gradient-shade) 0%, var(--red-background) 100%);
+    background: -ms-linear-gradient(to left bottom, var(--red-gradient-shade) 0%, var(--red-background) 100%);
+    background: linear-gradient(to left bottom, var(--red-gradient-shade) 0%, var(--red-background) 100%);
+}
+.gradient.red.linear.to-left {
+    background: var(--red-background);
+    background: -moz-linear-gradient(to left, var(--red-gradient-shade) 0%, var(--red-background) 100%);
+    background: -webkit-linear-gradient(to left, color-stop(0%, var(--red-gradient-shade)), color-stop(100%, var(--red-background)));
+    background: -o-linear-gradient(to left, var(--red-gradient-shade) 0%, var(--red-background) 100%);
+    background: -ms-linear-gradient(to left, var(--red-gradient-shade) 0%, var(--red-background) 100%);
+    background: linear-gradient(to left, var(--red-gradient-shade) 0%, var(--red-background) 100%);
+}
+.gradient.red.linear.to-left-top {
+    background: var(--red-background);
+    background: -moz-linear-gradient(to left top, var(--red-gradient-shade) 0%, var(--red-background) 100%);
+    background: -webkit-linear-gradient(to left top, color-stop(0%, var(--red-gradient-shade)), color-stop(100%, var(--red-background)));
+    background: -o-linear-gradient(to left top, var(--red-gradient-shade) 0%, var(--red-background) 100%);
+    background: -ms-linear-gradient(to left top, var(--red-gradient-shade) 0%, var(--red-background) 100%);
+    background: linear-gradient(to left top, var(--red-gradient-shade) 0%, var(--red-background) 100%);
+}
+.gradient.red.linear.to-top {
+    background: var(--red-background);
+    background: -moz-linear-gradient(to top, var(--red-gradient-shade) 0%, var(--red-background) 100%);
+    background: -webkit-linear-gradient(to top, color-stop(0%, var(--red-gradient-shade)), color-stop(100%, var(--red-background)));
+    background: -o-linear-gradient(to top, var(--red-gradient-shade) 0%, var(--red-background) 100%);
+    background: -ms-linear-gradient(to top, var(--red-gradient-shade) 0%, var(--red-background) 100%);
+    background: linear-gradient(to top, var(--red-gradient-shade) 0%, var(--red-background) 100%);
+}
+.gradient.fuchsia.linear.to-right {
+    background: var(--fuchsia-background);
+    background: -moz-linear-gradient(to right, var(--fuchsia-gradient-shade) 0%, var(--fuchsia-background) 100%);
+    background: -webkit-linear-gradient(to right, color-stop(0%, var(--fuchsia-gradient-shade)), color-stop(100%, var(--fuchsia-background)));
+    background: -o-linear-gradient(to right, var(--fuchsia-gradient-shade) 0%, var(--fuchsia-background) 100%);
+    background: -ms-linear-gradient(to right, var(--fuchsia-gradient-shade) 0%, var(--fuchsia-background) 100%);
+    background: linear-gradient(to right, var(--fuchsia-gradient-shade) 0%, var(--fuchsia-background) 100%);
+}
+.gradient.fuchsia.linear.to-right-bottom {
+    background: var(--fuchsia-background);
+    background: -moz-linear-gradient(to right bottom, var(--fuchsia-gradient-shade) 0%, var(--fuchsia-background) 100%);
+    background: -webkit-linear-gradient(to right bottom, color-stop(0%, var(--fuchsia-gradient-shade)), color-stop(100%, var(--fuchsia-background)));
+    background: -o-linear-gradient(to right bottom, var(--fuchsia-gradient-shade) 0%, var(--fuchsia-background) 100%);
+    background: -ms-linear-gradient(to right bottom, var(--fuchsia-gradient-shade) 0%, var(--fuchsia-background) 100%);
+    background: linear-gradient(to right bottom, var(--fuchsia-gradient-shade) 0%, var(--fuchsia-background) 100%);
+}
+.gradient.fuchsia.linear.to-bottom {
+    background: var(--fuchsia-background);
+    background: -moz-linear-gradient(to bottom, var(--fuchsia-gradient-shade) 0%, var(--fuchsia-background) 100%);
+    background: -webkit-linear-gradient(to bottom, color-stop(0%, var(--fuchsia-gradient-shade)), color-stop(100%, var(--fuchsia-background)));
+    background: -o-linear-gradient(to bottom, var(--fuchsia-gradient-shade) 0%, var(--fuchsia-background) 100%);
+    background: -ms-linear-gradient(to bottom, var(--fuchsia-gradient-shade) 0%, var(--fuchsia-background) 100%);
+    background: linear-gradient(to bottom, var(--fuchsia-gradient-shade) 0%, var(--fuchsia-background) 100%);
+}
+.gradient.fuchsia.linear.to-left-bottom {
+    background: var(--fuchsia-background);
+    background: -moz-linear-gradient(to left bottom, var(--fuchsia-gradient-shade) 0%, var(--fuchsia-background) 100%);
+    background: -webkit-linear-gradient(to left bottom, color-stop(0%, var(--fuchsia-gradient-shade)), color-stop(100%, var(--fuchsia-background)));
+    background: -o-linear-gradient(to left bottom, var(--fuchsia-gradient-shade) 0%, var(--fuchsia-background) 100%);
+    background: -ms-linear-gradient(to left bottom, var(--fuchsia-gradient-shade) 0%, var(--fuchsia-background) 100%);
+    background: linear-gradient(to left bottom, var(--fuchsia-gradient-shade) 0%, var(--fuchsia-background) 100%);
+}
+.gradient.fuchsia.linear.to-left {
+    background: var(--fuchsia-background);
+    background: -moz-linear-gradient(to left, var(--fuchsia-gradient-shade) 0%, var(--fuchsia-background) 100%);
+    background: -webkit-linear-gradient(to left, color-stop(0%, var(--fuchsia-gradient-shade)), color-stop(100%, var(--fuchsia-background)));
+    background: -o-linear-gradient(to left, var(--fuchsia-gradient-shade) 0%, var(--fuchsia-background) 100%);
+    background: -ms-linear-gradient(to left, var(--fuchsia-gradient-shade) 0%, var(--fuchsia-background) 100%);
+    background: linear-gradient(to left, var(--fuchsia-gradient-shade) 0%, var(--fuchsia-background) 100%);
+}
+.gradient.fuchsia.linear.to-left-top {
+    background: var(--fuchsia-background);
+    background: -moz-linear-gradient(to left top, var(--fuchsia-gradient-shade) 0%, var(--fuchsia-background) 100%);
+    background: -webkit-linear-gradient(to left top, color-stop(0%, var(--fuchsia-gradient-shade)), color-stop(100%, var(--fuchsia-background)));
+    background: -o-linear-gradient(to left top, var(--fuchsia-gradient-shade) 0%, var(--fuchsia-background) 100%);
+    background: -ms-linear-gradient(to left top, var(--fuchsia-gradient-shade) 0%, var(--fuchsia-background) 100%);
+    background: linear-gradient(to left top, var(--fuchsia-gradient-shade) 0%, var(--fuchsia-background) 100%);
+}
+.gradient.fuchsia.linear.to-top {
+    background: var(--fuchsia-background);
+    background: -moz-linear-gradient(to top, var(--fuchsia-gradient-shade) 0%, var(--fuchsia-background) 100%);
+    background: -webkit-linear-gradient(to top, color-stop(0%, var(--fuchsia-gradient-shade)), color-stop(100%, var(--fuchsia-background)));
+    background: -o-linear-gradient(to top, var(--fuchsia-gradient-shade) 0%, var(--fuchsia-background) 100%);
+    background: -ms-linear-gradient(to top, var(--fuchsia-gradient-shade) 0%, var(--fuchsia-background) 100%);
+    background: linear-gradient(to top, var(--fuchsia-gradient-shade) 0%, var(--fuchsia-background) 100%);
+}
+.gradient.purple.linear.to-right {
+    background: var(--purple-background);
+    background: -moz-linear-gradient(to right, var(--purple-gradient-shade) 0%, var(--purple-background) 100%);
+    background: -webkit-linear-gradient(to right, color-stop(0%, var(--purple-gradient-shade)), color-stop(100%, var(--purple-background)));
+    background: -o-linear-gradient(to right, var(--purple-gradient-shade) 0%, var(--purple-background) 100%);
+    background: -ms-linear-gradient(to right, var(--purple-gradient-shade) 0%, var(--purple-background) 100%);
+    background: linear-gradient(to right, var(--purple-gradient-shade) 0%, var(--purple-background) 100%);
+}
+.gradient.purple.linear.to-right-bottom {
+    background: var(--purple-background);
+    background: -moz-linear-gradient(to right bottom, var(--purple-gradient-shade) 0%, var(--purple-background) 100%);
+    background: -webkit-linear-gradient(to right bottom, color-stop(0%, var(--purple-gradient-shade)), color-stop(100%, var(--purple-background)));
+    background: -o-linear-gradient(to right bottom, var(--purple-gradient-shade) 0%, var(--purple-background) 100%);
+    background: -ms-linear-gradient(to right bottom, var(--purple-gradient-shade) 0%, var(--purple-background) 100%);
+    background: linear-gradient(to right bottom, var(--purple-gradient-shade) 0%, var(--purple-background) 100%);
+}
+.gradient.purple.linear.to-bottom {
+    background: var(--purple-background);
+    background: -moz-linear-gradient(to bottom, var(--purple-gradient-shade) 0%, var(--purple-background) 100%);
+    background: -webkit-linear-gradient(to bottom, color-stop(0%, var(--purple-gradient-shade)), color-stop(100%, var(--purple-background)));
+    background: -o-linear-gradient(to bottom, var(--purple-gradient-shade) 0%, var(--purple-background) 100%);
+    background: -ms-linear-gradient(to bottom, var(--purple-gradient-shade) 0%, var(--purple-background) 100%);
+    background: linear-gradient(to bottom, var(--purple-gradient-shade) 0%, var(--purple-background) 100%);
+}
+.gradient.purple.linear.to-left-bottom {
+    background: var(--purple-background);
+    background: -moz-linear-gradient(to left bottom, var(--purple-gradient-shade) 0%, var(--purple-background) 100%);
+    background: -webkit-linear-gradient(to left bottom, color-stop(0%, var(--purple-gradient-shade)), color-stop(100%, var(--purple-background)));
+    background: -o-linear-gradient(to left bottom, var(--purple-gradient-shade) 0%, var(--purple-background) 100%);
+    background: -ms-linear-gradient(to left bottom, var(--purple-gradient-shade) 0%, var(--purple-background) 100%);
+    background: linear-gradient(to left bottom, var(--purple-gradient-shade) 0%, var(--purple-background) 100%);
+}
+.gradient.purple.linear.to-left {
+    background: var(--purple-background);
+    background: -moz-linear-gradient(to left, var(--purple-gradient-shade) 0%, var(--purple-background) 100%);
+    background: -webkit-linear-gradient(to left, color-stop(0%, var(--purple-gradient-shade)), color-stop(100%, var(--purple-background)));
+    background: -o-linear-gradient(to left, var(--purple-gradient-shade) 0%, var(--purple-background) 100%);
+    background: -ms-linear-gradient(to left, var(--purple-gradient-shade) 0%, var(--purple-background) 100%);
+    background: linear-gradient(to left, var(--purple-gradient-shade) 0%, var(--purple-background) 100%);
+}
+.gradient.purple.linear.to-left-top {
+    background: var(--purple-background);
+    background: -moz-linear-gradient(to left top, var(--purple-gradient-shade) 0%, var(--purple-background) 100%);
+    background: -webkit-linear-gradient(to left top, color-stop(0%, var(--purple-gradient-shade)), color-stop(100%, var(--purple-background)));
+    background: -o-linear-gradient(to left top, var(--purple-gradient-shade) 0%, var(--purple-background) 100%);
+    background: -ms-linear-gradient(to left top, var(--purple-gradient-shade) 0%, var(--purple-background) 100%);
+    background: linear-gradient(to left top, var(--purple-gradient-shade) 0%, var(--purple-background) 100%);
+}
+.gradient.purple.linear.to-top {
+    background: var(--purple-background);
+    background: -moz-linear-gradient(to top, var(--purple-gradient-shade) 0%, var(--purple-background) 100%);
+    background: -webkit-linear-gradient(to top, color-stop(0%, var(--purple-gradient-shade)), color-stop(100%, var(--purple-background)));
+    background: -o-linear-gradient(to top, var(--purple-gradient-shade) 0%, var(--purple-background) 100%);
+    background: -ms-linear-gradient(to top, var(--purple-gradient-shade) 0%, var(--purple-background) 100%);
+    background: linear-gradient(to top, var(--purple-gradient-shade) 0%, var(--purple-background) 100%);
+}
+.gradient.maroon.linear.to-right {
+    background: var(--maroon-background);
+    background: -moz-linear-gradient(to right, var(--maroon-gradient-shade) 0%, var(--maroon-background) 100%);
+    background: -webkit-linear-gradient(to right, color-stop(0%, var(--maroon-gradient-shade)), color-stop(100%, var(--maroon-background)));
+    background: -o-linear-gradient(to right, var(--maroon-gradient-shade) 0%, var(--maroon-background) 100%);
+    background: -ms-linear-gradient(to right, var(--maroon-gradient-shade) 0%, var(--maroon-background) 100%);
+    background: linear-gradient(to right, var(--maroon-gradient-shade) 0%, var(--maroon-background) 100%);
+}
+.gradient.maroon.linear.to-right-bottom {
+    background: var(--maroon-background);
+    background: -moz-linear-gradient(to right bottom, var(--maroon-gradient-shade) 0%, var(--maroon-background) 100%);
+    background: -webkit-linear-gradient(to right bottom, color-stop(0%, var(--maroon-gradient-shade)), color-stop(100%, var(--maroon-background)));
+    background: -o-linear-gradient(to right bottom, var(--maroon-gradient-shade) 0%, var(--maroon-background) 100%);
+    background: -ms-linear-gradient(to right bottom, var(--maroon-gradient-shade) 0%, var(--maroon-background) 100%);
+    background: linear-gradient(to right bottom, var(--maroon-gradient-shade) 0%, var(--maroon-background) 100%);
+}
+.gradient.maroon.linear.to-bottom {
+    background: var(--maroon-background);
+    background: -moz-linear-gradient(to bottom, var(--maroon-gradient-shade) 0%, var(--maroon-background) 100%);
+    background: -webkit-linear-gradient(to bottom, color-stop(0%, var(--maroon-gradient-shade)), color-stop(100%, var(--maroon-background)));
+    background: -o-linear-gradient(to bottom, var(--maroon-gradient-shade) 0%, var(--maroon-background) 100%);
+    background: -ms-linear-gradient(to bottom, var(--maroon-gradient-shade) 0%, var(--maroon-background) 100%);
+    background: linear-gradient(to bottom, var(--maroon-gradient-shade) 0%, var(--maroon-background) 100%);
+}
+.gradient.maroon.linear.to-left-bottom {
+    background: var(--maroon-background);
+    background: -moz-linear-gradient(to left bottom, var(--maroon-gradient-shade) 0%, var(--maroon-background) 100%);
+    background: -webkit-linear-gradient(to left bottom, color-stop(0%, var(--maroon-gradient-shade)), color-stop(100%, var(--maroon-background)));
+    background: -o-linear-gradient(to left bottom, var(--maroon-gradient-shade) 0%, var(--maroon-background) 100%);
+    background: -ms-linear-gradient(to left bottom, var(--maroon-gradient-shade) 0%, var(--maroon-background) 100%);
+    background: linear-gradient(to left bottom, var(--maroon-gradient-shade) 0%, var(--maroon-background) 100%);
+}
+.gradient.maroon.linear.to-left {
+    background: var(--maroon-background);
+    background: -moz-linear-gradient(to left, var(--maroon-gradient-shade) 0%, var(--maroon-background) 100%);
+    background: -webkit-linear-gradient(to left, color-stop(0%, var(--maroon-gradient-shade)), color-stop(100%, var(--maroon-background)));
+    background: -o-linear-gradient(to left, var(--maroon-gradient-shade) 0%, var(--maroon-background) 100%);
+    background: -ms-linear-gradient(to left, var(--maroon-gradient-shade) 0%, var(--maroon-background) 100%);
+    background: linear-gradient(to left, var(--maroon-gradient-shade) 0%, var(--maroon-background) 100%);
+}
+.gradient.maroon.linear.to-left-top {
+    background: var(--maroon-background);
+    background: -moz-linear-gradient(to left top, var(--maroon-gradient-shade) 0%, var(--maroon-background) 100%);
+    background: -webkit-linear-gradient(to left top, color-stop(0%, var(--maroon-gradient-shade)), color-stop(100%, var(--maroon-background)));
+    background: -o-linear-gradient(to left top, var(--maroon-gradient-shade) 0%, var(--maroon-background) 100%);
+    background: -ms-linear-gradient(to left top, var(--maroon-gradient-shade) 0%, var(--maroon-background) 100%);
+    background: linear-gradient(to left top, var(--maroon-gradient-shade) 0%, var(--maroon-background) 100%);
+}
+.gradient.maroon.linear.to-top {
+    background: var(--maroon-background);
+    background: -moz-linear-gradient(to top, var(--maroon-gradient-shade) 0%, var(--maroon-background) 100%);
+    background: -webkit-linear-gradient(to top, color-stop(0%, var(--maroon-gradient-shade)), color-stop(100%, var(--maroon-background)));
+    background: -o-linear-gradient(to top, var(--maroon-gradient-shade) 0%, var(--maroon-background) 100%);
+    background: -ms-linear-gradient(to top, var(--maroon-gradient-shade) 0%, var(--maroon-background) 100%);
+    background: linear-gradient(to top, var(--maroon-gradient-shade) 0%, var(--maroon-background) 100%);
+}
+.gradient.silver.linear.to-right {
+    background: var(--silver-background);
+    background: -moz-linear-gradient(to right, var(--silver-gradient-shade) 0%, var(--silver-background) 100%);
+    background: -webkit-linear-gradient(to right, color-stop(0%, var(--silver-gradient-shade)), color-stop(100%, var(--silver-background)));
+    background: -o-linear-gradient(to right, var(--silver-gradient-shade) 0%, var(--silver-background) 100%);
+    background: -ms-linear-gradient(to right, var(--silver-gradient-shade) 0%, var(--silver-background) 100%);
+    background: linear-gradient(to right, var(--silver-gradient-shade) 0%, var(--silver-background) 100%);
+}
+.gradient.silver.linear.to-right-bottom {
+    background: var(--silver-background);
+    background: -moz-linear-gradient(to right bottom, var(--silver-gradient-shade) 0%, var(--silver-background) 100%);
+    background: -webkit-linear-gradient(to right bottom, color-stop(0%, var(--silver-gradient-shade)), color-stop(100%, var(--silver-background)));
+    background: -o-linear-gradient(to right bottom, var(--silver-gradient-shade) 0%, var(--silver-background) 100%);
+    background: -ms-linear-gradient(to right bottom, var(--silver-gradient-shade) 0%, var(--silver-background) 100%);
+    background: linear-gradient(to right bottom, var(--silver-gradient-shade) 0%, var(--silver-background) 100%);
+}
+.gradient.silver.linear.to-bottom {
+    background: var(--silver-background);
+    background: -moz-linear-gradient(to bottom, var(--silver-gradient-shade) 0%, var(--silver-background) 100%);
+    background: -webkit-linear-gradient(to bottom, color-stop(0%, var(--silver-gradient-shade)), color-stop(100%, var(--silver-background)));
+    background: -o-linear-gradient(to bottom, var(--silver-gradient-shade) 0%, var(--silver-background) 100%);
+    background: -ms-linear-gradient(to bottom, var(--silver-gradient-shade) 0%, var(--silver-background) 100%);
+    background: linear-gradient(to bottom, var(--silver-gradient-shade) 0%, var(--silver-background) 100%);
+}
+.gradient.silver.linear.to-left-bottom {
+    background: var(--silver-background);
+    background: -moz-linear-gradient(to left bottom, var(--silver-gradient-shade) 0%, var(--silver-background) 100%);
+    background: -webkit-linear-gradient(to left bottom, color-stop(0%, var(--silver-gradient-shade)), color-stop(100%, var(--silver-background)));
+    background: -o-linear-gradient(to left bottom, var(--silver-gradient-shade) 0%, var(--silver-background) 100%);
+    background: -ms-linear-gradient(to left bottom, var(--silver-gradient-shade) 0%, var(--silver-background) 100%);
+    background: linear-gradient(to left bottom, var(--silver-gradient-shade) 0%, var(--silver-background) 100%);
+}
+.gradient.silver.linear.to-left {
+    background: var(--silver-background);
+    background: -moz-linear-gradient(to left, var(--silver-gradient-shade) 0%, var(--silver-background) 100%);
+    background: -webkit-linear-gradient(to left, color-stop(0%, var(--silver-gradient-shade)), color-stop(100%, var(--silver-background)));
+    background: -o-linear-gradient(to left, var(--silver-gradient-shade) 0%, var(--silver-background) 100%);
+    background: -ms-linear-gradient(to left, var(--silver-gradient-shade) 0%, var(--silver-background) 100%);
+    background: linear-gradient(to left, var(--silver-gradient-shade) 0%, var(--silver-background) 100%);
+}
+.gradient.silver.linear.to-left-top {
+    background: var(--silver-background);
+    background: -moz-linear-gradient(to left top, var(--silver-gradient-shade) 0%, var(--silver-background) 100%);
+    background: -webkit-linear-gradient(to left top, color-stop(0%, var(--silver-gradient-shade)), color-stop(100%, var(--silver-background)));
+    background: -o-linear-gradient(to left top, var(--silver-gradient-shade) 0%, var(--silver-background) 100%);
+    background: -ms-linear-gradient(to left top, var(--silver-gradient-shade) 0%, var(--silver-background) 100%);
+    background: linear-gradient(to left top, var(--silver-gradient-shade) 0%, var(--silver-background) 100%);
+}
+.gradient.silver.linear.to-top {
+    background: var(--silver-background);
+    background: -moz-linear-gradient(to top, var(--silver-gradient-shade) 0%, var(--silver-background) 100%);
+    background: -webkit-linear-gradient(to top, color-stop(0%, var(--silver-gradient-shade)), color-stop(100%, var(--silver-background)));
+    background: -o-linear-gradient(to top, var(--silver-gradient-shade) 0%, var(--silver-background) 100%);
+    background: -ms-linear-gradient(to top, var(--silver-gradient-shade) 0%, var(--silver-background) 100%);
+    background: linear-gradient(to top, var(--silver-gradient-shade) 0%, var(--silver-background) 100%);
+}
+.gradient.gray.linear.to-right {
+    background: var(--gray-background);
+    background: -moz-linear-gradient(to right, var(--gray-gradient-shade) 0%, var(--gray-background) 100%);
+    background: -webkit-linear-gradient(to right, color-stop(0%, var(--gray-gradient-shade)), color-stop(100%, var(--gray-background)));
+    background: -o-linear-gradient(to right, var(--gray-gradient-shade) 0%, var(--gray-background) 100%);
+    background: -ms-linear-gradient(to right, var(--gray-gradient-shade) 0%, var(--gray-background) 100%);
+    background: linear-gradient(to right, var(--gray-gradient-shade) 0%, var(--gray-background) 100%);
+}
+.gradient.gray.linear.to-right-bottom {
+    background: var(--gray-background);
+    background: -moz-linear-gradient(to right bottom, var(--gray-gradient-shade) 0%, var(--gray-background) 100%);
+    background: -webkit-linear-gradient(to right bottom, color-stop(0%, var(--gray-gradient-shade)), color-stop(100%, var(--gray-background)));
+    background: -o-linear-gradient(to right bottom, var(--gray-gradient-shade) 0%, var(--gray-background) 100%);
+    background: -ms-linear-gradient(to right bottom, var(--gray-gradient-shade) 0%, var(--gray-background) 100%);
+    background: linear-gradient(to right bottom, var(--gray-gradient-shade) 0%, var(--gray-background) 100%);
+}
+.gradient.gray.linear.to-bottom {
+    background: var(--gray-background);
+    background: -moz-linear-gradient(to bottom, var(--gray-gradient-shade) 0%, var(--gray-background) 100%);
+    background: -webkit-linear-gradient(to bottom, color-stop(0%, var(--gray-gradient-shade)), color-stop(100%, var(--gray-background)));
+    background: -o-linear-gradient(to bottom, var(--gray-gradient-shade) 0%, var(--gray-background) 100%);
+    background: -ms-linear-gradient(to bottom, var(--gray-gradient-shade) 0%, var(--gray-background) 100%);
+    background: linear-gradient(to bottom, var(--gray-gradient-shade) 0%, var(--gray-background) 100%);
+}
+.gradient.gray.linear.to-left-bottom {
+    background: var(--gray-background);
+    background: -moz-linear-gradient(to left bottom, var(--gray-gradient-shade) 0%, var(--gray-background) 100%);
+    background: -webkit-linear-gradient(to left bottom, color-stop(0%, var(--gray-gradient-shade)), color-stop(100%, var(--gray-background)));
+    background: -o-linear-gradient(to left bottom, var(--gray-gradient-shade) 0%, var(--gray-background) 100%);
+    background: -ms-linear-gradient(to left bottom, var(--gray-gradient-shade) 0%, var(--gray-background) 100%);
+    background: linear-gradient(to left bottom, var(--gray-gradient-shade) 0%, var(--gray-background) 100%);
+}
+.gradient.gray.linear.to-left {
+    background: var(--gray-background);
+    background: -moz-linear-gradient(to left, var(--gray-gradient-shade) 0%, var(--gray-background) 100%);
+    background: -webkit-linear-gradient(to left, color-stop(0%, var(--gray-gradient-shade)), color-stop(100%, var(--gray-background)));
+    background: -o-linear-gradient(to left, var(--gray-gradient-shade) 0%, var(--gray-background) 100%);
+    background: -ms-linear-gradient(to left, var(--gray-gradient-shade) 0%, var(--gray-background) 100%);
+    background: linear-gradient(to left, var(--gray-gradient-shade) 0%, var(--gray-background) 100%);
+}
+.gradient.gray.linear.to-left-top {
+    background: var(--gray-background);
+    background: -moz-linear-gradient(to left top, var(--gray-gradient-shade) 0%, var(--gray-background) 100%);
+    background: -webkit-linear-gradient(to left top, color-stop(0%, var(--gray-gradient-shade)), color-stop(100%, var(--gray-background)));
+    background: -o-linear-gradient(to left top, var(--gray-gradient-shade) 0%, var(--gray-background) 100%);
+    background: -ms-linear-gradient(to left top, var(--gray-gradient-shade) 0%, var(--gray-background) 100%);
+    background: linear-gradient(to left top, var(--gray-gradient-shade) 0%, var(--gray-background) 100%);
+}
+.gradient.gray.linear.to-top {
+    background: var(--gray-background);
+    background: -moz-linear-gradient(to top, var(--gray-gradient-shade) 0%, var(--gray-background) 100%);
+    background: -webkit-linear-gradient(to top, color-stop(0%, var(--gray-gradient-shade)), color-stop(100%, var(--gray-background)));
+    background: -o-linear-gradient(to top, var(--gray-gradient-shade) 0%, var(--gray-background) 100%);
+    background: -ms-linear-gradient(to top, var(--gray-gradient-shade) 0%, var(--gray-background) 100%);
+    background: linear-gradient(to top, var(--gray-gradient-shade) 0%, var(--gray-background) 100%);
+}
+.gradient.black.linear.to-right {
+    background: var(--black-background);
+    background: -moz-linear-gradient(to right, var(--black-gradient-shade) 0%, var(--black-background) 100%);
+    background: -webkit-linear-gradient(to right, color-stop(0%, var(--black-gradient-shade)), color-stop(100%, var(--black-background)));
+    background: -o-linear-gradient(to right, var(--black-gradient-shade) 0%, var(--black-background) 100%);
+    background: -ms-linear-gradient(to right, var(--black-gradient-shade) 0%, var(--black-background) 100%);
+    background: linear-gradient(to right, var(--black-gradient-shade) 0%, var(--black-background) 100%);
+}
+.gradient.black.linear.to-right-bottom {
+    background: var(--black-background);
+    background: -moz-linear-gradient(to right bottom, var(--black-gradient-shade) 0%, var(--black-background) 100%);
+    background: -webkit-linear-gradient(to right bottom, color-stop(0%, var(--black-gradient-shade)), color-stop(100%, var(--black-background)));
+    background: -o-linear-gradient(to right bottom, var(--black-gradient-shade) 0%, var(--black-background) 100%);
+    background: -ms-linear-gradient(to right bottom, var(--black-gradient-shade) 0%, var(--black-background) 100%);
+    background: linear-gradient(to right bottom, var(--black-gradient-shade) 0%, var(--black-background) 100%);
+}
+.gradient.black.linear.to-bottom {
+    background: var(--black-background);
+    background: -moz-linear-gradient(to bottom, var(--black-gradient-shade) 0%, var(--black-background) 100%);
+    background: -webkit-linear-gradient(to bottom, color-stop(0%, var(--black-gradient-shade)), color-stop(100%, var(--black-background)));
+    background: -o-linear-gradient(to bottom, var(--black-gradient-shade) 0%, var(--black-background) 100%);
+    background: -ms-linear-gradient(to bottom, var(--black-gradient-shade) 0%, var(--black-background) 100%);
+    background: linear-gradient(to bottom, var(--black-gradient-shade) 0%, var(--black-background) 100%);
+}
+.gradient.black.linear.to-left-bottom {
+    background: var(--black-background);
+    background: -moz-linear-gradient(to left bottom, var(--black-gradient-shade) 0%, var(--black-background) 100%);
+    background: -webkit-linear-gradient(to left bottom, color-stop(0%, var(--black-gradient-shade)), color-stop(100%, var(--black-background)));
+    background: -o-linear-gradient(to left bottom, var(--black-gradient-shade) 0%, var(--black-background) 100%);
+    background: -ms-linear-gradient(to left bottom, var(--black-gradient-shade) 0%, var(--black-background) 100%);
+    background: linear-gradient(to left bottom, var(--black-gradient-shade) 0%, var(--black-background) 100%);
+}
+.gradient.black.linear.to-left {
+    background: var(--black-background);
+    background: -moz-linear-gradient(to left, var(--black-gradient-shade) 0%, var(--black-background) 100%);
+    background: -webkit-linear-gradient(to left, color-stop(0%, var(--black-gradient-shade)), color-stop(100%, var(--black-background)));
+    background: -o-linear-gradient(to left, var(--black-gradient-shade) 0%, var(--black-background) 100%);
+    background: -ms-linear-gradient(to left, var(--black-gradient-shade) 0%, var(--black-background) 100%);
+    background: linear-gradient(to left, var(--black-gradient-shade) 0%, var(--black-background) 100%);
+}
+.gradient.black.linear.to-left-top {
+    background: var(--black-background);
+    background: -moz-linear-gradient(to left top, var(--black-gradient-shade) 0%, var(--black-background) 100%);
+    background: -webkit-linear-gradient(to left top, color-stop(0%, var(--black-gradient-shade)), color-stop(100%, var(--black-background)));
+    background: -o-linear-gradient(to left top, var(--black-gradient-shade) 0%, var(--black-background) 100%);
+    background: -ms-linear-gradient(to left top, var(--black-gradient-shade) 0%, var(--black-background) 100%);
+    background: linear-gradient(to left top, var(--black-gradient-shade) 0%, var(--black-background) 100%);
+}
+.gradient.black.linear.to-top {
+    background: var(--black-background);
+    background: -moz-linear-gradient(to top, var(--black-gradient-shade) 0%, var(--black-background) 100%);
+    background: -webkit-linear-gradient(to top, color-stop(0%, var(--black-gradient-shade)), color-stop(100%, var(--black-background)));
+    background: -o-linear-gradient(to top, var(--black-gradient-shade) 0%, var(--black-background) 100%);
+    background: -ms-linear-gradient(to top, var(--black-gradient-shade) 0%, var(--black-background) 100%);
+    background: linear-gradient(to top, var(--black-gradient-shade) 0%, var(--black-background) 100%);
+}
+.gradient.primary.linear.to-right {
+    background: var(--primary-background);
+    background: -moz-linear-gradient(to right, var(--primary-gradient-shade) 0%, var(--primary-background) 100%);
+    background: -webkit-linear-gradient(to right, color-stop(0%, var(--primary-gradient-shade)), color-stop(100%, var(--primary-background)));
+    background: -o-linear-gradient(to right, var(--primary-gradient-shade) 0%, var(--primary-background) 100%);
+    background: -ms-linear-gradient(to right, var(--primary-gradient-shade) 0%, var(--primary-background) 100%);
+    background: linear-gradient(to right, var(--primary-gradient-shade) 0%, var(--primary-background) 100%);
+}
+.gradient.primary.linear.to-right-bottom {
+    background: var(--primary-background);
+    background: -moz-linear-gradient(to right bottom, var(--primary-gradient-shade) 0%, var(--primary-background) 100%);
+    background: -webkit-linear-gradient(to right bottom, color-stop(0%, var(--primary-gradient-shade)), color-stop(100%, var(--primary-background)));
+    background: -o-linear-gradient(to right bottom, var(--primary-gradient-shade) 0%, var(--primary-background) 100%);
+    background: -ms-linear-gradient(to right bottom, var(--primary-gradient-shade) 0%, var(--primary-background) 100%);
+    background: linear-gradient(to right bottom, var(--primary-gradient-shade) 0%, var(--primary-background) 100%);
+}
+.gradient.primary.linear.to-bottom {
+    background: var(--primary-background);
+    background: -moz-linear-gradient(to bottom, var(--primary-gradient-shade) 0%, var(--primary-background) 100%);
+    background: -webkit-linear-gradient(to bottom, color-stop(0%, var(--primary-gradient-shade)), color-stop(100%, var(--primary-background)));
+    background: -o-linear-gradient(to bottom, var(--primary-gradient-shade) 0%, var(--primary-background) 100%);
+    background: -ms-linear-gradient(to bottom, var(--primary-gradient-shade) 0%, var(--primary-background) 100%);
+    background: linear-gradient(to bottom, var(--primary-gradient-shade) 0%, var(--primary-background) 100%);
+}
+.gradient.primary.linear.to-left-bottom {
+    background: var(--primary-background);
+    background: -moz-linear-gradient(to left bottom, var(--primary-gradient-shade) 0%, var(--primary-background) 100%);
+    background: -webkit-linear-gradient(to left bottom, color-stop(0%, var(--primary-gradient-shade)), color-stop(100%, var(--primary-background)));
+    background: -o-linear-gradient(to left bottom, var(--primary-gradient-shade) 0%, var(--primary-background) 100%);
+    background: -ms-linear-gradient(to left bottom, var(--primary-gradient-shade) 0%, var(--primary-background) 100%);
+    background: linear-gradient(to left bottom, var(--primary-gradient-shade) 0%, var(--primary-background) 100%);
+}
+.gradient.primary.linear.to-left {
+    background: var(--primary-background);
+    background: -moz-linear-gradient(to left, var(--primary-gradient-shade) 0%, var(--primary-background) 100%);
+    background: -webkit-linear-gradient(to left, color-stop(0%, var(--primary-gradient-shade)), color-stop(100%, var(--primary-background)));
+    background: -o-linear-gradient(to left, var(--primary-gradient-shade) 0%, var(--primary-background) 100%);
+    background: -ms-linear-gradient(to left, var(--primary-gradient-shade) 0%, var(--primary-background) 100%);
+    background: linear-gradient(to left, var(--primary-gradient-shade) 0%, var(--primary-background) 100%);
+}
+.gradient.primary.linear.to-left-top {
+    background: var(--primary-background);
+    background: -moz-linear-gradient(to left top, var(--primary-gradient-shade) 0%, var(--primary-background) 100%);
+    background: -webkit-linear-gradient(to left top, color-stop(0%, var(--primary-gradient-shade)), color-stop(100%, var(--primary-background)));
+    background: -o-linear-gradient(to left top, var(--primary-gradient-shade) 0%, var(--primary-background) 100%);
+    background: -ms-linear-gradient(to left top, var(--primary-gradient-shade) 0%, var(--primary-background) 100%);
+    background: linear-gradient(to left top, var(--primary-gradient-shade) 0%, var(--primary-background) 100%);
+}
+.gradient.primary.linear.to-top {
+    background: var(--primary-background);
+    background: -moz-linear-gradient(to top, var(--primary-gradient-shade) 0%, var(--primary-background) 100%);
+    background: -webkit-linear-gradient(to top, color-stop(0%, var(--primary-gradient-shade)), color-stop(100%, var(--primary-background)));
+    background: -o-linear-gradient(to top, var(--primary-gradient-shade) 0%, var(--primary-background) 100%);
+    background: -ms-linear-gradient(to top, var(--primary-gradient-shade) 0%, var(--primary-background) 100%);
+    background: linear-gradient(to top, var(--primary-gradient-shade) 0%, var(--primary-background) 100%);
+}
+.gradient.secondary.linear.to-right {
+    background: var(--secondary-background);
+    background: -moz-linear-gradient(to right, var(--secondary-gradient-shade) 0%, var(--secondary-background) 100%);
+    background: -webkit-linear-gradient(to right, color-stop(0%, var(--secondary-gradient-shade)), color-stop(100%, var(--secondary-background)));
+    background: -o-linear-gradient(to right, var(--secondary-gradient-shade) 0%, var(--secondary-background) 100%);
+    background: -ms-linear-gradient(to right, var(--secondary-gradient-shade) 0%, var(--secondary-background) 100%);
+    background: linear-gradient(to right, var(--secondary-gradient-shade) 0%, var(--secondary-background) 100%);
+}
+.gradient.secondary.linear.to-right-bottom {
+    background: var(--secondary-background);
+    background: -moz-linear-gradient(to right bottom, var(--secondary-gradient-shade) 0%, var(--secondary-background) 100%);
+    background: -webkit-linear-gradient(to right bottom, color-stop(0%, var(--secondary-gradient-shade)), color-stop(100%, var(--secondary-background)));
+    background: -o-linear-gradient(to right bottom, var(--secondary-gradient-shade) 0%, var(--secondary-background) 100%);
+    background: -ms-linear-gradient(to right bottom, var(--secondary-gradient-shade) 0%, var(--secondary-background) 100%);
+    background: linear-gradient(to right bottom, var(--secondary-gradient-shade) 0%, var(--secondary-background) 100%);
+}
+.gradient.secondary.linear.to-bottom {
+    background: var(--secondary-background);
+    background: -moz-linear-gradient(to bottom, var(--secondary-gradient-shade) 0%, var(--secondary-background) 100%);
+    background: -webkit-linear-gradient(to bottom, color-stop(0%, var(--secondary-gradient-shade)), color-stop(100%, var(--secondary-background)));
+    background: -o-linear-gradient(to bottom, var(--secondary-gradient-shade) 0%, var(--secondary-background) 100%);
+    background: -ms-linear-gradient(to bottom, var(--secondary-gradient-shade) 0%, var(--secondary-background) 100%);
+    background: linear-gradient(to bottom, var(--secondary-gradient-shade) 0%, var(--secondary-background) 100%);
+}
+.gradient.secondary.linear.to-left-bottom {
+    background: var(--secondary-background);
+    background: -moz-linear-gradient(to left bottom, var(--secondary-gradient-shade) 0%, var(--secondary-background) 100%);
+    background: -webkit-linear-gradient(to left bottom, color-stop(0%, var(--secondary-gradient-shade)), color-stop(100%, var(--secondary-background)));
+    background: -o-linear-gradient(to left bottom, var(--secondary-gradient-shade) 0%, var(--secondary-background) 100%);
+    background: -ms-linear-gradient(to left bottom, var(--secondary-gradient-shade) 0%, var(--secondary-background) 100%);
+    background: linear-gradient(to left bottom, var(--secondary-gradient-shade) 0%, var(--secondary-background) 100%);
+}
+.gradient.secondary.linear.to-left {
+    background: var(--secondary-background);
+    background: -moz-linear-gradient(to left, var(--secondary-gradient-shade) 0%, var(--secondary-background) 100%);
+    background: -webkit-linear-gradient(to left, color-stop(0%, var(--secondary-gradient-shade)), color-stop(100%, var(--secondary-background)));
+    background: -o-linear-gradient(to left, var(--secondary-gradient-shade) 0%, var(--secondary-background) 100%);
+    background: -ms-linear-gradient(to left, var(--secondary-gradient-shade) 0%, var(--secondary-background) 100%);
+    background: linear-gradient(to left, var(--secondary-gradient-shade) 0%, var(--secondary-background) 100%);
+}
+.gradient.secondary.linear.to-left-top {
+    background: var(--secondary-background);
+    background: -moz-linear-gradient(to left top, var(--secondary-gradient-shade) 0%, var(--secondary-background) 100%);
+    background: -webkit-linear-gradient(to left top, color-stop(0%, var(--secondary-gradient-shade)), color-stop(100%, var(--secondary-background)));
+    background: -o-linear-gradient(to left top, var(--secondary-gradient-shade) 0%, var(--secondary-background) 100%);
+    background: -ms-linear-gradient(to left top, var(--secondary-gradient-shade) 0%, var(--secondary-background) 100%);
+    background: linear-gradient(to left top, var(--secondary-gradient-shade) 0%, var(--secondary-background) 100%);
+}
+.gradient.secondary.linear.to-top {
+    background: var(--secondary-background);
+    background: -moz-linear-gradient(to top, var(--secondary-gradient-shade) 0%, var(--secondary-background) 100%);
+    background: -webkit-linear-gradient(to top, color-stop(0%, var(--secondary-gradient-shade)), color-stop(100%, var(--secondary-background)));
+    background: -o-linear-gradient(to top, var(--secondary-gradient-shade) 0%, var(--secondary-background) 100%);
+    background: -ms-linear-gradient(to top, var(--secondary-gradient-shade) 0%, var(--secondary-background) 100%);
+    background: linear-gradient(to top, var(--secondary-gradient-shade) 0%, var(--secondary-background) 100%);
+}

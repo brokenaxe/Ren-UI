@@ -1,0 +1,494 @@
+/*******************************
+            Nav
+*******************************/
+
+nav.vertical ul li.open,
+nav.vertical ul li.close {
+    position: relative;
+}
+nav.vertical ul li.open::after,
+nav.vertical ul li.close::after {
+    content: '';
+    position: absolute;
+    top: 5px;
+    right: 0;
+    z-index: 10;
+    display: inline-block;
+    pointer-events: none;    
+    width: 0;
+    height: 0;
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    border-top: 4px solid var(--text);
+}
+.bg.black nav.vertical ul li.open::after,
+.bg.black nav.vertical ul li.close::after {
+    border-top: 4px solid var(--text-invert);
+}
+nav.vertical ul li.close::after {
+    -webkit-transform:rotate(90deg);
+    -moz-transform:rotate(90deg);
+    -ms-transform:rotate(90deg);
+    -o-transform:rotate(90deg);
+}
+nav.vertical ul li.close ul {
+    display: none;
+}
+nav.vertical ul li.open ul {
+    margin-top: 4px;
+}
+nav.vertical ul .menu-toggle {
+    cursor: pointer;
+    position: relative;
+}
+nav.vertical ul .menu-toggle span {
+    width: 100%;
+    display: inline-block;
+}
+nav.vertical ul .menu-toggle ul {
+    margin-top: 6px;
+}
+nav.vertical ul .menu-toggle li a {
+    font-size: 80%;
+}
+nav ul li::before {
+    display: none;
+}
+nav ul {
+    padding-left: 1.75rem;
+}
+nav {
+    padding: 13px 16px;
+    position: relative;
+    color: inherit;
+}
+nav ul {
+    list-style-type:none;
+    display:inline-block;
+    margin: 0;
+    font-size:1rem;
+    width: 100%;
+    color: inherit;
+}
+nav>ul {
+    padding:0;
+}
+nav ul li {
+    width: auto;
+    margin: 6px 14px;
+    float: left;
+    padding: 0;
+    color: inherit;
+}
+nav.gap-x2 ul li,
+nav.gap-x2 ul li.right {
+    margin-right: 2rem;
+}
+nav.gap-x3 ul li,
+nav.gap-x3 ul li.right {
+    margin-right: 3rem;
+}
+nav ul li.right {
+    float: right;
+    margin: 6px 14px;
+}
+nav ul a {
+    color: inherit;
+    text-decoration: none;
+    font-size: 100%;
+    opacity: 0.8;
+}
+nav ul li:first-child {
+    margin-left:0;
+}
+nav ul li:last-child {
+    margin-right:0;
+}
+nav ul li.input {
+    position: relative;
+    margin-top: -3px;
+    margin-bottom: -1px;
+    margin-right: 10px;
+}
+nav ul li.input input {
+    font-size: 90%;
+    padding-top: .57142857em;
+    padding-bottom: .57142857em;
+    line-height: 1.21428571em;
+}
+nav ul li.input .icon {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: var(--text);
+}
+nav.underline {
+    padding: 0;
+}
+nav.underline ul li:first-child {
+    margin-left: 14px;
+}
+nav.underline li {
+    height: 32px;
+}
+nav.tabs:after,
+nav.underline:after {
+    content: '';
+    width:100%;
+    height: 3px;
+    background-color: var(--border-not-selected);
+    left: 0;
+    top:39px;
+    position: absolute;
+}
+nav.underline li.selected a {
+    position: relative;
+    background: inherit;
+}
+nav.underline li.selected a::after {
+    content: '';
+    width:calc(100% + 28px);
+    height: 2px;
+    background-color: var(--border-full);
+    left: -14px;
+    bottom:-19px;
+    position: absolute;
+}
+nav.buttons li,
+nav.buttons li.right,
+nav.buttons li.input {
+    margin: -3px 0 0;
+    padding: 0 14px;
+    line-height: 31px;
+}
+nav.buttons li:not(.input).selected, 
+nav.buttons li:not(.input):hover {
+    background-color: var(--border-not-selected);
+    border-radius: 3px;
+    margin: -3px 0 0;
+    padding: 0 14px;
+    line-height: 31px;
+}
+nav.buttons li.selected:not(.input):first-child,
+nav.buttons li:hover:not(.input):first-child {
+    margin-left:-14px;
+}
+nav.buttons li.selected:not(.input):last-child,
+nav.buttons li:hover:not(.input):last-child {
+    margin-right:-14px;
+    margin-left:14px;
+}
+nav.buttons ul li.input .icon {
+    right: 23px;
+}
+nav.tabs:after {
+    height: 1px;
+    bottom: 20px;
+    background-color: var(--border);
+}
+nav.tabs li,
+nav.tabs li.right,
+nav.tabs li.input,
+nav.tabs ul li.input:hover {
+    margin: -3px 1px 0 0;
+    padding: 0 14px;
+    line-height: 31px;
+    border-top: 1px solid var(--background);
+    border-left: 1px solid var(--background);
+    border-right: 1px solid var(--background);
+}
+
+nav.tabs.attach-bottom li {
+    border-top: unset;
+    border-bottom: 1px solid var(--background);
+    padding-top: 3px;
+}
+nav.tabs ul li:hover,
+nav.tabs ul li.selected {
+    background-color: var(--background);
+    color: var(--text);
+    font-weight: 700;
+    margin-bottom: -1px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-top: 1px solid var(--border);
+    border-left: 1px solid var(--border);
+    border-right: 1px solid var(--border);
+    border-radius: var(--radius) var(--radius) 0 0;
+    z-index: 1;
+}
+nav.tabs.attach-bottom ul li:hover,
+nav.tabs.attach-bottom ul li.selected {
+    margin-top: -4px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    padding-top: 4px;
+    border-top: unset;
+    border-bottom: 1px solid var(--border);
+    border-radius: 0 0 var(--radius) var(--radius);
+}
+nav.tabs ul li:not(.selected):hover {
+    border-top: 1px solid var(--border-not-selected);
+    border-left: 1px solid var(--border-not-selected);
+    border-right: 1px solid var(--border-not-selected);
+    font-weight: inherit;
+    padding-bottom: 1px;
+    margin-bottom: 0;
+    padding-top: 3px;
+    margin-top: -3px;
+}
+nav.tabs.attach-bottom ul li:not(.selected):hover {
+    border-top: unset;
+    border-bottom: 1px solid var(--border-not-selected);
+}
+nav.tabs li:first-child {
+    margin-left:-16px;
+}
+nav.tabs ul li.right.input:hover,
+nav.tabs li.input,
+nav.tabs li:last-child {
+    margin-right:-16px;
+}
+nav.tabs ul li.input:hover,
+nav.tabs ul li.input input {
+    border-color: var(--background);
+    background-color: unset;
+}
+nav.tabs.attach-bottom ul li.input:hover {
+    border-bottom: none;
+    background-color: unset;
+}
+nav.tabs.attach-top {
+    padding-bottom: 0;
+    margin-bottom: -8px;
+}
+nav.tabs.attach-bottom {
+    padding-bottom: 0;
+    margin-top: -10px;
+}
+nav.tabs.attach-bottom:after,
+nav.tabs.attach-top:after {
+    height: 0;
+}
+.tabs-from-bottom {
+    border-radius: var(--radius) var(--radius) 0 0;
+}
+.tabs-from-top {
+    border-radius: 0 0 var(--radius) var(--radius);
+}
+nav.pill {
+    border:1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 0;
+    box-shadow: 0 1px 2px 0 var(--border);
+    -webkit-box-shadow: 0 1px 2px 0 var(--border);
+    height:36px;
+}
+nav.pill li,
+nav.pill li.right {
+    position: relative;
+    margin: 0 0 -4px;
+    padding: 10px 16px;
+    font-size: 12px;
+}
+nav.pill li::after {
+    content: '';
+    width: 1px;
+    height: 35px;
+    background-color: var(--border);
+    right: 0;
+    top: 0;
+    position: absolute;
+}
+nav.pill li.right::after {
+    right: auto;
+    left: 0;
+}
+nav.pill li.selected,
+nav.pill li:hover {
+    background-color: var(--border-not-selected);
+}
+nav.pill.grid ul {
+    display: table;
+}
+nav.pill.grid li {
+    display: table-cell;
+    float: unset;
+    text-align: center;
+    cursor: pointer;
+}
+nav.vertical ul {
+    font-size:1.2rem;
+}
+nav.vertical ul ul {
+    margin-left: -24px;
+}
+nav.right>ul>li {
+    margin:0 0 0 14px;
+}
+nav.vertical ul li {
+    float:left;
+    width: 100%;
+    margin: 0 0 4px 0;
+}
+nav.vertical ul .menu-toggle,
+nav.vertical ul .no-link,
+nav.vertical ul a {
+    opacity: 0.5;
+    color: inherit;
+    text-decoration: none;
+    font-size: 70%;
+}
+nav.vertical ul .menu-toggle,
+nav.vertical ul .no-link {
+    opacity: 0.9;
+    font-size: 90%;
+    margin: 6px 0 4px 0;
+}
+nav.vertical ul li.logo {
+    font-size: 2rem;
+    opacity: 1;
+    font-style: normal;
+    font-weight: normal;
+    margin: 10px 0;
+    width: 100%;
+    line-height: 1.2;
+}
+nav.vertical ul li.logo a,
+nav.vertical ul li.logo a:hover {
+    opacity: 0.9;
+    font-size: inherit;
+}
+nav.vertical ul li.logo.selected a:hover {
+    opacity: 1;
+}
+nav.vertical ul li.logo img {
+    vertical-align: top;
+}
+nav.vertical ul li.logo .label {
+    font-size: 0.56em;
+    vertical-align: text-bottom;
+}
+nav.vertical ul li.title {
+    font-weight: bold;
+    font-size: 160%;
+    margin: 6px 0 !important;
+}
+nav.vertical ul li.title.selected a {
+    color: inherit;
+}
+nav.vertical li.selected a {
+    opacity: 0.9;
+}
+nav.vertical li.color a {
+    border:none;
+}
+nav.vertical a:hover {
+    opacity: 0.9;
+}
+.side-nav {
+    background-color: var(--side-background);
+}
+nav.text-8 ul a,
+nav.text-10 ul a,
+nav.text-12 ul a,
+nav.text-14 ul a,
+nav.text-16 ul a,
+nav.text-18 ul a,
+nav.text-20 ul a,
+nav.text-22 ul a,
+nav.text-24 ul a,
+nav.text-36 ul a,
+nav.text-48 ul a,
+nav.text-96 ul a {
+    font-size: inherit;
+    line-height: inherit;
+}
+nav.modern {
+    padding: 0;
+}
+nav.modern li {
+    position: relative;
+    padding:0;
+}
+nav.modern li a {
+    background: var(--label-background);
+    padding: 10px 15px 10px 60px;
+    display: inline-block;
+    font-size: 100%;
+    width:100%;
+    height: 60px;
+}
+nav.modern li a.single {
+    padding-top: 21px;
+}
+nav.modern li a span {
+    position: absolute;
+    left: 22px;
+    top: 20px;
+}
+nav.modern li i {
+    width: .31em;
+    height: .31em;
+}
+nav.modern .toleft::after,
+nav.modern .toright::after {
+    position: absolute;
+    top: 21px;
+    content: '';
+    width: 15px;
+    height: 15px;
+    border-left: 1px solid var(--gray-background);
+    border-bottom: 1px solid var(--gray-background);
+}
+nav.modern .toleft::after {
+    left: 20px;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+}
+nav.modern .toright::after {
+    right: 20px;
+    -webkit-transform: rotate(-135deg);
+    -moz-transform: rotate(-135deg);
+    -ms-transform: rotate(-135deg);
+    -o-transform: rotate(-135deg);
+}
+nav.modern .title {
+    color: var(--label-background);
+    font-size: 100% !important;
+    font-weight: normal !important;
+    padding: 4px 10px 4px 60px;
+}
+nav.modern .titlebar {
+    text-align: center;
+    border-bottom: var(--label-background) 1px solid;
+}
+nav.modern .titlebar a {
+    padding: 22px 0 18px;
+    width: 100%;
+    text-align: center;
+    background: unset;
+    font-size: 16px;
+    line-height: 16px;
+    height: unset;
+}
+nav.modern .titlebar i {
+    width: 0.21em;
+    height: .21em;
+    margin-right: 4px;
+}
+nav.modern .advert {
+    padding: 10px 20px;
+}
+.modern-slider {
+    position: relative;
+}
+.modern-slider .slider {
+    position: absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+}

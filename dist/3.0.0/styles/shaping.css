@@ -1,0 +1,30 @@
+/*******************************
+        Shaping
+*******************************/
+.shape-holder.no-round,
+.no-round {
+border-radius:0;
+}
+.shape-holder.round-d3,
+.round-d3 {
+border-radius:2px;
+}
+.shape-holder.round-d2,
+.round-d2 {
+border-radius:5px;
+}
+.shape-holder.round,
+.round {
+border-radius:10px;
+}
+.shape-holder.round-x2,
+.round-x2 {
+border-radius:20px;
+}
+.shape-holder.round-x3,
+.round-x3 {
+border-radius:40px;
+}
+.circle {
+border-radius:50%;
+}
