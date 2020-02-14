@@ -1,5 +1,5 @@
-var baseUrl = 'http://www.ren-ui.com/';
-var apiUrl = 'http://www.ren-ui.com/';
+var baseUrl = 'https://www.ren-ui.com/';
+var apiUrl = 'https://www.ren-ui.com/';
 
 jQuery.ajaxq = function (queue, options) {
     if (typeof document.ajaxq === "undefined") document.ajaxq = {
