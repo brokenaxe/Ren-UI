@@ -1,4 +1,7 @@
-function set() {
+$.fn.hasAttr = function(name) {  
+    return this.attr(name) !== undefined;
+ }
+ function set() {
     if ($('form').length > 0) {
         $('form').each(function (index) {
             if($(this).hasAttr('onsubmit')) {
