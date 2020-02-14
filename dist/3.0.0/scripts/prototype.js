@@ -1,5 +1,5 @@
 /*!
- * # renui.js - 2.8.0
+ * # renui.js - 3.0.0
  * https://github.com/brokenaxe/ren-ui
  * http://ren-ui.com/
  *
@@ -9,7 +9,7 @@
  */
 function renui() {
     renui.prototype.name = 'Ren-UI';
-    renui.prototype.version = '2.7.0';
+    renui.prototype.version = '3.0.0';
 }
 function url() {
     url.prototype.protocol = window.location.protocol;
