@@ -4,7 +4,9 @@ $.fn.hasAttr = function(name) {
  function set() {
     if ($('form').length > 0) {
         $('form').each(function (index) {
-            if($(this).hasAttr('onsubmit')) {
+            var attr = $(this).attr('onsubmit');
+            if (typeof attr !== typeof undefined && attr !== false) {
+            //if($(this).hasAttr('onsubmit')) {
                 $(this).submit(function(e){
                     e.preventDefault();
                  });
