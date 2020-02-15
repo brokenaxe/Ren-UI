@@ -37,7 +37,7 @@ if (document.body.innerHTML.search("/jquery-3.4.1.min") === -1) {
         if (currentDomain === 'ren-ui.com' && document.body.innerHTML.search("/internal.js") === -1) {
             load('js',"https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/highlight.min.js")
             .then(() => {
-                load('js',"./internal.js")
+                load('js',"https://brokenaxe.github.io/Ren-UI/dist/3.0.0/internal.js")
                 .then(() => {})
                 .catch(() => {});
             })
@@ -46,7 +46,7 @@ if (document.body.innerHTML.search("/jquery-3.4.1.min") === -1) {
             });
         } else if (document.body.innerHTML.search("renui.min.js") === -1) {
             //load('js',"https://cdn.jsdelivr.net/gh/brokenaxe/ren-ui/dist/renui-min.js")
-            load('js',"./renui-min.js")
+            load('js',"https://brokenaxe.github.io/Ren-UI/dist/3.0.0/renui-min.js")
             .then(() => {})
             .catch(() => {});
         }
